@@ -13,7 +13,7 @@ Requirements:
 In your ```Podfile``` add following pod
 
 ```
-pod 'ShareTripSDK', :git => 'https://github.com/abmomen/ShareTripSDK.git', :tag => '1.0.0'
+pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.0.1'
 
 ```
 Add ```use_frameworks!``` in your ```Podfile``` if not added before.
