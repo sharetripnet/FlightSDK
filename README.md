@@ -47,3 +47,13 @@ navigationController?.pushViewController(MyBLHomeVC.instantiate(), animated: tru
 
 ```
 
+Add forllowing values in info.plist file if not exists:
+
+```
+    <key>NSCameraUsageDescription</key>
+    <string>Used to capture photo for profile picture and file attachment</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>To be able to save the photos you share in conversations with ShareTrip's customer support</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Used to select photo for profile picture and file attachment</string>
+```
