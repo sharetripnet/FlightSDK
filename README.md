@@ -12,7 +12,9 @@
 
 1. Add the following pod to your `Podfile`:
 
-```pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.0.1'
+```
+pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.0.1'
+
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -37,11 +39,15 @@ end
 
 2. Initialize the SDK using the access token provided by ShareTrip auth API:
 
-```STSDK.initiate("accestoken")
+```
+STSDK.initiate("accestoken")
+
 ```
 3. Create the view controller specifically created for Banglalink:
 
-```navigationController?.pushViewController(MyBLHomeVC.instantiate(), animated: true)
+```
+navigationController?.pushViewController(MyBLHomeVC.instantiate(), animated: true)
+
 ```
 
 4. Add the following values to your `info.plist` file if they don't already exist:
