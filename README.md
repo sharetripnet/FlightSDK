@@ -1,24 +1,23 @@
 # ShareTripSDK
 
-Requirements:
- - Cocoapods
- - iOS 11.0 or higher
- - Swift 5.0 or higher
- - ShareTrip AccessToken
- - GoodleService-Info file.
- - Camera Access Descriptions.
+## Requirements
+- Cocoapods
+- iOS 11.0 or higher
+- Swift 5.0 or higher
+- ShareTrip AccessToken
+- GoodleService-Info file
+- Camera Access Descriptions
  
-## How to Install: 
+## Installation
 
-In your ```Podfile``` add following pod
+1. Add the following pod to your `Podfile`:
 
+```pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.0.1'
 ```
-pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.0.1'
 
-```
-Add ```use_frameworks!``` in your ```Podfile``` if not added before.
+2. If not already added, add `use_frameworks!` to your `Podfile`.
 
-After all add the following in your ```Podfile```
+3. Add the following to your `Podfile`:
 
 ```
 post_install do |installer|
@@ -31,29 +30,27 @@ end
 
 ```
 
-How to use:
 
-After getting the access token provided by ShareTrip auth API. just ```import ShareTripSDK``` from your ViewController File.
-And initate the sdk as follows.
+## Usage
 
+1. Import `ShareTripSDK` in your ViewController file.
+
+2. Initialize the SDK using the access token provided by ShareTrip auth API:
+
+```STSDK.initiate("accestoken")
 ```
-STSDK.initiate("accestoken")
+3. Create the view controller specifically created for Banglalink:
 
-``` 
-After that you can use Create the view controller specifically created for Banglalink like this
-
-```
-navigationController?.pushViewController(MyBLHomeVC.instantiate(), animated: true)
-
+```navigationController?.pushViewController(MyBLHomeVC.instantiate(), animated: true)
 ```
 
-Add forllowing values in info.plist file if not exists:
+4. Add the following values to your `info.plist` file if they don't already exist:
 
 ```
-    <key>NSCameraUsageDescription</key>
-    <string>Used to capture photo for profile picture and file attachment</string>
-    <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>To be able to save the photos you share in conversations with ShareTrip's customer support</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>Used to select photo for profile picture and file attachment</string>
+<key>NSCameraUsageDescription</key>
+<string>Used to capture photo for profile picture and file attachment</string>
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>To be able to save the photos you share in conversations with ShareTrip's customer support</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Used to select photo for profile picture and file attachment</string>
 ```
