@@ -60,3 +60,38 @@ navigationController?.pushViewController(MyBLHomeVC.instantiate(), animated: tru
 <key>NSPhotoLibraryUsageDescription</key>
 <string>Used to select photo for profile picture and file attachment</string>
 ```
+
+## Dependencies
+
+ShareTripsSDK depends on follwing third party pods 
+
+ - 'JWT'
+ - 'PKHUD'
+ - 'Base64'
+ - 'Koloda'
+ - 'BlueECC'
+ - 'BlueRSA'
+ - 'Alamofire'
+ - 'lottie-ios'
+ - 'SwiftyJSON'
+ - 'Kingfisher'
+ - 'Bolts-Swift'
+ - 'BlueCryptor'
+ - 'FloatingPanel'
+ - 'GoogleSignIn'
+ - 'ImageSlideshow'
+ - 'JTAppleCalendar'
+ - 'SwiftKeychainWrapper'
+ - 'Socket.IO-Client-Swift'
+ - 'FBSDKCoreKit'
+ - 'FBSDKLoginKit'
+ - 'FBSDKShareKit'
+ - 'FirebaseAuth'
+ - 'FirebaseFirestore'
+ - 'FirebaseAnalytics'
+ - 'FirebaseMessaging'
+ - 'FirebaseCrashlytics'
+ - 'FirebaseRemoteConfig'
+ - 'FirebaseDynamicLinks'
+ - 'IQKeyboardManagerSwift'
+ - 'FirebaseCoreDiagnostics'
