@@ -31,7 +31,7 @@ post_install do |installer|
 end
 
 ```
-And run `pod install`
+Save `Podfile` and run `pod install`
 
 
 ## Usage
