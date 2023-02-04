@@ -1,6 +1,6 @@
 # ShareTripSDK
 
-## Requirements
+## Requirements:
 - Cocoapods
 - iOS 11.0 or higher
 - Swift 5.0 or higher
@@ -10,7 +10,7 @@
 - Camera Access Descriptions
 
  
-## Installation
+## Installation:
 
 1. Add the following pod to your `Podfile`:
 
@@ -33,7 +33,7 @@ end
 ```
 Save `Podfile` and run `pod install`
 
-4. Add the following key in the firebase remote config of type `String`.
+4. Add the following key in the firebase remote config of type `String`
 
 Key: ```flight_discount_options``` 
 
@@ -58,8 +58,19 @@ Value:
 ]
 ```
 
+5. Add the following values to your `info.plist` file if they don't already exist:
 
-## Usage
+```
+<key>NSCameraUsageDescription</key>
+<string>Used to capture photo for profile picture and file attachment</string>
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>To be able to save the photos you share in conversations with ShareTrip's customer support</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Used to select photo for profile picture and file attachment</string>
+```
+
+
+## Usage:
 
 1. Import `ShareTripSDK` in your ViewController file.
 
@@ -74,18 +85,7 @@ STSDK.initiate("accestoken")
 navigationController?.pushViewController(MyBLHomeVC.instantiate(), animated: true)
 ```
 
-4. Add the following values to your `info.plist` file if they don't already exist:
-
-```
-<key>NSCameraUsageDescription</key>
-<string>Used to capture photo for profile picture and file attachment</string>
-<key>NSPhotoLibraryAddUsageDescription</key>
-<string>To be able to save the photos you share in conversations with ShareTrip's customer support</string>
-<key>NSPhotoLibraryUsageDescription</key>
-<string>Used to select photo for profile picture and file attachment</string>
-```
-
-## Dependencies
+## Dependencies:
 
 ShareTripsSDK depends on follwing third party pods 
 
