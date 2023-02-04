@@ -36,6 +36,7 @@ Save `Podfile` and run `pod install`
 4. Add the following key in the firebase remote config.
 
 Key: ```flight_discount_options``` 
+
 Value:
 ```
 [
