@@ -5,8 +5,10 @@
 - iOS 11.0 or higher
 - Swift 5.0 or higher
 - ShareTrip AccessToken
+- Firebase Remote Config
 - GoodleService-Info file
 - Camera Access Descriptions
+
  
 ## Installation
 
@@ -30,6 +32,30 @@ post_install do |installer|
 end
 ```
 Save `Podfile` and run `pod install`
+
+4. Add the following key in the firebase remote config.
+
+Key: ```flight_discount_options``` 
+Value:
+```
+[
+   {
+      "type":"earnTC",
+      "title":"I want to earn TripCoins",
+      "subtitle":"*Instant discount for our partner banks' card holders"
+   },
+   {
+      "type":"redeemTC",
+      "title":"I want to redeem TripCoins",
+      "subtitle":"Drag to slider to redeem trip coin"
+   },
+   {
+      "type":"useCoupon",
+      "title":"I want to use Coupon Code",
+      "subtitle":"Enter the coupon code"
+   }
+]
+```
 
 
 ## Usage
