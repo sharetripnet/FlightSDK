@@ -5,8 +5,7 @@
 - iOS 11.0 or higher
 - Swift 5.0 or higher
 - ShareTrip AccessToken
-- Firebase Remote Config
-- GoodleService-Info file
+- Firebase Remote Config 
 - Camera Access Descriptions
 
  
