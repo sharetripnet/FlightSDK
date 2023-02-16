@@ -76,7 +76,9 @@ Value:
 2. Initialize the SDK using the access token provided by ShareTrip auth API:
 
 ```
-STSDK.initiate("accestoken")
+FirebaseApp.configure()
+IQKeyboardManager.shared.enable = true
+STSDK.shared.accessToken = "staccesstoken"
 ```
 3. Create the view controller specifically created for Banglalink:
 
