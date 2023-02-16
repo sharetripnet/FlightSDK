@@ -455,6 +455,23 @@ SWIFT_CLASS("_TtC12ShareTripSDK14DataPickerView")
 
 
 
+SWIFT_CLASS("_TtC12ShareTripSDK12DealCardCell")
+@interface DealCardCell : UITableViewCell
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK14DealDetailCell")
+@interface DealDetailCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC12ShareTripSDK19DiscountOptionsCell")
 @interface DiscountOptionsCell : UITableViewCell
 - (void)awakeFromNib;
@@ -478,6 +495,14 @@ SWIFT_CLASS("_TtC12ShareTripSDK16DoubleButtonCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
 @end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK16EarnTripcoinView")
+@interface EarnTripcoinView : UIStackView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 
 SWIFT_CLASS("_TtC12ShareTripSDK19EditableContactCell")
@@ -599,6 +624,47 @@ SWIFT_CLASS("_TtC12ShareTripSDK26FlightBookingHistoryListVC")
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK12JTCalendarVC")
+@interface JTCalendarVC : ViewController
+- (void)loadView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK16FlightCalendarVC")
+@interface FlightCalendarVC : JTCalendarVC
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIStoryboardSegue;
+
+SWIFT_CLASS("_TtC12ShareTripSDK14FlightSearchVC")
+@interface FlightSearchVC : ViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+
+
+
+
+@interface FlightSearchVC (SWIFT_EXTENSION(ShareTripSDK)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class ImageSlideshow;
@@ -792,7 +858,7 @@ SWIFT_CLASS("_TtC12ShareTripSDK14ImageSlideshow")
 ///
 /// returns:
 /// FullScreenSlideshowViewController instance
-- (FullScreenSlideshowViewController * _Nonnull)presentFullScreenControllerFrom:(ViewController * _Nonnull)controller;
+- (FullScreenSlideshowViewController * _Nonnull)presentFullScreenControllerFrom:(UIViewController * _Nonnull)controller;
 @end
 
 
@@ -868,6 +934,13 @@ SWIFT_CLASS("_TtC12ShareTripSDK11ImageSource")
 @end
 
 
+SWIFT_CLASS("_TtC12ShareTripSDK13ImageViewCell")
+@interface ImageViewCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC12ShareTripSDK14InfoDetailCell")
 @interface InfoDetailCell : UITableViewCell
 - (void)awakeFromNib;
@@ -926,6 +999,21 @@ SWIFT_CLASS("_TtC12ShareTripSDK13InputTextCell")
 @end
 
 
+SWIFT_CLASS("_TtC12ShareTripSDK18InputTextFieldCell")
+@interface InputTextFieldCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+@interface InputTextFieldCell (SWIFT_EXTENSION(ShareTripSDK)) <UITextFieldDelegate>
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+@end
+
+
 SWIFT_CLASS("_TtC12ShareTripSDK19InputTextFilterCell")
 @interface InputTextFilterCell : UITableViewCell
 - (void)awakeFromNib;
@@ -953,6 +1041,17 @@ SWIFT_CLASS("_TtC12ShareTripSDK22InputTextSelectionCell")
 @interface InputTextSelectionCell (SWIFT_EXTENSION(ShareTripSDK)) <UITextFieldDelegate>
 - (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+@end
+
+
+@class JTACMonthView;
+
+SWIFT_CLASS("_TtC12ShareTripSDK14JTCalendarView")
+@interface JTCalendarView : UIView
+@property (nonatomic, weak) IBOutlet JTACMonthView * _Null_unspecified calendar;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -1112,6 +1211,34 @@ SWIFT_CLASS("_TtC12ShareTripSDK18PaymentGatewayCell")
 - (void)awakeFromNib;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK19PaymentGatewaysView")
+@interface PaymentGatewaysView : UIView
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionView;
+
+@interface PaymentGatewaysView (SWIFT_EXTENSION(ShareTripSDK)) <UICollectionViewDataSource>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UICollectionViewLayout;
+
+@interface PaymentGatewaysView (SWIFT_EXTENSION(ShareTripSDK)) <UICollectionViewDelegateFlowLayout>
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface PaymentGatewaysView (SWIFT_EXTENSION(ShareTripSDK))
+- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+- (void)scrollViewDidEndDragging:(UIScrollView * _Nonnull)scrollView willDecelerate:(BOOL)decelerate;
 @end
 
 
@@ -1316,6 +1443,16 @@ SWIFT_CLASS("_TtC12ShareTripSDK15RangeSeekSlider")
 @end
 
 
+SWIFT_CLASS("_TtC12ShareTripSDK18RedeemTripcoinView")
+@interface RedeemTripcoinView : UIStackView
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
 SWIFT_CLASS("_TtC12ShareTripSDK17RetryInfoCardCell")
 @interface RetryInfoCardCell : UITableViewCell
 - (void)awakeFromNib;
@@ -1412,6 +1549,13 @@ SWIFT_CLASS("_TtC12ShareTripSDK16SingleButtonCell")
 - (void)awakeFromNib;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK22SingleCellTripCoinView")
+@interface SingleCellTripCoinView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -1635,6 +1779,15 @@ SWIFT_CLASS("_TtC12ShareTripSDK19USDPaymentPopupView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK13UseCouponView")
+@interface UseCouponView : UIStackView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 
