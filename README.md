@@ -104,7 +104,7 @@ extension AppDelegate: STSDKDelegate {
 ```
 MyBLHomeVC.instantiate()
 ```
-To use Flight Search page directly use following view controller.
+To see Flight Search page directly use following view controller.
 
 ```
 FlightSearchVC.instantiate()
