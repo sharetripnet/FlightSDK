@@ -14,7 +14,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```
-pod 'ShareTripSDK', '1.0.1'
+pod 'ShareTripSDK', '1.0.2'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -79,17 +79,40 @@ Value:
 STSDK.shared.accessToken = "staccesstoken"
 ```
 
-3. Configure the Firebase and IQKeyboardManager if already not done.
+3. To get the token validation callbacks implement the `STSDKDelegate` delegate as follows.
+
+In AppDelegate or where ever you want to get the callbacks, set the delegate
+```
+STSDK.shared.delegate = self
+```
+
+and Implement the methods as follows
+```
+extension AppDelegate: STSDKDelegate {
+    func didSuccessTokenValidation() {
+        //Triggered after a successful token validation
+    }
+    
+    func didFailed(error: String) {
+        STLog.error("Token validation errror: \(error)")
+    }
+}
+```
+
+4. Create the following view controller to get the Home page for Banglalink:
 
 ```
-FirebaseApp.configure()
-IQKeyboardManager.shared.enable = true
+MyBLHomeVC.instantiate()
 ```
-
-4. Create the view controller specifically created for Banglalink:
+To use Flight Search page directly use following view controller.
 
 ```
-navigationController?.pushViewController(MyBLHomeVC.instantiate(), animated: true)
+FlightSearchVC.instantiate()
+```
+To see flight bookings use following view controller.
+
+```
+FlightBookingHistoryListVC()
 ```
 
 ## Dependencies:
