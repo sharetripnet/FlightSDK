@@ -8,11 +8,13 @@ import AuthenticationServices
 import CoreGraphics
 import FBSDKLoginKit
 import FirebaseAnalytics
+import FirebaseCore
 import FirebaseCrashlytics
 import FirebaseRemoteConfig
 import FloatingPanel
 import Foundation
 import GoogleSignIn
+import IQKeyboardManagerSwift
 import JTAppleCalendar
 import Kingfisher
 import Lottie
