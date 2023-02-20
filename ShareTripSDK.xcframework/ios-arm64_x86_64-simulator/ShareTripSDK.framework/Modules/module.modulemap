@@ -1,5 +1,5 @@
 framework module ShareTripSDK {
-  umbrella header "ShareTripSDK-umbrella.h"
+  umbrella header "ShareTripSDK.h"
 
   export *
   module * { export * }

@@ -16,9 +16,17 @@
 		<data>
 		A/AIDEsvx6YO7uezvyjI2kPYMxI=
 		</data>
+		<key>Assets.car</key>
+		<data>
+		WM41uz8RfHH2fGaxG6rRF+A8VBM=
+		</data>
 		<key>BaggageInfoTVCell.nib</key>
 		<data>
 		HaAIzSvfkGDHNA+XRxio5sfN6Dk=
+		</data>
+		<key>BaggageResponse.json</key>
+		<data>
+		eelwjH2corQ0IfKFmPPgRFN/azw=
 		</data>
 		<key>BaggageSelectionCell.nib</key>
 		<data>
@@ -128,9 +136,17 @@
 		<data>
 		OL1r2xQZuBxtxUWfFIdxFQrR8o0=
 		</data>
+		<key>Countries.json</key>
+		<data>
+		SBj1RmkCQZfFqgnT2i8Nk5C9C+c=
+		</data>
 		<key>CouponSuggestionView.nib</key>
 		<data>
 		SgwAvzR/v1H2gzSXJqVbwDq5XAE=
+		</data>
+		<key>Covid19Test.json</key>
+		<data>
+		Jelo590p78CwKSTRVBYzArupSpw=
 		</data>
 		<key>CovidInfoCell.nib</key>
 		<data>
@@ -171,6 +187,10 @@
 		<key>FareCardSingleLineCell.nib</key>
 		<data>
 		7w3scdmMP2tbbUi1+q8emQRNaWU=
+		</data>
+		<key>FareDetails.html</key>
+		<data>
+		lGVQYYWgB3T+Z8XoCsqVHdCs7rY=
 		</data>
 		<key>FilterCell.nib</key>
 		<data>
@@ -316,13 +336,395 @@
 		<data>
 		52Oy5My/CF8eOFa1hX4pWTn55oo=
 		</data>
+		<key>GoogleSignIn.bundle/Info.plist</key>
+		<data>
+		KPf1EDGXf7DWMUBeH1OLkIbBqac=
+		</data>
+		<key>GoogleSignIn.bundle/Roboto-Bold.ttf</key>
+		<data>
+		RzJ98PNefNfIZFh0iXp0SWl1RK4=
+		</data>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		ywqB7jG3ZhlcZTz5NpjTcdq7+Do=
+		</data>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		XZs3zg0tXS04mGOMe+3h6bzztcQ=
+		</data>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		Qhb74FbnfeuJ0jvq6lCwsuLRYKI=
+		</data>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1U4RM14vSknB5uPRHwbBf2P3L9k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GWFStbBzSsozR8ndnlnCGWrVgIE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rkKd2a1WbhspF12uj7jbNaxdcsw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CH8u4ji0ph6g0lWmwFmjuWeHjcQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h9KGBhz6GBwN3U8va+ZhDVBbEsk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Sa1DzFvme+rejqFjRGh0R8Wvi2U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			abhi3BU5/ZWaUMKlntWlHWqGpfk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iMO9o55MsPkZZzMfqxaQRohEIEs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M6+vCrtORDxDSYRfCs0EQa/NF7E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rOsbQGNRZKkOBW4HhfQBTWwEQyI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gWfyNCqhd30Y2+42oIuL/HWmczg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uazilWliTrW6MuAL6umfC/8JA2w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/fr_CA.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Esz3mlwnuaEJRGq9Kux4r37SBuQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/google.png</key>
+		<data>
+		aRs/zX73YrSGLLTP8EMEDJQGeTs=
+		</data>
+		<key>GoogleSignIn.bundle/google@2x.png</key>
+		<data>
+		xu0SOLMY2id0HRzRihn0qsuFhAc=
+		</data>
+		<key>GoogleSignIn.bundle/google@3x.png</key>
+		<data>
+		xbEbn7T4aiYsnIp0S2SVilad3d0=
+		</data>
+		<key>GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ui2oaT67k0R8hevxOaYRPvkBncY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/hi.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kZvr7XJerhHMM69PkXbnvBFp03o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f1AChdyqugygMHLDk8gT3Dci+JI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BSoNTBIf4kWxwJJhk3j4LqTytTQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Frdz7EAjoTfEGLrt45QOxezjzXY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ip22TOlHApPdL0R4Op+px9lnPt4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sX0ftdSQz9WqdXlSCYZn0tktc/0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MXfc9JCBsSmgxmJ3xfMpVntvLfE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZjmLydbxaQLSdIBGmX5LQQXMfhQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8kbG/vzCsprxXEBLWQPjsZYsmSM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/CN7CHAVyaosf4bXVc5GxzC2Zbc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IBrsi/T3mBKZccejeg+eKu+eLC8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a2Crth0x+hSdaEGM4YAiNqZxYKg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a2Crth0x+hSdaEGM4YAiNqZxYKg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			d90ZsiztKcH6gT0M2GNhS9budLg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wH6Vf08sJ8KKd++qPXetaXtSSEg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dzPNIKMH551ZsL1tfx25Qj7g2fs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ltpfHSCCPpO3bQBP56jjt96+d90=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6zdaseAWNL3CgzM6rhievkeYLBY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jVVTwNkGABxQFM8h9aPRJ1fS2Pk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4d5pvCFyTpDBY/o+3RsxJ8zqLdI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7AbLARiohKfq0KKpDOoXJxq3L38=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QTbqZVk6kNI316gFQkdgXuOnQpw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Sf0rT0s1gLnj2sAnAlTyCH4vbP0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lC5m5fk6gdtQtz8GphGC/3aPagU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/ShareTripSDK-Swift.h</key>
 		<data>
 		YNEnqvmd3gZe7fMQGeQz6nXI2qo=
 		</data>
-		<key>Headers/ShareTripSDK-umbrella.h</key>
+		<key>Headers/ShareTripSDK.h</key>
 		<data>
-		HzF0uGMdTxTZCnpj444yq7YjMiE=
+		X57pWIupIGLcfWXr89CNlR34/rY=
 		</data>
 		<key>ImageViewCell.nib</key>
 		<data>
@@ -330,7 +732,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jtZbmPnlIomZHUouD3RmT6rf1lw=
+		X1uj4jlL97D8CywytSze8U/N9P8=
 		</data>
 		<key>InfoDetailCell.nib</key>
 		<data>
@@ -398,47 +800,47 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		M9pPs8AMGtuPOnK1hLlaaaCeN0M=
+		dQYLQgXpbFFf3sjpD7qtpxTyfcc=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9OX0tu38590CMjEpv39p56kv/dE=
+		Jm80emJxjSvSooLAIEXSPJv+jmM=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		n+xvroyExwNU8BU6+lW+Rz5dJ6c=
+		6bBinRw/L9HAGfF8iR+feYSIrcs=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9OX0tu38590CMjEpv39p56kv/dE=
+		Jm80emJxjSvSooLAIEXSPJv+jmM=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qd8np1S8QAmNMAJLk0xTMpKJuXE=
+		OKcmnwroFwLEgd3FMoalZ+2U920=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		M9pPs8AMGtuPOnK1hLlaaaCeN0M=
+		dQYLQgXpbFFf3sjpD7qtpxTyfcc=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VX9X8y7kcMObPFpkUSYXrsnXjGo=
+		c+RBSh3O/m390OIycN53tiGYVNM=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rtW7lDLAvpfzZ4pjdqCr06vihKk=
+		2itgwCWYaMwWUzrssKYjIRtXkHw=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VX9X8y7kcMObPFpkUSYXrsnXjGo=
+		c+RBSh3O/m390OIycN53tiGYVNM=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t3FSy3cO6XejgrXSkyCFeyYqyfk=
+		HUPgC7KpTC76bv5mPD4y8hEQiJM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		l94Zycxu812Nxc5nDgkmUQj7rS8=
+		hkvvduMxG9iZ+wYLXIxEmnBqSgI=
 		</data>
 		<key>MyBL.storyboardc/Info.plist</key>
 		<data>
@@ -467,6 +869,34 @@
 		<key>OptionSelectTBCell.nib</key>
 		<data>
 		mZ3jIzQ4vJWIFjpcb/g+2+9i2uQ=
+		</data>
+		<key>PKHUDResources.bundle/Assets.car</key>
+		<data>
+		+m79zkTTvPUF0NiUL1QzkjTQIKA=
+		</data>
+		<key>PKHUDResources.bundle/Info.plist</key>
+		<data>
+		2ivDXOA/TxCB5i2JJh6DQe/BIiI=
+		</data>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		/H0cphrmxgrd1u0cQ5z0kD8M/vw=
+		</data>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		qfpXQUj8vLfb+g2iXTNfEUlaCVE=
+		</data>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		yPSwc+tFokfihvbeniUMZWHJpY0=
+		</data>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>PassportVisaCell.nib</key>
 		<data>
@@ -507,6 +937,10 @@
 		<key>RedeemTripcoinView.nib</key>
 		<data>
 		N//u5MU4C1u1BLoTXPEd9N5L84k=
+		</data>
+		<key>RemoteConfigDefaults.plist</key>
+		<data>
+		IXfQps2UzN08X4/B2x637HbIMV4=
 		</data>
 		<key>RetryInfoCardCell.nib</key>
 		<data>
@@ -563,6 +997,10 @@
 		<key>SingleLineInfoCardCell.nib</key>
 		<data>
 		WhMQN3oD7Zq2l0js4tZeUa/+/Is=
+		</data>
+		<key>SpinToWin.html</key>
+		<data>
+		s65uW/G7byN3IxfWFeVWO2wLkrw=
 		</data>
 		<key>SwitchCell.nib</key>
 		<data>
@@ -624,15 +1062,55 @@
 		<data>
 		c7ZgKyIfGN6n/ST876ntSBvrxw4=
 		</data>
+		<key>gRPCCertificates-Cpp.bundle/Info.plist</key>
+		<data>
+		o/vIxWCdA5WL8ACr1U6KnJXv+z0=
+		</data>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		uerlamAALb6zWqAoGMUP3QMP0pk=
+		</data>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		GaF7hjZ6k7iOJ5U0IHnYCBP/V3Q=
+		</data>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		lD20QLF41Z6JAfWiAzKftf/Hioo=
+		</data>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>gRPCCertificates-Cpp.bundle/roots.pem</key>
+		<data>
+		fKPpDnXJArmBT4pB8zmpeWVIzCc=
+		</data>
+		<key>ic_cross_white@2x.png</key>
+		<data>
+		P45K66uld4JnrPVLd9zLRmTs7OY=
+		</data>
+		<key>ic_cross_white@3x.png</key>
+		<data>
+		a3g6nVo1z6DaJgbLIJysayo15V4=
+		</data>
+		<key>privacy.html</key>
+		<data>
+		Z7srPNCSQPKfjAGomGpmJFqg0dw=
+		</data>
+		<key>privacy.html.orig</key>
+		<data>
+		oJWY11apNy45ILMjgsS3Ng5jkew=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>AirportCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Wr9uYBETV2GaCA7t7jRxfZNchzI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ng5IydvovayTMv2MYJVtkhVZsqdjeG0yE65dgVSHtLU=
@@ -640,10 +1118,6 @@
 		</dict>
 		<key>AirportInputCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LGzNXZcikX6gMbTZW5f+ixu5koA=
-			</data>
 			<key>hash2</key>
 			<data>
 			CLEWQLe6kypvUNGTh7pz/KHUDc84Q1InbrQv5kA1H2A=
@@ -651,32 +1125,34 @@
 		</dict>
 		<key>AllServicesButtonCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			A/AIDEsvx6YO7uezvyjI2kPYMxI=
-			</data>
 			<key>hash2</key>
 			<data>
 			VlPUZgqHcfLVOx9ZHDdtOCWgEFhpzD1GsEbaWGCfeL8=
 			</data>
 		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6ZghmnE+74FSgMuHI43g2K7tzLd+MqK+Y+2NoQYuTM8=
+			</data>
+		</dict>
 		<key>BaggageInfoTVCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HaAIzSvfkGDHNA+XRxio5sfN6Dk=
-			</data>
 			<key>hash2</key>
 			<data>
 			8myDNLe306Pw4ZXmd8GnvEULtol0zvnNcVrckdjODJA=
 			</data>
 		</dict>
+		<key>BaggageResponse.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ExDJ6koAZ3XgLV4p9EUz7Jyz581/N0tLRbLPCS2OIAs=
+			</data>
+		</dict>
 		<key>BaggageSelectionCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NB+tl2I5aO5no8oHsLC88Gl68GU=
-			</data>
 			<key>hash2</key>
 			<data>
 			q42vJIsQOLChgeqnYr+q+8cG8OeQzii8PjE9e0eCz3c=
@@ -684,10 +1160,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/AirportSearchVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HZ4xgjGGDaobyI+9+bHxBaYQZJU=
-			</data>
 			<key>hash2</key>
 			<data>
 			wTFiGLda7emOqttoSprNE9iD7cJYwcnSMHQlELguwns=
@@ -695,10 +1167,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/EGc-hI-uFI-view-cWa-q6-cBa.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t+Ns0VupmK0R57WF+kO4ZryJHeo=
-			</data>
 			<key>hash2</key>
 			<data>
 			PoXM4SKqdfaen9NMnPQRPoNwG8cYQK2IPe4tI40N2fg=
@@ -706,10 +1174,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/FareRuleAndPolicyVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ICH/mq1jxtO7LdOE5cq+IvH88fY=
-			</data>
 			<key>hash2</key>
 			<data>
 			j+fy19ds9WWnr2RoIaEJwP3tza/PzIdtpxNuQvT/BhQ=
@@ -717,10 +1181,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/FlightDetailVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2pzzK3ml9BB2HK5N6Mcu1WoSagE=
-			</data>
 			<key>hash2</key>
 			<data>
 			3N9WwdY8ACQI05U9qtZCUI9fELiqxeLHWfo+csFR6KU=
@@ -728,10 +1188,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/FlightDetailsVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			R5e/xhbPvFnK8i6g1dx4mwTftUI=
-			</data>
 			<key>hash2</key>
 			<data>
 			hetetAucUnuFw3JbQtuYxZBkb9DKlnveu62ymLJ4wLI=
@@ -739,10 +1195,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/FlightListVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2LmRBBJrXrIIpKLT4HroDJf2zMI=
-			</data>
 			<key>hash2</key>
 			<data>
 			LZeg8q9dTcZN9jmN8dhBq/FRMzHYQoayJf+8VEEjlF4=
@@ -750,10 +1202,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/FlightPassengerListVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2xNUIPpyFLZxq9ccQtdSVQOO9+k=
-			</data>
 			<key>hash2</key>
 			<data>
 			QZT01me++W7flV0J05tAA/GXDD7I+S4xc+O6jULsNT4=
@@ -761,10 +1209,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/FlightPriceBreakdownVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7sGKvn3ZYCb8O9nmZUjcbziKN5E=
-			</data>
 			<key>hash2</key>
 			<data>
 			ClxVmL+V/4/3EC6ouoaiXgAxZd/4cgkIa+Ab7Z9WRdM=
@@ -772,10 +1216,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/FlightSearchVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s9s15tBaYPvyRxQW9929Spxu6A8=
-			</data>
 			<key>hash2</key>
 			<data>
 			eoA2LgWw2GtlOW2JmST19q107rb+oz341YLiQhaTSEQ=
@@ -783,10 +1223,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/FlightSummaryVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fNU1FLiErE3eHlCSkVg8FP88Obo=
-			</data>
 			<key>hash2</key>
 			<data>
 			iCmw4gCYExrPb/pezLS85USAobVm69ei0BoMA39f93g=
@@ -794,10 +1230,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			51f5QekF+iEQm7UHs5iNeRagriw=
-			</data>
 			<key>hash2</key>
 			<data>
 			kYlHqE2FgXSM3arL0jyuey0kjdXjXbHJ4uGnS5AbB18=
@@ -805,10 +1237,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/LDg-rD-ZV1-view-Mzs-iy-J6C.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r1ykTqyzuiE3/K6gIkUTvmJgKEs=
-			</data>
 			<key>hash2</key>
 			<data>
 			eqsTZBFgQD0f6aFUnwWmGeFQSl2IZC4uNvRbzO1b55s=
@@ -816,10 +1244,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/M2t-YT-Ev4-view-q6x-N2-cgA.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			A68bCyyREGnteilW0pQSm4cizJg=
-			</data>
 			<key>hash2</key>
 			<data>
 			tdcw8xqI9a3MNpjPN8jIiiFqJs8YWhcL7NH9GiIqBmg=
@@ -827,10 +1251,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/NavigationController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X3XQAa7A3xV+fyzgGJ2Z/8rti8A=
-			</data>
 			<key>hash2</key>
 			<data>
 			PJ1BlGxlcSzmQJ9ps+CJ4J03e6betDL1VNZ9UWhw5dk=
@@ -838,10 +1258,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/PaymentConfirmationVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nw0byebpd5TzV6VGXvYJPES4Lhs=
-			</data>
 			<key>hash2</key>
 			<data>
 			4UurttUmjCQG448+O+muCfotaRuUacUj7XNt49tgceA=
@@ -849,10 +1265,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/TravellerClassVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KHTmjTN0UWdpiQk2uk45TQVueuY=
-			</data>
 			<key>hash2</key>
 			<data>
 			Lk6oLiQK1yM78NP/gRueJlhPD2Wp+MFZQjAEQdInfQM=
@@ -860,10 +1272,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/X8M-1l-EK3-view-STI-Jn-edZ.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			elfOpnO5lh1Hm59si9dYYuLLsok=
-			</data>
 			<key>hash2</key>
 			<data>
 			WN7+RFHMT/bhhtb0gorqUE9kd8jokH4wgqaBDOMCLa8=
@@ -871,10 +1279,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/ay2-ji-reU-view-BDP-53-i1o.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SJK9fIy4nB2N4nU9+jLxVY9j6gM=
-			</data>
 			<key>hash2</key>
 			<data>
 			VCu8PnbV/6lYVHsM0NfVJqQd1rhby0iOcWUG+spD7lA=
@@ -882,10 +1286,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hy/GO95T4Yw5t8r3WcNPPcE0hwQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			VUQomRcWlOckqxDPvtFPjYLoeq0Dp6qaBZAwsNnqZVs=
@@ -893,10 +1293,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/qQk-Vw-Skt-view-Ybu-uz-nwY.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			inM3s6gzl5DRb3eb6wSeikzBM+0=
-			</data>
 			<key>hash2</key>
 			<data>
 			tXxPKwbaDagc5Zpd7q91xb3CYK5FVha4bE7gB4UKlVg=
@@ -904,10 +1300,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/rLW-Hu-OD4-view-Rsf-fr-XeG.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eVoVm2tMm58vtFB4cY+6hKQ74pE=
-			</data>
 			<key>hash2</key>
 			<data>
 			GoDQMzgB0zM3ZkOGUK9UTwVkousoohaHRglSenqXvTQ=
@@ -915,10 +1307,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/tvs-70-mXy-view-puH-il-RaE.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RSvY9hb2WXsP8ZduHh4Ct7oDHXE=
-			</data>
 			<key>hash2</key>
 			<data>
 			7U/M/5AAUnTA/Z6eR52wsXpwQdf+aYdhRXqv44Y8ab0=
@@ -926,10 +1314,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/uhV-Ff-QZL-view-rhB-as-wBT.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LOZ+VUWVZ5jhcVkHpoFUoKPORQg=
-			</data>
 			<key>hash2</key>
 			<data>
 			IP3pt+IY/Y8AmduT8MwBooGBSijvKXMDCm6RgeKcM4o=
@@ -937,10 +1321,6 @@
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/zxa-6f-3DU-view-HWV-8d-AFS.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/PZ0c4m4MGpQPFVhUNCCQls8oO0=
-			</data>
 			<key>hash2</key>
 			<data>
 			L8WE/dbiRp54wg1fMLCOtAqwdSFjMMWE4lUV5uJuZ9w=
@@ -948,10 +1328,6 @@
 		</dict>
 		<key>BriefInfoCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/QAABfpTMjQ9HeitOKdkIRLkfjA=
-			</data>
 			<key>hash2</key>
 			<data>
 			5LZY3e0veBv8pSTBzYeAlFSKDKYduZZtMqoKrABEqZE=
@@ -959,32 +1335,34 @@
 		</dict>
 		<key>ConditionCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OL1r2xQZuBxtxUWfFIdxFQrR8o0=
-			</data>
 			<key>hash2</key>
 			<data>
 			zGUNcRUOMxwIW1lYh+k8EoKkXC3vkBg/RvqtlRIa9oY=
 			</data>
 		</dict>
+		<key>Countries.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fZ+DA+gv1v9rQyhx54DPmg8h79aRYzm6WqAsOOapKjQ=
+			</data>
+		</dict>
 		<key>CouponSuggestionView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SgwAvzR/v1H2gzSXJqVbwDq5XAE=
-			</data>
 			<key>hash2</key>
 			<data>
 			j9Clq+tXL2lJ8mje4sPLZIUEKAI97oOAHxwnOXtnsME=
 			</data>
 		</dict>
+		<key>Covid19Test.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7tlA/DXdikipnwm78WCjJjCt0+lhq9/SR2sxN4m8VS8=
+			</data>
+		</dict>
 		<key>CovidInfoCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2hVLgNDN8BTrUxmCUhsVHHr7EDM=
-			</data>
 			<key>hash2</key>
 			<data>
 			RAS86OXFm0XrH4wFEhFy4cEH8wpEMJ2kLB05so2dFE0=
@@ -992,10 +1370,6 @@
 		</dict>
 		<key>CovidTestChargeCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zSWEVcR5CtjT2Ks2rdOab7JxHWc=
-			</data>
 			<key>hash2</key>
 			<data>
 			E4HRVFQ0Cd2kwBaXbCYkWZjE2avY0IDPgj6aWBEJu3M=
@@ -1003,10 +1377,6 @@
 		</dict>
 		<key>DealCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3yhkfgFFCq5JxDGzYrcwdks3V9U=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ac4IuUQTaiEqqfd7d52AvlIXaZri7hXkp7ojj+FxOGo=
@@ -1014,10 +1384,6 @@
 		</dict>
 		<key>DealDetailCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			O7PqBL7o8vOJYzF2U9fIt24R0sU=
-			</data>
 			<key>hash2</key>
 			<data>
 			fB8e/io/Rsi0EsaLop+GysWk0wFuolEFF72ExKR5zaY=
@@ -1025,10 +1391,6 @@
 		</dict>
 		<key>DiscountOptionsCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1Tq3FTosmjBreiJ9H3fXXFdQkyg=
-			</data>
 			<key>hash2</key>
 			<data>
 			+bFefFCoI9VWPpLk0mZCD1uPFnPEAR8E1HCiTjPFFZ0=
@@ -1036,10 +1398,6 @@
 		</dict>
 		<key>DoubleInputCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Hs0DNXPNnbCBtAtq3k6Lg8EWVI=
-			</data>
 			<key>hash2</key>
 			<data>
 			mLsmqQ6J0ebu59wgqdgLiK0x8rYdkbyNVcUswuGuUUk=
@@ -1047,10 +1405,6 @@
 		</dict>
 		<key>EarnTripcoinView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			87AKSb+0VdhA1Q6gBKulz1sR+uk=
-			</data>
 			<key>hash2</key>
 			<data>
 			oe1QQTHpU02oFm7RjngbELn8KzaCqPHaaO2FTB8eHwc=
@@ -1058,10 +1412,6 @@
 		</dict>
 		<key>EditableContactCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			smNLzI8cpsml6Y4tqTIy1ebzDbw=
-			</data>
 			<key>hash2</key>
 			<data>
 			1cayDS6JV6v/c0n9S42iTnnnIpqgxxd+AEuhXn3UpgE=
@@ -1069,10 +1419,6 @@
 		</dict>
 		<key>ExploreDestinationTVCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c1StZf6i/LcKwZg5CAyhX222+ts=
-			</data>
 			<key>hash2</key>
 			<data>
 			BCkm8QNrEhSVFOGEiMG42GZE3UhHFPsoKf83n9rggl0=
@@ -1080,21 +1426,20 @@
 		</dict>
 		<key>FareCardSingleLineCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7w3scdmMP2tbbUi1+q8emQRNaWU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Pxjs5RAKMh90a3ja3jLl9oTtX3eU77ya4QinXAtekPE=
 			</data>
 		</dict>
+		<key>FareDetails.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GXpCYMTnWWHdq4g2C0B/aU9F15uk3susvpegPxKQSiI=
+			</data>
+		</dict>
 		<key>FilterCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9SL6iH2mp7TS+YL/ZDl+dCkeCz4=
-			</data>
 			<key>hash2</key>
 			<data>
 			WZ2G2AX2csVFwZBOWj6NIVWaZW+eYHz491JW+3w6Wrg=
@@ -1102,10 +1447,6 @@
 		</dict>
 		<key>FilterFlightDurationCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aW8u5WrgIrf64AgZoyKv71pdSso=
-			</data>
 			<key>hash2</key>
 			<data>
 			MRB72caeb9AncaEFypWPc9PkftIBCFMtbQkeC2EBS1A=
@@ -1113,10 +1454,6 @@
 		</dict>
 		<key>FilterFlightScheduleCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3ZA0Pj1/hvsp8lu7bVWg9xWf8T8=
-			</data>
 			<key>hash2</key>
 			<data>
 			Aolz/7DuR+w7VC57FQ0L4z4kBhNHs+2sL/QeLZjNlwQ=
@@ -1124,10 +1461,6 @@
 		</dict>
 		<key>FilterPriceRangeCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pm8TzNj4y3j/UYpHrixc5w46Aec=
-			</data>
 			<key>hash2</key>
 			<data>
 			XPPKX1LodAz75R33vFd6CopKLRRJxbXn1EioaR3QhjA=
@@ -1135,10 +1468,6 @@
 		</dict>
 		<key>FilterResetCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IWEeNl4GgIYn2pQltU3i1wDlr98=
-			</data>
 			<key>hash2</key>
 			<data>
 			Vob/iXFKAjF7+EtfVCARqa/AQzF9XjODt7rdY/OUvXQ=
@@ -1146,10 +1475,6 @@
 		</dict>
 		<key>FirstNameInputCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QyS6SNilWWZgpoIRVBd/DMxBbMA=
-			</data>
 			<key>hash2</key>
 			<data>
 			OPSyoY9sdBYWthwOzNzjf3ia9kiygBxLemh1kTwZPcc=
@@ -1157,10 +1482,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/1nr-nt-DNy-view-nsG-OU-VgD.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gM9pyBQUX4eZRgQjTeYGaixeMmk=
-			</data>
 			<key>hash2</key>
 			<data>
 			dIuMTDQSjLHoysuNqXc3V/TdlbE7zO4FiOhZkAtNj28=
@@ -1168,10 +1489,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/ConfirmFlightRefundVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eJ2UZi26S5thcdbdc9FqSlUYdzQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			NiX8FwqzwrnvEYkgyjfiBBu5vZZnOMBFyqHbtY5A0Tk=
@@ -1179,10 +1496,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/Dbp-Xj-YRn-view-C4X-Pa-AAM.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TBh6qDXrL75rtIP3bBxJ4yV0f2c=
-			</data>
 			<key>hash2</key>
 			<data>
 			1G1nIDcQyaqTf9paH3XHtYUJXKEA7ubuXy0NsqvxqNM=
@@ -1190,10 +1503,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/FlightConfirmVoidVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Cgi57iVZTvcTYz+D2Oj6C2R3+Mo=
-			</data>
 			<key>hash2</key>
 			<data>
 			hbKJa3DlCLZR9JueeP1g/TXulIJJK1MOnYoe3znXAPI=
@@ -1201,10 +1510,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/FlightRefundSuccessVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E1p3LAV8sdSTAlkUY1OlUtKTRzo=
-			</data>
 			<key>hash2</key>
 			<data>
 			BDSkezMwcxWyjr2Ww7fz7d7fju3IahSGfrLjjbi9/pA=
@@ -1212,10 +1517,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/FlightVoidSuccessVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			swV3cw7djbr4Nzz8/iwkPhyNcro=
-			</data>
 			<key>hash2</key>
 			<data>
 			3ve6HsaHzAhF4sHvaEv4Vmmiy1tn+EL0Ci9/jWrnxc0=
@@ -1223,10 +1524,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/H3d-Rq-DZc-view-D1J-lL-Hwb.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6PpjC0DxKPuFN/lP4RL+ErN6ILY=
-			</data>
 			<key>hash2</key>
 			<data>
 			LswmsIjrFD0fmj3y6kse1L4o/i+5nvretp/35xqXIS8=
@@ -1234,10 +1531,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FYpQwVP/kuw2qPGcjBz2DBWV/RY=
-			</data>
 			<key>hash2</key>
 			<data>
 			JMkAJKL2nh20HaUnZALa/MfGbt3FC83K1ymnVqxvHtg=
@@ -1245,10 +1538,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/RefundQuotationDetailsVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			18nV7QdDkAt148OVNMFaFLXZLfo=
-			</data>
 			<key>hash2</key>
 			<data>
 			KFFqCLnfAP1ZBmgGORXO3qA4oDmU1I+2yUnIjP4P7KQ=
@@ -1256,10 +1545,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/RefundablePassengersSelectionVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GZPJma1raoPqPMQlkl0NuO+U4lo=
-			</data>
 			<key>hash2</key>
 			<data>
 			vMeshZo9Pz1uPQ+3bRAJJpEIjPYsNNT4jJCOTpAQZsU=
@@ -1267,10 +1552,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/RefundableTravellersDetailsVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RsJHKI/bX9OC/FnRwnJOZSBk7qc=
-			</data>
 			<key>hash2</key>
 			<data>
 			2aoAAq4PFdSIxAbVanwhnGPzrPTJkmOPqpXz1pX93Sc=
@@ -1278,10 +1559,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/VoidQuotationDetailsVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7WEjhYGZLTpx4BsGr+pyO9k3aEU=
-			</data>
 			<key>hash2</key>
 			<data>
 			5QM2e3sgx0f+kmRnLz0dQFEiiLxR+nb5kOdx2QF9KYA=
@@ -1289,10 +1566,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/Y0K-fq-Pkp-view-zfS-ON-88l.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/NoLQALWqLiBLmYMCbWDlZlCOXM=
-			</data>
 			<key>hash2</key>
 			<data>
 			Z+gD27Z0fvdpqZJL/1LFKiuEnf45HLxjxFouc5hEwTI=
@@ -1300,10 +1573,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FiyD6D96nX1wX6nxj+ItJFux3js=
-			</data>
 			<key>hash2</key>
 			<data>
 			uJ+P13HPG3cLa7ZTTBtgl2zMXXZh2fzGndeythF77vU=
@@ -1311,10 +1580,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/iUq-oY-o2Y-view-1ph-U9-zgj.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dR1XWNUXVprzDRW5JegiuAB6nzI=
-			</data>
 			<key>hash2</key>
 			<data>
 			lKy8ghW/gGAOojFTgLGG06FasNdRHq8RUla81jWJ2uY=
@@ -1322,10 +1587,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/oRW-zp-DUT-view-Hta-oq-ojv.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CRTW3+mmeQGKhGunLrDJ/AqTkq4=
-			</data>
 			<key>hash2</key>
 			<data>
 			2AvwVRjksyAi8ywME8ntf9qBtplEcClobiBBQD3N3rM=
@@ -1333,10 +1594,6 @@
 		</dict>
 		<key>FlightBooking.storyboardc/uVU-Rp-hXT-view-l5j-fH-V4V.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bdKYHdMDvekioURfWG6lJF6uZfE=
-			</data>
 			<key>hash2</key>
 			<data>
 			iykDL//IFJPSc7vsSt0LCxFolCYZAc2c9Mg1Q9QzIno=
@@ -1344,10 +1601,6 @@
 		</dict>
 		<key>FlightBookingCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Zq2Cky43/sc2fLPg2qCObBmhn3w=
-			</data>
 			<key>hash2</key>
 			<data>
 			jyAo9PJaNrW1UQSb6i3zRhZ5sQMcOC/kcSkluZY6JOQ=
@@ -1355,10 +1608,6 @@
 		</dict>
 		<key>FlightCalendarTopView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AtXUEpXNcGDJqsnDih0D8gIvEIk=
-			</data>
 			<key>hash2</key>
 			<data>
 			pmhM7EqklSBr5I5p0516VlrtPttSLsGk9lpTCXfn3vc=
@@ -1366,10 +1615,6 @@
 		</dict>
 		<key>FlightCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Li61I2JqX27oMdCkWX8igz9mCeE=
-			</data>
 			<key>hash2</key>
 			<data>
 			CFtJM7gwywGNX4GKG0GFskvxX4zb928x2tL4wmt0R9U=
@@ -1377,10 +1622,6 @@
 		</dict>
 		<key>FlightEditContactButtonCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+ObsNXUa5bHMuutne5ypBWpcvcg=
-			</data>
 			<key>hash2</key>
 			<data>
 			j9406LTU0Hl8YHVvJMK1gKaSDx6dNzg3E1LSvoAcItk=
@@ -1388,10 +1629,6 @@
 		</dict>
 		<key>FlightFilterAirlinesCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3ydfBwdJrCOGyGx1ziVagBtv51M=
-			</data>
 			<key>hash2</key>
 			<data>
 			rDZ0402l5TRRFWeZBDu+3HBcsMKH4ZwZZRZajFr0WnU=
@@ -1399,10 +1636,6 @@
 		</dict>
 		<key>FlightInfoHeaderView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OsTCeUalsUEKWb5eD9dML9mvveE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Fo1P9j6r5Z+LRduGmJwnathdlX7JeEABfy+cCpDBmGI=
@@ -1410,10 +1643,6 @@
 		</dict>
 		<key>FlightLegCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Pk/xkhU7PhDrPv+bqDn7rkaLv0E=
-			</data>
 			<key>hash2</key>
 			<data>
 			tdxBaAApSivH8gCBKLF722fWOi90g67We6JUNIMVLhE=
@@ -1421,10 +1650,6 @@
 		</dict>
 		<key>FlightLegPlaceholderView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cb7ZXCm0OTUOof9+e7DOHFem93g=
-			</data>
 			<key>hash2</key>
 			<data>
 			1FcNKzmCCRLRr3q1Wj1qpPJncZPqQO9B8XZA2Hv3nI0=
@@ -1432,10 +1657,6 @@
 		</dict>
 		<key>FlightLegView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zcNhw4DdlV3Gjrn2wOOsXdjnkyU=
-			</data>
 			<key>hash2</key>
 			<data>
 			gkR8z3OvEvzrqlSub0iwiON8eykmdVFQzr5NRoD9JuE=
@@ -1443,10 +1664,6 @@
 		</dict>
 		<key>FlightNameCollectionViewCell.nib/objects-12.3+.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ST/2m7QPDlJeQPc+n4er9X+cRn8=
-			</data>
 			<key>hash2</key>
 			<data>
 			JBS/XkDQnM3OKqSPSW1mhUAyRjDRui13HQZzGYDo/Tw=
@@ -1454,10 +1671,6 @@
 		</dict>
 		<key>FlightNameCollectionViewCell.nib/runtime.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vBiOFT3er7QJ+UnJmb5LgV/RtKA=
-			</data>
 			<key>hash2</key>
 			<data>
 			/cautFYfDKd7Rw/Po/nRV2kwbrrloR+kfIdRV/Vwby8=
@@ -1465,10 +1678,6 @@
 		</dict>
 		<key>FlightSegmentCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XvZHt08E2wg9p4IjG6N2LXX3blE=
-			</data>
 			<key>hash2</key>
 			<data>
 			i0KE8WEcZBu0nCCgUOVa3k33HWv4O4c46dhFm9hBcQw=
@@ -1476,43 +1685,439 @@
 		</dict>
 		<key>FlightSegmentCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			52Oy5My/CF8eOFa1hX4pWTn55oo=
-			</data>
 			<key>hash2</key>
 			<data>
 			nMGsfbR+lP9dgjvQcP9YSGnP/N4atlZiHRlY8i1o690=
 			</data>
 		</dict>
+		<key>GoogleSignIn.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/dK5Gbtdoy5oRqgnolF+Wd53/st0xA/E1OHoS7J39Bc=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/Roboto-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WU10pJ4we+fMnh7l8QI2hOaCDPEbzJaL7lkDkeGtWlo=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rzqVqJHhoyR5AAxKW0iv9/IcXlW4XcsD8AxYYP3XNbA=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eH1xOsTwr88+mYW813gy73t0A3zNc5dCP/DDP/d3+wQ=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2zCixoHyiYx2Ub6g9ytFQUanb6FE6+1z6Hh0Bj51Trs=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ss+ejZ/IrQ+WELPlTvC4tJTwIbf6I6zvYJSyIFq+jHI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M+iP9QDcPbJGLirJM8EcKJKfrTUfV7Pm1irERhCtYao=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UdoIYkwqed5HyBaDsp6KE0SkeIdWO+JW4ad6Z/a+NUQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6CYblkbY6on3v3phpzrtzjD+UfaKqUfsvf6Mx+BNt9o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Fs1BPfGrd+UJ33b4c6Wmh//PNgsfFQdD2TTFqzN3wig=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nMDBNJz2Zfx3MzDTGiYo9gCkPKqLXIgLA0pWZ/jw+rw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xyajnDguPxp8H1js9HD4EtomN0n5MNqH98DDqg7GSMI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			or14KgUbGgs8Q37Gox6b9/Z3iZWnKswyoOtKY5mtGsI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UB5ExPO7nAWxMpfGAkD9Dhbnn4pj5vslGYII3LlCHKY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hNMnxxl7flSaHp6Ni7PhywLgKCxjI+X7Pd4KRzla9jQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DpnzGonq2MwPxyrWq9zISr0m9pkmXu/2GoibNznadzs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tVE4d6zy15yPDq/3/N5KoWXzq7AWEbYGESYC/UQ3d7o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/fr_CA.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9xCSzz/bp+PgPQ2ZdIN4sRGUfKd6mRgw3dJMOZIrCG4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/google.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KZYAxsP5lgvGgLduEjF901DWOgDsv13keDEb2UPphvY=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/google@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YIMFDG4vd9yXjg4T1wcAtDC7Vreja1pcgKJzOsZgcqY=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/google@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VqPZ1AQqGKWVpnftZGTeoQXx6Noy4Hw8XIQErzqqh4w=
+			</data>
+		</dict>
+		<key>GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KtB1FmX6YQB2EQfECgjfBJBnQA7X2NP7QuPuxFZ6YLA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/hi.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3UHXJzarX0qX0J3bFMSADuQLm+0jadZPDF/6uWpiRh4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JA+ymYzp46eWqXkG/G+WClYRwHhNxzsWyukU+u0KW/4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GoRF+Zxo+7BfNxT4D3DtCIpiNxtbmIXjErRRbwfYnk8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PyRv43MvgTyToElSNlECqWWiJIriTlBPGVMTmFiLK/k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TtxpfPqTYA6LaQTYcihANVBXvLLpxiQmqXzstkL2M8g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hk3OYj6xqZvup+cqHbkAhhDEA8l1hXBMH3gLIIk4ERQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AhqCmUXH5He26Jp82dpoP1opwP/AwBLug5uvUO96wBM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y2wRSAv0XEuZrBwtz9tnpfgqeZkXomMNT7PpYTV7XJM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AqDORhPvDCPsPxYdWdXEk+neYmyBsEvpMYChGkLK6rA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SQUYZcAGQO3tTDWbHoIOEdHxkQVdu0gFkfk5fTerXg0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zB70RS/MmKy+7SKVC9fwoipXngJaj1DHj9u2AO045V0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h4m5LhoUwf1F8mYZJzxXPRsQnjz0AOVugKWHC6rrzO4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h4m5LhoUwf1F8mYZJzxXPRsQnjz0AOVugKWHC6rrzO4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VgBP67jGl9/ChEtJOy0f2pT31xiBxen0V91QtDRgDpk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r4dFHw1YRkncNtW9F0rb86p6SQ53QicvL33YbiJi490=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HTeXAqlR7PmIQ9lXCSqMSv7j7v6GamABZD47d3Vdxdw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P/cihlo8LmENm4TLBV2TYyC4PWbK+iTI64GTaNQdXaw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EB6TqcbOigHnqGM3qiEvaIEEVBHW5FJwF5/vJhhhQx4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			87AIPzi3JhCduSGnkEqY3kpQF7l4xbCahIDFRHo8T8c=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DUnrVChJprfGiaclYvcgTKdFHOG+K+qtB0NSDZurgNI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jhxu6B2f/rMv7vqp4r9JDKbb+lbniEMqlbSjM+LHru8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XdgQI6jed2yICWt5Lgc2Nmjlld6tS+jlIZu73Yg5j+A=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UnRDQSf3cJY9kq+HAKK4OMrkkbt2CGQtT/KlF/uB1nc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8K9LpcAznoYMsbk4Z5+PTNH5EEAbvqGHz7sjmrE7t+U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/ShareTripSDK-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YNEnqvmd3gZe7fMQGeQz6nXI2qo=
-			</data>
 			<key>hash2</key>
 			<data>
 			/bnfPWscF++4/MDv/XdYnfnK26juvdE0jqJiKFOlUIM=
 			</data>
 		</dict>
-		<key>Headers/ShareTripSDK-umbrella.h</key>
+		<key>Headers/ShareTripSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HzF0uGMdTxTZCnpj444yq7YjMiE=
-			</data>
 			<key>hash2</key>
 			<data>
-			MXcKvuIv6CWRnWxpk4xvmkihZ7tUgcsiJt7mZSmdsy0=
+			7TcPItn1fDiZwVkYzxHAYzRVSh0c22N2cB3puq9bxYI=
 			</data>
 		</dict>
 		<key>ImageViewCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MGndCigtSEpX/O5mGaouSx5lBiw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Nhnd0BoCwYtXs9l0RMMiF1CrsPtOpGPt6hgoj9P1b3c=
@@ -1520,10 +2125,6 @@
 		</dict>
 		<key>InfoDetailCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9m0c9FMk305mjzb1elWOzn9Q/K4=
-			</data>
 			<key>hash2</key>
 			<data>
 			f01aXj0PxaXlUF3jsbqk5E27OxAxHxls+94UZTXYg3M=
@@ -1531,10 +2132,6 @@
 		</dict>
 		<key>InfoSelectionCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/YQY77jDQ7MTIoGUsC5sM0AA96w=
-			</data>
 			<key>hash2</key>
 			<data>
 			XEfIfiUEXFru+TQ2HVNkhYGMc4RIylRRbQCh835lvkM=
@@ -1542,10 +2139,6 @@
 		</dict>
 		<key>InfoTextFieldCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TOno0FR7FZ0CTTz6MO35yhuesGA=
-			</data>
 			<key>hash2</key>
 			<data>
 			qnFDdiAyGaabNx0PfDCf1cR4J/lsRYwmWclsBcel/jg=
@@ -1553,10 +2146,6 @@
 		</dict>
 		<key>InfoUploadCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OaHo0NhqtMPQiHoGfyxxfeV+Hck=
-			</data>
 			<key>hash2</key>
 			<data>
 			xyCb1DX8CTVpP1UZmkeG4We0DyUsTBkYEM7gA7HAToA=
@@ -1564,10 +2153,6 @@
 		</dict>
 		<key>JTCalendarHeader.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kUkzW7HBJ1YGXiekj2Xycz2NUgo=
-			</data>
 			<key>hash2</key>
 			<data>
 			swifLMco9Ac1HCc2o9kfMqQ+RqLbtpPTzKJTiNAIx24=
@@ -1575,10 +2160,6 @@
 		</dict>
 		<key>JTCalendarView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			K42uX5LHoIQk+eFaiPty/2G6gWc=
-			</data>
 			<key>hash2</key>
 			<data>
 			0AccGYIzK1PlUt2JHeiiIukmiFQjMyQgwQDEHvuCy3o=
@@ -1586,10 +2167,6 @@
 		</dict>
 		<key>JTDateCell.nib/objects-12.3+.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GPZtHVgpI/Ea6KmArHe+wNIUPfA=
-			</data>
 			<key>hash2</key>
 			<data>
 			uqP63D2lYtl5KNEwF4iKBzOaWtQaRzjQOLmu0JYkvh0=
@@ -1597,10 +2174,6 @@
 		</dict>
 		<key>JTDateCell.nib/runtime.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Fj2wrqApL2CU9eEXEeKK4l+jYZk=
-			</data>
 			<key>hash2</key>
 			<data>
 			ENxoone4wEcu6xGUvgDb8i1Plmbfzi/vC56EJdWrtj0=
@@ -1608,10 +2181,6 @@
 		</dict>
 		<key>LastNameInputCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			25umCde7CeTw6hLzW85GNcAs42E=
-			</data>
 			<key>hash2</key>
 			<data>
 			ScMWa1RWA4ZIu3L8/NuKbFrhSt2reuhB+yKP+U+wo3U=
@@ -1619,10 +2188,6 @@
 		</dict>
 		<key>LearnMoreCVCell.nib/objects-12.3+.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6McShq3fUdZKijlHzzHkKVbmlVk=
-			</data>
 			<key>hash2</key>
 			<data>
 			4nqfyMlvhABdOO6PGZGKUvC6bbBBMXse3/f2uZ7PZj0=
@@ -1630,10 +2195,6 @@
 		</dict>
 		<key>LearnMoreCVCell.nib/runtime.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XSpswS8v+0Mk0Dho2NY//uvwVZU=
-			</data>
 			<key>hash2</key>
 			<data>
 			8/uPOSsRxEB3JR1GRaRr8DmGkeZGOQbu22+8j1HkXvE=
@@ -1641,10 +2202,6 @@
 		</dict>
 		<key>LearnMoreCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WDQIHg9OW3Zq95HQaG6R1J9aVDM=
-			</data>
 			<key>hash2</key>
 			<data>
 			CnDrilz0enlZmuuu9jTmrjAJH1CMLI59AL737IHh/Ak=
@@ -1652,10 +2209,6 @@
 		</dict>
 		<key>LoadingVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wtyJaOcraOz2eH/ztu9hO1MIBzc=
-			</data>
 			<key>hash2</key>
 			<data>
 			46R/utmnSvMCYuQug5zEGkWs8tLkBs4/LZD2ikY0FYw=
@@ -1663,10 +2216,6 @@
 		</dict>
 		<key>MainEntry.storyboardc/AuthVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wJhTwfNLmUB7pOnZ57sMRGhd6lU=
-			</data>
 			<key>hash2</key>
 			<data>
 			0LOv7kJFQuRqPiL3tXioL/Tzpq7AeoT6AH39wmeXZ34=
@@ -1674,10 +2223,6 @@
 		</dict>
 		<key>MainEntry.storyboardc/EVv-WO-XjM-view-56c-H4-9vE.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HRGRvufNE4DA/fWBCGre2NpAwx4=
-			</data>
 			<key>hash2</key>
 			<data>
 			xsPVZcw+/j5out5Hn8I2dpPfd0N29SuKTz1gkz4YBMQ=
@@ -1685,10 +2230,6 @@
 		</dict>
 		<key>MainEntry.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			B9GERLg6aCXDQqHuy01wBYSHejg=
-			</data>
 			<key>hash2</key>
 			<data>
 			EmN78VgepL0mFjmYhEqX/h4zRW1o/HBgc7Ls8FjKhck=
@@ -1696,131 +2237,83 @@
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9pPs8AMGtuPOnK1hLlaaaCeN0M=
-			</data>
 			<key>hash2</key>
 			<data>
-			m04ak7ag3twaNcfhL+G/JiRkVghj87Bik1Ptx0x2V+c=
+			Lq7pu2BX+sAl3BObuva4X7HhRe/LQsgWwkSoU6jZ0cg=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9OX0tu38590CMjEpv39p56kv/dE=
-			</data>
 			<key>hash2</key>
 			<data>
-			jHTTclJhPBMTidJkP82wdVSAvjIoc4cXzDAZc8+XnGo=
+			o/rekV9fqsQab2wtKRraQWwhhC6nxobjbEdYY40woYQ=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n+xvroyExwNU8BU6+lW+Rz5dJ6c=
-			</data>
 			<key>hash2</key>
 			<data>
-			iYFnbMMo+AhuScXOi2QkwBriC1Loh4RWGLLaaksQqXs=
+			YdESzB7KD20IUOd5P3l0j3VYU3Q0ZTl4HjZm64WyAAI=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9OX0tu38590CMjEpv39p56kv/dE=
-			</data>
 			<key>hash2</key>
 			<data>
-			jHTTclJhPBMTidJkP82wdVSAvjIoc4cXzDAZc8+XnGo=
+			o/rekV9fqsQab2wtKRraQWwhhC6nxobjbEdYY40woYQ=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qd8np1S8QAmNMAJLk0xTMpKJuXE=
-			</data>
 			<key>hash2</key>
 			<data>
-			L9+b8VjIoDxi4c4s0mL6dRxJrXjLZvorYJQDHpo+2Xk=
+			BmWMLd7zOYX1ylfyUehLR8wj733BHh/jpm4gCZNziQs=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M9pPs8AMGtuPOnK1hLlaaaCeN0M=
-			</data>
 			<key>hash2</key>
 			<data>
-			m04ak7ag3twaNcfhL+G/JiRkVghj87Bik1Ptx0x2V+c=
+			Lq7pu2BX+sAl3BObuva4X7HhRe/LQsgWwkSoU6jZ0cg=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VX9X8y7kcMObPFpkUSYXrsnXjGo=
-			</data>
 			<key>hash2</key>
 			<data>
-			DcM3EiaB9U7wAg8sKzkxz2X1Twd1lRF0njy50kIb37g=
+			TXu16h9kADQ4OgcxCkDrdzpkqkUW4lWRIamroItdePg=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rtW7lDLAvpfzZ4pjdqCr06vihKk=
-			</data>
 			<key>hash2</key>
 			<data>
-			QNaZ3l17tG0MHk0TXC483+Liyheig6N7cKfGF0QTGCs=
+			nh8j5OUWBAxHFbN3ctbTz5NQ3K87OUDt/UXJWI0AbJ8=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VX9X8y7kcMObPFpkUSYXrsnXjGo=
-			</data>
 			<key>hash2</key>
 			<data>
-			DcM3EiaB9U7wAg8sKzkxz2X1Twd1lRF0njy50kIb37g=
+			TXu16h9kADQ4OgcxCkDrdzpkqkUW4lWRIamroItdePg=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t3FSy3cO6XejgrXSkyCFeyYqyfk=
-			</data>
 			<key>hash2</key>
 			<data>
-			eb0LefLw2c5RrOPTe8zEo4uNMrBBbImyIKrlAzBMcjc=
+			u4RZsd44iUIcCIh2o3S/qWn8WRni8HxKvodeNvwZoHI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l94Zycxu812Nxc5nDgkmUQj7rS8=
-			</data>
 			<key>hash2</key>
 			<data>
-			xVqIjl0iOjRuqGzc1sFjFFWD4mT+/9NgcWSzmQRcEPU=
+			tNftGtn6UmFF2p0cHjrFQP6tUw1mdEV9eCFrkn+06Bc=
 			</data>
 		</dict>
 		<key>MyBL.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mKNDrlIn+9IqfVrXzVBHRn0cbzA=
-			</data>
 			<key>hash2</key>
 			<data>
 			bVnDxjufUq+MViOB2NBOMtbtavWTyLfLX6Am8pZ6u5U=
@@ -1828,10 +2321,6 @@
 		</dict>
 		<key>MyBL.storyboardc/MyBLHomeVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XHy6yiRfbm3owful6VuVKpALp7w=
-			</data>
 			<key>hash2</key>
 			<data>
 			NSOpX6MYDSg11hDySUHQPtPgh5iXP8bJhi7AlQrzVJk=
@@ -1839,10 +2328,6 @@
 		</dict>
 		<key>MyBL.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jggygoXwCragyopIqmRSAhs27/8=
-			</data>
 			<key>hash2</key>
 			<data>
 			nRbkuqKOsUPmAnNQ361jFbHVY1AeJiMRES/bIaaljNc=
@@ -1850,10 +2335,6 @@
 		</dict>
 		<key>NameCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2qB0TA5/CrMhYw6PRCyBSpDbSqI=
-			</data>
 			<key>hash2</key>
 			<data>
 			ipFBG7bA+7PdJ70fjSTqk3cUZ2RducXaWT07CEXJ3kk=
@@ -1861,10 +2342,6 @@
 		</dict>
 		<key>NameInputGuideCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aB2JSHZmOJhxB0S9wcTI74OV57M=
-			</data>
 			<key>hash2</key>
 			<data>
 			s9FULpHlUrJ0Ae7na8sKFK80tFsomX0FFZi372f+okk=
@@ -1872,10 +2349,6 @@
 		</dict>
 		<key>NextPrevLegDetailsCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MZ+a6A1ANkHMROBiFO1+f6FYZVk=
-			</data>
 			<key>hash2</key>
 			<data>
 			NMRwPDZU9gikUXq0uaJXtpiPSCjayUR34K5EIQDG4ww=
@@ -1883,21 +2356,62 @@
 		</dict>
 		<key>OptionSelectTBCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mZ3jIzQ4vJWIFjpcb/g+2+9i2uQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			nesvelu+pWM+3F5S4FRkpezGgJsfBi5zYVEt94bX2zY=
 			</data>
 		</dict>
+		<key>PKHUDResources.bundle/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ym31j7Me5dbqfHhqwdta9C71Plw58S8++w/MWzBD5Ac=
+			</data>
+		</dict>
+		<key>PKHUDResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QlJnI/Qb2tOZS2lyJWDWKp9xz8DtAaz1RL7wP0FL/Ag=
+			</data>
+		</dict>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			20SuK7KhUusc6W7EG4O2VC2n6dEF0Cjb+nB1h8+LQqI=
+			</data>
+		</dict>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/PQr59/6CP28kQXDI+mCoN9i7fnd3cbzqQxiAep2JIA=
+			</data>
+		</dict>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jSsYWhYakYlZdGWYlzLVtX8gjgMpfxRusdTG7s83qrA=
+			</data>
+		</dict>
+		<key>PKHUDResources.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
 		<key>PassportVisaCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/Bkf902RnsR77d6PnyPvPRMsqEs=
-			</data>
 			<key>hash2</key>
 			<data>
 			exLPtaZL9ezSN3bQNY5f+z36U98af4cQelIXmWh2j1w=
@@ -1905,10 +2419,6 @@
 		</dict>
 		<key>PaymentGatewaysView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ypCRU0MmaY2AzfWmeMh+0Jrg6Oc=
-			</data>
 			<key>hash2</key>
 			<data>
 			5LrlRNvR3+tGjTqrPPNFMD3aMx9TjeijY3xqlG72xdU=
@@ -1916,10 +2426,6 @@
 		</dict>
 		<key>PermissionInfoTVCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iEpfGRlwhLQPPqM0bXtCmu1CmXg=
-			</data>
 			<key>hash2</key>
 			<data>
 			m5VWhYnlzzMjikkovfM1O0EUK48DmEwQErDTBnp5HWk=
@@ -1927,10 +2433,6 @@
 		</dict>
 		<key>PhoneNumberVerificationView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pZMNcNSlPpv3q65rEtHx/ZcRiO0=
-			</data>
 			<key>hash2</key>
 			<data>
 			zWewUg2czhBjU/NvFJtLgxFBn3PS2KmemN4mDvqV/eo=
@@ -1938,10 +2440,6 @@
 		</dict>
 		<key>PostCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			L7Z0gTCzYZ+U9xRnkN+RsK9ZZhc=
-			</data>
 			<key>hash2</key>
 			<data>
 			KBotmezbOq7mylHWSgL5J0mrcdwJaMmVe0pENIc2HTA=
@@ -1949,10 +2447,6 @@
 		</dict>
 		<key>PriceBreakdownFareCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f096rfEP/CjdsFU9mTH6YuQFvWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			UlWrP+ebRlReNqckUqE2jR18GnKmh9uoeYr+K6qx6Rs=
@@ -1960,10 +2454,6 @@
 		</dict>
 		<key>PriceChangeView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+HyZccxoA07oz979jxP78YFT3Sc=
-			</data>
 			<key>hash2</key>
 			<data>
 			1Zg0fFB+QnwparOsZa/+EajpF1sSOQJixj0IdCZBzlQ=
@@ -1971,10 +2461,6 @@
 		</dict>
 		<key>PriceRangeCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2DlzTqScW0tG5VlcQH+4W3hlRuk=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZGyMC31BN7duUQZwH8IRSAm2B+07pRlze7ccpLu6ePM=
@@ -1982,10 +2468,6 @@
 		</dict>
 		<key>PriceViewCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sIqugjob/4/aaJDuOJKP4qPTcDk=
-			</data>
 			<key>hash2</key>
 			<data>
 			04CC5XDnOqZ69hvmcEqvjpeAF/WM6eg4Ny/6hsYmKBQ=
@@ -1993,21 +2475,20 @@
 		</dict>
 		<key>RedeemTripcoinView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N//u5MU4C1u1BLoTXPEd9N5L84k=
-			</data>
 			<key>hash2</key>
 			<data>
 			kuYaQcdEz+HCfT5a6QqUs9SqtCSJ8Hw2i4o10dNpihE=
 			</data>
 		</dict>
+		<key>RemoteConfigDefaults.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u+cF0NvFsWNvK80GidJHATknuP4XTKaOciwBO8yMFZg=
+			</data>
+		</dict>
 		<key>RetryInfoCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Tm28XCAbtcjuNWHh/TQEyKwoH4=
-			</data>
 			<key>hash2</key>
 			<data>
 			aL06PRfPvEarpl57/aRwRP4iDoxXkE0doguVECKWd9U=
@@ -2015,10 +2496,6 @@
 		</dict>
 		<key>RightArrowTitleCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			coyciMS+XTKaI6TJMxefPmP+A4c=
-			</data>
 			<key>hash2</key>
 			<data>
 			1KV9hUm4QMORR8TGlwFcenW7+VUDsDVjouTIDi59SWI=
@@ -2026,10 +2503,6 @@
 		</dict>
 		<key>STSingleButtonCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kXJwSgy0IqRWAzZC2FZmh+A0uLM=
-			</data>
 			<key>hash2</key>
 			<data>
 			anJ4SHiAzM9JIWeuW92H82YTKopWVqyvdKcr6LVTrac=
@@ -2037,10 +2510,6 @@
 		</dict>
 		<key>SearchCountryTVCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qD5hFrj0AaGuB/bpFXA5jYhCkkY=
-			</data>
 			<key>hash2</key>
 			<data>
 			nrWZMtt9KtlCikdUN4PqtvCyIuwGMHWVx/GiYPjqU3Y=
@@ -2048,10 +2517,6 @@
 		</dict>
 		<key>SeatAndBagageInfoCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xTuvbcNVqdcJFIb7+icPuavodTU=
-			</data>
 			<key>hash2</key>
 			<data>
 			2rmqOpCbLZxYYG86gZRamYbwiJ+8Q58NYfGi6Z7q+sw=
@@ -2059,10 +2524,6 @@
 		</dict>
 		<key>SharePostTVCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pqs7LSorpTDc5tKC6gGjCTuWidg=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZCRBVd4vZCy80u5eW9IZn/Kebp0oFoea/hfezYnkBVs=
@@ -2070,10 +2531,6 @@
 		</dict>
 		<key>SingleButtonCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			za1OiD7p9DudOMReewzRaDO10hg=
-			</data>
 			<key>hash2</key>
 			<data>
 			zhZLcLWAOligQVJ0rgJpUebrHa9c3+mK4pYn8X0q5jk=
@@ -2081,10 +2538,6 @@
 		</dict>
 		<key>SingleCellShareView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZXWIKQ/4isMYQG0YXKDrSOPcVAc=
-			</data>
 			<key>hash2</key>
 			<data>
 			JLqyx2Gsl5ee51BC2woTV1cKfZ1HGZ7A42Q8/70J0cc=
@@ -2092,10 +2545,6 @@
 		</dict>
 		<key>SingleCellTripCoinView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LlEW4/ms0UsxujCEVxZFBStYvWk=
-			</data>
 			<key>hash2</key>
 			<data>
 			BOgufOws1SEI52NnrXjDTJNFaGkc2QKG0X5l8RqKi7g=
@@ -2103,10 +2552,6 @@
 		</dict>
 		<key>SingleInputCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8kCR5bGnI10Gh5tI4Dg79fNMi2U=
-			</data>
 			<key>hash2</key>
 			<data>
 			Lj8wM2qOvO2DB2WJPdvYB8l/o+5BIH65BvxsdJkpbe8=
@@ -2114,10 +2559,6 @@
 		</dict>
 		<key>SingleInputTakenCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I5+8XMYLMJ+eWML1/BImifcvZ3I=
-			</data>
 			<key>hash2</key>
 			<data>
 			ICIUDopf5jOh+uKWDDj/9sw6bnEJy0E5g8V1TeNYLCk=
@@ -2125,10 +2566,6 @@
 		</dict>
 		<key>SingleInputTitleCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PLiOvxDmCymwiEnrsa1NVuNx18c=
-			</data>
 			<key>hash2</key>
 			<data>
 			Cnjj10F/nuMEj3Mup9VTG1NMyRZWu54+jByK8GcNaow=
@@ -2136,10 +2573,6 @@
 		</dict>
 		<key>SingleLabelInfoTVCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			O/cEmxhlR1HAVD3FyXrk/MM7hzg=
-			</data>
 			<key>hash2</key>
 			<data>
 			7nlWB1H1I9vjvbxDTnaFkK9SwmJDEZPHQ8FjERjhouE=
@@ -2147,21 +2580,20 @@
 		</dict>
 		<key>SingleLineInfoCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WhMQN3oD7Zq2l0js4tZeUa/+/Is=
-			</data>
 			<key>hash2</key>
 			<data>
 			SgkXSwWgLsbNrbEGf/RKL95Gn5D/1Hr9LXMUVpJQ/bQ=
 			</data>
 		</dict>
+		<key>SpinToWin.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mctLqtZAxiR88YA3LvmX8WzemHClFzwxAcruxb0GsW4=
+			</data>
+		</dict>
 		<key>SwitchCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EhYIPxsKTMZ0jMFuVFqc5ySA/8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			NLS/cKqZsXJ8bzxyUGTKCkuXFiJJZGGlSruLf/MWPXM=
@@ -2169,10 +2601,6 @@
 		</dict>
 		<key>TowColGivenNameInputCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DOGsOyMFpXY2NHsvcOQG03eXaWI=
-			</data>
 			<key>hash2</key>
 			<data>
 			YJFStGAFOAbmtPmEFzqeXfelC16851Gj8WGgExnCQt8=
@@ -2180,10 +2608,6 @@
 		</dict>
 		<key>TravelAdvice.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8t81pcMf149YW3dueP2s4S/At2A=
-			</data>
 			<key>hash2</key>
 			<data>
 			jejI3pFeGfclgJAH4KlpRNOKDyhKjtwZlAjWht54K6s=
@@ -2191,10 +2615,6 @@
 		</dict>
 		<key>TravelAdvice.storyboardc/Lkk-EY-Dx8-view-hCI-GQ-CY1.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IaKje6MFmf4OnDbzR1zof5AWU9A=
-			</data>
 			<key>hash2</key>
 			<data>
 			NpAmMsxcc3Dft1LIl6g8PTiVriYsFIwgmX4Mjgz/Dz0=
@@ -2202,10 +2622,6 @@
 		</dict>
 		<key>TravelAdvice.storyboardc/LoadDefaultCountryVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Z/taywQUc+hZsxHXgDdzgPQrmmY=
-			</data>
 			<key>hash2</key>
 			<data>
 			nTDGbeLaRb3vFOIg1p2eDb05EAXIUkid4iiBVnmz8CQ=
@@ -2213,10 +2629,6 @@
 		</dict>
 		<key>TravelAdvice.storyboardc/SafeDestinationSearchVC.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2gEO8i0gxBi6/SCNNfds0CNMnGo=
-			</data>
 			<key>hash2</key>
 			<data>
 			X5KTVFoNdaUczgr1sPXmSAgzrBwnAgC4oR3D4tnkCOg=
@@ -2224,10 +2636,6 @@
 		</dict>
 		<key>TravelAdvice.storyboardc/YEF-is-bQL-view-BLh-EA-sgv.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			S6vfomB7jBdvQgKZ/td6LwlvJwk=
-			</data>
 			<key>hash2</key>
 			<data>
 			DvFGkjoC5TOLLd4a23hNR8g+SzJoB7+PTs/VzndW/2I=
@@ -2235,10 +2643,6 @@
 		</dict>
 		<key>TravelAdviceTVCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			swFWcKxXyjRlsYAV8G9V5I9k0zc=
-			</data>
 			<key>hash2</key>
 			<data>
 			FJDWPIIj2/8Ix4AmlQUjN6PGQg2/I0rONvHukPH9cmg=
@@ -2246,10 +2650,6 @@
 		</dict>
 		<key>TravelAdvisoryLevelTVCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ahhV5fjABYQNT8NV2+TULZSiC4c=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZDOrE5TCwmfZT5NOu6DbAnQFewnJBrJCuaa0vqv7Mbs=
@@ -2257,10 +2657,6 @@
 		</dict>
 		<key>TravelDetailsInfoTVCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YmjeyE/nZTFEvuJhcc3IsHZ5A94=
-			</data>
 			<key>hash2</key>
 			<data>
 			3Sx6P+rm+MPyxvYMRxBnyf70TrUYwxZaFStoXjQu8gs=
@@ -2268,10 +2664,6 @@
 		</dict>
 		<key>TravelerCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			O0MtzadltXY8pxbcj3Gx4eNSgf8=
-			</data>
 			<key>hash2</key>
 			<data>
 			0WRivDmuvuDLulXgOC+RKgknEzac70M5swSuOpzuHwM=
@@ -2279,10 +2671,6 @@
 		</dict>
 		<key>TripCoinCardCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pSHbY1Oxugvk+WoKhy0/kS7DlIQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			/CtKnjIR8T+nRx2xEyug9tsQoknqbSFDj+PpDm7K4QA=
@@ -2290,10 +2678,6 @@
 		</dict>
 		<key>TripCoinViewCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X5nKpaXM3B+jUwF0rIGkLZIpw+A=
-			</data>
 			<key>hash2</key>
 			<data>
 			fVd7boQCiWPj4E7RvPUTrUAcEqNZJg2TbHzwzZSpfgE=
@@ -2301,10 +2685,6 @@
 		</dict>
 		<key>UseCouponView.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZWIGgDcclOsi+M7zQPxb6+HR/gY=
-			</data>
 			<key>hash2</key>
 			<data>
 			84Px6tugjDJca5buSDo+d9Z3nwwoOOtWcHQcqLAss7Q=
@@ -2312,13 +2692,86 @@
 		</dict>
 		<key>WarningMessageCell.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c7ZgKyIfGN6n/ST876ntSBvrxw4=
-			</data>
 			<key>hash2</key>
 			<data>
 			byaThq/Ujq+Sg/bo0i7Qd9TpHnaXkLBxMjZwuR3NPAs=
+			</data>
+		</dict>
+		<key>gRPCCertificates-Cpp.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eJegATDtIMpRbD/EvCPBVzs+fIV6WwKEKkqpGRBzch0=
+			</data>
+		</dict>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PwMcTnsfU8G0/tHr1yeCSyHhoKrTVtta4ujd59LGxFU=
+			</data>
+		</dict>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e/B0bHvx4ZfmLde6n0MiYquRsnWl+n6MwgxSlYVLZyo=
+			</data>
+		</dict>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rkQT8y7IjYx1BZmWKGvWqc/3aSQ5ZMXvtyNQv/YwsRw=
+			</data>
+		</dict>
+		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>gRPCCertificates-Cpp.bundle/roots.pem</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lhQzRMSuEJWIElssQdXa9lSl+vxuI/rDf3uj0p2n53Y=
+			</data>
+		</dict>
+		<key>ic_cross_white@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lqOEIf+L8zZoew/WTnEIVE+jZyxcoGDnI4vEB/W7K7A=
+			</data>
+		</dict>
+		<key>ic_cross_white@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jOIj2GCiaxXeqDflRpbK5mPh5InDp9Tyo1NUJMN2DBA=
+			</data>
+		</dict>
+		<key>privacy.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7d0LMddzSR1o1L8Ll6/XLZS6tsNrOmCrmpcEdNC8dZI=
+			</data>
+		</dict>
+		<key>privacy.html.orig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1BHM6OEKQc0tnyzTP31FwAWiCod/XElLp74ZS4kJ1MI=
 			</data>
 		</dict>
 	</dict>
