@@ -1649,6 +1649,7 @@ public struct Constants {
     public static let baseURL: Swift.String
     public static let stAccess: Swift.String
   }
+  public static var clientId: Swift.String
   public struct App {
     public static let minLoadingAnimationTime: Swift.Double
     public static let totalStars: Swift.Int
@@ -1828,6 +1829,7 @@ public enum HTTPHeaderField : Swift.String {
   case accessToken
   case userAgent
   case stAccess
+  case clientId
   case travelAdviceAPIAccessToken
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String

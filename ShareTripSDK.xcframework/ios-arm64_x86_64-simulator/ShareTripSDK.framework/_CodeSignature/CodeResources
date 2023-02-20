@@ -800,11 +800,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dQYLQgXpbFFf3sjpD7qtpxTyfcc=
+		/MvF8HkeOu9Td4mAPjqo7cIXcdA=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Jm80emJxjSvSooLAIEXSPJv+jmM=
+		W52QjcJ9tIHYHKyR3kQA2ZietQk=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -812,19 +812,19 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Jm80emJxjSvSooLAIEXSPJv+jmM=
+		W52QjcJ9tIHYHKyR3kQA2ZietQk=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OKcmnwroFwLEgd3FMoalZ+2U920=
+		Vk9NSXmx9iaJqUZ+KOm5a0Jc9T0=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dQYLQgXpbFFf3sjpD7qtpxTyfcc=
+		/MvF8HkeOu9Td4mAPjqo7cIXcdA=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		c+RBSh3O/m390OIycN53tiGYVNM=
+		FjRqzbZA/CjA7HbKUEWwoQl3Ofo=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -832,11 +832,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		c+RBSh3O/m390OIycN53tiGYVNM=
+		FjRqzbZA/CjA7HbKUEWwoQl3Ofo=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HUPgC7KpTC76bv5mPD4y8hEQiJM=
+		02KVu41+vyj3qGhj9oL9bvoFUss=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2239,14 +2239,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lq7pu2BX+sAl3BObuva4X7HhRe/LQsgWwkSoU6jZ0cg=
+			VqyYj8flGOglLV7SmnfRwGn1zCblkIr8AA3y9vb63DA=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o/rekV9fqsQab2wtKRraQWwhhC6nxobjbEdYY40woYQ=
+			H4Xdus/3eA60jnBcpYAeyGSgXusFZ7EBqEkTg0LJK3U=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2260,28 +2260,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o/rekV9fqsQab2wtKRraQWwhhC6nxobjbEdYY40woYQ=
+			H4Xdus/3eA60jnBcpYAeyGSgXusFZ7EBqEkTg0LJK3U=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BmWMLd7zOYX1ylfyUehLR8wj733BHh/jpm4gCZNziQs=
+			HTmQyOMyVxfvESYA0UI2YR2/axtH+R+dHUvQD16+t1I=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lq7pu2BX+sAl3BObuva4X7HhRe/LQsgWwkSoU6jZ0cg=
+			VqyYj8flGOglLV7SmnfRwGn1zCblkIr8AA3y9vb63DA=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TXu16h9kADQ4OgcxCkDrdzpkqkUW4lWRIamroItdePg=
+			KlwJxmHFHCw7L0Yb6KmLCCwufS93i/AMZNrK6qDXHuQ=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2295,14 +2295,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TXu16h9kADQ4OgcxCkDrdzpkqkUW4lWRIamroItdePg=
+			KlwJxmHFHCw7L0Yb6KmLCCwufS93i/AMZNrK6qDXHuQ=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u4RZsd44iUIcCIh2o3S/qWn8WRni8HxKvodeNvwZoHI=
+			nHoVAuKLQJKr7zU9aV689u2cVqHMSDO0Bhu5yafIhYo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
