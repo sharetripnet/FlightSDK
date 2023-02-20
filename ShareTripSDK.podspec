@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     s.dependency 'Alamofire'
     s.dependency 'lottie-ios'
     s.dependency 'SwiftyJSON'
-    s.dependency 'Kingfisher'
+    s.dependency 'Kingfisher', '~> 6.3.1'
     s.dependency 'Bolts-Swift'
     s.dependency 'BlueCryptor'
     s.dependency 'FloatingPanel'
