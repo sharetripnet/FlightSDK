@@ -456,21 +456,29 @@ public protocol Validatable {
   func validate() -> Swift.Result<Swift.Void, ShareTripSDK.AppError>
 }
 public protocol NibBased {
+  static var bundle: Foundation.Bundle { get }
   static var nibName: Swift.String { get }
   static func instantiate() -> Self
 }
 extension ShareTripSDK.NibBased where Self : UIKit.UIView {
+  public static var bundle: Foundation.Bundle {
+    get
+  }
   public static var nibName: Swift.String {
     get
   }
   public static func instantiate() -> Self
 }
 public protocol StoryboardBased {
+  static var bundle: Foundation.Bundle { get }
   static var storyboardName: Swift.String { get }
   static var storyboardIdentifier: Swift.String { get }
   static func instantiate() -> Self
 }
 extension ShareTripSDK.StoryboardBased where Self : UIKit.UIViewController {
+  public static var bundle: Foundation.Bundle {
+    get
+  }
   public static var storyboardName: Swift.String {
     get
   }
