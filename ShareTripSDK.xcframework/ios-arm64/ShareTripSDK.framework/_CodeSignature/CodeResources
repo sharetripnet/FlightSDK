@@ -362,7 +362,7 @@
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		hzgXuPezj+XOu3Euk7fu6CBak9Q=
+		0Iptj1QJBkVgwwihrBCMhZHObQ0=
 		</data>
 		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
 		<dict>
@@ -800,11 +800,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qCjPFCpdlsCiw44TffMalJhM/WY=
+		Oqn9fI4MXF6jCRJ7XSp/XQAQI7I=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jkVi6B6eYHIEZ+20oEtMwyDiKKU=
+		laAbPYmsD7mOUgYDmCU+N9TmdPs=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -812,11 +812,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jkVi6B6eYHIEZ+20oEtMwyDiKKU=
+		laAbPYmsD7mOUgYDmCU+N9TmdPs=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/YH4HyvPRXCI2NJZLBPluaAFgn4=
+		/zrepU5+LVLp3y+9CjfCtrQ7xNk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -876,7 +876,7 @@
 		</data>
 		<key>PKHUDResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		dpZwP7EZCEzgnWLynUVfS71BE8M=
+		DhhiT+k43UVe/XkhU5EE2EaW77k=
 		</data>
 		<key>PassportVisaCell.nib</key>
 		<data>
@@ -1064,7 +1064,7 @@
 		</data>
 		<key>gRPCCertificates-Cpp.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		iAWgRLgDA2S4LifXSF/+MTDB+ts=
+		8HVHrvUz9WOLem6WPYPbrNabZHk=
 		</data>
 		<key>gRPCCertificates-Cpp.bundle/roots.pem</key>
 		<data>
@@ -1716,7 +1716,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/fwjroXMTig9B1u/LOZ2xudCe7fBxvn3AQ5x+1EjvfI=
+			Mnmkx6HP57MpJzzV/42FMckhgbKyoT/6EUG/jFD4B94=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
@@ -2219,14 +2219,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P8BWNuZph/JAqtDljF+TgOfBhqQ9KJNzmAHx0LhOWbc=
+			pbgXueEyMajQT6a3mev/7c2jwpgW/0EHZ/G4eRgzh7o=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fYH1Y0IhKmB/sYBNXT/yMGp2KqtDS8vOA0om9Tq0qqc=
+			eHuwXeVt3GWGRHJ6Lezli05WT8Ct8EpBj+3t/YWTPSo=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -2240,14 +2240,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fYH1Y0IhKmB/sYBNXT/yMGp2KqtDS8vOA0om9Tq0qqc=
+			eHuwXeVt3GWGRHJ6Lezli05WT8Ct8EpBj+3t/YWTPSo=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0KBtOyMfo3X+mCzmdJGAC1RX2EHtsoT3qGJcNalugzQ=
+			S0hIWvLrGfXsTvdNF6aTcR70g1Z09CRlc7sBBBkumqc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2352,7 +2352,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YaqRR0C+4JvgY2wyX4Jl8EIEUPg0ijaYQvMDfTGcK6Q=
+			hWDlgoeViK3OuLRMlJnV4LKegMPP/401Xhcc851ifqE=
 			</data>
 		</dict>
 		<key>PassportVisaCell.nib</key>
@@ -2681,7 +2681,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9y6JOvJCmITlZEsqudYLd2UWpLjT+ZOOy++wJGa5TRw=
+			4UnsL/aonzYB7Y2CXpwTu3mwhJk3w0l1473e7TIXewQ=
 			</data>
 		</dict>
 		<key>gRPCCertificates-Cpp.bundle/roots.pem</key>

@@ -1926,6 +1926,7 @@ public protocol STSDKDelegate : AnyObject {
 }
 @_hasMissingDesignatedInitializers final public class STSDK {
   public static let shared: ShareTripSDK.STSDK
+  public static func configure()
   weak final public var delegate: ShareTripSDK.STSDKDelegate?
   final public var accessToken: Swift.String {
     get
