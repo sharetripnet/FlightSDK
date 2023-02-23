@@ -1932,6 +1932,10 @@ public protocol STSDKDelegate : AnyObject {
     get
     set
   }
+  final public var clientId: Swift.String {
+    get
+    set
+  }
   final public var consumer: ShareTripSDK.SDKConsumers
   @objc deinit
 }
