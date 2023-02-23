@@ -5,6 +5,7 @@
 - iOS 11.0 or higher
 - Swift 5.0 or higher
 - ShareTrip AccessToken
+- Facebook SDK setup
 - Firebase Remote Config 
 - Camera Access Descriptions
 
@@ -14,7 +15,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```
-pod 'ShareTripSDK', '1.0.2'
+pod 'ShareTripSDK', '1.0.3'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -73,13 +74,20 @@ Value:
 
 1. Import `ShareTripSDK` in your ViewController file.
 
-2. Initialize the SDK using the access token provided by ShareTrip auth API:
+2. Initialize the SDK in your AppDelegate's `didFinishLaunchingWithOptions` method. 
+
+```
+STSDK.configure()
+STSDK.shared.clientId = "MyBL"
+```
+
+3. Set ShareTrips token got from Sharetrip's auth API
 
 ```
 STSDK.shared.accessToken = "staccesstoken"
 ```
 
-3. To get the token validation callbacks implement the `STSDKDelegate` delegate as follows.
+4. To get the token validation callbacks implement the `STSDKDelegate` delegate as follows.
 
 In AppDelegate or where ever you want to get the callbacks, set the delegate
 ```
@@ -99,7 +107,7 @@ extension AppDelegate: STSDKDelegate {
 }
 ```
 
-4. Create the following view controller to get the Home page for Banglalink:
+5. Create the following view controller to get the Home page for Banglalink:
 
 ```
 MyBLHomeVC.instantiate()
