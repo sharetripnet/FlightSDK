@@ -81,7 +81,7 @@ STSDK.configure()
 STSDK.shared.clientId = "MyBL"
 ```
 
-3. Set ShareTrips token got from Sharetrip's auth API
+3. Set access token to be able to book services from ShareTrip Limited.
 
 ```
 STSDK.shared.accessToken = "staccesstoken"
@@ -107,7 +107,7 @@ extension AppDelegate: STSDKDelegate {
 }
 ```
 
-5. Create the following view controller to get the Home page for Banglalink:
+5. Create the following view controller to get the Home page for Banglalink.
 
 ```
 MyBLHomeVC.instantiate()
