@@ -74,11 +74,15 @@ Value:
 
 1. Import `ShareTripSDK` in your ViewController file.
 
-2. Initialize the SDK in your AppDelegate's `didFinishLaunchingWithOptions` method. 
+2. Initialize the ShareTripSDK in your AppDelegate's
 
 ```
-STSDK.configure()
-STSDK.shared.clientId = "MyBL"
+override init() {
+    super.init()
+    STSDK.configure()
+    STSDK.shared.clientId = "MyBL"
+}
+
 ```
 
 3. Set access token to be able to book services from ShareTrip Limited.
@@ -94,7 +98,7 @@ In AppDelegate or where ever you want to get the callbacks, set the delegate
 STSDK.shared.delegate = self
 ```
 
-and Implement the methods as follows
+And to get the token validation callbacks, implement the methods as follows
 ```
 extension AppDelegate: STSDKDelegate {
     func didSuccessTokenValidation() {
