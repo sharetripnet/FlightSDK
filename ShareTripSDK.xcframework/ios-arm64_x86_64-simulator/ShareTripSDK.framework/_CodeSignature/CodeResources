@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		WM41uz8RfHH2fGaxG6rRF+A8VBM=
+		in8tVf74O1CujFgwCSrqFdCqv64=
 		</data>
 		<key>BaggageInfoTVCell.nib</key>
 		<data>
@@ -800,11 +800,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1nH4/Y8bxQgDfSvRHsmDy33ehD4=
+		6FJymcYwJtSLlOK5v1/BthiSF78=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gWzn6dNkFRvs5NYrXppiHtlc60E=
+		pGzPRjq8Co+T8So4FhoQCXJfKPk=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -812,19 +812,19 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gWzn6dNkFRvs5NYrXppiHtlc60E=
+		pGzPRjq8Co+T8So4FhoQCXJfKPk=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qn4HL1LmVuC/866r7SB4EH+kkIU=
+		L8sDiQpu5H4giDneOEGAaDZdgSk=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1nH4/Y8bxQgDfSvRHsmDy33ehD4=
+		6FJymcYwJtSLlOK5v1/BthiSF78=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JOssnCc9gsWm2NdF5rqOxUbkB/8=
+		K4SLi2AtVhsPXrVdSfxakxEWmHY=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -832,11 +832,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JOssnCc9gsWm2NdF5rqOxUbkB/8=
+		K4SLi2AtVhsPXrVdSfxakxEWmHY=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p22Zy9vqdihM0tniuwVzSS7b2qg=
+		xs1HUYoQ6xyK74zFvAIaJgP9WS4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1134,7 +1134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ZghmnE+74FSgMuHI43g2K7tzLd+MqK+Y+2NoQYuTM8=
+			2mAD6FvsK30CcxnK1uNcjnzB4B1mtUheKOpBRynKXqY=
 			</data>
 		</dict>
 		<key>BaggageInfoTVCell.nib</key>
@@ -2239,14 +2239,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PTVUgEFzhJbnW8Rbod7dl94hRSzD/nwrGYK2Wxozlpc=
+			N6Gc1VaSEuDFzAAXgCW0iLi0sJ67dRlX12o5y4aDaoA=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uH6cRikrMrABTWBh7Dvv43JEtAKyd4rJRVpH8WUa3QY=
+			+sWkPAdvy7WWGsmfUoB/JBtcfUa/gr/PfGtmZHn1ZBc=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2260,28 +2260,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uH6cRikrMrABTWBh7Dvv43JEtAKyd4rJRVpH8WUa3QY=
+			+sWkPAdvy7WWGsmfUoB/JBtcfUa/gr/PfGtmZHn1ZBc=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vxNzKb1evSrjZkPo3wl3OeIxfrNoS0VipFdtk+WvbDA=
+			bkfIpnO2InzFjkWDGAHY+ukX4/hRa+Y4UJEFC5VVKMo=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PTVUgEFzhJbnW8Rbod7dl94hRSzD/nwrGYK2Wxozlpc=
+			N6Gc1VaSEuDFzAAXgCW0iLi0sJ67dRlX12o5y4aDaoA=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W5+aYoXGTZAVwdUCiEYeu9hSXe6K1Wd4DtCAEUk5nGY=
+			jhKa+01ndT44GvfoEkoq6xlvXhnhDIjl3PrBkmXudZM=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2295,14 +2295,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W5+aYoXGTZAVwdUCiEYeu9hSXe6K1Wd4DtCAEUk5nGY=
+			jhKa+01ndT44GvfoEkoq6xlvXhnhDIjl3PrBkmXudZM=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SPIi7BYrhm/DnNrb2C4HQIDzlqIQddYFI7GTL2Jr91U=
+			GVDZCDWiNy/dGRawnNedBhHRL1yv9Fij7O+WBAkKXQ0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1651,13 +1651,11 @@ public struct SingleInputTitleData {
   @objc deinit
 }
 public struct Constants {
-  public struct DevelopmentServer {
-    public static let baseURL: Swift.String
-    public static let stAccess: Swift.String
+  public static var baseURL: Swift.String {
+    get
   }
-  public struct ProductionServer {
-    public static let baseURL: Swift.String
-    public static let stAccess: Swift.String
+  public static var stAccess: Swift.String {
+    get
   }
   public static var clientId: Swift.String
   public struct App {
@@ -1693,7 +1691,6 @@ public struct Constants {
     public static func getReferralMessage(referralCode: Swift.String) -> Swift.String
     public static func getShareMessage() -> Swift.String
     public static func getQuizScoreShareMessage(score: Swift.Double) -> Swift.String
-    public static func infoForKey(_ key: Swift.String) -> Swift.String?
     public static let bankDiscountPromoGenericText: Swift.String
   }
   public struct RemoteConfigKey {
@@ -1926,6 +1923,7 @@ public protocol STSDKDelegate : AnyObject {
 }
 @_hasMissingDesignatedInitializers final public class STSDK {
   public static let shared: ShareTripSDK.STSDK
+  final public var environment: ShareTripSDK.Environment
   public static func configure()
   weak final public var delegate: ShareTripSDK.STSDKDelegate?
   final public var accessToken: Swift.String {
@@ -4542,6 +4540,15 @@ public struct FlightDetailsRequest : Swift.Encodable {
   }
   public func encode(to encoder: Swift.Encoder) throws
 }
+public enum Environment {
+  case live
+  case staging
+  public static func == (a: ShareTripSDK.Environment, b: ShareTripSDK.Environment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PriceBreakdownFareCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
@@ -6362,6 +6369,8 @@ extension ShareTripSDK.ServiceType : Swift.RawRepresentable {}
 extension ShareTripSDK.Period.Departs : Swift.Equatable {}
 extension ShareTripSDK.Period.Departs : Swift.Hashable {}
 extension ShareTripSDK.Period.Departs : Swift.RawRepresentable {}
+extension ShareTripSDK.Environment : Swift.Equatable {}
+extension ShareTripSDK.Environment : Swift.Hashable {}
 extension ShareTripSDK.FileType : Swift.Equatable {}
 extension ShareTripSDK.FileType : Swift.Hashable {}
 extension ShareTripSDK.paymentGatewayType : Swift.Equatable {}

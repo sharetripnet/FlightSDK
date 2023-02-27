@@ -15,7 +15,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```
-pod 'ShareTripSDK', '1.0.4'
+pod 'ShareTripSDK', '1.0.5'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -125,6 +125,11 @@ To see flight bookings use following view controller.
 
 ```
 FlightBookingHistoryListVC()
+```
+
+6. SDK is deafult to live server of sharetrip, if you want to switch to staging server please add following configuration
+```
+STSDK.shared.environment = .staging
 ```
 
 ## Dependencies:
