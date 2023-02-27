@@ -15,7 +15,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```
-pod 'ShareTripSDK', '1.0.3'
+pod 'ShareTripSDK', '1.0.4'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
