@@ -230,6 +230,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AuthenticationServices;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -265,12 +266,6 @@ SWIFT_CLASS("_TtC12ShareTripSDK14AmenityRowView")
 - (void)updateConstraints;
 @end
 
-
-SWIFT_CLASS("_TtC12ShareTripSDK10BackButton")
-@interface BackButton : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class NSString;
 @class NSBundle;
 
@@ -279,6 +274,32 @@ SWIFT_CLASS("_TtC12ShareTripSDK14ViewController")
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK6AuthVC")
+@interface AuthVC : ViewController
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class ASAuthorizationController;
+@class ASAuthorization;
+
+SWIFT_AVAILABILITY(ios,introduced=13.0)
+@interface AuthVC (SWIFT_EXTENSION(ShareTripSDK)) <ASAuthorizationControllerDelegate, ASAuthorizationControllerPresentationContextProviding>
+- (void)authorizationController:(ASAuthorizationController * _Nonnull)controller didCompleteWithAuthorization:(ASAuthorization * _Nonnull)authorization;
+- (void)authorizationController:(ASAuthorizationController * _Nonnull)controller didCompleteWithError:(NSError * _Nonnull)error;
+- (ASPresentationAnchor _Nonnull)presentationAnchorForAuthorizationController:(ASAuthorizationController * _Nonnull)controller SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK10BackButton")
+@interface BackButton : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -2102,6 +2123,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AuthenticationServices;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -2137,12 +2159,6 @@ SWIFT_CLASS("_TtC12ShareTripSDK14AmenityRowView")
 - (void)updateConstraints;
 @end
 
-
-SWIFT_CLASS("_TtC12ShareTripSDK10BackButton")
-@interface BackButton : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class NSString;
 @class NSBundle;
 
@@ -2151,6 +2167,32 @@ SWIFT_CLASS("_TtC12ShareTripSDK14ViewController")
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK6AuthVC")
+@interface AuthVC : ViewController
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class ASAuthorizationController;
+@class ASAuthorization;
+
+SWIFT_AVAILABILITY(ios,introduced=13.0)
+@interface AuthVC (SWIFT_EXTENSION(ShareTripSDK)) <ASAuthorizationControllerDelegate, ASAuthorizationControllerPresentationContextProviding>
+- (void)authorizationController:(ASAuthorizationController * _Nonnull)controller didCompleteWithAuthorization:(ASAuthorization * _Nonnull)authorization;
+- (void)authorizationController:(ASAuthorizationController * _Nonnull)controller didCompleteWithError:(NSError * _Nonnull)error;
+- (ASPresentationAnchor _Nonnull)presentationAnchorForAuthorizationController:(ASAuthorizationController * _Nonnull)controller SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC12ShareTripSDK10BackButton")
+@interface BackButton : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

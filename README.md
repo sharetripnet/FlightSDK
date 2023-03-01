@@ -15,7 +15,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```
-pod 'ShareTripSDK', '1.0.5'
+pod 'ShareTripSDK', '1.0.6'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -79,7 +79,8 @@ Value:
 ```
 override init() {
     super.init()
-    STSDK.configure()
+    FirebaseApp.configure()
+    IQKeyboardManager.shared.enable = true
     STSDK.shared.clientId = "MyBL"
 }
 

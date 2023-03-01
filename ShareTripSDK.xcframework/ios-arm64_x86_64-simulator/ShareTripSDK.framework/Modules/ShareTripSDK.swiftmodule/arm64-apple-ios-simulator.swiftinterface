@@ -1107,6 +1107,25 @@ public protocol DoubleButtonCellDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public func configure(buttonData: ShareTripSDK.DoubleButtonData, indexPath: Foundation.IndexPath, delegate: ShareTripSDK.DoubleButtonCellDelegate)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AuthVC : ShareTripSDK.ViewController {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.MainEntryVCDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension ShareTripSDK.AuthVC : ShareTripSDK.StoryboardBased {
+  @_Concurrency.MainActor(unsafe) public static var storyboardName: Swift.String {
+    get
+  }
+}
+@available(iOS 13.0, *)
+extension ShareTripSDK.AuthVC : AuthenticationServices.ASAuthorizationControllerDelegate, AuthenticationServices.ASAuthorizationControllerPresentationContextProviding {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func authorizationController(controller: AuthenticationServices.ASAuthorizationController, didCompleteWithAuthorization authorization: AuthenticationServices.ASAuthorization)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func authorizationController(controller: AuthenticationServices.ASAuthorizationController, didCompleteWithError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func presentationAnchor(for controller: AuthenticationServices.ASAuthorizationController) -> AuthenticationServices.ASPresentationAnchor
+}
 extension ShareTripSDK.UseCouponView {
   @_hasMissingDesignatedInitializers public class Callback {
     public var needsReload: () -> Swift.Void
@@ -1921,11 +1940,14 @@ public protocol STSDKDelegate : AnyObject {
   func didSuccessTokenValidation()
   func didFailed(error: Swift.String)
 }
+public protocol HomeScreenDelegate : AnyObject {
+  func openHomeScreen()
+}
 @_hasMissingDesignatedInitializers final public class STSDK {
   public static let shared: ShareTripSDK.STSDK
   final public var environment: ShareTripSDK.Environment
-  public static func configure()
   weak final public var delegate: ShareTripSDK.STSDKDelegate?
+  weak final public var homeScreenDelegate: ShareTripSDK.HomeScreenDelegate?
   final public var accessToken: Swift.String {
     get
     set
