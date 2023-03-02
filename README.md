@@ -144,7 +144,7 @@ ShareTripsSDK depends on follwing third party pods
  - pod 'BlueECC'
  - pod 'BlueRSA'
  - pod 'Alamofire'
- - pod 'lottie-ios', '3.3.0'
+ - pod 'lottie-ios', '3.5.0'
  - pod 'SwiftyJSON'
  - pod 'Kingfisher', '~> 6.3.1'
  - pod 'Bolts-Swift'
