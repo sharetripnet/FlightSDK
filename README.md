@@ -9,13 +9,13 @@
 - Firebase Remote Config 
 - Camera Access Descriptions
 
- 
+
 ## Installation:
 
 1. Add the following pod to your `Podfile`:
 
 ```
-pod 'ShareTripSDK', '1.0.6'
+pod 'ShareTripSDK', '1.0.7'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -24,11 +24,11 @@ pod 'ShareTripSDK', '1.0.6'
 
 ```
 post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-    end
-  end
+installer.pods_project.targets.each do |target|
+target.build_configurations.each do |config|
+config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+end
+end
 end
 ```
 Save `Podfile` and run `pod install`
@@ -40,21 +40,21 @@ Key: ```flight_discount_options```
 Value:
 ```
 [
-   {
-      "type":"earnTC",
-      "title":"I want to earn TripCoins",
-      "subtitle":"*Instant discount for our partner banks' card holders"
-   },
-   {
-      "type":"redeemTC",
-      "title":"I want to redeem TripCoins",
-      "subtitle":"Drag to slider to redeem trip coin"
-   },
-   {
-      "type":"useCoupon",
-      "title":"I want to use Coupon Code",
-      "subtitle":"Enter the coupon code"
-   }
+{
+"type":"earnTC",
+"title":"I want to earn TripCoins",
+"subtitle":"*Instant discount for our partner banks' card holders"
+},
+{
+"type":"redeemTC",
+"title":"I want to redeem TripCoins",
+"subtitle":"Drag to slider to redeem trip coin"
+},
+{
+"type":"useCoupon",
+"title":"I want to use Coupon Code",
+"subtitle":"Enter the coupon code"
+}
 ]
 ```
 
@@ -77,8 +77,7 @@ Value:
 2. Initialize the ShareTripSDK in your AppDelegate's
 
 ```
-override init() {
-    super.init()
+func application( _ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {        
     FirebaseApp.configure()
     IQKeyboardManager.shared.enable = true
     STSDK.shared.clientId = "MyBL"
@@ -102,13 +101,13 @@ STSDK.shared.delegate = self
 And to get the token validation callbacks, implement the methods as follows
 ```
 extension AppDelegate: STSDKDelegate {
-    func didSuccessTokenValidation() {
-        //Triggered after a successful token validation
-    }
-    
-    func didFailed(error: String) {
-        STLog.error("Token validation errror: \(error)")
-    }
+func didSuccessTokenValidation() {
+//Triggered after a successful token validation
+}
+
+func didFailed(error: String) {
+STLog.error("Token validation errror: \(error)")
+}
 }
 ```
 

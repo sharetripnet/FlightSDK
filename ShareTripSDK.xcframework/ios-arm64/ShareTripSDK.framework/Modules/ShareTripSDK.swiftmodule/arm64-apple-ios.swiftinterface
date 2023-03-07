@@ -8,13 +8,11 @@ import AuthenticationServices
 import CoreGraphics
 import FBSDKLoginKit
 import FirebaseAnalytics
-import FirebaseCore
 import FirebaseCrashlytics
 import FirebaseRemoteConfig
 import FloatingPanel
 import Foundation
 import GoogleSignIn
-import IQKeyboardManagerSwift
 import JTAppleCalendar
 import Kingfisher
 import Lottie
@@ -1957,7 +1955,6 @@ public protocol HomeScreenDelegate : AnyObject {
     get
     set
   }
-  public static func configure()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class WhitishNavigationController : UIKit.UINavigationController {
