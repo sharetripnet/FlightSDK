@@ -24,11 +24,11 @@ pod 'ShareTripSDK', '1.0.7'
 
 ```
 post_install do |installer|
-installer.pods_project.targets.each do |target|
-target.build_configurations.each do |config|
-config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-end
-end
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+    end
+  end
 end
 ```
 Save `Podfile` and run `pod install`
@@ -40,21 +40,21 @@ Key: ```flight_discount_options```
 Value:
 ```
 [
-{
-"type":"earnTC",
-"title":"I want to earn TripCoins",
-"subtitle":"*Instant discount for our partner banks' card holders"
-},
-{
-"type":"redeemTC",
-"title":"I want to redeem TripCoins",
-"subtitle":"Drag to slider to redeem trip coin"
-},
-{
-"type":"useCoupon",
-"title":"I want to use Coupon Code",
-"subtitle":"Enter the coupon code"
-}
+   {
+      "type":"earnTC",
+      "title":"I want to earn TripCoins",
+      "subtitle":"*Instant discount for our partner banks' card holders"
+   },
+   {
+      "type":"redeemTC",
+      "title":"I want to redeem TripCoins",
+      "subtitle":"Drag to slider to redeem trip coin"
+   },
+   {
+      "type":"useCoupon",
+      "title":"I want to use Coupon Code",
+      "subtitle":"Enter the coupon code"
+   }
 ]
 ```
 
