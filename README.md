@@ -15,7 +15,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```
-pod 'ShareTripSDK', '1.0.7'
+pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.0.8'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -80,27 +80,20 @@ Value:
 func application( _ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {        
     FirebaseApp.configure()
     IQKeyboardManager.shared.enable = true
-    STSDK.shared.clientId = "MyBL"
 }
 
 ```
 
-3. Set access token to be able to book services from ShareTrip Limited.
+3. Set access token to be able to book services from ShareTrip Limited and set the delegate.
 
-```
-STSDK.shared.accessToken = "staccesstoken"
-```
-
-4. To get the token validation callbacks implement the `STSDKDelegate` delegate as follows.
-
-In AppDelegate or where ever you want to get the callbacks, set the delegate
 ```
 STSDK.shared.delegate = self
+STSDK.shared.accessToken = "staccesstoken"
 ```
 
 And to get the token validation callbacks, implement the methods as follows
 ```
-extension AppDelegate: STSDKDelegate {
+extension YourClass: STSDKDelegate {
 func didSuccessTokenValidation() {
 //Triggered after a successful token validation
 }
@@ -114,18 +107,9 @@ STLog.error("Token validation errror: \(error)")
 5. Create the following view controller to get the Home page for Banglalink.
 
 ```
-MyBLHomeVC.instantiate()
+STSDKHomeVC.instantiate()
 ```
-To see Flight Search page directly use following view controller.
-
-```
-FlightSearchVC.instantiate()
-```
-To see flight bookings use following view controller.
-
-```
-FlightBookingHistoryListVC()
-```
+From here you will be able to go to flight search and booking history page.
 
 6. SDK is deafult to live server of sharetrip, if you want to switch to staging server please add following configuration
 ```

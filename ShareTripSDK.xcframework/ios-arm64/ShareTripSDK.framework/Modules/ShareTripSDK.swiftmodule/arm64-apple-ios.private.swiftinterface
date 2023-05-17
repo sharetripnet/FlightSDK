@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ShareTripSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Alamofire
@@ -13,6 +13,7 @@ import FirebaseRemoteConfig
 import FloatingPanel
 import Foundation
 import GoogleSignIn
+import IQKeyboardManagerSwift
 import JTAppleCalendar
 import Kingfisher
 import Lottie
@@ -51,11 +52,11 @@ public enum ImagePreload {
   @_Concurrency.MainActor(unsafe) open var pageControl: UIKit.UIPageControl {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) open var activityIndicator: ShareTripSDK.ActivityIndicatorFactory? {
+  @_Concurrency.MainActor(unsafe) open var activityIndicator: (any ShareTripSDK.ActivityIndicatorFactory)? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) open var pageIndicator: ShareTripSDK.PageIndicatorView? {
+  @_Concurrency.MainActor(unsafe) open var pageIndicator: (any ShareTripSDK.PageIndicatorView)? {
     get
     set
   }
@@ -71,7 +72,7 @@ public enum ImagePreload {
   @objc @_Concurrency.MainActor(unsafe) open var currentPage: Swift.Int {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) weak open var delegate: ShareTripSDK.ImageSlideshowDelegate?
+  @objc @_Concurrency.MainActor(unsafe) weak open var delegate: (any ShareTripSDK.ImageSlideshowDelegate)?
   @objc @_Concurrency.MainActor(unsafe) open var currentPageChanged: ((_ page: Swift.Int) -> ())?
   @objc @_Concurrency.MainActor(unsafe) open var willBeginDragging: (() -> ())?
   @objc @_Concurrency.MainActor(unsafe) open var didEndDecelerating: (() -> ())?
@@ -81,7 +82,7 @@ public enum ImagePreload {
   @objc @_Concurrency.MainActor(unsafe) open var scrollViewPage: Swift.Int {
     get
   }
-  @objc @_Concurrency.MainActor(unsafe) open var images: [ShareTripSDK.InputSource] {
+  @objc @_Concurrency.MainActor(unsafe) open var images: [any ShareTripSDK.InputSource] {
     get
   }
   @objc @_Concurrency.MainActor(unsafe) open var slideshowItems: [ShareTripSDK.ImageSlideshowItem] {
@@ -120,7 +121,7 @@ public enum ImagePreload {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func removeFromSuperview()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
   @objc @_Concurrency.MainActor(unsafe) open func layoutPageControl()
-  @objc @_Concurrency.MainActor(unsafe) open func setImageInputs(_ inputs: [ShareTripSDK.InputSource])
+  @objc @_Concurrency.MainActor(unsafe) open func setImageInputs(_ inputs: [any ShareTripSDK.InputSource])
   @objc @_Concurrency.MainActor(unsafe) open func setCurrentPage(_ newPage: Swift.Int, animated: Swift.Bool)
   @objc @_Concurrency.MainActor(unsafe) open func setScrollViewPage(_ newScrollViewPage: Swift.Int, animated: Swift.Bool)
   @objc @_Concurrency.MainActor(unsafe) open func pauseTimer()
@@ -178,16 +179,16 @@ public struct SavedCardDetails : Swift.Codable {
   public let details: ShareTripSDK.CardDetails?
   public let tokenExpiry: Swift.String?
   public init(uid: Swift.String?, customer: Swift.String?, platform: Swift.String?, number: Swift.String?, details: ShareTripSDK.CardDetails?, tokenExpiry: Swift.String?)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct CardDetails : Swift.Codable {
   public let bank: Swift.String?
   public let brand: Swift.String?
   public let length: Swift.Int?
   public let logo: ShareTripSDK.LogoSize?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol InputTextValidator : AnyObject {
   func validate(text: Swift.String?) -> Swift.Result<Swift.Void, ShareTripSDK.AppError>
@@ -196,14 +197,14 @@ public protocol InputTextValidator : AnyObject {
   @_Concurrency.MainActor(unsafe) public var didChangeText: (Swift.String?) -> Swift.Void
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) public func validateOnInputEnd(with validator: ShareTripSDK.InputTextValidator)
+  @_Concurrency.MainActor(unsafe) public func validateOnInputEnd(with validator: any ShareTripSDK.InputTextValidator)
   @objc deinit
 }
 extension ShareTripSDK.InputTextFieldCell : ShareTripSDK.ConfigurableTableViewCellDataContainer {
   public typealias AccecptableViewModelType = ShareTripSDK.InputTextFieldCellData
 }
 extension ShareTripSDK.InputTextFieldCell : ShareTripSDK.ConfigurableTableViewCell {
-  @_Concurrency.MainActor(unsafe) public func configure(viewModel: ShareTripSDK.ConfigurableTableViewCellData)
+  @_Concurrency.MainActor(unsafe) public func configure(viewModel: any ShareTripSDK.ConfigurableTableViewCellData)
 }
 extension ShareTripSDK.InputTextFieldCell : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
@@ -241,8 +242,8 @@ public protocol PriceInfoFareCellDelegate : AnyObject {
   func showMoreButtonTapped()
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class PriceInfoFareCell : UIKit.UITableViewCell {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.SliderCellDelegate?
-  @_Concurrency.MainActor(unsafe) weak public var cellDelegate: ShareTripSDK.PriceInfoFareCellDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.SliderCellDelegate)?
+  @_Concurrency.MainActor(unsafe) weak public var cellDelegate: (any ShareTripSDK.PriceInfoFareCellDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
@@ -336,7 +337,7 @@ extension ShareTripSDK.SingleInfoCell : ShareTripSDK.ConfigurableTableViewCellDa
   public typealias AccecptableViewModelType = ShareTripSDK.SingleInfoCellData
 }
 extension ShareTripSDK.SingleInfoCell : ShareTripSDK.ConfigurableTableViewCell {
-  @_Concurrency.MainActor(unsafe) public func configure(viewModel: ShareTripSDK.ConfigurableTableViewCellData)
+  @_Concurrency.MainActor(unsafe) public func configure(viewModel: any ShareTripSDK.ConfigurableTableViewCellData)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class InfoUploadCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) public var didSelectUpload: (ShareTripSDK.FileType) -> Swift.Void
@@ -353,7 +354,7 @@ extension ShareTripSDK.InfoUploadCell : ShareTripSDK.ConfigurableTableViewCellDa
   public typealias AccecptableViewModelType = ShareTripSDK.InfoUploadCellData
 }
 extension ShareTripSDK.InfoUploadCell : ShareTripSDK.ConfigurableTableViewCell {
-  @_Concurrency.MainActor(unsafe) public func configure(viewModel: ShareTripSDK.ConfigurableTableViewCellData)
+  @_Concurrency.MainActor(unsafe) public func configure(viewModel: any ShareTripSDK.ConfigurableTableViewCellData)
 }
 public class FlightFilterViewModelOld {
   final public let filter: ShareTripSDK.FlightFilter
@@ -400,8 +401,8 @@ public class CityProperty : Swift.Codable {
   final public let type: Swift.String?
   public init(id: Swift.String, countryCode: Swift.String, countryName: Swift.String, center: ShareTripSDK.STLocation, name: Swift.String, type: Swift.String)
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers open class TapticEngine {
   public static let impact: ShareTripSDK.TapticEngine.Impact
@@ -566,10 +567,10 @@ public protocol InfoTextFieldCellDelegate : AnyObject {
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var typeImageView: UIKit.UIImageView!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var titleLabel: UIKit.UILabel!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var infoTextField: UIKit.UITextField!
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.InfoTextFieldCellDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.InfoTextFieldCellDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func configure(cellIndexpath: Foundation.IndexPath, delegate: ShareTripSDK.InfoTextFieldCellDelegate?, title: Swift.String, placeholder: Swift.String, typeImage: Swift.String, keyboardType: UIKit.UIKeyboardType = .default, textContentType: UIKit.UITextContentType? = nil)
+  @_Concurrency.MainActor(unsafe) public func configure(cellIndexpath: Foundation.IndexPath, delegate: (any ShareTripSDK.InfoTextFieldCellDelegate)?, title: Swift.String, placeholder: Swift.String, typeImage: Swift.String, keyboardType: UIKit.UIKeyboardType = .default, textContentType: UIKit.UITextContentType? = nil)
   @available(iOS 3.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -578,15 +579,15 @@ public protocol InfoTextFieldCellDelegate : AnyObject {
 public class AppVersion : Swift.Codable {
   final public let iOS: ShareTripSDK.VersionData?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class VersionData : Swift.Codable {
   final public let version: Swift.String?
   final public let isForceUpdate: Swift.Bool?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum BookingButtonType {
   case cancelBooking
@@ -626,7 +627,7 @@ public protocol ActivityIndicatorView {
   func hide()
 }
 public protocol ActivityIndicatorFactory {
-  func create() -> ShareTripSDK.ActivityIndicatorView
+  func create() -> any ShareTripSDK.ActivityIndicatorView
 }
 extension UIKit.UIActivityIndicatorView : ShareTripSDK.ActivityIndicatorView {
   @_Concurrency.MainActor(unsafe) public var view: UIKit.UIView {
@@ -639,7 +640,7 @@ extension UIKit.UIActivityIndicatorView : ShareTripSDK.ActivityIndicatorView {
   @objc open var style: ShareTripSDK.UIActivityIndicatorViewStyle
   @objc open var color: UIKit.UIColor?
   @objc public init(style: ShareTripSDK.UIActivityIndicatorViewStyle = .white, color: UIKit.UIColor? = nil)
-  open func create() -> ShareTripSDK.ActivityIndicatorView
+  open func create() -> any ShareTripSDK.ActivityIndicatorView
   @objc deinit
 }
 public struct FlightLegData {
@@ -719,14 +720,14 @@ public enum InsuranceOptionsRowType {
 public struct FlightAddonService : Swift.Codable {
   public let covid: [ShareTripSDK.InsuranceResponse]?, travelInsurance: [ShareTripSDK.InsuranceResponse]?, baggageInsurance: [ShareTripSDK.InsuranceResponse]?
   public init(covid: [ShareTripSDK.InsuranceResponse]?, travelInsurance: [ShareTripSDK.InsuranceResponse]?, baggageInsurance: [ShareTripSDK.InsuranceResponse]?)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct FlightAddonServiceDetail : Swift.Codable {
   public let code: Swift.String?, name: Swift.String?, logo: Swift.String?, description: Swift.String?
   public init(code: Swift.String?, name: Swift.String?, logo: Swift.String?, description: Swift.String?)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InsuranceResponse : Swift.Codable {
   public let code: Swift.String?, name: Swift.String?
@@ -734,8 +735,8 @@ public struct InsuranceResponse : Swift.Codable {
   public let insuranceSelf: Swift.Bool?
   public let options: [ShareTripSDK.InsuranceOption]?
   public init(code: Swift.String?, name: Swift.String?, logo: Swift.String?, insuranceSelf: Swift.Bool?, options: [ShareTripSDK.InsuranceOption]?)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InsuranceOption : Swift.Codable {
   public let code: Swift.String?, name: Swift.String?
@@ -744,14 +745,14 @@ public struct InsuranceOption : Swift.Codable {
   public let optionDefault: Swift.Bool?
   public let isAddress: Swift.Bool?
   public init(code: Swift.String?, name: Swift.String?, price: Swift.Double?, discountPrice: Swift.Double?, optionDefault: Swift.Bool?, isAddress: Swift.Bool?)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum GenderType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case male
   case female
   case other
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
   public typealias AllCases = [ShareTripSDK.GenderType]
   public typealias RawValue = Swift.String
@@ -813,11 +814,22 @@ public protocol FilterResetCellDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class FilterResetCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func configure(subtitle: Swift.String, delegate: ShareTripSDK.FilterResetCellDelegate)
+  @_Concurrency.MainActor(unsafe) public func configure(subtitle: Swift.String, delegate: any ShareTripSDK.FilterResetCellDelegate)
   @available(iOS 3.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+}
+public protocol KeyboardObserving : AnyObject {
+  func keyboardWillShow(withSize size: CoreFoundation.CGSize)
+  func keyboardWillHide()
+}
+extension ShareTripSDK.KeyboardObserving {
+  public func addKeyboardObservers(to notificationCenter: Foundation.NotificationCenter)
+  public func removeKeyboardObservers(from notificationCenter: Foundation.NotificationCenter)
+}
+public protocol ScrollViewKeyboardObserving : ShareTripSDK.KeyboardObserving {
+  var keyboardObservingScrollView: UIKit.UIScrollView { get }
 }
 public struct SelectedBaggageInfo {
 }
@@ -863,13 +875,13 @@ public class BaggageViewModel {
 public struct SSRType : Swift.Codable {
   public let type: Swift.String
   public let ssr: [ShareTripSDK.SSR]
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SSR : Swift.Codable {
   public let code: Swift.String, name: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol PopupInputViewDelegate : AnyObject {
   func crossButtonTapped()
@@ -884,7 +896,7 @@ public protocol PopupInputViewDelegate : AnyObject {
     set
   }
   @_Concurrency.MainActor(unsafe) public var height: CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) public init(title: Swift.String, height: CoreFoundation.CGFloat = 550.0, delegate: ShareTripSDK.PopupInputViewDelegate? = nil)
+  @_Concurrency.MainActor(unsafe) public init(title: Swift.String, height: CoreFoundation.CGFloat = 550.0, delegate: (any ShareTripSDK.PopupInputViewDelegate)? = nil)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
   @_Concurrency.MainActor(unsafe) public func show()
@@ -895,67 +907,34 @@ extension ShareTripSDK.PopupInputView : UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
 }
 public struct PaymentGateway : Swift.Codable {
-  public let id: Swift.String?
-  public let name: Swift.String?
-  public let code: Swift.String?
-  public let type: Swift.String?
-  public let currency: ShareTripSDK.GatewayCurrency
-  public let logo: ShareTripSDK.LogoSize
-  public let couponApplicable: Swift.Bool?
-  public let earnTripcoinApplicable: Swift.Bool?
-  public let redeemTripcoinApplicable: Swift.Bool?
-  public let series: [ShareTripSDK.GatewaySeries]
-  public let charge: Swift.Double?
-  public var isUSDPayment: Swift.Bool {
-    get
-  }
-  public enum CodingKeys : Swift.String, Swift.CodingKey {
-    case id, name, logo, series, code, type, currency, charge
-    case couponApplicable
-    case earnTripcoinApplicable
-    case redeemTripcoinApplicable
-    public init?(rawValue: Swift.String)
-    public init?(stringValue: Swift.String)
-    public init?(intValue: Swift.Int)
-    public typealias RawValue = Swift.String
-    public var intValue: Swift.Int? {
-      get
-    }
-    public var rawValue: Swift.String {
-      get
-    }
-    public var stringValue: Swift.String {
-      get
-    }
-  }
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GatewayCurrency : Swift.Codable {
   public let code: Swift.String?
   public let conversion: ShareTripSDK.Conversion
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Conversion : Swift.Codable {
   public let rate: Swift.Double?
   public let code: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct LogoSize : Swift.Codable {
   public let small: Swift.String
   public let medium: Swift.String
   public let large: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GatewaySeries : Swift.Codable {
   public let id: Swift.String
   public let length: Swift.Int
   public let series: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum PaymentGatewayType : Swift.String {
   case visa
@@ -1007,7 +986,7 @@ public protocol LastNameInputCellDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class LastNameInputCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) public var cellIndexPath: Foundation.IndexPath!
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.LastNameInputCellDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.LastNameInputCellDelegate)?
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var titleLabel: UIKit.UILabel!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var lastNameTextField: UIKit.UITextField!
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
@@ -1049,11 +1028,11 @@ public class STPassenger : Swift.Codable {
   public var mobileNumber: Swift.String
   public var address2: Swift.String
   public var profession: Swift.String
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   public init(titleName: ShareTripSDK.TitleType, givenName: Swift.String, surName: Swift.String, nationality: Swift.String, dateOfBirth: Swift.String, gender: ShareTripSDK.GenderType, passportNumber: Swift.String?, passportExpireDate: Swift.String?, frequentFlyerNumber: Swift.String?, passportCopy: Swift.String?, visaCopy: Swift.String?)
   public func getAgeCount() -> Swift.Int?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension UIKit.UIButton {
   @_Concurrency.MainActor(unsafe) public func setBorder(cornerRadius: CoreFoundation.CGFloat, borderWidth: CoreFoundation.CGFloat = 1.0)
@@ -1102,11 +1081,11 @@ public protocol DoubleButtonCellDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DoubleButtonCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
-  @_Concurrency.MainActor(unsafe) public func configure(buttonData: ShareTripSDK.DoubleButtonData, indexPath: Foundation.IndexPath, delegate: ShareTripSDK.DoubleButtonCellDelegate)
+  @_Concurrency.MainActor(unsafe) public func configure(buttonData: ShareTripSDK.DoubleButtonData, indexPath: Foundation.IndexPath, delegate: any ShareTripSDK.DoubleButtonCellDelegate)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AuthVC : ShareTripSDK.ViewController {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.MainEntryVCDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.MainEntryVCDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
@@ -1121,7 +1100,7 @@ extension ShareTripSDK.AuthVC : ShareTripSDK.StoryboardBased {
 @available(iOS 13.0, *)
 extension ShareTripSDK.AuthVC : AuthenticationServices.ASAuthorizationControllerDelegate, AuthenticationServices.ASAuthorizationControllerPresentationContextProviding {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func authorizationController(controller: AuthenticationServices.ASAuthorizationController, didCompleteWithAuthorization authorization: AuthenticationServices.ASAuthorization)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func authorizationController(controller: AuthenticationServices.ASAuthorizationController, didCompleteWithError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func authorizationController(controller: AuthenticationServices.ASAuthorizationController, didCompleteWithError error: any Swift.Error)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func presentationAnchor(for controller: AuthenticationServices.ASAuthorizationController) -> AuthenticationServices.ASPresentationAnchor
 }
 extension ShareTripSDK.UseCouponView {
@@ -1139,7 +1118,7 @@ extension ShareTripSDK.UseCouponView {
   }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class UseCouponView : UIKit.UIStackView, ShareTripSDK.NibBased {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.DiscountOptionCollapsibleViewDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.DiscountOptionCollapsibleViewDelegate)?
   @_Concurrency.MainActor(unsafe) final public let callback: ShareTripSDK.UseCouponView.Callback
   @_Concurrency.MainActor(unsafe) public var useCouponViewModel: ShareTripSDK.UseCouponViewModel? {
     get
@@ -1216,35 +1195,35 @@ public struct FlightSearchResponse : Swift.Codable {
   public let flights: [ShareTripSDK.Flight]
   public var filters: ShareTripSDK.FlightFilter
   public var filterDeal: ShareTripSDK.FlightSortingOptions?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public class PlaneCabin : Swift.Codable {
   final public let code: Swift.String, name: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class TimeSlot : Swift.Codable {
   final public let key: Swift.String, value: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightStoppage : Swift.Codable {
   final public let id: Swift.Int
   final public let name: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightWeight : Swift.Codable {
   final public let key: Swift.Int, weight: Swift.Int
   final public let unit: Swift.String
   final public let note: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightLeg : Swift.Codable {
   final public let searchCode: Swift.String, sequenceCode: Swift.String
@@ -1261,8 +1240,8 @@ public class FlightLeg : Swift.Codable {
   final public let min: Swift.Int, dayCount: Swift.Int
   final public let hiddenStops: Swift.Bool
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class TripCoinBarButtonItem {
   public init()
@@ -1295,15 +1274,6 @@ public struct SingleInputData {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
-}
-public protocol PaymentGateWayFilterProvider {
-  func paymentGateWayfilter() -> ((ShareTripSDK.PaymentGateway) -> Swift.Bool)
-  func paymentGateWayfilter(gatewayIds: [Swift.String]) -> ((ShareTripSDK.PaymentGateway) -> Swift.Bool)
-  func paymentGateWayfilter(gatewayCodes: [Swift.String]) -> ((ShareTripSDK.PaymentGateway) -> Swift.Bool)
-}
-extension ShareTripSDK.PaymentGateWayFilterProvider {
-  public func paymentGateWayfilter(gatewayIds: [Swift.String]) -> ((ShareTripSDK.PaymentGateway) -> Swift.Bool)
-  public func paymentGateWayfilter(gatewayCodes: [Swift.String]) -> ((ShareTripSDK.PaymentGateway) -> Swift.Bool)
 }
 public struct FlightEvent : ShareTripSDK.STAnalyticsEvent {
   public var name: Swift.String
@@ -1380,12 +1350,12 @@ public class FlightFilter : Swift.Codable {
   public struct IsRefundable : Swift.Codable {
     public let key: Swift.String
     public let value: Swift.Int
-    public func encode(to encoder: Swift.Encoder) throws
-    public init(from decoder: Swift.Decoder) throws
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum FlightFilterType : Swift.Int, Swift.CaseIterable {
   case reset
@@ -1447,7 +1417,7 @@ public class FlightSearchFilter : Swift.Encodable {
       get
     }
   }
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 public protocol InputTextFilterCellDelegate : AnyObject {
@@ -1457,7 +1427,7 @@ public protocol InputTextFilterCellDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
-  @_Concurrency.MainActor(unsafe) public func configure(title: Swift.String, text: Swift.String?, placeholder: Swift.String, indexPath: Foundation.IndexPath, delegate: ShareTripSDK.InputTextFilterCellDelegate)
+  @_Concurrency.MainActor(unsafe) public func configure(title: Swift.String, text: Swift.String?, placeholder: Swift.String, indexPath: Foundation.IndexPath, delegate: any ShareTripSDK.InputTextFilterCellDelegate)
   @objc deinit
 }
 extension ShareTripSDK.InputTextFilterCell : UIKit.UITextFieldDelegate {
@@ -1468,29 +1438,29 @@ public class FlightRuleResponse : Swift.Codable {
   final public let baggages: [ShareTripSDK.FlightBaggage]?
   final public let fareDetails: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class RefundPolicy : Swift.Codable {
   final public let type: Swift.String
   final public let rules: [ShareTripSDK.RefundPolicyRule]
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class RefundPolicyRule : Swift.Codable {
   final public let type: Swift.String, text: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightBaggage : Swift.Codable {
   final public let type: Swift.String
   final public let adult: Swift.String?
   final public let child: Swift.String?, infant: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 extension ShareTripSDK.UseCouponViewModel {
   @_hasMissingDesignatedInitializers public class Callback {
@@ -1527,6 +1497,9 @@ public class UseCouponViewModel {
     get
   }
   public var appliedCoupon: Swift.String {
+    get
+  }
+  public var defaultCoupon: Swift.String {
     get
   }
   public var selectedCouponGateways: [Swift.String] {
@@ -1587,7 +1560,7 @@ extension ShareTripSDK.CheckboxCell : ShareTripSDK.ConfigurableTableViewCellData
   public typealias AccecptableViewModelType = ShareTripSDK.CheckboxCellData
 }
 extension ShareTripSDK.CheckboxCell : ShareTripSDK.ConfigurableTableViewCell {
-  @_Concurrency.MainActor(unsafe) public func configure(viewModel: ShareTripSDK.ConfigurableTableViewCellData)
+  @_Concurrency.MainActor(unsafe) public func configure(viewModel: any ShareTripSDK.ConfigurableTableViewCellData)
 }
 public typealias UIViewContentMode = UIKit.UIView.ContentMode
 public typealias UIActivityIndicatorViewStyle = UIKit.UIActivityIndicatorView.Style
@@ -1595,14 +1568,14 @@ public struct TravelInsuranceServiceDetailResponse : Swift.Codable {
   public let code: Swift.String, name: Swift.String
   public let logo: Swift.String
   public let description: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum NetworkError<T> : Swift.Error where T : ShareTripSDK.ErrorProtocol {
   case invalidResponse
   case serverError(_: Swift.Int)
-  case decodingError(Swift.Error)
-  case defaultError(Swift.Error)
+  case decodingError(any Swift.Error)
+  case defaultError(any Swift.Error)
   case customError(T)
   public var description: Swift.String {
     get
@@ -1635,11 +1608,11 @@ public class PriceTableViewModel {
 public struct FlightPromotions : Swift.Codable {
   public let uid: Swift.String?
   public let image: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct TokenValidation : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct PromotionalCoupon : Swift.Decodable {
   public let coupon: Swift.String, title: Swift.String
@@ -1649,7 +1622,7 @@ public struct PromotionalCoupon : Swift.Decodable {
   public let discountType: Swift.String
   public let rooms: [Swift.Int]?
   public let gateway: [Swift.String]?
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SingleInputTitleData {
   public let titleLabel: Swift.String
@@ -1675,6 +1648,7 @@ public struct Constants {
     get
   }
   public static var clientId: Swift.String
+  public static var platform: Swift.String
   public struct App {
     public static let minLoadingAnimationTime: Swift.Double
     public static let totalStars: Swift.Int
@@ -1854,6 +1828,7 @@ public enum HTTPHeaderField : Swift.String {
   case userAgent
   case stAccess
   case clientId
+  case platform
   case travelAdviceAPIAccessToken
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
@@ -1883,7 +1858,7 @@ public enum APIResponseCode : Swift.String, Swift.Codable {
   case FLIGHT_ITINERARY_CHANGE
   case FLIGHT_RE_ITINERARY_CHANGE
   case FLIGHT_RE_VALIDATION_CHANGE
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init(stringValue: Swift.String)
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
@@ -1897,8 +1872,8 @@ public enum AppError : Swift.Error {
 public struct DealResponse : Swift.Codable {
   public let data: [ShareTripSDK.NotifierDeal]
   public init(data: [ShareTripSDK.NotifierDeal])
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct NotifierDeal : Swift.Codable {
   public let comment: Swift.String?, description: Swift.String?, imageUrl: Swift.String?
@@ -1906,8 +1881,8 @@ public struct NotifierDeal : Swift.Codable {
   public let publishDate: Swift.String?, trigerBy: Swift.String?, title: Swift.String?
   public let timeStamp: Foundation.TimeInterval?
   public init(comment: Swift.String?, description: Swift.String?, imageUrl: Swift.String?, platform: [ShareTripSDK.Platform]?, publishDate: Swift.String?, trigerBy: Swift.String?, title: Swift.String?, timeStamp: Foundation.TimeInterval?)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum Platform : Swift.String, Swift.Codable {
   case common
@@ -1943,14 +1918,10 @@ public protocol HomeScreenDelegate : AnyObject {
 }
 @_hasMissingDesignatedInitializers final public class STSDK {
   public static let shared: ShareTripSDK.STSDK
-  weak final public var delegate: ShareTripSDK.STSDKDelegate?
+  weak final public var delegate: (any ShareTripSDK.STSDKDelegate)?
   final public var environment: ShareTripSDK.Environment
   final public var consumer: ShareTripSDK.SDKConsumers
-  weak final public var homeScreenDelegate: ShareTripSDK.HomeScreenDelegate?
-  final public var clientId: Swift.String {
-    get
-    set
-  }
+  weak final public var homeScreenDelegate: (any ShareTripSDK.HomeScreenDelegate)?
   final public var accessToken: Swift.String {
     get
     set
@@ -1974,8 +1945,8 @@ public protocol HomeScreenDelegate : AnyObject {
 }
 public struct CovidTestCenterDetailsResponse : Swift.Codable {
   public let code: Swift.String?, name: Swift.String?, description: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class RoundedCornerView : UIKit.UIView {
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cornerRadius: CoreFoundation.CGFloat {
@@ -2014,12 +1985,12 @@ public enum WebSourceType {
   }
 }
 public protocol WebViewDataSource {
-  func fetchWebData(completionHandler: @escaping (Swift.Result<Swift.String, Swift.Error>) -> Swift.Void)
+  func fetchWebData(completionHandler: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
 }
 public class StaticHtmlDataProvider : ShareTripSDK.WebViewDataSource {
   final public let fileName: Swift.String
   public init(fileName: Swift.String)
-  public func fetchWebData(completionHandler: @escaping (Swift.Result<Swift.String, Swift.Error>) -> Swift.Void)
+  public func fetchWebData(completionHandler: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class WebViewController : ShareTripSDK.ViewController {
@@ -2027,16 +1998,16 @@ public class StaticHtmlDataProvider : ShareTripSDK.WebViewDataSource {
   @_Concurrency.MainActor(unsafe) public var sourceType: ShareTripSDK.WebSourceType!
   @_Concurrency.MainActor(unsafe) public var htmlString: Swift.String?
   @_Concurrency.MainActor(unsafe) public var baseURL: Foundation.URL?
-  @_Concurrency.MainActor(unsafe) public var dataSource: ShareTripSDK.WebViewDataSource?
+  @_Concurrency.MainActor(unsafe) public var dataSource: (any ShareTripSDK.WebViewDataSource)?
   @_Concurrency.MainActor(unsafe) @objc convenience dynamic public init()
   @_Concurrency.MainActor(unsafe) convenience public init(url: Foundation.URL)
-  @_Concurrency.MainActor(unsafe) convenience public init(dataSource: ShareTripSDK.WebViewDataSource)
+  @_Concurrency.MainActor(unsafe) convenience public init(dataSource: any ShareTripSDK.WebViewDataSource)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
 }
 extension ShareTripSDK.WebViewController : WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
 }
 extension UIKit.UITextField {
@@ -2058,7 +2029,7 @@ extension UIKit.UITextField {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc required override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) convenience public init(frame: CoreFoundation.CGRect = .zero, completion: ((ShareTripSDK.RangeSeekSlider) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) weak open var delegate: ShareTripSDK.RangeSeekSliderDelegate?
+  @_Concurrency.MainActor(unsafe) weak open var delegate: (any ShareTripSDK.RangeSeekSliderDelegate)?
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var minValue: CoreFoundation.CGFloat {
     @objc get
     @objc set
@@ -2208,8 +2179,8 @@ public class Flight : Swift.Codable {
   final public let airlinesCode: Swift.String?
   final public let advanceIncomeTax: Swift.Double?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TripCoinCardCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
@@ -2239,7 +2210,7 @@ public enum FlightRouteType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case oneWay
   case multiCity
   public init(stringValue: Swift.String)
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init(intValue: Swift.Int)
   public var intValue: Swift.Int {
     get
@@ -2262,8 +2233,8 @@ public struct TravelInsuranceAddonServiceResponse : Swift.Codable {
   public let logo: Swift.String?
   public let selfRisk: Swift.Int
   public let options: [ShareTripSDK.InsuranceOption]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct CouponApplyResponse : Swift.Codable {
   public let discount: Swift.Double
@@ -2277,8 +2248,8 @@ public struct CouponApplyResponse : Swift.Codable {
   public var isPhoneVerificationRequired: Swift.Bool {
     get
   }
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DiscountOptionsCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) public var callbackClosure: (() -> Swift.Void)? {
@@ -2355,19 +2326,19 @@ public enum Status : Swift.String, Swift.Codable {
 public struct PriceRange : Swift.Codable {
   public let min: Swift.Int, max: Swift.Int
   public init(min: Swift.Int, max: Swift.Int)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Points : Swift.Codable {
   public let earning: Swift.Int, shared: Swift.Int
   public let shareLink: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Image : Swift.Codable {
   public let srcLarge: Swift.String, srcMedium: Swift.String, srcThumb: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum TransportType : Swift.CaseIterable {
   case airlines, cruise, boat, train
@@ -2396,8 +2367,11 @@ public struct DiscountOption : Swift.Codable {
   public let type: ShareTripSDK.DiscountOptionType
   public let title: Swift.String
   public let subtitle: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public static var defaultDiscountOptions: [ShareTripSDK.DiscountOption] {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum DiscountOptionType : Swift.String, Swift.Codable {
   case earnTC
@@ -2417,15 +2391,15 @@ public struct UrlOption : Swift.Codable {
   public let service_type: ShareTripSDK.ServiceType
   public let status: ShareTripSDK.PaymentConfirmationType
   public let url: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct BooleanConvertible : Swift.Codable, Swift.ExpressibleByBooleanLiteral {
   public let value: Swift.Bool
   public init(booleanLiteral value: Swift.Bool)
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public typealias BooleanLiteralType = Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension ShareTripSDK.BooleanConvertible : Swift.Equatable {
   public static func == (lhs: ShareTripSDK.BooleanConvertible, rhs: ShareTripSDK.BooleanConvertible) -> Swift.Bool
@@ -2437,8 +2411,8 @@ public class AirportInfo : Swift.Codable, Swift.Equatable {
   final public let code: Swift.String
   public static func == (lhs: ShareTripSDK.AirportInfo, rhs: ShareTripSDK.AirportInfo) -> Swift.Bool
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class Airline : Swift.Codable {
   final public let records: Swift.Double?
@@ -2446,32 +2420,32 @@ public class Airline : Swift.Codable {
   final public let full: Swift.String
   final public let short: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class AirlineInfo : Swift.Codable {
   final public let code: Swift.String
   final public let full: Swift.String
   final public let short: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class StopSegment : Swift.Codable {
   final public let iata: Swift.String
   final public let city: Swift.String
   final public let name: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
-public class PassengerInfo {
+public class PassengersBookingInformation {
   final public let flightDate: Foundation.Date
   final public let travellerType: ShareTripSDK.TravellerType
   public var code: Swift.String
   public var givenName: Swift.String
   public var surName: Swift.String
-  public var gender: ShareTripSDK.GenderType?
+  public var gender: ShareTripSDK.GenderType
   public var dob: Foundation.Date?
   public var nationality: ShareTripSDK.Country?
   public var mobile: Swift.String
@@ -2490,7 +2464,7 @@ public class PassengerInfo {
   public var titleName: ShareTripSDK.TitleType {
     get
   }
-  public init(flightDate: Foundation.Date, travellerType: ShareTripSDK.TravellerType, luggageCode: [Swift.String])
+  public init(flightDate: Foundation.Date, travellerType: ShareTripSDK.TravellerType, luggageCode: [Swift.String], dob: Foundation.Date? = nil)
   public var passengerDictionary: [Swift.String : Any] {
     get
   }
@@ -2566,6 +2540,7 @@ extension UIKit.UIPageControl : ShareTripSDK.PageIndicatorView {
 extension UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public func setupNavigationItems(withTitle title: Swift.String)
   @_Concurrency.MainActor(unsafe) public func setupNavWithoutRightBarItem(withTitle title: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func setupPowredByView(parentView: UIKit.UIView)
 }
 public enum FlightFareCellType {
   case rowData
@@ -2614,8 +2589,8 @@ public struct TowColGivenNameInputCellData {
   public let titleNameState: ShareTripSDK.ValidationState
   public let givenNameState: ShareTripSDK.ValidationState
   public let indexPath: Foundation.IndexPath?
-  public let delegate: ShareTripSDK.TowColGivenNameInputCellDelegate?
-  public init(imageString: Swift.String, titleNameTitle: Swift.String, titleNameText: Swift.String, givenNameTitle: Swift.String, givenNameText: Swift.String, pickerData: [Swift.String], titleNameState: ShareTripSDK.ValidationState = .normal, givenNameState: ShareTripSDK.ValidationState = .normal, indexPath: Foundation.IndexPath? = nil, delegate: ShareTripSDK.TowColGivenNameInputCellDelegate? = nil)
+  public let delegate: (any ShareTripSDK.TowColGivenNameInputCellDelegate)?
+  public init(imageString: Swift.String, titleNameTitle: Swift.String, titleNameText: Swift.String, givenNameTitle: Swift.String, givenNameText: Swift.String, pickerData: [Swift.String], titleNameState: ShareTripSDK.ValidationState = .normal, givenNameState: ShareTripSDK.ValidationState = .normal, indexPath: Foundation.IndexPath? = nil, delegate: (any ShareTripSDK.TowColGivenNameInputCellDelegate)? = nil)
 }
 public protocol TowColGivenNameInputCellDelegate : AnyObject {
   func titleNameChanged(for indexPath: Foundation.IndexPath?, text: Swift.String, selectedRow: Swift.Int)
@@ -2635,14 +2610,14 @@ extension ShareTripSDK.TowColGivenNameInputCell : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class FilterPriceRangeCell : UIKit.UITableViewCell {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.PriceRangeCellDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.PriceRangeCellDelegate)?
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var minPriceLabel: UIKit.UILabel!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var maxPriceLabel: UIKit.UILabel!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var rangeSeekSlider: ShareTripSDK.RangeSeekSlider!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var cellContainerView: UIKit.UIView!
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) public func setupView()
-  @_Concurrency.MainActor(unsafe) public func configure(priceRange: ShareTripSDK.FilterPriceRange, delegate: ShareTripSDK.PriceRangeCellDelegate)
+  @_Concurrency.MainActor(unsafe) public func configure(priceRange: ShareTripSDK.FilterPriceRange, delegate: any ShareTripSDK.PriceRangeCellDelegate)
   @available(iOS 3.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -2669,7 +2644,7 @@ extension ShareTripSDK.ConfigurableTableViewCellDataContainer {
   }
 }
 public protocol ConfigurableTableViewCell : UIKit.UITableViewCell {
-  func configure(viewModel: ShareTripSDK.ConfigurableTableViewCellData)
+  func configure(viewModel: any ShareTripSDK.ConfigurableTableViewCellData)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AmenityRowView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) final public let firstItemView: UIKit.UIView
@@ -2687,7 +2662,7 @@ public protocol CollapsibleHeaderViewDelegate : AnyObject {
   func toggleSection(_ section: Swift.Int)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class CollapsibleHeaderView : UIKit.UITableViewHeaderFooterView {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.CollapsibleHeaderViewDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.CollapsibleHeaderViewDelegate)?
   @_Concurrency.MainActor(unsafe) public var section: Swift.Int
   @_Concurrency.MainActor(unsafe) final public let titleLabel: UIKit.UILabel
   @_Concurrency.MainActor(unsafe) final public let arrowImageView: UIKit.UIImageView
@@ -2772,7 +2747,7 @@ public enum TravellerType : Swift.String, Swift.Codable, Swift.CaseIterable {
   public var requiredInfo: Swift.String {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init(intValue: Swift.Int)
   public static func getTravellerType(from dateOfBirth: Foundation.Date) -> ShareTripSDK.TravellerType
   public init?(rawValue: Swift.String)
@@ -2793,8 +2768,10 @@ extension UIKit.UICollectionView {
   @_Concurrency.MainActor(unsafe) public func scrollToNearestVisibleCollectionViewCell()
 }
 public struct FlightDetailsResponse : Swift.Decodable {
-  public let promotionalCoupon: [ShareTripSDK.PromotionalCoupon]
-  public init(from decoder: Swift.Decoder) throws
+  public var availableCoupons: [ShareTripSDK.PromotionalCoupon] {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DataPickerView : UIKit.UIPickerView, UIKit.UIPickerViewDataSource, UIKit.UIPickerViewDelegate {
   @_Concurrency.MainActor(unsafe) public var data: [Swift.String]? {
@@ -2815,21 +2792,21 @@ public struct FlightDetailsResponse : Swift.Decodable {
   @objc deinit
 }
 public protocol DiscountOptionViewDelegate : AnyObject {
-  func selectedOptionChanged(_ selectedOptionView: ShareTripSDK.DiscountOptionCollapsibleView)
+  func selectedOptionChanged(_ selectedOptionView: any ShareTripSDK.DiscountOptionCollapsibleView)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DiscountOptionsContainer : UIKit.UIStackView {
-  @_Concurrency.MainActor(unsafe) public var discountOptionViews: [ShareTripSDK.DiscountOptionCollapsibleView] {
+  @_Concurrency.MainActor(unsafe) public var discountOptionViews: [any ShareTripSDK.DiscountOptionCollapsibleView] {
     get
     set
   }
   @_Concurrency.MainActor(unsafe) public var mustSelectOne: Swift.Bool
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.DiscountOptionViewDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.DiscountOptionViewDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) public func clearView()
   @objc deinit
 }
 extension ShareTripSDK.DiscountOptionsContainer : ShareTripSDK.DiscountOptionCollapsibleViewDelegate {
-  @_Concurrency.MainActor(unsafe) public func onDisCountOptionSelected(discountOptionView: ShareTripSDK.DiscountOptionCollapsibleView)
+  @_Concurrency.MainActor(unsafe) public func onDisCountOptionSelected(discountOptionView: any ShareTripSDK.DiscountOptionCollapsibleView)
 }
 public struct LoginCardViewData {
   public let title: Swift.String
@@ -2864,7 +2841,7 @@ public protocol FirstNameInputCellDelegate : AnyObject {
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var titleTextField: ShareTripSDK.NoSelectTextField!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var firstNameTextField: UIKit.UITextField!
   @_Concurrency.MainActor(unsafe) public var cellIndexPath: Foundation.IndexPath!
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.FirstNameInputCellDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.FirstNameInputCellDelegate)?
   @_Concurrency.MainActor(unsafe) public var picker: ShareTripSDK.DataPickerView?
   @_Concurrency.MainActor(unsafe) public var pickerAccessory: UIKit.UIToolbar?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
@@ -2904,8 +2881,8 @@ public class DateTime : Swift.Codable {
   final public let date: Swift.String
   final public let time: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightPriceBreakdown : Swift.Codable {
   final public let discount: Swift.Double, subTotal: Swift.Double, couponAmount: Swift.Double
@@ -2914,8 +2891,8 @@ public class FlightPriceBreakdown : Swift.Codable {
   final public let currency: Swift.String
   final public let details: [ShareTripSDK.FlightPriceBreakdownDetail]
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightPriceBreakdownDetail : Swift.Codable {
   final public let type: ShareTripSDK.TravellerType
@@ -2923,13 +2900,13 @@ public class FlightPriceBreakdownDetail : Swift.Codable {
   final public let currency: Swift.String
   final public let numberPaxes: Swift.Int
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class ImageSlideshowItem : UIKit.UIScrollView, UIKit.UIScrollViewDelegate {
   @objc @_Concurrency.MainActor(unsafe) final public let imageView: UIKit.UIImageView
-  @_Concurrency.MainActor(unsafe) final public let activityIndicator: ShareTripSDK.ActivityIndicatorView?
-  @objc @_Concurrency.MainActor(unsafe) final public let image: ShareTripSDK.InputSource
+  @_Concurrency.MainActor(unsafe) final public let activityIndicator: (any ShareTripSDK.ActivityIndicatorView)?
+  @objc @_Concurrency.MainActor(unsafe) final public let image: any ShareTripSDK.InputSource
   @objc @_Concurrency.MainActor(unsafe) open var gestureRecognizer: UIKit.UITapGestureRecognizer?
   @objc @_Concurrency.MainActor(unsafe) final public let zoomEnabled: Swift.Bool
   @objc @_Concurrency.MainActor(unsafe) open var zoomInInitially: Swift.Bool
@@ -2956,8 +2933,8 @@ public class STCity : Swift.Codable {
     get
   }
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TripCoinViewCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
@@ -3004,23 +2981,20 @@ extension ShareTripSDK.FlightSearchVC : ShareTripSDK.StoryboardBased {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MyBLHomeVC : ShareTripSDK.ViewController {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class STSDKHomeVC : ShareTripSDK.ViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-extension ShareTripSDK.MyBLHomeVC : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+extension ShareTripSDK.STSDKHomeVC : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
-extension ShareTripSDK.MyBLHomeVC : ShareTripSDK.StoryboardBased {
+extension ShareTripSDK.STSDKHomeVC : ShareTripSDK.StoryboardBased {
   @_Concurrency.MainActor(unsafe) public static var storyboardName: Swift.String {
     get
   }
@@ -3050,19 +3024,19 @@ public struct EmptyBookingMessage {
 public struct FlightPriceIndicatorResponse : Swift.Codable {
   public let max: ShareTripSDK.MinMaxFlightPriceIndicator?, min: ShareTripSDK.MinMaxFlightPriceIndicator?
   public let fare: [ShareTripSDK.DateFlightPriceIndicator]
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct DateFlightPriceIndicator : Swift.Codable {
   public let date: Swift.String
   public let direct: Swift.Double, nonDirect: Swift.Double
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct MinMaxFlightPriceIndicator : Swift.Codable {
   public let direct: Swift.Double, nonDirect: Swift.Double
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum AccountCellInfo {
   case login
@@ -3102,7 +3076,7 @@ public enum AccountCellInfo {
   @_Concurrency.MainActor(unsafe) open var closeButtonFrame: CoreFoundation.CGRect?
   @objc @_Concurrency.MainActor(unsafe) open var pageSelected: ((_ page: Swift.Int) -> Swift.Void)?
   @objc @_Concurrency.MainActor(unsafe) open var initialPage: Swift.Int
-  @objc @_Concurrency.MainActor(unsafe) open var inputs: [ShareTripSDK.InputSource]?
+  @objc @_Concurrency.MainActor(unsafe) open var inputs: [any ShareTripSDK.InputSource]?
   @objc @_Concurrency.MainActor(unsafe) open var backgroundColor: UIKit.UIColor
   @objc @_Concurrency.MainActor(unsafe) open var zoomEnabled: Swift.Bool {
     @objc get
@@ -3150,7 +3124,7 @@ public class STUserAccount : Swift.Codable {
   public var profileLevel: ShareTripSDK.STUserAccount.UserStatus?
   public var otherPassengers: [ShareTripSDK.STPassenger]?
   final public let coinSettings: ShareTripSDK.CoinSettings?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   public func update(with baseUser: ShareTripSDK.STUserProfile)
   public func getPassenger() -> ShareTripSDK.STPassenger
   public func getAgeCount() -> Swift.Int?
@@ -3170,7 +3144,7 @@ public class STUserAccount : Swift.Codable {
     }
   }
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension Swift.String {
   public var localizedString: Swift.String {
@@ -3215,14 +3189,18 @@ extension Swift.String {
   public func isValidAlpha() -> Swift.Bool
   public func strikeThrough() -> Foundation.NSAttributedString
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class FlightBookingHistoryListVC : UIKit.UITableViewController {
+extension ShareTripSDK.FlightBookingHistoryListVC : ShareTripSDK.StoryboardBased {
+  @_Concurrency.MainActor(unsafe) public static var storyboardName: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class FlightBookingHistoryListVC : UIKit.UIViewController, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableView.Style)
+  @_Concurrency.MainActor(unsafe) @objc public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -3232,8 +3210,8 @@ public struct InsuranceInfo : Swift.Codable {
   public let optionsCode: Swift.String?
   public let selfRisk: Swift.Bool?
   public init(code: Swift.String? = "", optionsCode: Swift.String? = "", selfRisk: Swift.Bool = false)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SingleCellTripCoinView : UIKit.UIView, ShareTripSDK.NibBased {
   @_Concurrency.MainActor(unsafe) public func configure(earnedTripCoin: Swift.Int, redeemedTripCoin: Swift.Int)
@@ -3272,8 +3250,8 @@ public protocol PassportVisaCellDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public var count: Swift.Int
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func configure(passportUrl: Swift.String, visaUrl: Swift.String, cellIndexPath: Foundation.IndexPath, delegate: ShareTripSDK.PassportVisaCellDelegate)
-  @_Concurrency.MainActor(unsafe) public func configCell(cellIndexPath: Foundation.IndexPath, delegate: ShareTripSDK.PassportVisaCellDelegate)
+  @_Concurrency.MainActor(unsafe) public func configure(passportUrl: Swift.String, visaUrl: Swift.String, cellIndexPath: Foundation.IndexPath, delegate: any ShareTripSDK.PassportVisaCellDelegate)
+  @_Concurrency.MainActor(unsafe) public func configCell(cellIndexPath: Foundation.IndexPath, delegate: any ShareTripSDK.PassportVisaCellDelegate)
   @available(iOS 3.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -3497,7 +3475,7 @@ public class TravellerClassViewModel {
   public var sections: [[ShareTripSDK.TravellerClassViewModel.Rows]] {
     get
   }
-  public var childrenAges: [Swift.Int : Foundation.Date?] {
+  public var childrenWithAges: [Swift.Int : Foundation.Date?] {
     get
   }
   public var flightClass: ShareTripSDK.FlightClass {
@@ -3516,7 +3494,7 @@ public class TravellerClassViewModel {
   public func getMaxNumber(for traveller: ShareTripSDK.TravellerType) -> Swift.Int
   public func getMinNumber(for traveller: ShareTripSDK.TravellerType) -> Swift.Int
   public func setChildAge(at index: Swift.Int, _ ageYear: Foundation.Date?)
-  public func getDateSelectionCellViewModel(for indexPath: Foundation.IndexPath) -> ShareTripSDK.ConfigurableTableViewCellData
+  public func getDateSelectionCellViewModel(for indexPath: Foundation.IndexPath) -> any ShareTripSDK.ConfigurableTableViewCellData
   public func setFlightClass(_ selectedClass: ShareTripSDK.FlightClass)
   public func travellerCount(for travellerType: ShareTripSDK.TravellerType) -> Swift.Int
   public func getTravelerNumber(for traveler: ShareTripSDK.TravellerType) -> Swift.Int
@@ -3540,7 +3518,7 @@ extension ShareTripSDK.GenderSelectionCell : ShareTripSDK.ConfigurableTableViewC
   public typealias AccecptableViewModelType = ShareTripSDK.GenderSelectionCellData
 }
 extension ShareTripSDK.GenderSelectionCell : ShareTripSDK.ConfigurableTableViewCell {
-  @_Concurrency.MainActor(unsafe) public func configure(viewModel: ShareTripSDK.ConfigurableTableViewCellData)
+  @_Concurrency.MainActor(unsafe) public func configure(viewModel: any ShareTripSDK.ConfigurableTableViewCellData)
 }
 public struct LoadingData {
   public let title: Swift.String
@@ -3557,7 +3535,7 @@ public struct LoadingData {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class EarnTripcoinView : UIKit.UIStackView, ShareTripSDK.NibBased {
   @_Concurrency.MainActor(unsafe) public var discountAmount: Swift.Double
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.DiscountOptionCollapsibleViewDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.DiscountOptionCollapsibleViewDelegate)?
   @_Concurrency.MainActor(unsafe) public var discountOptionTitle: Swift.String {
     get
     set
@@ -3589,12 +3567,12 @@ extension ShareTripSDK.EarnTripcoinView : ShareTripSDK.DiscountOptionCollapsible
   @objc deinit
 }
 public protocol APIClient {
-  func performRequest<T>(route: ShareTripSDK.APIEndpoint, decoder: Foundation.JSONDecoder, completion: @escaping (Alamofire.AFResult<T>) -> Swift.Void) -> Alamofire.DataRequest where T : Swift.Decodable
+  func performRequest<T>(route: any ShareTripSDK.APIEndpoint, decoder: Foundation.JSONDecoder, completion: @escaping (Alamofire.AFResult<T>) -> Swift.Void) -> Alamofire.DataRequest where T : Swift.Decodable
   func uploadRequest<T>(route: ShareTripSDK.APIRouter, decoder: Foundation.JSONDecoder, completion: @escaping (Alamofire.AFResult<T>) -> Swift.Void) -> Alamofire.UploadRequest where T : Swift.Decodable
 }
 extension ShareTripSDK.APIClient {
   @discardableResult
-  public func performRequest<T>(route: ShareTripSDK.APIEndpoint, decoder: Foundation.JSONDecoder = JSONDecoder(), completion: @escaping (Alamofire.AFResult<T>) -> Swift.Void) -> Alamofire.DataRequest where T : Swift.Decodable
+  public func performRequest<T>(route: any ShareTripSDK.APIEndpoint, decoder: Foundation.JSONDecoder = JSONDecoder(), completion: @escaping (Alamofire.AFResult<T>) -> Swift.Void) -> Alamofire.DataRequest where T : Swift.Decodable
   @discardableResult
   public func uploadRequest<T>(route: ShareTripSDK.APIRouter, decoder: Foundation.JSONDecoder = JSONDecoder(), completion: @escaping (Alamofire.AFResult<T>) -> Swift.Void) -> Alamofire.UploadRequest where T : Swift.Decodable
 }
@@ -3602,8 +3580,8 @@ public class Country : Swift.Codable {
   final public let code: Swift.String
   final public let name: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public typealias ErrorModel = ShareTripSDK.NetworkError<ShareTripSDK.CustomErrorModel>
 public protocol TNCService {
@@ -3635,10 +3613,10 @@ public protocol InputTextCellDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class InputTextCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) final public let inputTextField: UIKit.UITextField
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.InputTextCellDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.InputTextCellDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
-  @_Concurrency.MainActor(unsafe) public func configure(text: Swift.String?, placeholder: Swift.String, indexPath: Foundation.IndexPath, delegate: ShareTripSDK.InputTextCellDelegate)
+  @_Concurrency.MainActor(unsafe) public func configure(text: Swift.String?, placeholder: Swift.String, indexPath: Foundation.IndexPath, delegate: any ShareTripSDK.InputTextCellDelegate)
   @objc deinit
 }
 extension ShareTripSDK.InputTextCell : UIKit.UITextFieldDelegate {
@@ -3669,7 +3647,7 @@ public enum TitleType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case ms
   case master
   case miss
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
   public typealias AllCases = [ShareTripSDK.TitleType]
   public typealias RawValue = Swift.String
@@ -3703,7 +3681,7 @@ public class FlightInfoProvider : ShareTripSDK.WebViewDataSource {
   public func getSequenceCode() -> Swift.String
   public func getDetailInfoType() -> ShareTripSDK.FlightDetailInfoType
   public func setDetailInfoType(_ infoType: ShareTripSDK.FlightDetailInfoType)
-  public func fetchWebData(completionHandler: @escaping (Swift.Result<Swift.String, Swift.Error>) -> Swift.Void)
+  public func fetchWebData(completionHandler: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   public func getHtmlString() -> Swift.String
   @objc deinit
 }
@@ -3766,16 +3744,10 @@ public class FlightFilterViewModel {
 }
 extension ShareTripSDK.PaymentGatewaysViewModel {
   @_hasMissingDesignatedInitializers public class Callback {
-    public var didFetchPaymentGateways: ([ShareTripSDK.PaymentGateway]) -> Swift.Void
-    public var onPaymentGatewayFetchingFailed: (Swift.String) -> Swift.Void
     @objc deinit
   }
 }
-public class PaymentGatewaysViewModel {
-  final public let callBack: ShareTripSDK.PaymentGatewaysViewModel.Callback
-  public init(_ serviceType: ShareTripSDK.PaymentGatewayType, _ currency: Swift.String)
-  public func filterPaymentGateways(filter: @escaping (ShareTripSDK.PaymentGateway) -> Swift.Bool)
-  public func fetchPaymentGateways()
+@_hasMissingDesignatedInitializers public class PaymentGatewaysViewModel {
   @objc deinit
 }
 @objc public class KingfisherSource : ObjectiveC.NSObject, ShareTripSDK.InputSource {
@@ -3803,13 +3775,13 @@ public struct GPStarPhoneCheckResponse : Swift.Codable {
   public let success: Swift.Bool?
   public let otpExpirationInMin: Swift.Double?
   public init(loyaltyStatus: Swift.String?, success: Swift.Bool?, otpExpirationInMin: Swift.Double?)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GPStarOTPCheckResponse : Swift.Codable {
   public let success: Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class GradientView : UIKit.UIView {
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var startColor: UIKit.UIColor {
@@ -3862,7 +3834,7 @@ extension ShareTripSDK.ErrorProtocol {
   }
 }
 public struct CustomErrorModel : ShareTripSDK.ErrorProtocol {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum ReachabilityError : Swift.Error {
   case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
@@ -3986,7 +3958,7 @@ public struct FlightFilterData : Swift.Encodable {
   public var sort: Swift.String?
   public init()
   public init(airlines: [Swift.String]?)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public func hasAtleastOneFilter() -> Swift.Bool
   public mutating func reset()
 }
@@ -3994,7 +3966,7 @@ public protocol PriceRangeCellDelegate : AnyObject {
   func rangeSeekSliderDidChange(minValue: CoreFoundation.CGFloat, maxValue: CoreFoundation.CGFloat)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PriceRangeCell : UIKit.UITableViewCell {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.PriceRangeCellDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.PriceRangeCellDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func setupView()
@@ -4016,36 +3988,36 @@ public enum LoginType : Swift.Codable {
   case facebook
   public static func == (a: ShareTripSDK.LoginType, b: ShareTripSDK.LoginType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AuthToken : Swift.Codable {
   public let accessToken: Swift.String
   public let loginType: ShareTripSDK.LoginType
   public init(accessToken: Swift.String, loginType: ShareTripSDK.LoginType)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct TNC : Swift.Codable {
   public let common: ShareTripSDK.TOSBodyData, loyalty: ShareTripSDK.TOSBodyData, spin: ShareTripSDK.TOSBodyData
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct FAQ : Swift.Codable {
   public let commonOverview: ShareTripSDK.TOSBodyData, flight: ShareTripSDK.TOSBodyData, holiday: ShareTripSDK.TOSBodyData, hotel: ShareTripSDK.TOSBodyData
   public let tour: ShareTripSDK.TOSBodyData, transfer: ShareTripSDK.TOSBodyData, tripCoin: ShareTripSDK.TOSBodyData
   public init(commonOverview: ShareTripSDK.TOSBodyData, flight: ShareTripSDK.TOSBodyData, holiday: ShareTripSDK.TOSBodyData, hotel: ShareTripSDK.TOSBodyData, tour: ShareTripSDK.TOSBodyData, transfer: ShareTripSDK.TOSBodyData, tripCoin: ShareTripSDK.TOSBodyData)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct TOSBodyData : Swift.Codable {
   public let body: Swift.String, flag: Swift.String, title: Swift.String
   public init(body: Swift.String, flag: Swift.String, title: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension ShareTripSDK.PaymentWebVC {
   public struct TripCoinInfo {
@@ -4061,7 +4033,7 @@ extension ShareTripSDK.PaymentWebVC {
 extension ShareTripSDK.PaymentWebVC : WebKit.WKNavigationDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_: WebKit.WKWebView, didStartProvisionalNavigation _: WebKit.WKNavigation!)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_: WebKit.WKWebView, didFinish _: WebKit.WKNavigation!)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SingleLineInfoCardCell : UIKit.UITableViewCell {
@@ -4128,8 +4100,8 @@ public class TreasureBoxCoin : Swift.Codable {
   final public let status: Swift.String
   public func totalWaitTime() -> Swift.Double
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class CoinSettings : Swift.Codable {
   final public let registrationEarnCoin: Swift.Int
@@ -4137,9 +4109,9 @@ public class CoinSettings : Swift.Codable {
   final public let treasureBoxCoin: Swift.Int
   final public let minCostPlayWheel: Swift.Int
   final public let maxTripCoinValue: Swift.Int
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class CustomFloatingLayout : FloatingPanel.FloatingPanelLayout {
   public init()
@@ -4149,7 +4121,7 @@ public class CustomFloatingLayout : FloatingPanel.FloatingPanelLayout {
   @objc public var initialState: FloatingPanel.FloatingPanelState {
     @objc get
   }
-  @objc public var anchors: [FloatingPanel.FloatingPanelState : FloatingPanel.FloatingPanelLayoutAnchoring] {
+  @objc public var anchors: [FloatingPanel.FloatingPanelState : any FloatingPanel.FloatingPanelLayoutAnchoring] {
     @objc get
   }
   @objc deinit
@@ -4161,8 +4133,8 @@ public protocol RedeemTripcoinViewDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public var discountAmount: Swift.Double {
     get
   }
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.DiscountOptionCollapsibleViewDelegate?
-  @_Concurrency.MainActor(unsafe) weak public var redeemDelegate: ShareTripSDK.RedeemTripcoinViewDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.DiscountOptionCollapsibleViewDelegate)?
+  @_Concurrency.MainActor(unsafe) weak public var redeemDelegate: (any ShareTripSDK.RedeemTripcoinViewDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) public func configure(minValue: Swift.Double, maxValue: Swift.Double, selectedValue: Swift.Double? = nil, title: Swift.String, subtitle: Swift.String)
   @_Concurrency.MainActor(unsafe) public func updateSliderValues(minValue: Swift.Double, maxValue: Swift.Double, selectedValue: Swift.Double? = nil)
@@ -4277,13 +4249,13 @@ public struct STUser : Swift.Codable {
   public let avatar: Swift.String?
   public let gender: Swift.Int?
   public let dob: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AccountDeletionReason : Swift.Codable {
   public let id: Swift.String, text: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class FlightBookingCell : UIKit.UITableViewCell {
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var containerView: UIKit.UIView!
@@ -4296,9 +4268,6 @@ public struct AccountDeletionReason : Swift.Codable {
   @available(iOS 3.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class STFlightKit {
   @objc deinit
 }
 public enum IndicatorType {
@@ -4317,8 +4286,8 @@ public class Point : Swift.Codable {
   final public let shareLink: Swift.String
   final public let earning: Swift.Int
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum ServiceType : Swift.String, Swift.Codable {
   case hotel
@@ -4354,7 +4323,7 @@ public enum ServiceType : Swift.String, Swift.Codable {
 }
 @_hasMissingDesignatedInitializers public class FlightPassengerInfoValidator {
   public static func isOptional(rowType: ShareTripSDK.UserInfoRowType, isPrimaryPassenger: Swift.Bool, isDomesticFlight: Swift.Bool, isAttachmentAvailable: Swift.Bool) -> Swift.Bool
-  public static func isValid(passengerInfo: ShareTripSDK.PassengerInfo, isPrimaryPassenger: Swift.Bool, isDomesticFlight: Swift.Bool, isAttachmentAvailable: Swift.Bool) -> Swift.Bool
+  public static func isValid(passengerInfo: ShareTripSDK.PassengersBookingInformation, isPrimaryPassenger: Swift.Bool, isDomesticFlight: Swift.Bool, isAttachmentAvailable: Swift.Bool) -> Swift.Bool
   @objc deinit
 }
 public struct GenderSelectionCellData : ShareTripSDK.ConfigurableTableViewCellData {
@@ -4384,7 +4353,7 @@ extension ShareTripSDK.SDDateSelectionCell : ShareTripSDK.ConfigurableTableViewC
   public typealias AccecptableViewModelType = ShareTripSDK.SDDateSelectionCellViewModel
 }
 extension ShareTripSDK.SDDateSelectionCell : ShareTripSDK.ConfigurableTableViewCell {
-  @_Concurrency.MainActor(unsafe) public func configure(viewModel: ShareTripSDK.ConfigurableTableViewCellData)
+  @_Concurrency.MainActor(unsafe) public func configure(viewModel: any ShareTripSDK.ConfigurableTableViewCellData)
 }
 extension ShareTripSDK.SDDateSelectionCell : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
@@ -4418,24 +4387,24 @@ public struct Period : Swift.Codable {
       get
     }
   }
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct PeriodHotel : Swift.Codable {
   public let cityName: Swift.String
   public let id: Swift.Int
   public let hotelName: Swift.String, hotelId: Swift.String
   public init(cityName: Swift.String, id: Swift.Int, hotelName: Swift.String, hotelId: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public class STLocation : Swift.Codable {
   final public let lat: Swift.Double
   final public let lon: Swift.Double
   public init(lat: Swift.Double, lon: Swift.Double)
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class FilterCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
@@ -4482,9 +4451,9 @@ public class STUserProfile : Swift.Codable {
   final public let passportCopy: Swift.String
   final public let visaCopy: Swift.String
   final public let frequentFlyerNumber: Swift.String
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct JTCalendarDateViewData {
   public init(title: Swift.String, imageStr: Swift.String = "calander-mono", selectedDate: Foundation.Date? = nil)
@@ -4502,21 +4471,21 @@ public struct JTCalendarDateViewData {
 public protocol STAnalyticsType {
 }
 public protocol STAnalyticsEvent {
-  typealias Payload = [Swift.String : ShareTripSDK.STAnalyticsType]
+  typealias Payload = [Swift.String : any ShareTripSDK.STAnalyticsType]
   var name: Swift.String { get }
   var payload: Self.Payload? { get }
 }
 public protocol STAnalyticsEngine {
-  func log(_ event: ShareTripSDK.STAnalyticsEvent)
+  func log(_ event: any ShareTripSDK.STAnalyticsEvent)
 }
 public class FirebaseAnalyticsEngine : ShareTripSDK.STAnalyticsEngine {
   public init()
-  public func log(_ event: ShareTripSDK.STAnalyticsEvent)
+  public func log(_ event: any ShareTripSDK.STAnalyticsEvent)
   @objc deinit
 }
 open class AnalyticsManager {
-  public init(_ engines: [ShareTripSDK.STAnalyticsEngine])
-  public func log(_ event: ShareTripSDK.STAnalyticsEvent)
+  public init(_ engines: [any ShareTripSDK.STAnalyticsEngine])
+  public func log(_ event: any ShareTripSDK.STAnalyticsEvent)
   @objc deinit
 }
 extension Swift.String : ShareTripSDK.STAnalyticsType {
@@ -4558,7 +4527,7 @@ public struct FlightDetailsRequest : Swift.Encodable {
   public var params: [Swift.String : Any] {
     get
   }
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum Environment {
   case live
@@ -4596,7 +4565,7 @@ extension ShareTripSDK.InputTextSelectionCell : ShareTripSDK.ConfigurableTableVi
   public typealias AccecptableViewModelType = ShareTripSDK.InputTextSelectionCellData
 }
 extension ShareTripSDK.InputTextSelectionCell : ShareTripSDK.ConfigurableTableViewCell {
-  @_Concurrency.MainActor(unsafe) public func configure(viewModel: ShareTripSDK.ConfigurableTableViewCellData)
+  @_Concurrency.MainActor(unsafe) public func configure(viewModel: any ShareTripSDK.ConfigurableTableViewCellData)
 }
 extension ShareTripSDK.InputTextSelectionCell : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
@@ -4614,10 +4583,10 @@ public class Airport : Swift.Codable, Swift.Equatable {
   final public let iata: Swift.String
   final public let name: Swift.String
   final public let city: Swift.String?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   public static func == (lhs: ShareTripSDK.Airport, rhs: ShareTripSDK.Airport) -> Swift.Bool
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct FlightRevalidationRequest : Swift.Codable {
   public var searchId: Swift.String
@@ -4627,28 +4596,30 @@ public struct FlightRevalidationRequest : Swift.Codable {
     get
   }
   public init(searchId: Swift.String, sequenceCode: Swift.String, sessionId: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct FlightRevalidationResponse : Swift.Codable {
   public let points: ShareTripSDK.Points
   public let priceBreakdown: ShareTripSDK.FlightPriceBreakdown
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct GPStarRequest : Swift.Encodable {
   public let mobileNumber: Swift.String
   public let otp: Swift.String?
   public init(mobileNumber: Swift.String, otp: Swift.String?)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct HistoryConvenienceFee {
   public let convenienceFee: Swift.Double
   public init(convenienceFee: Swift.Double)
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BookingHistoryPriceTableVC : ShareTripSDK.ViewController {
-  @_Concurrency.MainActor(unsafe) public init(viewModel: ShareTripSDK.PriceTableViewModel)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class BookingHistoryPriceTableVC : ShareTripSDK.ViewController, ShareTripSDK.StoryboardBased {
+  @_Concurrency.MainActor(unsafe) public var viewModel: ShareTripSDK.PriceTableViewModel!
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension ShareTripSDK.BookingHistoryPriceTableVC : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
@@ -4661,9 +4632,14 @@ extension ShareTripSDK.BookingHistoryPriceTableVC : UIKit.UITableViewDelegate, U
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
 }
+extension ShareTripSDK.BookingHistoryPriceTableVC {
+  @_Concurrency.MainActor(unsafe) public static var storyboardName: Swift.String {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class LeftRightInfoCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) final public let leftLabel: UIKit.UILabel
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.SliderCellDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.SliderCellDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func configure(leftValue: Swift.String, rightValue: Swift.String)
@@ -4692,38 +4668,6 @@ public enum paymentGatewayCurrency : Swift.String, Swift.Codable {
     get
   }
 }
-public protocol PaymentGatewaysViewDelegate : AnyObject {
-  func onPaymentGatewayFetchingFailed(with error: Swift.String)
-  func onSelectGateway(paymentGateway: ShareTripSDK.PaymentGateway?, selectedGatewaySeries: ShareTripSDK.GatewaySeries?)
-  func onFilterPaymentGateway(allPaymentGateways: [ShareTripSDK.PaymentGateway], dafultPaymentGateway: ShareTripSDK.PaymentGateway?)
-}
-extension ShareTripSDK.PaymentGatewaysViewDelegate {
-  public func onFilterPaymentGateway(dafultDiscountTypePaymentGateway: ShareTripSDK.PaymentGateway)
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PaymentGatewaysView : UIKit.UIView, ShareTripSDK.NibBased {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.PaymentGatewaysViewDelegate?
-  @_Concurrency.MainActor(unsafe) public var paymentGatewayLoading: ShareTripSDK.Observable<Swift.Bool> {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) public func configure(_ serviceType: ShareTripSDK.PaymentGatewayType, _ currency: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
-  @_Concurrency.MainActor(unsafe) public func filterPaymentGateways(filter: @escaping (ShareTripSDK.PaymentGateway) -> Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
-extension ShareTripSDK.PaymentGatewaysView : UIKit.UICollectionViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
-}
-extension ShareTripSDK.PaymentGatewaysView : UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDelegateFlowLayout {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
-}
-extension ShareTripSDK.PaymentGatewaysView {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
-}
 public struct CovidTestInfo : Swift.Codable {
   public let code: Swift.String
   public let optionsCode: Swift.String
@@ -4731,8 +4675,8 @@ public struct CovidTestInfo : Swift.Codable {
   public var selfTest: Swift.Bool
   public init()
   public init(code: Swift.String, optionsCode: Swift.String, address: Swift.String, selfTest: Swift.Bool)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct PriceInfoFareCellData {
   public let title: Swift.String?
@@ -4760,15 +4704,15 @@ public protocol SliderFilterCellDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
-  @_Concurrency.MainActor(unsafe) public func configure(currentValue: Swift.Float?, indexPath: Foundation.IndexPath, delegate: ShareTripSDK.SliderFilterCellDelegate)
+  @_Concurrency.MainActor(unsafe) public func configure(currentValue: Swift.Float?, indexPath: Foundation.IndexPath, delegate: any ShareTripSDK.SliderFilterCellDelegate)
   @objc deinit
 }
 public class FlightPriceRange : Swift.Codable {
   final public let max: Swift.Int, min: Swift.Int
   public init(min: Swift.Int, max: Swift.Int)
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum DateSelectionMode {
   case single, range
@@ -4839,45 +4783,45 @@ public class BaseResponse : Swift.Codable {
   final public let code: ShareTripSDK.APIResponseCode
   final public let message: Swift.String
   final public let errors: [Swift.String]?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_inheritsConvenienceInitializers public class Response<T> : ShareTripSDK.BaseResponse where T : Swift.Decodable {
   final public let response: T?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class ResponseList<T> : ShareTripSDK.BaseResponse where T : Swift.Decodable, T : Swift.Encodable {
   final public let response: [T]?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 public class PackageBookingResponse : Swift.Codable {
   final public let url: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers public class FlightBookingResponse : ShareTripSDK.BaseResponse {
   public var response: Swift.String?
   public var newResponse: ShareTripSDK.BookingUrlResponse?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 public struct BookingUrlResponse : Swift.Decodable {
   public let paymentUrl: Swift.String?, successUrl: Swift.String?, cancelUrl: Swift.String?, declineUrl: Swift.String?
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public class UploadFileResponse : Swift.Codable {
   final public let path: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers public class ShareResponse : ShareTripSDK.BaseResponse {
   final public let response: Swift.String
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   public var earnedCoin: Swift.Int {
     get
   }
@@ -5068,7 +5012,7 @@ public protocol InfoSelectionCellDelegate : AnyObject {
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var typeImageView: UIKit.UIImageView!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var titleLabel: UIKit.UILabel!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var infoTextField: ShareTripSDK.NoSelectTextField!
-  @_Concurrency.MainActor(unsafe) weak public var delegate: ShareTripSDK.InfoSelectionCellDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any ShareTripSDK.InfoSelectionCellDelegate)?
   @_Concurrency.MainActor(unsafe) public var selectedPickerIndex: Swift.Int {
     get
     set
@@ -5241,7 +5185,7 @@ public enum DiscountType : Swift.String, Swift.Codable {
   case flat
   case percentage
   case unknown
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -5254,10 +5198,10 @@ public enum DiscountType : Swift.String, Swift.Codable {
   @objc @_Concurrency.MainActor(unsafe) open var slideToDismissEnabled: Swift.Bool
   @objc @_Concurrency.MainActor(unsafe) public init(slideshowView: ShareTripSDK.ImageSlideshow, slideshowController: ShareTripSDK.FullScreenSlideshowViewController)
   @objc @_Concurrency.MainActor(unsafe) public init(imageView: UIKit.UIImageView, slideshowController: ShareTripSDK.FullScreenSlideshowViewController)
-  @_Concurrency.MainActor(unsafe) @objc open func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> UIKit.UIViewControllerAnimatedTransitioning?
-  @_Concurrency.MainActor(unsafe) @objc open func animationController(forDismissed dismissed: UIKit.UIViewController) -> UIKit.UIViewControllerAnimatedTransitioning?
-  @_Concurrency.MainActor(unsafe) @objc open func interactionControllerForPresentation(using animator: UIKit.UIViewControllerAnimatedTransitioning) -> UIKit.UIViewControllerInteractiveTransitioning?
-  @_Concurrency.MainActor(unsafe) @objc open func interactionControllerForDismissal(using animator: UIKit.UIViewControllerAnimatedTransitioning) -> UIKit.UIViewControllerInteractiveTransitioning?
+  @_Concurrency.MainActor(unsafe) @objc open func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  @_Concurrency.MainActor(unsafe) @objc open func animationController(forDismissed dismissed: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  @_Concurrency.MainActor(unsafe) @objc open func interactionControllerForPresentation(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  @_Concurrency.MainActor(unsafe) @objc open func interactionControllerForDismissal(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
   @objc deinit
 }
 extension ShareTripSDK.ZoomAnimatedTransitioningDelegate : UIKit.UIGestureRecognizerDelegate {
@@ -5299,9 +5243,9 @@ public protocol JTCalendarViewModelProvider {
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
   @_Concurrency.MainActor(unsafe) open func loadNibs()
-  @_Concurrency.MainActor(unsafe) public func configure(calendarTitle: Swift.String? = nil, minAllowableDate: Foundation.Date? = nil, maxAllowableDate: Foundation.Date? = nil, firstDateViewData: ShareTripSDK.JTCalendarDateViewData? = nil, secondDateViewData: ShareTripSDK.JTCalendarDateViewData? = nil, allowSingleDate: Swift.Bool = false, delegate: ShareTripSDK.JTCalendarVCDelegate? = nil, indexPath: Foundation.IndexPath? = nil)
-  @_Concurrency.MainActor(unsafe) public func configure(calendarTitle: Swift.String? = nil, minAllowableDate: Foundation.Date? = nil, maxAllowableDate: Foundation.Date? = nil, validDays: [JTAppleCalendar.DaysOfWeek]? = nil, departs: ShareTripSDK.Period.Departs? = nil, dateViewData: ShareTripSDK.JTCalendarDateViewData? = nil, delegate: ShareTripSDK.JTCalendarVCDelegate? = nil, indexPath: Foundation.IndexPath? = nil)
-  @_Concurrency.MainActor(unsafe) public var viewModel: ShareTripSDK.JTCalendarViewModelProvider!
+  @_Concurrency.MainActor(unsafe) public func configure(calendarTitle: Swift.String? = nil, minAllowableDate: Foundation.Date? = nil, maxAllowableDate: Foundation.Date? = nil, firstDateViewData: ShareTripSDK.JTCalendarDateViewData? = nil, secondDateViewData: ShareTripSDK.JTCalendarDateViewData? = nil, allowSingleDate: Swift.Bool = false, delegate: (any ShareTripSDK.JTCalendarVCDelegate)? = nil, indexPath: Foundation.IndexPath? = nil)
+  @_Concurrency.MainActor(unsafe) public func configure(calendarTitle: Swift.String? = nil, minAllowableDate: Foundation.Date? = nil, maxAllowableDate: Foundation.Date? = nil, validDays: [JTAppleCalendar.DaysOfWeek]? = nil, departs: ShareTripSDK.Period.Departs? = nil, dateViewData: ShareTripSDK.JTCalendarDateViewData? = nil, delegate: (any ShareTripSDK.JTCalendarVCDelegate)? = nil, indexPath: Foundation.IndexPath? = nil)
+  @_Concurrency.MainActor(unsafe) public var viewModel: (any ShareTripSDK.JTCalendarViewModelProvider)!
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) open func setupUI()
   @_Concurrency.MainActor(unsafe) open func configureCell(_ cell: JTAppleCalendar.JTACDayCell?, cellState: JTAppleCalendar.CellState, date: Foundation.Date)
@@ -5341,7 +5285,7 @@ public enum FlightClass : Swift.String, Swift.Codable, Swift.CaseIterable {
   case economy
   case business
   case firstClass
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init(intValue: Swift.Int)
   public var intValue: Swift.Int {
     get
@@ -5428,7 +5372,7 @@ public protocol SwitchCellDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SwitchCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func configure(title: Swift.String, checked: Swift.Bool, indexPath: Foundation.IndexPath, delegate: ShareTripSDK.SwitchCellDelegate)
+  @_Concurrency.MainActor(unsafe) public func configure(title: Swift.String, checked: Swift.Bool, indexPath: Foundation.IndexPath, delegate: any ShareTripSDK.SwitchCellDelegate)
   @available(iOS 3.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -5450,13 +5394,13 @@ public protocol DiscountOptionCollapsibleView : UIKit.UIView {
   var title: Swift.String { get }
   var discountAmount: Swift.Double { get }
   var discountOptionType: ShareTripSDK.DiscountOptionType { get }
-  var delegate: ShareTripSDK.DiscountOptionCollapsibleViewDelegate? { get set }
+  var delegate: (any ShareTripSDK.DiscountOptionCollapsibleViewDelegate)? { get set }
   var expanded: Swift.Bool { get }
   func expand()
   func collapse()
 }
 public protocol DiscountOptionCollapsibleViewDelegate : AnyObject {
-  func onDisCountOptionSelected(discountOptionView: ShareTripSDK.DiscountOptionCollapsibleView)
+  func onDisCountOptionSelected(discountOptionView: any ShareTripSDK.DiscountOptionCollapsibleView)
 }
 public struct SingleLineSelectCellData {
   public let title: Swift.String
@@ -5485,7 +5429,7 @@ public enum FlightBookingStatus : Swift.String, Swift.Codable {
   case declined
   case canceled
   case completed
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -5495,7 +5439,7 @@ public enum FlightBookingStatus : Swift.String, Swift.Codable {
 public enum PaymentStatus : Swift.String, Swift.Codable {
   case unpaid
   case paid
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -5505,8 +5449,8 @@ public enum PaymentStatus : Swift.String, Swift.Codable {
 public struct FlightBookingHistoryResponse : Swift.Codable {
   public let data: [ShareTripSDK.FlightBookingHistory]?
   public let offset: Swift.Int, count: Swift.Int, limit: Swift.Int
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightBookingHistory : Swift.Codable {
   final public let actualAmount: Swift.Double?
@@ -5541,59 +5485,59 @@ public class FlightBookingHistory : Swift.Codable {
   final public let isReissueable: Swift.Bool?
   final public let modifyHistory: [ShareTripSDK.ModifyHistory]?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public struct ModifyHistory : Swift.Codable {
   public let modificationType: Swift.String?, refundSearchID: Swift.String?, bookingCode: Swift.String?, automationType: Swift.String?
   public let eTickets: Swift.String?
   public let airlineRefundCharge: Swift.Int?, stFee: Swift.Int?, totalFee: Swift.Int?, purchasePrice: Swift.Int?
   public let totalRefundAmount: Swift.Int?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Baggage : Swift.Codable {
   public let basic: [ShareTripSDK.AirportDetail]?
   public let extra: [ShareTripSDK.ExtraBaggageDetail]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AirportDetail : Swift.Codable {
   public let origin: ShareTripSDK.AirportDetailInfo?
   public let destination: ShareTripSDK.AirportDetailInfo?
   public let baggage: [ShareTripSDK.BaggageDetail]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AirportDetailInfo : Swift.Codable {
   public let code: Swift.String?
   public let country: Swift.String?
   public let city: Swift.String?
   public let airport: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct BaggageDetail : Swift.Codable {
   public let weight: Swift.Double?
   public let name: Swift.String?
   public let unit: Swift.String?
   public let type: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ExtraBaggageDetail : Swift.Codable {
   public let route: Swift.String?
   public let details: [ShareTripSDK.ExtraBaggageDetailInfo]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ExtraBaggageDetailInfo : Swift.Codable {
   public let currency: Swift.String?
   public let weight: Swift.String?
   public let name: Swift.String?
   public let price: Swift.Double?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public class BaggageInfo : Swift.Codable {
   final public let type: Swift.String
@@ -5601,8 +5545,8 @@ public class BaggageInfo : Swift.Codable {
   final public let child: Swift.String?
   final public let infant: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class AirFareRule : Swift.Codable {
   final public let destination: Swift.String
@@ -5611,31 +5555,31 @@ public class AirFareRule : Swift.Codable {
   final public let originCode: Swift.String
   final public let policy: ShareTripSDK.AirFarePolicy
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class AirFarePolicy : Swift.Codable {
   final public let header: [ShareTripSDK.PolicyNote]
   final public let rules: [ShareTripSDK.PolicyNote]
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class PolicyNote : Swift.Codable {
   final public let code: Swift.Int?
   final public let text: Swift.String
   final public let type: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightRouteInfo : Swift.Codable {
   final public let departureDateTime: ShareTripSDK.DateTime
   final public let destinationName: ShareTripSDK.AirportInfo?
   final public let originName: ShareTripSDK.AirportInfo?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightSearchParamDetail : Swift.Codable {
   final public let departureDateTime: Swift.String
@@ -5643,8 +5587,8 @@ public class FlightSearchParamDetail : Swift.Codable {
   final public let origin: Swift.String
   final public let sequence: Swift.Int
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightSearchParams : Swift.Codable {
   final public let tripType: ShareTripSDK.TripType
@@ -5660,15 +5604,15 @@ public class FlightSearchParams : Swift.Codable {
   final public let preferredAirlines: Swift.String?
   final public let stop: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightSegment : Swift.Codable {
   final public let segmentDetails: [ShareTripSDK.FlightSegmentDetail]
   final public let type: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class FlightSegmentDetail : Swift.Codable {
   final public let searchCode: Swift.String
@@ -5695,16 +5639,16 @@ public class FlightSegmentDetail : Swift.Codable {
   final public let flightNumber: Swift.String?
   final public let seatsRemaining: Swift.Int?
   final public let hiddenStop: ShareTripSDK.FlightHiddenStop?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct FlightHiddenStop : Swift.Codable {
   public let city: Swift.String
   public let airport: Swift.String
   public let code: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Covid19TestInfo : Swift.Codable {
   public let address: Swift.String?
@@ -5713,8 +5657,8 @@ public struct Covid19TestInfo : Swift.Codable {
   public let customerAddress: Swift.String?
   public let discountPrice: Swift.Double?
   public let center: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public class TravellerInfo : Swift.Codable {
   final public let code: Swift.String
@@ -5735,9 +5679,9 @@ public class TravellerInfo : Swift.Codable {
   final public let address1: Swift.String
   final public let primaryContact: Swift.String
   final public let covid: ShareTripSDK.Covid19TestInfo?
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class SingleItemView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) final public let imageView: UIKit.UIImageView
@@ -5974,7 +5918,7 @@ public protocol TableViewViewModel {
   var numberOfSection: Swift.Int { get }
   func numberOfRows(in section: Swift.Int) -> Swift.Int
   func didSelectRow(at indexPath: Foundation.IndexPath)
-  func dataForRow(at indexPath: Foundation.IndexPath) -> ShareTripSDK.ConfigurableTableViewCellData?
+  func dataForRow(at indexPath: Foundation.IndexPath) -> (any ShareTripSDK.ConfigurableTableViewCellData)?
 }
 extension ShareTripSDK.TableViewViewModel {
   public func didSelectRow(at indexPath: Foundation.IndexPath)
@@ -5984,16 +5928,7 @@ public protocol MainEntryVCDelegate : AnyObject {
   func loginUnsuccessful()
 }
 public struct SDDateSelectionCellViewModel : ShareTripSDK.ConfigurableTableViewCellData {
-  public var title: Swift.String
-  public var text: Swift.String
-  public var placeholder: Swift.String
-  public var imageString: Swift.String
-  public var datePickerMode: UIKit.UIDatePicker.Mode
-  public var selectedDate: Foundation.Date?
-  public var minDate: Foundation.Date?
-  public var maxDate: Foundation.Date?
-  public var state: ShareTripSDK.ValidationState
-  public init(title: Swift.String, text: Swift.String, placeholder: Swift.String, imageString: Swift.String, datePickerMode: UIKit.UIDatePicker.Mode = .date, selectedDate: Foundation.Date? = nil, minDate: Foundation.Date? = nil, maxDate: Foundation.Date? = nil, state: ShareTripSDK.ValidationState = .normal)
+  public init(title: Swift.String, text: Swift.String, placeholder: Swift.String, imageString: Swift.String, datePickerMode: UIKit.UIDatePicker.Mode = .date, selectedDate: Foundation.Date? = nil, minDate: Foundation.Date? = nil, maxDate: Foundation.Date? = nil, state: ShareTripSDK.ValidationState = .normal, isEnabled: Swift.Bool = true)
 }
 public protocol AccountService {
   func updateProfile(params: Alamofire.Parameters, completion: @escaping (ShareTripSDK.STUserAccount?) -> Swift.Void)
@@ -6001,8 +5936,7 @@ public protocol AccountService {
   func fetchUserInfo(completion: @escaping (ShareTripSDK.STUserAccount?) -> Swift.Void)
   func uploadImageFile(imageData: Foundation.Data, onSuccess: @escaping (Swift.String) -> Swift.Void, onFailure: @escaping (Swift.String) -> Swift.Void) -> Alamofire.UploadRequest
 }
-public class AccountServiceDefault : ShareTripSDK.AccountService {
-  public init()
+@_hasMissingDesignatedInitializers public class AccountServiceDefault : ShareTripSDK.AccountService {
   public func fetchUserInfo(completion: @escaping (ShareTripSDK.STUserAccount?) -> Swift.Void)
   public func updateProfile(params: Alamofire.Parameters, completion: @escaping (ShareTripSDK.STUserAccount?) -> Swift.Void)
   public func addQuickPick(params: Alamofire.Parameters, completion: @escaping (ShareTripSDK.STUserAccount?) -> Swift.Void)
@@ -6073,28 +6007,28 @@ public struct Covid19TestOptionResponse : Swift.Codable {
   public let name: Swift.String?, code: Swift.String?, logo: Swift.String?
   public let selfTest: Swift.Bool?
   public var options: [ShareTripSDK.CovidTestOptions]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct CovidTestOptions : Swift.Codable {
   public let name: Swift.String?, code: Swift.String?
   public let price: Swift.Double?, discountPrice: Swift.Double?
   public let isAddress: Swift.Bool?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct BaggageResponse : Swift.Codable {
   public let isPerPerson: Swift.Bool?, isLuggageOptional: Swift.Bool?, wholeFlight: Swift.Bool?
   public var wholeFlightOptions: [ShareTripSDK.BaggageWholeFlightOptions]?
   public var routeOptions: [ShareTripSDK.BaggageRouteOption]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct BaggageRouteOption : Swift.Codable {
   public let origin: Swift.String?, destination: Swift.String?
   public var options: [ShareTripSDK.BaggageWholeFlightOptions]?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct BaggageWholeFlightOptions : Swift.Codable, Swift.Hashable {
   public var travellerType: ShareTripSDK.BaggageTravellerType?
@@ -6106,11 +6040,11 @@ public struct BaggageWholeFlightOptions : Swift.Codable, Swift.Hashable {
   public init(travellerType: ShareTripSDK.BaggageTravellerType? = nil, code: Swift.String? = nil, quantity: Swift.Int?, details: Swift.String?, amount: Swift.Double?, currency: ShareTripSDK.Currency)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ShareTripSDK.BaggageWholeFlightOptions, b: ShareTripSDK.BaggageWholeFlightOptions) -> Swift.Bool
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum BaggageTravellerType : Swift.String, Swift.Codable {
   case adt
@@ -6249,7 +6183,7 @@ public enum UserInfoRowType : Swift.CaseIterable {
   }
 }
 public struct FlightSearchRequestParmas {
-  public init(adult: Swift.Int, child: Swift.Int, infanct: Swift.Int, depurtureDate: Foundation.Date, arrivalDate: Foundation.Date?, firstAirportIata: Swift.String, lastAirportIata: Swift.String)
+  public init(adult: Swift.Int, children: [Swift.Int : Foundation.Date?], infant: Swift.Int, depurtureDate: Foundation.Date, arrivalDate: Foundation.Date?, firstAirportIata: Swift.String, lastAirportIata: Swift.String)
 }
 public struct FlightSearchViewModel {
   public init()
@@ -6277,9 +6211,6 @@ extension ShareTripSDK.GenderType : Swift.Hashable {}
 extension ShareTripSDK.GenderType : Swift.RawRepresentable {}
 extension ShareTripSDK.BaggageType : Swift.Equatable {}
 extension ShareTripSDK.BaggageType : Swift.Hashable {}
-extension ShareTripSDK.PaymentGateway.CodingKeys : Swift.Equatable {}
-extension ShareTripSDK.PaymentGateway.CodingKeys : Swift.Hashable {}
-extension ShareTripSDK.PaymentGateway.CodingKeys : Swift.RawRepresentable {}
 extension ShareTripSDK.PaymentGatewayType : Swift.Equatable {}
 extension ShareTripSDK.PaymentGatewayType : Swift.Hashable {}
 extension ShareTripSDK.PaymentGatewayType : Swift.RawRepresentable {}
