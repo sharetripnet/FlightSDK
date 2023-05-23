@@ -33,29 +33,13 @@ end
 ```
 Save `Podfile` and run `pod install`
 
-4. Add the following key in the firebase remote config of type `String`
+4. (Optional) Add the following key in the firebase remote config of type `String`
 
 Key: ```flight_discount_options``` 
 
 Value:
 ```
-[
-   {
-      "type":"earnTC",
-      "title":"I want to earn TripCoins",
-      "subtitle":"*Instant discount for our partner banks' card holders"
-   },
-   {
-      "type":"redeemTC",
-      "title":"I want to redeem TripCoins",
-      "subtitle":"Drag to slider to redeem trip coin"
-   },
-   {
-      "type":"useCoupon",
-      "title":"I want to use Coupon Code",
-      "subtitle":"Enter the coupon code"
-   }
-]
+[{"type":"earnTC","title":"I want to earn TripCoins","subtitle":"*Instant discount for our partner banks' card holders"},{"type":"redeemTC","title":"I want to redeem TripCoins","subtitle":"Drag to slider to redeem trip coin"},{"type":"useCoupon","title":"I want to use Coupon Code","subtitle":"Enter the coupon code"}]
 ```
 
 5. Add the following values to your `info.plist` file if they don't already exist:
@@ -69,12 +53,11 @@ Value:
 <string>Used to select photo for profile picture and file attachment</string>
 ```
 
-
 ## Usage:
 
 1. Import `ShareTripSDK` in your ViewController file.
 
-2. Initialize the ShareTripSDK in your AppDelegate's
+2. Configure Firebase and IQKeyboard in your AppDelegate
 
 ```
 func application( _ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {        
@@ -104,7 +87,7 @@ STLog.error("Token validation errror: \(error)")
 }
 ```
 
-5. Create the following view controller to get the Home page for Banglalink.
+5. Create the following view controller to get the home page.
 
 ```
 STSDKHomeVC.instantiate()
