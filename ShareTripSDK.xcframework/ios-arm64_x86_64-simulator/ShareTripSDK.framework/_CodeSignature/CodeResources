@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		7/2vIfjXu9CE5iQc/Rwr1wpZTOU=
+		twNq5AYyAtbHOSi2qcUtLmOAZDk=
 		</data>
 		<key>BaggageInfoTVCell.nib</key>
 		<data>
@@ -474,7 +474,7 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7aP9vsVueX/3tgghTxitBTobGWA=
+		zl8FreWU4c80/7IliX4vP5QThYY=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -494,7 +494,7 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7aP9vsVueX/3tgghTxitBTobGWA=
+		zl8FreWU4c80/7IliX4vP5QThYY=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -740,7 +740,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qENL/L7v45CtAC2W2PKOCfxRDss0LV3w6wnioHJ4qAg=
+			QJYVsQ1DCqb/o+/qwk1Rlnm5mjfDHjwfQz8MARDzcrA=
 			</data>
 		</dict>
 		<key>BaggageInfoTVCell.nib</key>
@@ -1531,7 +1531,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jYcyU/KJCIJ8/+nreyUAGqF1eFFuLYpKmJ57j5LKlQU=
+			uS6in6Mkl2hnIAt2WeZo7gzWSjM+OQwJw17nUE75r3E=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1566,7 +1566,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jYcyU/KJCIJ8/+nreyUAGqF1eFFuLYpKmJ57j5LKlQU=
+			uS6in6Mkl2hnIAt2WeZo7gzWSjM+OQwJw17nUE75r3E=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
