@@ -680,13 +680,6 @@ public struct FlightRow {
     get
   }
 }
-public class CouponAPIClient : ShareTripSDK.APIClient {
-  public init()
-  public func applyCoupon(params: [Swift.String : Any], completion: @escaping (Alamofire.AFResult<ShareTripSDK.Response<ShareTripSDK.CouponApplyResponse>>) -> Swift.Void)
-  public func checkGPStar(request: ShareTripSDK.GPStarRequest, completion: @escaping (Alamofire.AFResult<ShareTripSDK.Response<ShareTripSDK.GPStarPhoneCheckResponse>>) -> Swift.Void)
-  public func verifyOTP(request: ShareTripSDK.GPStarRequest, completion: @escaping (Alamofire.AFResult<ShareTripSDK.Response<ShareTripSDK.GPStarOTPCheckResponse>>) -> Swift.Void)
-  @objc deinit
-}
 extension UIKit.UITapGestureRecognizer {
   @_Concurrency.MainActor(unsafe) public func didTapAttributedTextInLabel(label: UIKit.UILabel, inRange targetRange: Foundation.NSRange) -> Swift.Bool
 }
@@ -2233,21 +2226,6 @@ public struct TravelInsuranceAddonServiceResponse : Swift.Codable {
   public let logo: Swift.String?
   public let selfRisk: Swift.Int
   public let options: [ShareTripSDK.InsuranceOption]?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct CouponApplyResponse : Swift.Codable {
-  public let discount: Swift.Double
-  public let gateway: [Swift.String]
-  public let withDiscount: Swift.String?
-  public let discountType: ShareTripSDK.DiscountType
-  public let mobileVerificationRequired: Swift.String?
-  public var isWithDiscount: Swift.Bool {
-    get
-  }
-  public var isPhoneVerificationRequired: Swift.Bool {
-    get
-  }
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
