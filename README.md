@@ -15,7 +15,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```ruby
-pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.0.8'
+pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.0.9'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.

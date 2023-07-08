@@ -23,7 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
         IQKeyboardManager.shared.enable = true
         
         STSDK.shared.delegate = self
-        STSDK.shared.accessToken = "$2b$10$pv.ZAnzyuSTD7GIMm/yHL.hdPTFQgUDN2rfXPnQXh67e4JsKJ0Fl."
+        STSDK.shared.environment = .live
+        STSDK.shared.accessToken = "valid access token"
         self.window?.rootViewController =  UINavigationController(rootViewController: STSDKHomeVC.instantiate())
         window?.makeKeyAndVisible()
         

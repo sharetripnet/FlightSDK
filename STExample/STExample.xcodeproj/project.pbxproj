@@ -24,6 +24,7 @@
 		CCC181EB298A4C070086426D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCC181ED298A4C070086426D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC181F3298A4F760086426D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCE1C8E72A3B36D400C3DDD3 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 		E1FCB6EA7D125AD0475DE4C6 /* Pods-STExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STExample.release.xcconfig"; path = "Target Support Files/Pods-STExample/Pods-STExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +43,7 @@
 		7237899E94518BF606195FA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CCE1C8E72A3B36D400C3DDD3 /* AdServices.framework */,
 				CC4C3A2829BDCF8B00FE67A1 /* Lottie.framework */,
 				CC4C3A2429BDCECC00FE67A1 /* Lottie.framework */,
 				3EF07142EAA2435367F6D423 /* Pods_STExample.framework */,

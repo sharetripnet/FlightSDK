@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		twNq5AYyAtbHOSi2qcUtLmOAZDk=
+		zujkX1/xZ6RlJfbDCePIxLa1A+0=
 		</data>
 		<key>BaggageInfoTVCell.nib</key>
 		<data>
@@ -394,7 +394,7 @@
 		</data>
 		<key>Headers/ShareTripSDK-Swift.h</key>
 		<data>
-		zSMaPySAcVOhhJiBxVWrvXQ0JsA=
+		WOrVlzHTCNLmucOakdJRAzYa8xg=
 		</data>
 		<key>Headers/ShareTripSDK.h</key>
 		<data>
@@ -406,7 +406,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z4zxRwlNwwZs0gEc0Ufwv127/vk=
+		SY9Z+4ijnKuFKmpPU1ZPRHsAZGM=
 		</data>
 		<key>InfoDetailCell.nib</key>
 		<data>
@@ -474,23 +474,23 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		6oukPrqdF6lDyhnxfbQgZSxzIYg=
+		F7kuMJSijlxkxVpBuuojLpXv9qQ=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		b9Nv7JLSnHH0VryHJw2JRdpH5fs=
+		/i1Dpeh1qT2ab9dPn33booGVxQw=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		7Cb4lmnTzw0Ox2Ln5wY1wFuakJA=
+		BpSZKnDFW2Z6XuZwAXEl3LbguwU=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		b9Nv7JLSnHH0VryHJw2JRdpH5fs=
+		/i1Dpeh1qT2ab9dPn33booGVxQw=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PAvOiTV8RXbNq03UBe9mWZkQFrE=
+		8VXFZfpHHYbEpXz+sACQOpF+IZI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -720,7 +720,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QJYVsQ1DCqb/o+/qwk1Rlnm5mjfDHjwfQz8MARDzcrA=
+			9qGUY2IJY+86twSfInfHA7bFRQd8WIwztjggezw0NmQ=
 			</data>
 		</dict>
 		<key>BaggageInfoTVCell.nib</key>
@@ -1378,7 +1378,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NJ1ROS55J/gbMbN07uSDDC1tzrmglagpLAAT5OQpN5k=
+			L3oFoanU4XRRd1NSofIuKPcEE3Pd8y7RXpqQos36DWY=
 			</data>
 		</dict>
 		<key>Headers/ShareTripSDK.h</key>
@@ -1511,35 +1511,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yrBBUEmjXjvF0wJ28fqj2pFjRypryiBkANuH0DDnUdA=
+			nJXozAWfLvpoiODwdBROEBujHa64tXZMmkDDyor6kNg=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3fz5UqeYjOajwuU4wBskxnlZzN8635qhJQwVFub7cY=
+			9ksNA8Ifky/wpc3q1FMTqcpRzP25W60o+v8uSYTu25E=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gREdHWy6Im0AaGOZeJrdEFZt9Ie7jfEGRJIV34EwDh0=
+			Orp3nZvvdn4+r6c0Nrir6radeS0wDK+u/PdZPN252A4=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3fz5UqeYjOajwuU4wBskxnlZzN8635qhJQwVFub7cY=
+			9ksNA8Ifky/wpc3q1FMTqcpRzP25W60o+v8uSYTu25E=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T90veqoqPZo9bvc4Qx2pWaDa9BYmcrfV956clns3sm8=
+			b2+zcCJyl7CFCEj4WrNHBeye42j4L30n041sdUEZDYU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
