@@ -843,7 +843,7 @@ PODS:
   - PromisesObjC (2.2.0)
   - PromisesSwift (2.2.0):
     - PromisesObjC (= 2.2.0)
-  - ShareTripSDK (1.0.9)
+  - ShareTripSDK (1.1.0)
   - Socket.IO-Client-Swift (16.0.1):
     - Starscream (~> 4.0)
   - Starscream (4.0.4)
@@ -994,7 +994,7 @@ SPEC CHECKSUMS:
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
   PromisesSwift: cf9eb58666a43bbe007302226e510b16c1e10959
-  ShareTripSDK: 61c33685ccc91782e227236320844cb339c0d9d1
+  ShareTripSDK: 9083daf65d089206537c46bf4bc1a10a5e6850be
   Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
   SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
