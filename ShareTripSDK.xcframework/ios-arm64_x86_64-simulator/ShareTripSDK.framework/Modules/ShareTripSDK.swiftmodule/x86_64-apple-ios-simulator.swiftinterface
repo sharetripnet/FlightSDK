@@ -1492,9 +1492,6 @@ public class UseCouponViewModel {
   public var appliedCoupon: Swift.String {
     get
   }
-  public var defaultCoupon: Swift.String {
-    get
-  }
   public var selectedCouponGateways: [Swift.String] {
     get
   }
@@ -1615,6 +1612,8 @@ public struct PromotionalCoupon : Swift.Decodable {
   public let discountType: Swift.String
   public let rooms: [Swift.Int]?
   public let gateway: [Swift.String]?
+  public let isDefault: Swift.Bool?
+  public let sequence: Swift.Int
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct SingleInputTitleData {

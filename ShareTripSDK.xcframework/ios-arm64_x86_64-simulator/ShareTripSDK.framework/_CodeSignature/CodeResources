@@ -406,7 +406,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3WOK8Z6mRbbxofbf4G+F1oqkXqM=
+		/4DZMm+lWblnD3oqrjqvah0NcbY=
 		</data>
 		<key>InfoDetailCell.nib</key>
 		<data>
@@ -474,11 +474,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UVSOO5KsBwwDrphChnot+ze3xw0=
+		h99s+af/tzTePLxy3PXB/hTP5YA=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NyWjWOtID9ILRw7JQ/lQgbbm050=
+		J3K+Nq2RIs1BtYqXMX9JFEvudCw=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -486,19 +486,19 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NyWjWOtID9ILRw7JQ/lQgbbm050=
+		J3K+Nq2RIs1BtYqXMX9JFEvudCw=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qJ16ZQxSgA4W15j3r+VIx5ptOTc=
+		7gmHuocNwJ6gpccdKQs6bOmiVSk=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UVSOO5KsBwwDrphChnot+ze3xw0=
+		h99s+af/tzTePLxy3PXB/hTP5YA=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cl5PEUila8v8S0yk+o6/u1sfXl8=
+		cNEDp0iU+HPHeF/cnQlaK3EdhkE=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -506,11 +506,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cl5PEUila8v8S0yk+o6/u1sfXl8=
+		cNEDp0iU+HPHeF/cnQlaK3EdhkE=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HFHC+U85xlatDifTEtNFpA6kOOE=
+		AjB0oJiaHXOczt2kZ8jhM5TR224=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -538,7 +538,7 @@
 		</data>
 		<key>PaymentGatewaysView.nib</key>
 		<data>
-		j9TPNE4KTzKcl8yBv//7iGk9JA4=
+		dFl9aKUirtZUWm+OADDriXG4u9s=
 		</data>
 		<key>PermissionInfoTVCell.nib</key>
 		<data>
@@ -1531,14 +1531,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MoRDScobHEhgJdR1fV1mws6MEN2U7s9cO/AuG/PNW6s=
+			qwNGiJQ0hz3K5hAT29En2g19MTU/zeVsDpZJU7QP0NY=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F9mkpkQE7eOiLyj5zCfIG8JFGg2cAzSegwY+ZBtVTlw=
+			0xZhBuR4Q9jdlqY/KYk4/03qt3d3kyDNMQeKz3wqAkg=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -1552,28 +1552,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F9mkpkQE7eOiLyj5zCfIG8JFGg2cAzSegwY+ZBtVTlw=
+			0xZhBuR4Q9jdlqY/KYk4/03qt3d3kyDNMQeKz3wqAkg=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oN4D97Kk9Lcw+gjnRBxUPipEtU9ktXwns70yQRlBPqo=
+			njCnMtus91Kfp9Y59gCWbFmv6YBU4ws0ZVxrdEIYwp8=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MoRDScobHEhgJdR1fV1mws6MEN2U7s9cO/AuG/PNW6s=
+			qwNGiJQ0hz3K5hAT29En2g19MTU/zeVsDpZJU7QP0NY=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eTYfqCbyMlx+guGrGMVhjzVHR9U0+7YZ03o6spyksWI=
+			gJBXveYt42+dfgrDfw2xvmfgvd+jPGfH2Q1amnkeLs4=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1587,14 +1587,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eTYfqCbyMlx+guGrGMVhjzVHR9U0+7YZ03o6spyksWI=
+			gJBXveYt42+dfgrDfw2xvmfgvd+jPGfH2Q1amnkeLs4=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vafSpTGaPw/o3sXakGnNBpe+xjeLB8o13vBpP9F2CHI=
+			jGULsyby0+sUBlYZVyE+Nfd/gIgPA7dbdtOkmGQ/kSQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1643,7 +1643,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jK+jQwVJXBRmGMV6w59mck5sdoz6dqHPOVvNlsKEcN0=
+			TDMONzPUzqm/KkBQOg6fQGv+0FzZu0JiOkUIq++rdmI=
 			</data>
 		</dict>
 		<key>PermissionInfoTVCell.nib</key>

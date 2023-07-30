@@ -406,7 +406,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SY9Z+4ijnKuFKmpPU1ZPRHsAZGM=
+		jm94KF5OBSUmWgSZSsN2kPf22F4=
 		</data>
 		<key>InfoDetailCell.nib</key>
 		<data>
@@ -474,11 +474,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		MXUctiwum26/JTjPtdpMiWpZgzw=
+		DBiuPC8OdCzeKqAPQZ/njC4DMQs=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		/i1Dpeh1qT2ab9dPn33booGVxQw=
+		Plma/cCPCHBzCE6JW/GTEZLY9pQ=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -486,11 +486,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		/i1Dpeh1qT2ab9dPn33booGVxQw=
+		Plma/cCPCHBzCE6JW/GTEZLY9pQ=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8+jeHJZ2e37rCpZlgmgwaDMPgek=
+		ZNzLVbs8Q7tu7LvljgR3wY2sLNQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -518,7 +518,7 @@
 		</data>
 		<key>PaymentGatewaysView.nib</key>
 		<data>
-		j9TPNE4KTzKcl8yBv//7iGk9JA4=
+		dFl9aKUirtZUWm+OADDriXG4u9s=
 		</data>
 		<key>PermissionInfoTVCell.nib</key>
 		<data>
@@ -1511,14 +1511,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vCKEYQuVTlwbq8RWOU5Ucbt52SFeDn6IJyxFuA+WEc4=
+			VZl8iQQ98zb567NkQuiDAYcFetzwMw4iCmEqcCTNXP4=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ksNA8Ifky/wpc3q1FMTqcpRzP25W60o+v8uSYTu25E=
+			qiuMncqMu2Bd8wwaYCUuWknF7j7Kb8GHDlixEHLgVLY=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -1532,14 +1532,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ksNA8Ifky/wpc3q1FMTqcpRzP25W60o+v8uSYTu25E=
+			qiuMncqMu2Bd8wwaYCUuWknF7j7Kb8GHDlixEHLgVLY=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QMkszJkRrphRKwv4Hy5F1nCjfouMHpJQ9X2qMwvJloY=
+			EyMW6kIaoMZw/qy63n376exRlWFjT1jtGRlIRUpGVP0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1588,7 +1588,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jK+jQwVJXBRmGMV6w59mck5sdoz6dqHPOVvNlsKEcN0=
+			TDMONzPUzqm/KkBQOg6fQGv+0FzZu0JiOkUIq++rdmI=
 			</data>
 		</dict>
 		<key>PermissionInfoTVCell.nib</key>
