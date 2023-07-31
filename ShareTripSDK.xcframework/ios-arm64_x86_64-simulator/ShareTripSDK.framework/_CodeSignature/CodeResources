@@ -474,7 +474,7 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		h99s+af/tzTePLxy3PXB/hTP5YA=
+		vspEhn7a3uPOi7KUpEf/g1iVujw=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -490,11 +490,11 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7gmHuocNwJ6gpccdKQs6bOmiVSk=
+		DSLhblAVJtSEppXXjho9mypJmZY=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		h99s+af/tzTePLxy3PXB/hTP5YA=
+		vspEhn7a3uPOi7KUpEf/g1iVujw=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -510,7 +510,7 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AjB0oJiaHXOczt2kZ8jhM5TR224=
+		vlI5Xk4pCS8BQ0dinIw5uBy53j8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -554,7 +554,7 @@
 		</data>
 		<key>PoweredByView.nib</key>
 		<data>
-		hkAMUOgduXRaLoRo/5xBaau9anE=
+		/FxNab+TxRGVE8fFXPC9FOq8y2M=
 		</data>
 		<key>PriceBreakdownFareCell.nib</key>
 		<data>
@@ -1531,7 +1531,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qwNGiJQ0hz3K5hAT29En2g19MTU/zeVsDpZJU7QP0NY=
+			jcYfAJFDom2foBzoxYTTdI3lo0RTtJodU4EzfbYlsTA=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1559,14 +1559,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			njCnMtus91Kfp9Y59gCWbFmv6YBU4ws0ZVxrdEIYwp8=
+			BaE9/2kg37sT/zhrZnBWa7Iair22O37BMyfsy7KEy/Q=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qwNGiJQ0hz3K5hAT29En2g19MTU/zeVsDpZJU7QP0NY=
+			jcYfAJFDom2foBzoxYTTdI3lo0RTtJodU4EzfbYlsTA=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1594,7 +1594,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jGULsyby0+sUBlYZVyE+Nfd/gIgPA7dbdtOkmGQ/kSQ=
+			pWLJ9u2L+SjYofJ69C8XGbMuONjFBX7u+87GW0dqHN8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1671,7 +1671,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ne8bRwPCsJ4VrKsMmqns49DJ5w5IeVHJ568CARFtTvk=
+			j3REl0dIwuIKEYKbQY9XU9IKkMjHnP4Li6xoE6+LEg4=
 			</data>
 		</dict>
 		<key>PriceBreakdownFareCell.nib</key>
