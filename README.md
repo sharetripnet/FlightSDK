@@ -15,7 +15,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```ruby
-pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.1.1'
+pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.2.0'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -33,16 +33,7 @@ end
 ```
 Save `Podfile` and run `pod install`
 
-4. (Optional) Add the following key in the firebase remote config of type `String`
-
-Key: ```flight_discount_options``` 
-
-Value:
-```json
-[{"type":"earnTC","title":"I want to earn TripCoins","subtitle":"*Instant discount for our partner banks' card holders"},{"type":"redeemTC","title":"I want to redeem TripCoins","subtitle":"Drag to slider to redeem trip coin"},{"type":"useCoupon","title":"I want to use Coupon Code","subtitle":"Enter the coupon code"}]
-```
-
-5. Add the following values to your `info.plist` file if they don't already exist:
+4. Add the following values to your `info.plist` file if they don't already exist:
 
 ```xml
 <key>NSCameraUsageDescription</key>
@@ -74,7 +65,7 @@ STSDK.shared.delegate = self
 STSDK.shared.accessToken = "staccesstoken"
 ```
 
-And to get the token validation callbacks, implement the methods as follows
+To get the token validation callbacks, implement the methods as follows
 ```swift
 extension YourClass: STSDKDelegate {
   func didSuccessTokenValidation() {
@@ -89,17 +80,17 @@ extension YourClass: STSDKDelegate {
 
 5. Create the following view controller to get the home page.
 ```swift
-STSDKHomeVC.instantiate()
+FlightSearchVC.instantiate()
 ```
-From here you will be able to go to flight search and booking history page.
+From here you will be able to go to the flight search and booking history page.
 
-6. SDK is deafult to live server of sharetrip, if you want to switch to staging server please add following configuration
+6. SDK defaults to the live server of ShareTrip, if you want to switch to the staging server please add the following configuration
 ```swift
 STSDK.shared.environment = .staging
 ```
 ## Dependencies:
 
-ShareTripsSDK depends on follwing third party pods 
+ShareTripsSDK depends on the following third-party pods 
 ```ruby
 pod 'JWT'
 pod 'PKHUD'
