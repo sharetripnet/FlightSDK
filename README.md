@@ -15,7 +15,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```ruby
-pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.2.0'
+pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.2.1'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -114,6 +114,7 @@ pod 'FBSDKCoreKit'
 pod 'FBSDKLoginKit'
 pod 'FBSDKShareKit'
 pod 'FirebaseAuth'
+pod 'FirebaseCore', '11.3.0'
 pod 'FirebaseFirestore'
 pod 'FirebaseAnalytics'
 pod 'FirebaseMessaging'
@@ -121,5 +122,4 @@ pod 'FirebaseCrashlytics'
 pod 'FirebaseRemoteConfig'
 pod 'FirebaseDynamicLinks'
 pod 'IQKeyboardManagerSwift'
-pod 'FirebaseCoreDiagnostics'
 ```
