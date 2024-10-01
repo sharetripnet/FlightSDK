@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
         STSDK.shared.delegate = self
         STSDK.shared.environment = .live
         STSDK.shared.accessToken = "valid access token"
-        self.window?.rootViewController =  UINavigationController(rootViewController: STSDKHomeVC.instantiate())
+        self.window?.rootViewController =  UINavigationController(rootViewController: FlightSearchVC.instantiate())
         window?.makeKeyAndVisible()
         
         return true

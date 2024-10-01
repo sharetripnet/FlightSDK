@@ -14,7 +14,7 @@
 		</data>
 		<key>AirportInputCell.nib/runtime.nib</key>
 		<data>
-		YU0bpmgvarXtk/9ILV7KYEbLO3g=
+		vVP8oPV5XHxuGUkgQ22w6PaUHhU=
 		</data>
 		<key>AllServicesButtonCell.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		vI8uuUB6prRJJx4SnAnzCHHG+/s=
+		PR95M7RIchQ4E13oZQdKTiuuNdw=
 		</data>
 		<key>BaggageInfoTVCell.nib</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>DealDetailCell.nib</key>
 		<data>
-		13xqf8E0SD0ry9LzNBVsBH3cmFI=
+		/qP4Z4xTwulitMuw/aB1kHf/mZE=
 		</data>
 		<key>DiscountOptionsCell.nib</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>FlightBooking.storyboardc/Dbp-Xj-YRn-view-C4X-Pa-AAM.nib</key>
 		<data>
-		yhS4s0UIWeDwsVRfhNfKg3x9K+8=
+		b28zw60k8LPUG5keF1rSDJG6JFc=
 		</data>
 		<key>FlightBooking.storyboardc/FlightBookingHistoryDetailVC.nib</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>FlightBooking.storyboardc/H3d-Rq-DZc-view-D1J-lL-Hwb.nib</key>
 		<data>
-		EhDdEW98zoFVZklr+bvrxUg04wk=
+		1+RUhzE0lpC/aJlrNFqheNcBUVg=
 		</data>
 		<key>FlightBooking.storyboardc/Info.plist</key>
 		<data>
@@ -314,11 +314,11 @@
 		</data>
 		<key>FlightBooking.storyboardc/Y0K-fq-Pkp-view-zfS-ON-88l.nib</key>
 		<data>
-		a2g45nFIA+6W5m30HUo8wKJb62U=
+		KA7XNwG/hyrFQ9Ri9hd2aGQm/z0=
 		</data>
 		<key>FlightBooking.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		cg/+U1JExaDxaRxslNpAYcrx3tU=
+		+j3IA0JkGktZ9nHsYD37D4Ju6ik=
 		</data>
 		<key>FlightBooking.storyboardc/at1-Om-Z3x-view-4Wo-9l-iqT.nib</key>
 		<data>
@@ -326,7 +326,7 @@
 		</data>
 		<key>FlightBooking.storyboardc/iUq-oY-o2Y-view-1ph-U9-zgj.nib</key>
 		<data>
-		c7jDR2rQyKffMtyo/E0W/4Uq7aY=
+		NnHEYbB5/dvKOkmBDT75dP0ncFE=
 		</data>
 		<key>FlightBooking.storyboardc/nx0-ps-Neb-view-67X-nb-SD2.nib</key>
 		<data>
@@ -334,11 +334,11 @@
 		</data>
 		<key>FlightBooking.storyboardc/oRW-zp-DUT-view-Hta-oq-ojv.nib</key>
 		<data>
-		6uS3SYnNNh+/9cNh11ZEgv64yWM=
+		aSVSTJmdxgUru+lSQiQZC6MHVJU=
 		</data>
 		<key>FlightBooking.storyboardc/uVU-Rp-hXT-view-l5j-fH-V4V.nib</key>
 		<data>
-		pwA1UotGW93HPNL9Yi3qQGxb/lI=
+		HCLGSZXyzYFAUP61qA3L3BFXhKs=
 		</data>
 		<key>FlightBooking.storyboardc/vNg-mw-W7Z-view-5ZC-A1-i5j.nib</key>
 		<data>
@@ -380,13 +380,9 @@
 		<data>
 		xPcIC2OW6j28Jw2P/vsazIUqXEI=
 		</data>
-		<key>FlightNameCollectionViewCell.nib/objects-12.3+.nib</key>
+		<key>FlightNameCollectionViewCell.nib</key>
 		<data>
 		/pqncEgYXX6xV0zgAL6jeQsmci4=
-		</data>
-		<key>FlightNameCollectionViewCell.nib/runtime.nib</key>
-		<data>
-		+qemojl4rp4Ff5J5+PmbuLTxGFQ=
 		</data>
 		<key>FlightSearchFooterView.nib/objects-14.0+.nib</key>
 		<data>
@@ -406,7 +402,7 @@
 		</data>
 		<key>Headers/ShareTripSDK-Swift.h</key>
 		<data>
-		0ponncrTTnwwDIaaYg0t3POlVPY=
+		LDtxWwpwugJO1gz7mLbo9OyvzTo=
 		</data>
 		<key>Headers/ShareTripSDK.h</key>
 		<data>
@@ -422,7 +418,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gAdQZhxUEoIrlOJ9K0+1CdLLWIw=
+		MogQ/KXwJtuTPnoG2+Vlf5dIjvg=
 		</data>
 		<key>InfoDetailCell.nib</key>
 		<data>
@@ -448,25 +444,17 @@
 		<data>
 		nGjaEmeKMRrj3vKk/C9RH+SDNf4=
 		</data>
-		<key>JTDateCell.nib/objects-12.3+.nib</key>
+		<key>JTDateCell.nib</key>
 		<data>
 		mPdjlzUADgsr/5qXkpjxZgrJXFM=
-		</data>
-		<key>JTDateCell.nib/runtime.nib</key>
-		<data>
-		HoREAq/b8X8G/wAYpA1ZNW4w4j0=
 		</data>
 		<key>LastNameInputCell.nib</key>
 		<data>
 		KptXiF7h5H2+/SnKudMPic7Ee4c=
 		</data>
-		<key>LearnMoreCVCell.nib/objects-12.3+.nib</key>
+		<key>LearnMoreCVCell.nib</key>
 		<data>
 		H0DMgugcn1boJCmKEDFFOvPzikk=
-		</data>
-		<key>LearnMoreCVCell.nib/runtime.nib</key>
-		<data>
-		qxY+/QBWPmvDVQar1OkwfBVCYaE=
 		</data>
 		<key>LearnMoreCell.nib</key>
 		<data>
@@ -482,7 +470,7 @@
 		</data>
 		<key>MainEntry.storyboardc/EVv-WO-XjM-view-56c-H4-9vE.nib</key>
 		<data>
-		yIgtFOSibSih4ugaLDH4ioHwn5U=
+		ezo8Hc+EtFan8I4wORi7kHd4dP4=
 		</data>
 		<key>MainEntry.storyboardc/Info.plist</key>
 		<data>
@@ -490,23 +478,23 @@
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ePxwt0Soe0vCdqhU3AWrGnkatJs=
+		6D+s/LD7lItwB67syp8SGtZN7pE=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		SIMAzxAcPyCWqk1NvkI0BpWhtgY=
+		gwen1XOXKqiDwo26g5VwS+mfU10=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		tQeZRVFhO41B0UUF27ALnOg0xRg=
+		3Ppg+CFNUe8JUAzbqvZJu45LxoQ=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		SIMAzxAcPyCWqk1NvkI0BpWhtgY=
+		gwen1XOXKqiDwo26g5VwS+mfU10=
 		</data>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gopxQp1gSuOxzXfMIO7SByBIiTs=
+		aZsedh8y+p6Av+b0aD2AyEKVKAA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -576,13 +564,9 @@
 		<data>
 		h37SL8A9unwWEDIO5SnH6+v7UO4=
 		</data>
-		<key>PromotionalImageCVCell.nib/objects-12.3+.nib</key>
+		<key>PromotionalImageCVCell.nib</key>
 		<data>
 		l5PxpiUibLd46qu8HVDn6Qy9pzo=
-		</data>
-		<key>PromotionalImageCVCell.nib/runtime.nib</key>
-		<data>
-		DN0tDdrN+iTwgK9IjIP6WyZJ98A=
 		</data>
 		<key>RedeemTripcoinView.nib</key>
 		<data>
@@ -694,7 +678,7 @@
 		</data>
 		<key>TravelAdvisoryLevelTVCell.nib</key>
 		<data>
-		MuWfYwrVbo4T9zHM2LVPmNmjmG0=
+		+xyYjql0rNHXQ1xGRjVzP4Ik5HI=
 		</data>
 		<key>TravelDetailsInfoTVCell.nib</key>
 		<data>
@@ -749,7 +733,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l4wEvM4q/ii9Ff2UsUNWhwDdYhB1DmRXh4mSVgMWTFw=
+			zJJhUIc4XzF/Phng9UlD8yELLMdB3LfyN5Dc6cij/sg=
 			</data>
 		</dict>
 		<key>AllServicesButtonCell.nib</key>
@@ -763,7 +747,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xPEdiRZ0RqvbWSCT/z1j+tt+kdJs88upGZmVqaI/obY=
+			K3oWQjarczXtvj4n04Cc5MqIfb/h+tphmFrrdOMmMYA=
 			</data>
 		</dict>
 		<key>BaggageInfoTVCell.nib</key>
@@ -1043,7 +1027,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3WQHNTrkvxaj5RlAqH8opEwbWXSPxZVsPAov4bM0v0s=
+			0xm/AXFtdAhwuAIm5LImIRGZUZXST5rNfilfdXTgujk=
 			</data>
 		</dict>
 		<key>DiscountOptionsCell.nib</key>
@@ -1169,7 +1153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8RvgswnQ+aHCe93juPLYzVlkPWpHz7lbbcZK/E+i7aU=
+			mnvmytu/bMAyVDYX6VTk66QC2gAd4viw9ZXvQXOyINU=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/FlightBookingHistoryDetailVC.nib</key>
@@ -1232,7 +1216,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MuPYZPKQw0aNqkelX0FXkLhX2eIDN/8Fw4RRSaYprME=
+			gwYaw7tPfhQIuvmeGMurlKy2yRuAAGivzzhb6Wbq+ug=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/Info.plist</key>
@@ -1274,14 +1258,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9B7jr5oNrgnkMUpP+xeIiVHenqyX4uUrqaxGAfzNbNQ=
+			Z58jaqAcFWIlvHN9k7g/nvEDJZ2Gb++OJOh/enu96co=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MkxLTCgFqX0XH42WV/ay8hM4dbLCByOju2WCSfU9mNA=
+			PYywKPWRHEH9e3hye1oYQLsfKykbAEOZlB3Vh7R9nMk=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/at1-Om-Z3x-view-4Wo-9l-iqT.nib</key>
@@ -1295,7 +1279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HnS2IhkQR0CkbmaALtjEMK2U+VlvRR7CxU64lieoHbw=
+			QhhP7ZJki9i8dUT0nCshgrvY0PB8mJ+CN0JPxS9t9mM=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/nx0-ps-Neb-view-67X-nb-SD2.nib</key>
@@ -1309,14 +1293,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p1nm+kjKy2ZOJXrCpBUmgG1fPRsmVP2HF2e6NMqWX0Q=
+			688AS3gup+0+yaO1hN3/9mJ0tbNIh+JC2KaJ/+rxu2A=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/uVU-Rp-hXT-view-l5j-fH-V4V.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			09B2opSHEjEOvdKXJk4ENyee+LldC76bng649zGXTBw=
+			kkuOVZCqbwykFhE08SuQTDL9hDOuK4lxzk55jXcDZDE=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/vNg-mw-W7Z-view-5ZC-A1-i5j.nib</key>
@@ -1389,18 +1373,11 @@
 			MBA5KJPDAOKJKYG4lnBoBj9QteJNAN0/CSDjDd0JLT0=
 			</data>
 		</dict>
-		<key>FlightNameCollectionViewCell.nib/objects-12.3+.nib</key>
+		<key>FlightNameCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ivxYMQqH2DRTY6ZR1yE7RONUWOu1PETxDOnn2kzL3To=
-			</data>
-		</dict>
-		<key>FlightNameCollectionViewCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5mmgHu0ifWrBcnptpC0aZTovHtBMsunP0pLtn/paR+I=
 			</data>
 		</dict>
 		<key>FlightSearchFooterView.nib/objects-14.0+.nib</key>
@@ -1435,7 +1412,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NyOQ9XhQVATKY2BMk9VobrfwZ3wUYNFp8OesPC8rrHE=
+			unbja6yyZtzb/YvSSYez5/uW5gUL28xIT2467n1ptfk=
 			</data>
 		</dict>
 		<key>Headers/ShareTripSDK.h</key>
@@ -1501,18 +1478,11 @@
 			KXhudkVgDc1APp1SsH8cQl5U2SWllvMqRFU2eFhEfog=
 			</data>
 		</dict>
-		<key>JTDateCell.nib/objects-12.3+.nib</key>
+		<key>JTDateCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			2YARZv3Dmof2fmTJIrz8/dRMaT3BAwdGU1i/EOHXot0=
-			</data>
-		</dict>
-		<key>JTDateCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qJSrbdDBAR7xBca/Pkg02CC0QHH17POk3asK53lV86A=
 			</data>
 		</dict>
 		<key>LastNameInputCell.nib</key>
@@ -1522,18 +1492,11 @@
 			0OnGfl70bIo60dKY6BzkiUOCVyF1yhTl2eWYsgh18y8=
 			</data>
 		</dict>
-		<key>LearnMoreCVCell.nib/objects-12.3+.nib</key>
+		<key>LearnMoreCVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			GtDZ9S0f7dJNYdFI5gAUqJHt1MkGV2QFJxRYhIS58fY=
-			</data>
-		</dict>
-		<key>LearnMoreCVCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			j86T+R5Yr9K1QHkybZAJvdP0MJxqeHIjboJa3oYN2Q0=
 			</data>
 		</dict>
 		<key>LearnMoreCell.nib</key>
@@ -1561,7 +1524,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9x08aStNwmjJACkoH4myF9pCns+Zzupf7BOzgloPewU=
+			2SAvMB4Xnc2LbxJyVWyTjwQXe1Bg9CS48QDZjpr5N6A=
 			</data>
 		</dict>
 		<key>MainEntry.storyboardc/Info.plist</key>
@@ -1575,35 +1538,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vwQbiMAF36AmFYHgYxSUHkkngzsxkKAjOLcBHY13dDw=
+			XYNdaP6nT1OS33EMvrxibgoalexee5Jb9gxoGqZl4x0=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u+keZs7p9Ol6oi2imbt5nTs43LyRvSVtVgdo/R+TYxU=
+			AP43Uv1fQ2d5kaWpbwMldoBKXzDxOibW8Mvs5ERIIw8=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QZmifhbMHLYWUmeGnxCJcaMebglankZngK7pU3gV+R8=
+			AeeMRb4QUbeqi+Kd3oggBQvcEU704dgNCr8BN1JJNBg=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u+keZs7p9Ol6oi2imbt5nTs43LyRvSVtVgdo/R+TYxU=
+			AP43Uv1fQ2d5kaWpbwMldoBKXzDxOibW8Mvs5ERIIw8=
 			</data>
 		</dict>
 		<key>Modules/ShareTripSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XDsTSN1qWmW70Dka1LhteNPEqKOLywXl1z9IRY/RHFY=
+			IEZqjNp5EQwKHDjc2i4ulqXKWU6DxzJHPtfMiZbBzNA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1725,18 +1688,11 @@
 			ZLvmzurDHslolSxgforc+6jjJeRbOICiXO5qhVqJdJo=
 			</data>
 		</dict>
-		<key>PromotionalImageCVCell.nib/objects-12.3+.nib</key>
+		<key>PromotionalImageCVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			9Ig/ydC4RhaFFUV2gQx77BYvfg8ZXUPCfaaw+7qO5W0=
-			</data>
-		</dict>
-		<key>PromotionalImageCVCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/p1ShESKGybP2cnauhnprYHXn1tcA+pnfdPyDhLBmqM=
 			</data>
 		</dict>
 		<key>RedeemTripcoinView.nib</key>
@@ -1932,7 +1888,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Av2M4iosrTk+OH3bggSN+kZWlOyoO0MaC2qfz2qfVjk=
+			N08BOiFcnGWM8CyWINnFf/ddl6s6W0G+oEhXGkbVvDs=
 			</data>
 		</dict>
 		<key>TravelDetailsInfoTVCell.nib</key>
