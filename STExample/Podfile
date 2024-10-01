@@ -23,8 +23,8 @@ target 'STExample' do
     pod 'FBSDKCoreKit'
     pod 'FBSDKLoginKit'
     pod 'FBSDKShareKit'
-    pod 'FirebaseCore', '11.3.0'
     pod 'FirebaseAuth'
+    pod 'FirebaseCore', '11.3.0'
     pod 'FirebaseFirestore'
     pod 'FirebaseAnalytics'
     pod 'FirebaseMessaging'
@@ -41,6 +41,7 @@ post_install do |installer|
     
     target.build_configurations.each do |config|
       config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
     end
     
     if target.name == 'BoringSSL-GRPC'
