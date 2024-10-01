@@ -2,7 +2,7 @@
 
 ## Requirements:
 - Cocoapods
-- iOS 11.0 or higher
+- iOS 13.0 or higher
 - Swift 5.0 or higher
 - ShareTrip AccessToken
 - Facebook SDK setup
