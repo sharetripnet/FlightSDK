@@ -1,7 +1,7 @@
 platform :ios, '13.0'
 
 target 'STExample' do
-    pod 'ShareTripSDK', :path => '../'
+    pod 'FlightSDK', :path => '../'
     
     pod 'Alamofire', '5.5'
     pod 'Kingfisher', '~> 7.6.2'
