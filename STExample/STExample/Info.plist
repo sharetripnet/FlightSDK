@@ -8,5 +8,7 @@
     <string>To be able to save the photos you share in conversations with ShareTrip's customer support</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>Used to select photo for profile picture and file attachment</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Your data will be used to deliver personalized ads to you</string>
 </dict>
 </plist>
