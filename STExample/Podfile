@@ -1,46 +1,50 @@
 platform :ios, '13.0'
 
 target 'STExample' do
-    pod 'FlightSDK', :path => '../'
-    
-    pod "JWT"
-    pod 'PKHUD'
-    pod 'Alamofire'
-    pod 'Kingfisher'
-    pod 'SwiftyJSON'
-    pod 'FloatingPanel'
-    pod 'JTAppleCalendar'
-    pod 'SwiftKeychainWrapper'
-    pod 'lottie-ios', '3.5.0'
-    pod 'IQKeyboardManagerSwift'
-    pod 'Socket.IO-Client-Swift'
-    
-    # Facebook SDKs
-    pod 'FBSDKCoreKit', '~> 16.1.0'
-    pod 'FBSDKLoginKit', '~> 16.1.0'
-    
-    # Google SDKs
-    pod 'GoogleSignIn', '~> 8.0.0'
-    
-    # Firebase SDKs
-    pod 'FirebaseCore', '11.3.0'
-    pod 'FirebaseAnalytics', '~> 11.3.0'
-    pod 'FirebaseCrashlytics', '~> 11.3.0'
-    pod 'FirebaseAuth', '~> 11.3.0'
-    pod 'FirebaseRemoteConfig', '~> 11.3.0'
-    pod 'FirebaseMessaging', '~> 11.3.0'
-    pod 'FirebaseDynamicLinks', '~> 11.3.0'
-    
-    # Newly Added
-    pod 'CRRefresh'
-    pod 'ActiveLabel'
-    pod 'SkeletonView'
-    pod 'MBProgressHUD'
-    pod 'MHLoadingButton'
-    pod 'XLPagerTabStrip'
-    pod 'PanModal', :git => 'https://github.com/sharetripnet/PanModal.git'
-    pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
-    
+  pod 'FlightSDK', :path => '../'
+  
+  # General Dependencies
+  pod "JWT"
+  pod 'PKHUD'
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'SwiftyJSON'
+  pod 'FloatingPanel'
+  pod 'JTAppleCalendar'
+  pod 'SwiftKeychainWrapper'
+  pod 'lottie-ios', '3.5.0'
+  pod 'IQKeyboardManagerSwift'
+  pod 'Socket.IO-Client-Swift'
+  
+  # Facebook SDKs
+  pod 'FBSDKCoreKit', '~> 16.1.0'
+  pod 'FBSDKLoginKit', '~> 16.1.0'
+  
+  # Google SDKs
+  pod 'GoogleSignIn', '~> 8.0.0'
+  
+  # Firebase SDKs
+  pod 'FirebaseCore', '11.3.0'
+  pod 'FirebaseAnalytics', '~> 11.3.0'
+  pod 'FirebaseCrashlytics', '~> 11.3.0'
+  pod 'FirebaseAuth', '~> 11.3.0'
+  pod 'FirebaseRemoteConfig', '~> 11.3.0'
+  pod 'FirebaseMessaging', '~> 11.3.0'
+  pod 'FirebaseDynamicLinks', '~> 11.3.0'
+  
+  # Newly Added Pods
+  pod 'CRRefresh'
+  pod 'ActiveLabel'
+  pod 'SkeletonView'
+  pod 'MBProgressHUD'
+  pod 'MHLoadingButton'
+  pod 'XLPagerTabStrip'
+  pod 'PanModal', :git => 'https://github.com/sharetripnet/PanModal.git'
+  pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
+  
+  # ShareTrip SDK
+  pod 'FlightSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.2.2'
+  
 end
 
 use_frameworks!
