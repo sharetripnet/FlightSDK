@@ -1,4 +1,4 @@
-# ShareTripSDK
+# FlightSDK
 
 ## Requirements:
 - **Cocoapods**
@@ -60,7 +60,7 @@ target 'STExample' do
   pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
   
   # ShareTrip SDK
-  pod 'FlightSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.2.2'
+  pod 'FlightSDK', :git => 'https://github.com/sharetripnet/FlightSDK.git', :tag => '1.2.2'
   
 end
 

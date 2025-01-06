@@ -1,6 +1,6 @@
 PODS:
   - ActiveLabel (1.1.0)
-  - Alamofire (5.10.1)
+  - Alamofire (5.5.0)
   - AppAuth (1.7.5):
     - AppAuth/Core (= 1.7.5)
     - AppAuth/ExternalUserAgent (= 1.7.5)
@@ -208,7 +208,7 @@ PODS:
   - JTAppleCalendar (8.0.5)
   - JWT (2.2.0):
     - Base64 (~> 1.1.2)
-  - Kingfisher (8.1.0)
+  - Kingfisher (7.6.2)
   - lottie-ios (3.5.0)
   - MBProgressHUD (1.2.0)
   - MHLoadingButton (0.1.3)
@@ -224,17 +224,17 @@ PODS:
     - PromisesObjC (= 2.4.0)
   - RecaptchaInterop (100.0.0)
   - SkeletonView (1.30.4)
-  - Socket.IO-Client-Swift (16.1.1):
-    - Starscream (~> 4.0.8)
-  - Starscream (4.0.8)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
   - SwiftEntryKit (2.0.8)
   - SwiftKeychainWrapper (4.0.1)
-  - SwiftyJSON (5.0.2)
+  - SwiftyJSON (4.3.0)
   - XLPagerTabStrip (9.1.0)
 
 DEPENDENCIES:
   - ActiveLabel
-  - Alamofire
+  - Alamofire (= 5.5)
   - CRRefresh
   - FBSDKCoreKit (~> 16.1.0)
   - FBSDKLoginKit (~> 16.1.0)
@@ -249,19 +249,19 @@ DEPENDENCIES:
   - FloatingPanel
   - GoogleSignIn (~> 8.0.0)
   - IQKeyboardManagerSwift
-  - JTAppleCalendar
+  - JTAppleCalendar (~> 8.0)
   - JWT
-  - Kingfisher
+  - Kingfisher (~> 7.6.2)
   - lottie-ios (= 3.5.0)
-  - MBProgressHUD
+  - MBProgressHUD (= 1.2.0)
   - MHLoadingButton
   - PanModal (from `https://github.com/sharetripnet/PanModal.git`)
-  - PKHUD
+  - PKHUD (~> 5.0)
   - SkeletonView
-  - Socket.IO-Client-Swift
+  - Socket.IO-Client-Swift (~> 15.2.0)
   - SwiftEntryKit (from `https://github.com/sharetripnet/SwiftEntryKit.git`, tag `2.0.8`)
   - SwiftKeychainWrapper
-  - SwiftyJSON
+  - SwiftyJSON (~> 4.0)
   - XLPagerTabStrip
 
 SPEC REPOS:
@@ -344,7 +344,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
-  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
   AppCheckCore: cc8fd0a3a230ddd401f326489c99990b013f0c4f
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
@@ -369,7 +369,7 @@ SPEC CHECKSUMS:
   FirebaseRemoteConfigInterop: e76f46ffa4d6a65e273d4dfebb6a79e588cec136
   FirebaseSessions: 655ff17f3cc1a635cbdc2d69b953878001f9e25b
   FirebaseSharedSwift: 505dae2d05969dbf6d43749a642bb1bf230f0252
-  FlightSDK: 026fd29f8685a3326156bbff73926006cf135a3f
+  FlightSDK: d85cb0e19e43a7b64e6d145223c1b1f3f92bc757
   FloatingPanel: 11559d3700c39f1c2ee8dbb7a5415223b52fdce0
   GoogleAppMeasurement: c8bac5f6ad85d3a0bdf2b9aee7fd484d6615d486
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
@@ -387,7 +387,7 @@ SPEC CHECKSUMS:
   IQTextView: ae13b4922f22e6f027f62c557d9f4f236b19d5c7
   JTAppleCalendar: 16c6501b22cb27520372c28b0a2e0b12c8d0cd73
   JWT: cf73c0ab0dac762df3de8a3f1164352089d97780
-  Kingfisher: dfbf20b6249ed4ef6f18d6a96c847bce860bdb95
+  Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
   lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MHLoadingButton: 13bab47a3ce9d88df15638b7a5b73a8ac9f21077
@@ -398,13 +398,13 @@ SPEC CHECKSUMS:
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
   SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
-  Socket.IO-Client-Swift: 3614bea82ba005df1c2ff01154f4004993e05ad7
-  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftEntryKit: 04364b524c894e246e0ce49460b6f63f81cabc1b
   SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
-  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   XLPagerTabStrip: 27f3bfe23c53b4251c6481b06b1c289458a3fc1d
 
-PODFILE CHECKSUM: ee597731337efa8a73230e0bf356160e97a5875e
+PODFILE CHECKSUM: 9c1921af5e750bfb741088e1961599ebeea61f16
 
 COCOAPODS: 1.16.2
