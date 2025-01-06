@@ -1,0 +1,6 @@
+framework module FlightSDK {
+  umbrella header "FlightSDK.h"
+  export *
+
+  module * { export * }
+}

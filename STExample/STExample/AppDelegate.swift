@@ -7,7 +7,7 @@
 
 import UIKit
 import FirebaseCore
-import ShareTripSDK
+import FlightSDK
 import IQKeyboardManagerSwift
 
 @main
@@ -23,9 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
         IQKeyboardManager.shared.enable = true
         
         STSDK.shared.delegate = self
-        STSDK.shared.environment = .live
+        STSDK.shared.environment = .staging
         STSDK.shared.accessToken = "valid access token"
-        self.window?.rootViewController =  UINavigationController(rootViewController: FlightSearchVC.instantiate())
+        STSDK.shared.consumer = .banglalink
+        self.window?.rootViewController =  NavigationController(rootViewController: FlightSearchVC.instantiate())
         window?.makeKeyAndVisible()
         
         return true

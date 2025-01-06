@@ -1,0 +1,164 @@
+{
+    "request": {
+        "flightId": {
+            "requested": "1045381901",
+            "interpreted": 1045381901
+        },
+        "includeFlightPlan": {
+            "requested": "false",
+            "interpreted": false
+        },
+        "maxPositions": {
+            "requested": "2",
+            "interpreted": 2
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/track/1045381901?includeFlightPlan=false&maxPositions=2"
+    },
+    "appendix": {
+        "airlines": [
+            {
+                "fs": "EK",
+                "iata": "EK",
+                "icao": "UAE",
+                "name": "Emirates",
+                "active": true
+            }
+        ],
+        "airports": [
+            {
+                "fs": "CGK",
+                "iata": "CGK",
+                "icao": "WIII",
+                "faa": "",
+                "name": "Soekarno-Hatta International Airport",
+                "street1": "6000 N Terminal Parkway",
+                "street2" : "",
+                "city": "Jakarta",
+                "cityCode": "JKT",
+                "district": "",
+                "stateCode" : "GA",
+                "postalCode" : "30320",
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Jakarta",
+                "weatherZone": "",
+                "localTime": "2020-10-01T12:06:47.945",
+                "utcOffsetHours": 7,
+                "latitude": -6.130643,
+                "longitude": 106.655526,
+                "elevationFeet": 34,
+                "classification": 1,
+                "active": true,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CGK?codeType=fs",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CGK?codeType=fs"
+            },
+            {
+                "fs": "CGK",
+                "iata": "CGK",
+                "icao": "WIII",
+                "faa": "",
+                "name": "Soekarno-Hatta International Airport",
+                "street1": "6000 N Terminal Parkway",
+                "street2" : "",
+                "city": "Jakarta",
+                "cityCode": "JKT",
+                "district": "",
+                "stateCode" : "GA",
+                "postalCode" : "30320",
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "regionName": "Asia",
+                "timeZoneRegionName": "Asia/Jakarta",
+                "weatherZone": "",
+                "localTime": "2020-10-01T12:06:47.945",
+                "utcOffsetHours": 7,
+                "latitude": -6.130643,
+                "longitude": 106.655526,
+                "elevationFeet": 34,
+                "classification": 1,
+                "active": true,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CGK?codeType=fs",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CGK?codeType=fs"
+            }
+        ],
+        "equipments": [
+            {
+                "iata": "359",
+                "name": "Airbus A350-900",
+                "turboProp": false,
+                "jet": true,
+                "widebody": true,
+                "regional": false
+            }
+        ]
+    },
+    "flightTrack": {
+        "flightId": 1045381901,
+        "carrier": {
+            "fs": "AA",
+            "iata": "AA",
+            "icao": "AAL",
+            "name": "American Airlines",
+            "phoneNumber": "1-800-433-7300",
+            "active": true,
+            "category": "A"
+        },
+        "carrierFsCode": "EK",
+        "flightNumber": "336",
+        "tailNumber": "A6-EWE",
+        "callsign": "UAE336",
+        "departureAirportFsCode": "DXB",
+        "arrivalAirportFsCode": "CRK",
+        "departureDate": {
+            "dateUtc": "2020-10-01T01:50:00.000Z",
+            "dateLocal": "2020-10-01T05:50:00.000"
+        },
+        "equipment": "77L",
+        "delayMinutes": 15,
+        "bearing": 93.57450507762894,
+        "heading": 93.4828060714762,
+        "positions": [
+            {
+                "lon": 93.4883,
+                "lat": 18.7025,
+                "speedMph": 530,
+                "altitudeFt": 37000,
+                "source": "derived",
+                "date": "2020-10-01T06:39:57.343Z",
+                "course": 15,
+                "vrateMps": 6,
+                "phase": "takeoff",
+                "lastObserved": "2020-10-01T01:50:00.000Z",
+                "stationID": "KZLA"
+            }
+        ],
+        "waypoints": [
+            {
+                "lon": 93.4883,
+                "lat": 18.7025
+            },
+            {
+                "lon": 93.4883,
+                "lat": 18.7025
+            }
+        ],
+        "legacyRoute": "Jfk-Ijk",
+        "irregularOperations": [
+            {
+                "type": "CANCELLATION",
+                "newArrivalAirportFsCode": "JFK",
+                "relatedFlightId": 24586521,
+                "dateUtc": "2013-02-26T23:00:00.000Z",
+                "message": "Cancelled due to mechanical issue."
+            },
+            {
+                "type": "CANCELLATION",
+                "newArrivalAirportFsCode": "JFK",
+                "relatedFlightId": 24586521,
+                "dateUtc": "2013-02-26T23:00:00.000Z",
+                "message": "Cancelled due to mechanical issue."
+            }
+        ]
+    }
+}

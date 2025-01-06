@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'ShareTripSDK'
-    s.version           = '1.1.1'
+    s.version           = '1.2.2'
     s.summary           = 'ShareTripSDK'
     s.homepage          = 'https://github.com/sharetripnet/ShareTripSDK.git'
     s.source            = { :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => s.version.to_s }
@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
     s.swift_version     = "5.0"
     s.license           = 'MIT'
     s.requires_arc      = true
-    s.platform          = :ios, "11.0"
-    s.vendored_frameworks = 'ShareTripSDK.xcframework'
+    s.platform          = :ios, "13.0"
+    s.vendored_frameworks = 'FlightSDK.xcframework'
 end

@@ -1,0 +1,1853 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FlightSDK
+import AVFoundation
+import ActiveLabel
+import Alamofire
+import AuthenticationServices
+import CRRefresh
+import Contacts
+import CoreGraphics
+import CoreLocation
+import CoreText
+import FBSDKLoginKit
+import FirebaseAnalytics
+import FirebaseRemoteConfig
+@_exported import FlightSDK
+import FloatingPanel
+import Foundation
+import GoogleSignIn
+import IQKeyboardManagerSwift
+import JTAppleCalendar
+import Kingfisher
+import Lottie
+import MBProgressHUD
+import MHLoadingButton
+import MapKit
+import MessageUI
+import PKHUD
+import PanModal
+import Photos
+import PhotosUI
+import QuartzCore
+import QuickLook
+import SkeletonView
+import StoreKit
+import Swift
+import SwiftEntryKit
+import SwiftKeychainWrapper
+import SwiftUI
+import SwiftyJSON
+import SystemConfiguration
+import UIKit
+import UserNotifications
+import WebKit
+import XLPagerTabStrip
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol STSDKDelegate : AnyObject {
+  func didSuccessTokenValidation()
+  func didFailed(error: Swift.String)
+}
+public protocol HomeScreenDelegate : AnyObject {
+  func openHomeScreen()
+}
+@_hasMissingDesignatedInitializers final public class STSDK {
+  public static let shared: FlightSDK.STSDK
+  weak final public var delegate: (any FlightSDK.STSDKDelegate)?
+  final public var environment: FlightSDK.Target {
+    get
+    set
+  }
+  final public var consumer: FlightSDK.SDKConsumer {
+    get
+    set
+  }
+  weak final public var homeScreenDelegate: (any FlightSDK.HomeScreenDelegate)?
+  final public var accessToken: Swift.String {
+    get
+    set
+  }
+  @objc deinit
+}
+public enum SDKEnvironment {
+  case live
+  case staging
+  public static func == (a: FlightSDK.SDKEnvironment, b: FlightSDK.SDKEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class UserAccount : Swift.Codable {
+  public var titleName: FlightSDK.TitleType
+  public var givenName: Swift.String
+  public var surName: Swift.String
+  public var designation: Swift.String
+  public var address1: Swift.String
+  public var address2: Swift.String?
+  public var profession: Swift.String?
+  public var mobileNumber: Swift.String
+  public var avatar: Swift.String
+  public var gender: FlightSDK.GenderType?
+  public var dateOfBirth: Swift.String?
+  final public let username: Swift.String
+  public var email: Swift.String
+  public var referralCode: Swift.String
+  public var nationality: Swift.String
+  public var passportNumber: Swift.String
+  public var passportExpireDate: Swift.String?
+  public var country: Swift.String
+  public var postCode: Swift.String
+  public var passport: Swift.String
+  public var passportCopy: Swift.String
+  public var visaCopy: Swift.String
+  public var frequentFlyerNumber: Swift.String
+  public var seatPreference: Swift.String
+  public var mealPreference: Swift.String
+  public var totalPoints: Swift.Int64
+  public var redeemablePoints: Swift.Int64
+  public var profileLevel: FlightSDK.UserAccount.UserStatus?
+  public var otherPassengers: [FlightSDK.Passenger]?
+  final public let coinSettings: FlightSDK.CoinSettings?
+  required public init(from decoder: any Swift.Decoder) throws
+  public func update(with baseUser: FlightSDK.UserProfile)
+  public func getPassenger() -> FlightSDK.Passenger
+  public func getAgeCount() -> Swift.Int?
+  public enum UserStatus : Swift.String, Swift.CaseIterable, Swift.Codable {
+    case silver
+    case gold
+    case platinum
+    case unknown
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [FlightSDK.UserAccount.UserStatus]
+    public typealias RawValue = Swift.String
+    nonisolated public static var allCases: [FlightSDK.UserAccount.UserStatus] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class OfflineVC : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+public protocol APIEndpoint : Alamofire.URLConvertible, Alamofire.URLRequestConvertible {
+  var baseUrl: Swift.String { get }
+  var path: Swift.String { get }
+  var method: Alamofire.HTTPMethod { get }
+  var parameters: Alamofire.Parameters? { get }
+  var bodyData: Foundation.Data? { get }
+  var contentType: FlightSDK.ContentType? { get }
+  var version: Swift.String { get }
+  var imageDataTuple: (Swift.String, Foundation.Data)? { get }
+  func asURLRequest() throws -> Foundation.URLRequest
+  func asURL() throws -> Foundation.URL
+}
+public protocol TNCService {
+  func getTNC(completion: @escaping (Alamofire.AFResult<FlightSDK.TNC>) -> Swift.Void)
+}
+public protocol FAQService {
+  func getFAQ(completion: @escaping (Alamofire.AFResult<FlightSDK.FAQ>) -> Swift.Void)
+}
+public protocol APIClient {
+  func performRequest<T>(route: any FlightSDK.APIEndpoint, decoder: Foundation.JSONDecoder, completion: @escaping (Alamofire.AFResult<T>) -> Swift.Void) -> Alamofire.DataRequest where T : Swift.Decodable
+  func uploadRequest<T>(route: any FlightSDK.APIEndpoint, decoder: Foundation.JSONDecoder, completion: @escaping (Alamofire.AFResult<T>) -> Swift.Void) -> Alamofire.UploadRequest where T : Swift.Decodable
+}
+@_hasMissingDesignatedInitializers open class TapticEngine {
+  public static let impact: FlightSDK.TapticEngine.Impact
+  public static let selection: FlightSDK.TapticEngine.Selection
+  public static let notification: FlightSDK.TapticEngine.Notification
+  @_hasMissingDesignatedInitializers open class Impact {
+    public enum ImpactStyle {
+      case light, medium, heavy
+      public static func == (a: FlightSDK.TapticEngine.Impact.ImpactStyle, b: FlightSDK.TapticEngine.Impact.ImpactStyle) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+    public func feedback(_ style: FlightSDK.TapticEngine.Impact.ImpactStyle)
+    public func prepare(_ style: FlightSDK.TapticEngine.Impact.ImpactStyle)
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers open class Selection {
+    public func feedback()
+    public func prepare()
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers open class Notification {
+    public enum NotificationType {
+      case success, warning, error
+      public static func == (a: FlightSDK.TapticEngine.Notification.NotificationType, b: FlightSDK.TapticEngine.Notification.NotificationType) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+    public func feedback(_ type: FlightSDK.TapticEngine.Notification.NotificationType)
+    public func prepare()
+    @objc deinit
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class CollapsibleHeaderView : UIKit.UITableViewHeaderFooterView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public class CountdownAttributedText : ObjectiveC.NSObject {
+  public init(text: Swift.String, replacement: Swift.String, attributes: [Foundation.NSAttributedString.Key : Any]? = nil)
+  @objc deinit
+}
+public protocol Alert {
+  func showAlert(title: Swift.String, message: Swift.String, actions: [UIKit.UIAlertAction], preferredStyle: UIKit.UIAlertController.Style)
+  func showErrorAlert(for errors: Swift.String, actions: [UIKit.UIAlertAction])
+}
+extension FlightSDK.Alert where Self : UIKit.UIViewController {
+  public func showAlert(title: Swift.String, message: Swift.String, actions: [UIKit.UIAlertAction], preferredStyle: UIKit.UIAlertController.Style)
+  public func showErrorAlert(for error: Swift.String, actions: [UIKit.UIAlertAction])
+}
+extension UIKit.UIViewController : FlightSDK.Alert {
+}
+public protocol DecodingContainerTransformer {
+  associatedtype Input
+  associatedtype Output
+  func transform(_ decoded: Self.Input) throws -> Self.Output
+}
+public protocol EncodingContainerTransformer {
+  associatedtype Input
+  associatedtype Output
+  func transform(_ encoded: Self.Output) throws -> Self.Input
+}
+public typealias CodingContainerTransformer = FlightSDK.DecodingContainerTransformer & FlightSDK.EncodingContainerTransformer
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CustomSeparatorCompositionalLayout : UIKit.UICollectionViewCompositionalLayout {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutAttributesForElements(in rect: CoreFoundation.CGRect) -> [UIKit.UICollectionViewLayoutAttributes]?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(section: UIKit.NSCollectionLayoutSection)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(section: UIKit.NSCollectionLayoutSection, configuration: UIKit.UICollectionViewCompositionalLayoutConfiguration)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(sectionProvider: @escaping UIKit.UICollectionViewCompositionalLayoutSectionProvider)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(sectionProvider: @escaping UIKit.UICollectionViewCompositionalLayoutSectionProvider, configuration: UIKit.UICollectionViewCompositionalLayoutConfiguration)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CustomSeparatorColorView : UIKit.UICollectionReusableView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class FlightSearchVC : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension FlightSDK.FlightSearchVC : UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+}
+extension FlightSDK.FlightSearchVC : FlightSDK.StoryboardBased {
+  @_Concurrency.MainActor @preconcurrency public static var storyboardName: Swift.String {
+    get
+  }
+}
+public enum AppError : Swift.Error, Swift.Equatable {
+  case validationError(Swift.String)
+  case nameExceedError
+  public static func == (a: FlightSDK.AppError, b: FlightSDK.AppError) -> Swift.Bool
+}
+public enum StarFillMode : Swift.Int {
+  case full
+  case half
+  case precise
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct CosmosSettings {
+  public static var `default`: FlightSDK.CosmosSettings {
+    get
+  }
+  public init()
+  public var emptyBorderColor: UIKit.UIColor
+  public var emptyBorderWidth: Swift.Double
+  public var filledBorderColor: UIKit.UIColor
+  public var filledBorderWidth: Swift.Double
+  public var emptyColor: UIKit.UIColor
+  public var filledColor: UIKit.UIColor
+  public var fillMode: FlightSDK.StarFillMode
+  public var starMargin: Swift.Double
+  public var starPoints: [CoreFoundation.CGPoint]
+  public var starSize: Swift.Double
+  public var totalStars: Swift.Int
+  public var filledImage: UIKit.UIImage?
+  public var emptyImage: UIKit.UIImage?
+  public var textColor: UIKit.UIColor
+  public var textFont: UIKit.UIFont
+  public var textMargin: Swift.Double
+  public var minTouchRating: Swift.Double
+  public var passTouchesToSuperview: Swift.Bool
+  public var updateOnTouch: Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency open class CosmosView : UIKit.UIView {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var rating: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency open var settings: FlightSDK.CosmosSettings {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor @preconcurrency convenience public init(settings: FlightSDK.CosmosSettings = .default)
+  @_Concurrency.MainActor @preconcurrency @objc override convenience dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, settings: FlightSDK.CosmosSettings)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency open func update()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency open func prepareForReuse()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func accessibilityIncrement()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func accessibilityDecrement()
+  @_Concurrency.MainActor @preconcurrency open var didTouchCosmos: ((Swift.Double) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency open var didFinishTouchingCosmos: ((Swift.Double) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesMoved(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func point(inside point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForInterfaceBuilder()
+  @objc deinit
+}
+public enum Currency : Swift.String, Swift.Codable {
+  case bdt
+  case usd
+  case undefined
+  public init(from decoder: any Swift.Decoder) throws
+  public var shortString: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_Concurrency.MainActor @preconcurrency public class TTFortuneWheel : UIKit.UIControl, QuartzCore.CAAnimationDelegate {
+  @_Concurrency.MainActor @preconcurrency open var equalSlices: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var slices: [any FlightSDK.FortuneWheelSliceProtocol]!
+  @_Concurrency.MainActor @preconcurrency open var frameStroke: FlightSDK.StrokeInfo
+  @_Concurrency.MainActor @preconcurrency open var shadow: UIKit.NSShadow?
+  @_Concurrency.MainActor @preconcurrency open var initialDrawingOffset: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, slices: [any FlightSDK.FortuneWheelSliceProtocol])
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency open func startAnimating(rotationCompletionOffset: CoreFoundation.CGFloat = 0.0, _ completion: ((Swift.Bool) -> Swift.Void)?)
+  @_Concurrency.MainActor @preconcurrency open func startAnimating(fininshIndex: Swift.Int = 0, _ completion: ((Swift.Bool) -> Swift.Void)?)
+  @_Concurrency.MainActor @preconcurrency open func startAnimating()
+  @_Concurrency.MainActor @preconcurrency open func stopAnimating()
+  @_Concurrency.MainActor @preconcurrency open func startAnimating(fininshIndex: Swift.Int = 0, offset: CoreFoundation.CGFloat, _ completion: ((Swift.Bool) -> Swift.Void)?)
+  @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func showSkeletonAnimation(color: UIKit.UIColor = UIColor(hex: 0xE2E8F0))
+  @_Concurrency.MainActor @preconcurrency public func hidSkeletonAnimation()
+}
+public enum TitleType : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case mr
+  case ms
+  case master
+  case miss
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [FlightSDK.TitleType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [FlightSDK.TitleType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum GenderType : Swift.String, Swift.Codable {
+  case male
+  case female
+  case other
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PageIndicatorPosition {
+  public enum Horizontal {
+    case left(padding: CoreFoundation.CGFloat), center, right(padding: CoreFoundation.CGFloat)
+  }
+  public enum Vertical {
+    case top, bottom, under, customTop(padding: CoreFoundation.CGFloat), customBottom(padding: CoreFoundation.CGFloat), customUnder(padding: CoreFoundation.CGFloat)
+  }
+  public init(horizontal: FlightSDK.PageIndicatorPosition.Horizontal = .center, vertical: FlightSDK.PageIndicatorPosition.Vertical = .bottom)
+}
+public enum ServiceType : Swift.Codable, Swift.Equatable {
+  case hotel
+  case flight
+  case flightTracker
+  case tour
+  case transfer
+  case package
+  case visa
+  case bus
+  case topup
+  case voucher
+  case shop
+  case payBill
+  case reissue
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+  public var title: Swift.String {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: FlightSDK.ServiceType, b: FlightSDK.ServiceType) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TravellerType : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case adult
+  case child
+  case infant
+  case kid
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [FlightSDK.TravellerType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [FlightSDK.TravellerType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_Concurrency.MainActor @preconcurrency open class DatePickerDialog : UIKit.UIView {
+  public typealias DatePickerCallback = (Foundation.Date?) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency open var datePicker: UIKit.UIDatePicker!
+  @objc @_Concurrency.MainActor @preconcurrency public init(textColor: UIKit.UIColor? = nil, buttonColor: UIKit.UIColor? = nil, font: UIKit.UIFont = .boldSystemFont(ofSize: 15), locale: Foundation.Locale? = nil, showCancelButton: Swift.Bool = true)
+  @available(*, unavailable)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+}
+public class Passenger : Swift.Codable {
+  public var code: Swift.String
+  final public let titleName: FlightSDK.TitleType
+  final public let givenName: Swift.String
+  final public let surName: Swift.String
+  public var nationality: Swift.String
+  final public let gender: FlightSDK.GenderType
+  final public let dateOfBirth: Swift.String
+  final public let passportNumber: Swift.String?
+  final public let passportExpireDate: Swift.String?
+  final public let frequentFlyerNumber: Swift.String?
+  final public let passportCopy: Swift.String?
+  final public let visaCopy: Swift.String?
+  public var address1: Swift.String
+  public var postCode: Swift.String
+  public var email: Swift.String
+  public var mobileNumber: Swift.String
+  public var address2: Swift.String
+  public var profession: Swift.String
+  public var fullName: Swift.String {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  public init(titleName: FlightSDK.TitleType, givenName: Swift.String, surName: Swift.String, nationality: Swift.String, dateOfBirth: Swift.String, gender: FlightSDK.GenderType, passportNumber: Swift.String?, passportExpireDate: Swift.String?, frequentFlyerNumber: Swift.String?, passportCopy: Swift.String?, visaCopy: Swift.String?)
+  public func getAgeCount() -> Swift.Int?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public class AppVersion : Swift.Codable {
+  public class VersionData : Swift.Codable {
+    @objc deinit
+    public func encode(to encoder: any Swift.Encoder) throws
+    required public init(from decoder: any Swift.Decoder) throws
+  }
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class NavigationController : UIKit.UINavigationController, UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+open class BaseResponse : Swift.Codable {
+  final public let code: FlightSDK.APIResponseCode
+  final public let message: Swift.String
+  final public let errors: [Swift.String]?
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Response<T> : FlightSDK.BaseResponse where T : Swift.Decodable {
+  final public let response: T?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ResponseList<T> : FlightSDK.BaseResponse where T : Swift.Decodable, T : Swift.Encodable {
+  final public let response: [T]?
+  @objc deinit
+}
+public struct TNC : Swift.Codable {
+  public let common: FlightSDK.TOSBodyData, loyalty: FlightSDK.TOSBodyData, spin: FlightSDK.TOSBodyData
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TOSBodyData : Swift.Codable {
+  public let body: Swift.String, flag: Swift.String, title: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class Country : Swift.Codable, Swift.Equatable {
+  public static func == (lhs: FlightSDK.Country, rhs: FlightSDK.Country) -> Swift.Bool
+  final public let code: Swift.String
+  final public let name: Swift.String
+  public init(code: Swift.String, name: Swift.String)
+  public static var defaultCountry: FlightSDK.Country {
+    get
+  }
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct PaymentUrls {
+  public init(payment: Swift.String, success: Swift.String? = nil, failure: Swift.String? = nil)
+  public var paymentUrl: Foundation.URL? {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency open class RangeSeekSlider : UIKit.UIControl {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc required override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency convenience public init(frame: CoreFoundation.CGRect = .zero, completion: ((FlightSDK.RangeSeekSlider) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency weak open var delegate: (any FlightSDK.RangeSeekSliderDelegate)?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var minValue: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var maxValue: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var selectedMinValue: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var selectedMaxValue: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency open var minLabelFont: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var maxLabelFont: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var numberFormatter: Foundation.NumberFormatter
+  @_Concurrency.MainActor @preconcurrency open var barSidePadding: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency open var paddingFromBothEnd: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var hideLabels: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var labelsFixed: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var minDistance: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var maxDistance: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var minLabelColor: UIKit.UIColor?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var maxLabelColor: UIKit.UIColor?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var handleColor: UIKit.UIColor?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var handleBorderColor: UIKit.UIColor?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var colorBetweenHandles: UIKit.UIColor?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var initialColor: UIKit.UIColor?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var disableRange: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var enableStep: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var step: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var handleImage: UIKit.UIImage? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var handleDiameter: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var selectedHandleDiameterMultiplier: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var lineHeight: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var handleBorderWidth: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var labelPadding: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var minLabelAccessibilityLabel: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var maxLabelAccessibilityLabel: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var minLabelAccessibilityHint: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var maxLabelAccessibilityHint: Swift.String?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func beginTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func continueTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func accessibilityElementCount() -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func accessibilityElement(at index: Swift.Int) -> Any?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func index(ofAccessibilityElement element: Any) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency open func setupStyle()
+  @objc deinit
+}
+@objc public protocol CollapsibleTableSectionDelegate {
+  @objc optional func numberOfSections(_ tableView: UIKit.UITableView) -> Swift.Int
+  @objc optional func collapsibleTableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc optional func collapsibleTableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc optional func collapsibleTableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @objc optional func collapsibleTableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @objc optional func collapsibleTableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @objc optional func collapsibleTableView(_ tableView: UIKit.UITableView, titleForHeaderInSection section: Swift.Int) -> Swift.String?
+  @objc optional func collapsibleTableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @objc optional func collapsibleTableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @objc optional func collapsibleTableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @objc optional func shouldCollapseByDefault(_ tableView: UIKit.UITableView, section: Swift.Int) -> Swift.Bool
+  @objc optional func shouldCollapseOthers(_ tableView: UIKit.UITableView) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers public class TTUtils {
+  public class func uiColor(from rgbValue: Swift.UInt, alpha: CoreFoundation.CGFloat = 1.0) -> UIKit.UIColor
+  @objc deinit
+}
+extension Foundation.Bundle {
+  public static func sw_frameworkBundle() -> Foundation.Bundle
+}
+public enum ReachabilityError : Swift.Error {
+  case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
+  case failedToCreateWithHostname(Swift.String, Swift.Int32)
+  case unableToSetCallback(Swift.Int32)
+  case unableToSetDispatchQueue(Swift.Int32)
+  case unableToGetFlags(Swift.Int32)
+}
+@available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
+public let reachabilityChangedNotification: Foundation.NSNotification.Name
+public class Reachability {
+  public typealias NetworkReachable = (FlightSDK.Reachability) -> Swift.Void
+  public typealias NetworkUnreachable = (FlightSDK.Reachability) -> Swift.Void
+  @available(*, unavailable, renamed: "Connection")
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: FlightSDK.Reachability.NetworkStatus, b: FlightSDK.Reachability.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Connection : Swift.CustomStringConvertible {
+    @available(*, deprecated, renamed: "unavailable")
+    case none
+    case unavailable, wifi, cellular
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: FlightSDK.Reachability.Connection, b: FlightSDK.Reachability.Connection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var whenReachable: FlightSDK.Reachability.NetworkReachable?
+  public var whenUnreachable: FlightSDK.Reachability.NetworkUnreachable?
+  @available(*, deprecated, renamed: "allowsCellularConnection")
+  final public let reachableOnWWAN: Swift.Bool
+  public var allowsCellularConnection: Swift.Bool
+  public var notificationCenter: Foundation.NotificationCenter
+  @available(*, deprecated, renamed: "connection.description")
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  @available(*, unavailable, renamed: "connection")
+  public var currentReachabilityStatus: FlightSDK.Reachability.Connection {
+    get
+  }
+  public var connection: FlightSDK.Reachability.Connection {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main)
+  convenience public init(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  @objc deinit
+}
+@objc public class KingfisherSource : ObjectiveC.NSObject, FlightSDK.InputSource {
+  public var url: Foundation.URL
+  public var placeholder: UIKit.UIImage?
+  public var options: Kingfisher.KingfisherOptionsInfo?
+  public init(url: Foundation.URL, placeholder: UIKit.UIImage? = nil, options: Kingfisher.KingfisherOptionsInfo? = nil)
+  public init?(urlString: Swift.String, placeholder: UIKit.UIImage? = nil, options: Kingfisher.KingfisherOptionsInfo? = nil)
+  @objc public func load(to imageView: UIKit.UIImageView, with callback: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc public func cancelLoad(on imageView: UIKit.UIImageView)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency open class ImageSlideshowItem : UIKit.UIScrollView, UIKit.UIScrollViewDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency final public let imageView: UIKit.UIImageView
+  @_Concurrency.MainActor @preconcurrency final public let activityIndicator: (any FlightSDK.ActivityIndicatorView)?
+  @objc @_Concurrency.MainActor @preconcurrency final public let image: any FlightSDK.InputSource
+  @objc @_Concurrency.MainActor @preconcurrency open var gestureRecognizer: UIKit.UITapGestureRecognizer?
+  @objc @_Concurrency.MainActor @preconcurrency final public let zoomEnabled: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency open var zoomInInitially: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency open var maximumScale: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @objc @_Concurrency.MainActor @preconcurrency public func loadImage()
+  @objc @_Concurrency.MainActor @preconcurrency public func cancelPendingLoad()
+  @_Concurrency.MainActor @preconcurrency @objc open func scrollViewDidZoom(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc open func viewForZooming(in scrollView: UIKit.UIScrollView) -> UIKit.UIView?
+  @objc deinit
+}
+public struct ToastConfiguration {
+  public let direction: FlightSDK.Toast.Direction
+  public let autoHide: Swift.Bool
+  public let enablePanToClose: Swift.Bool
+  public let displayTime: Foundation.TimeInterval
+  public let animationTime: Foundation.TimeInterval
+  public let enteringAnimation: FlightSDK.Toast.AnimationType
+  public let exitingAnimation: FlightSDK.Toast.AnimationType
+  public let view: UIKit.UIView?
+  public init(direction: FlightSDK.Toast.Direction = .top, autoHide: Swift.Bool = true, enablePanToClose: Swift.Bool = true, displayTime: Foundation.TimeInterval = 4, animationTime: Foundation.TimeInterval = 0.2, enteringAnimation: FlightSDK.Toast.AnimationType = .default, exitingAnimation: FlightSDK.Toast.AnimationType = .default, attachTo view: UIKit.UIView? = nil)
+}
+public enum SDKConsumer {
+  case sharetrip
+  case banglalink
+  public static func == (a: FlightSDK.SDKConsumer, b: FlightSDK.SDKConsumer) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol InputSource {
+  @objc func load(to imageView: UIKit.UIImageView, with callback: @escaping (_ image: UIKit.UIImage?) -> Swift.Void)
+  @objc optional func cancelLoad(on imageView: UIKit.UIImageView)
+}
+@objc @objcMembers open class ImageSource : ObjectiveC.NSObject, FlightSDK.InputSource {
+  @objc public init(image: UIKit.UIImage)
+  @objc @available(*, deprecated, message: "Use `BundleImageSource` instead")
+  public init?(imageString: Swift.String)
+  @objc public func load(to imageView: UIKit.UIImageView, with callback: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc deinit
+}
+@objc @objcMembers open class BundleImageSource : ObjectiveC.NSObject, FlightSDK.InputSource {
+  @objc public init(imageString: Swift.String)
+  @objc public func load(to imageView: UIKit.UIImageView, with callback: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc deinit
+}
+@objc @objcMembers open class FileImageSource : ObjectiveC.NSObject, FlightSDK.InputSource {
+  @objc public init(path: Swift.String)
+  @objc public func load(to imageView: UIKit.UIImageView, with callback: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Toast {
+  public enum Direction {
+    case top, bottom
+    case bottomOffset(CoreFoundation.CGFloat)
+  }
+  public enum AnimationType {
+    case slide(currentX: CoreFoundation.CGFloat, currentY: CoreFoundation.CGFloat)
+    case fade(alphaValue: CoreFoundation.CGFloat)
+    case scaleAndSlide(scaleX: CoreFoundation.CGFloat, scaleY: CoreFoundation.CGFloat, currentX: CoreFoundation.CGFloat, currentY: CoreFoundation.CGFloat)
+    case scale(scaleX: CoreFoundation.CGFloat, scaleY: CoreFoundation.CGFloat)
+    case custom(transformation: CoreFoundation.CGAffineTransform)
+    case `default`
+  }
+  public static var defaultImageTint: UIKit.UIColor {
+    get
+  }
+  final public let view: any FlightSDK.ToastView
+  weak public var delegate: (any FlightSDK.ToastDelegate)?
+  public static func text(_ title: Foundation.NSAttributedString, subtitle: Foundation.NSAttributedString? = nil, config: FlightSDK.ToastConfiguration = ToastConfiguration()) -> FlightSDK.Toast
+  public static func text(_ title: Swift.String, subtitle: Swift.String? = nil, config: FlightSDK.ToastConfiguration = ToastConfiguration()) -> FlightSDK.Toast
+  public static func `default`(image: UIKit.UIImage, imageTint: UIKit.UIColor? = defaultImageTint, title: Foundation.NSAttributedString, subtitle: Foundation.NSAttributedString? = nil, config: FlightSDK.ToastConfiguration = ToastConfiguration()) -> FlightSDK.Toast
+  public static func `default`(image: UIKit.UIImage, imageTint: UIKit.UIColor? = defaultImageTint, title: Swift.String, subtitle: Swift.String? = nil, config: FlightSDK.ToastConfiguration = ToastConfiguration()) -> FlightSDK.Toast
+  public static func custom(view: any FlightSDK.ToastView, config: FlightSDK.ToastConfiguration = ToastConfiguration()) -> FlightSDK.Toast
+  required public init(view: any FlightSDK.ToastView, config: FlightSDK.ToastConfiguration)
+  public func show(haptic type: UIKit.UINotificationFeedbackGenerator.FeedbackType, after time: Foundation.TimeInterval = 0)
+  public func show(after delay: Foundation.TimeInterval = 0)
+  public func close(completion: (() -> Swift.Void)? = nil)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency open class FullScreenSlideshowViewController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency open var slideshow: FlightSDK.ImageSlideshow
+  @objc @_Concurrency.MainActor @preconcurrency open var closeButton: UIKit.UIButton
+  @_Concurrency.MainActor @preconcurrency open var closeButtonFrame: CoreFoundation.CGRect?
+  @objc @_Concurrency.MainActor @preconcurrency open var pageSelected: ((_ page: Swift.Int) -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency open var initialPage: Swift.Int
+  @objc @_Concurrency.MainActor @preconcurrency open var inputs: [any FlightSDK.InputSource]?
+  @objc @_Concurrency.MainActor @preconcurrency open var backgroundColor: UIKit.UIColor
+  @objc @_Concurrency.MainActor @preconcurrency open var zoomEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var prefersStatusBarHidden: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public protocol ImageSlideshowDelegate {
+  @objc optional func imageSlideshow(_ imageSlideshow: FlightSDK.ImageSlideshow, didChangeCurrentPageTo page: Swift.Int)
+  @objc optional func imageSlideshowWillBeginDragging(_ imageSlideshow: FlightSDK.ImageSlideshow)
+  @objc optional func imageSlideshowDidEndDecelerating(_ imageSlideshow: FlightSDK.ImageSlideshow)
+}
+public enum PageControlPosition {
+  case hidden
+  case insideScrollView
+  case underScrollView
+  case custom(padding: CoreFoundation.CGFloat)
+}
+public enum ImagePreload {
+  case fixed(offset: Swift.Int)
+  case all
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency open class ImageSlideshow : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency final public let scrollView: UIKit.UIScrollView
+  @objc @available(*, deprecated, message: "Use pageIndicator.view instead")
+  @_Concurrency.MainActor @preconcurrency open var pageControl: UIKit.UIPageControl {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency open var activityIndicator: (any FlightSDK.ActivityIndicatorFactory)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var pageIndicator: (any FlightSDK.PageIndicatorView)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var pageIndicatorPosition: FlightSDK.PageIndicatorPosition {
+    get
+    set
+  }
+  @available(*, deprecated, message: "Use pageIndicatorPosition instead")
+  @_Concurrency.MainActor @preconcurrency open var pageControlPosition: FlightSDK.PageControlPosition {
+    get
+    set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var currentPage: Swift.Int {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency weak open var delegate: (any FlightSDK.ImageSlideshowDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency open var currentPageChanged: ((_ page: Swift.Int) -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency open var willBeginDragging: (() -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency open var didEndDecelerating: (() -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency open var currentSlideshowItem: FlightSDK.ImageSlideshowItem? {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var scrollViewPage: Swift.Int {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var images: [any FlightSDK.InputSource] {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var slideshowItems: [FlightSDK.ImageSlideshowItem] {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var circular: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var draggingEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var zoomEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var maximumScale: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var slideshowInterval: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency open var preload: FlightSDK.ImagePreload
+  @objc @_Concurrency.MainActor @preconcurrency open var contentScaleMode: FlightSDK.UIViewContentMode {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var slideshowTransitioningDelegate: FlightSDK.ZoomAnimatedTransitioningDelegate? {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func removeFromSuperview()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @objc @_Concurrency.MainActor @preconcurrency open func layoutPageControl()
+  @objc @_Concurrency.MainActor @preconcurrency open func setImageInputs(_ inputs: [any FlightSDK.InputSource])
+  @objc @_Concurrency.MainActor @preconcurrency open func setCurrentPage(_ newPage: Swift.Int, animated: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency open func setScrollViewPage(_ newScrollViewPage: Swift.Int, animated: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency open func pauseTimer()
+  @objc @_Concurrency.MainActor @preconcurrency open func unpauseTimer()
+  @objc @available(*, deprecated, message: "use pauseTimer instead")
+  @_Concurrency.MainActor @preconcurrency open func pauseTimerIfNeeded()
+  @objc @available(*, deprecated, message: "use unpauseTimer instead")
+  @_Concurrency.MainActor @preconcurrency open func unpauseTimerIfNeeded()
+  @objc @_Concurrency.MainActor @preconcurrency open func nextPage(animated: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency open func previousPage(animated: Swift.Bool)
+  @objc @discardableResult
+  @_Concurrency.MainActor @preconcurrency open func presentFullScreenController(from controller: UIKit.UIViewController) -> FlightSDK.FullScreenSlideshowViewController
+  @objc deinit
+}
+extension FlightSDK.ImageSlideshow : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewWillBeginDragging(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
+}
+public protocol PageIndicatorView : AnyObject {
+  var view: UIKit.UIView { get }
+  var page: Swift.Int { get set }
+  var numberOfPages: Swift.Int { get set }
+}
+extension UIKit.UIPageControl : FlightSDK.PageIndicatorView {
+  @_Concurrency.MainActor @preconcurrency public var view: UIKit.UIView {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var page: Swift.Int {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func sizeToFit()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class LabelPageIndicator : UIKit.UILabel, FlightSDK.PageIndicatorView {
+  @_Concurrency.MainActor @preconcurrency public var view: UIKit.UIView {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var numberOfPages: Swift.Int {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var page: Swift.Int {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func sizeToFit()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CustomLabelPageIndicator : UIKit.UILabel, FlightSDK.PageIndicatorView {
+  @_Concurrency.MainActor @preconcurrency public var view: UIKit.UIView {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var numberOfPages: Swift.Int {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var page: Swift.Int {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func sizeToFit()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class STSDKHomeVC : UIKit.UIViewController, FlightSDK.StoryboardBased {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency public static var storyboardName: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension FlightSDK.STSDKHomeVC : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+}
+public typealias UIViewContentMode = UIKit.UIView.ContentMode
+public typealias UIActivityIndicatorViewStyle = UIKit.UIActivityIndicatorView.Style
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class TextToastView : UIKit.UIStackView {
+  @_Concurrency.MainActor @preconcurrency public init(_ title: Foundation.NSAttributedString, subtitle: Foundation.NSAttributedString? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(_ title: Swift.String, subtitle: Swift.String? = nil)
+  @objc deinit
+}
+public class UserProfile : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public class CoinSettings : Swift.Codable {
+  final public let registrationEarnCoin: Swift.Int
+  final public let referCoin: Swift.Int
+  final public let treasureBoxCoin: Swift.Int
+  final public let minCostPlayWheel: Swift.Int
+  final public let maxTripCoinValue: Swift.Int
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct FAQ : Swift.Codable {
+  public let commonOverview: FlightSDK.TOSBodyData, flight: FlightSDK.TOSBodyData, holiday: FlightSDK.TOSBodyData, hotel: FlightSDK.TOSBodyData
+  public let tour: FlightSDK.TOSBodyData, transfer: FlightSDK.TOSBodyData, tripCoin: FlightSDK.TOSBodyData
+  public let shop: FlightSDK.TOSBodyData, voucher: FlightSDK.TOSBodyData, mobileRecharge: FlightSDK.TOSBodyData, payBill: FlightSDK.TOSBodyData, visa: FlightSDK.TOSBodyData
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ContentType : Swift.String {
+  case json
+  case multipartFormData
+  case image
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum APIResponseCode : Swift.String, Swift.Codable {
+  case success
+  case emptyToken
+  case invalidToken
+  case expiredToken
+  case validationError
+  case notFound
+  case coinNotAvailable
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+  public init(stringValue: Swift.String)
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol ToastView : UIKit.UIView {
+  func createView(for toast: FlightSDK.Toast)
+}
+public protocol ActivityIndicatorView {
+  var view: UIKit.UIView { get }
+  func show()
+  func hide()
+}
+public protocol ActivityIndicatorFactory {
+  func create() -> any FlightSDK.ActivityIndicatorView
+}
+extension UIKit.UIActivityIndicatorView : FlightSDK.ActivityIndicatorView {
+  @_Concurrency.MainActor @preconcurrency public var view: UIKit.UIView {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public func show()
+  @_Concurrency.MainActor @preconcurrency public func hide()
+}
+@objcMembers open class DefaultActivityIndicator : FlightSDK.ActivityIndicatorFactory {
+  @objc open var style: FlightSDK.UIActivityIndicatorViewStyle
+  @objc open var color: UIKit.UIColor?
+  @objc public init(style: FlightSDK.UIActivityIndicatorViewStyle = .medium, color: UIKit.UIColor? = nil)
+  open func create() -> any FlightSDK.ActivityIndicatorView
+  @objc deinit
+}
+public struct AnchoredConstraints {
+}
+extension UIKit.UIImageView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func awakeFromNib()
+}
+extension UIKit.UIViewController : UIKit.UIDocumentInteractionControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency public func downloadFileForPreview(fileName: Swift.String, fileExtension: Swift.String, filePath: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func previewDocument(withFilePath filePath: Foundation.URL?)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func documentInteractionControllerViewControllerForPreview(_ controller: UIKit.UIDocumentInteractionController) -> UIKit.UIViewController
+}
+public class CarnivalWheelSlice : FlightSDK.FortuneWheelSliceProtocol {
+  public enum Style {
+    case brickRed
+    case deepOrange
+    public static func == (a: FlightSDK.CarnivalWheelSlice.Style, b: FlightSDK.CarnivalWheelSlice.Style) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var title: Swift.String
+  public var degree: CoreFoundation.CGFloat
+  public var backgroundColor: UIKit.UIColor? {
+    get
+  }
+  public var fontColor: UIKit.UIColor {
+    get
+  }
+  public var offsetFromExterior: CoreFoundation.CGFloat {
+    get
+  }
+  public var font: UIKit.UIFont {
+    get
+  }
+  public var stroke: FlightSDK.StrokeInfo? {
+    get
+  }
+  public var style: FlightSDK.CarnivalWheelSlice.Style
+  public init(title: Swift.String)
+  convenience public init(title: Swift.String, degree: CoreFoundation.CGFloat)
+  @objc deinit
+}
+final public class ObjectAssociation<T> where T : AnyObject {
+  public init(policy: ObjectiveC.objc_AssociationPolicy = .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+  final public subscript(index: Swift.AnyObject) -> T? {
+    get
+    set
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency open class CustomTextfield : FlightSDK.TextFieldEffects {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var borderInactiveColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var borderActiveColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var leftImage: UIKit.UIImage? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var placeholderColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var placeholderFontScale: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var placeholder: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var bounds: CoreFoundation.CGRect {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency override open func drawViewsForRect(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency override open func animateViewsForTextEntry()
+  @_Concurrency.MainActor @preconcurrency override open func animateViewsForTextDisplay()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class TextFieldEffects : UIKit.UITextField {
+  public enum AnimationType : Swift.Int {
+    case textEntry
+    case textDisplay
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public typealias AnimationCompletionHandler = (_ type: FlightSDK.TextFieldEffects.AnimationType) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency final public let placeholderLabel: UIKit.UILabel
+  @_Concurrency.MainActor @preconcurrency open func animateViewsForTextEntry()
+  @_Concurrency.MainActor @preconcurrency open func animateViewsForTextDisplay()
+  @_Concurrency.MainActor @preconcurrency open var animationCompletionHandler: FlightSDK.TextFieldEffects.AnimationCompletionHandler?
+  @_Concurrency.MainActor @preconcurrency open func drawViewsForRect(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency open func updateViewsForBoundsChange(_ bounds: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func drawPlaceholder(in rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView!)
+  @objc @_Concurrency.MainActor @preconcurrency open func textFieldDidBeginEditing()
+  @objc @_Concurrency.MainActor @preconcurrency open func textFieldDidEndEditing()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol RangeSeekSliderDelegate : AnyObject {
+  func rangeSeekSlider(_ slider: FlightSDK.RangeSeekSlider, didChange minValue: CoreFoundation.CGFloat, maxValue: CoreFoundation.CGFloat)
+  func didStartTouches(in slider: FlightSDK.RangeSeekSlider)
+  func didEndTouches(in slider: FlightSDK.RangeSeekSlider)
+  func rangeSeekSlider(_ slider: FlightSDK.RangeSeekSlider, stringForMinValue minValue: CoreFoundation.CGFloat) -> Swift.String?
+  func rangeSeekSlider(_ slider: FlightSDK.RangeSeekSlider, stringForMaxValue: CoreFoundation.CGFloat) -> Swift.String?
+}
+extension FlightSDK.RangeSeekSliderDelegate {
+  public func rangeSeekSlider(_ slider: FlightSDK.RangeSeekSlider, didChange minValue: CoreFoundation.CGFloat, maxValue: CoreFoundation.CGFloat)
+  public func didStartTouches(in slider: FlightSDK.RangeSeekSlider)
+  public func didEndTouches(in slider: FlightSDK.RangeSeekSlider)
+  public func rangeSeekSlider(_ slider: FlightSDK.RangeSeekSlider, stringForMinValue minValue: CoreFoundation.CGFloat) -> Swift.String?
+  public func rangeSeekSlider(_ slider: FlightSDK.RangeSeekSlider, stringForMaxValue maxValue: CoreFoundation.CGFloat) -> Swift.String?
+}
+@objc @objcMembers @_Concurrency.MainActor @preconcurrency open class ZoomAnimatedTransitioningDelegate : ObjectiveC.NSObject, UIKit.UIViewControllerTransitioningDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency open var referenceImageView: UIKit.UIImageView?
+  @objc @_Concurrency.MainActor @preconcurrency weak open var referenceSlideshowView: FlightSDK.ImageSlideshow?
+  @objc @_Concurrency.MainActor @preconcurrency open var slideToDismissEnabled: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public init(slideshowView: FlightSDK.ImageSlideshow, slideshowController: FlightSDK.FullScreenSlideshowViewController)
+  @objc @_Concurrency.MainActor @preconcurrency public init(imageView: UIKit.UIImageView, slideshowController: FlightSDK.FullScreenSlideshowViewController)
+  @_Concurrency.MainActor @preconcurrency @objc open func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  @_Concurrency.MainActor @preconcurrency @objc open func animationController(forDismissed dismissed: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  @_Concurrency.MainActor @preconcurrency @objc open func interactionControllerForPresentation(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  @_Concurrency.MainActor @preconcurrency @objc open func interactionControllerForDismissal(using animator: any UIKit.UIViewControllerAnimatedTransitioning) -> (any UIKit.UIViewControllerInteractiveTransitioning)?
+  @objc deinit
+}
+extension FlightSDK.ZoomAnimatedTransitioningDelegate : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
+extension UIKit.UIColor {
+  convenience public init(hex: Swift.Int, alpha: CoreFoundation.CGFloat = 1.0)
+}
+extension UIKit.UIColor {
+  public static var appPrimary100: UIKit.UIColor {
+    get
+  }
+}
+public protocol StoryboardBased {
+  static var storyboardName: Swift.String { get }
+  static var storyboardIdentifier: Swift.String { get }
+  static func instantiate() -> Self
+}
+extension FlightSDK.StoryboardBased where Self : UIKit.UIViewController {
+  public static var storyboardName: Swift.String {
+    get
+  }
+  public static var storyboardIdentifier: Swift.String {
+    get
+  }
+  public static func instantiate() -> Self
+}
+public struct StrokeInfo {
+  public var color: UIKit.UIColor
+  public var width: CoreFoundation.CGFloat
+  public init(color: UIKit.UIColor, width: CoreFoundation.CGFloat)
+}
+public protocol FortuneWheelSliceProtocol {
+  var title: Swift.String { get }
+  var backgroundColor: UIKit.UIColor? { get }
+  var degree: CoreFoundation.CGFloat { get }
+  var stroke: FlightSDK.StrokeInfo? { get }
+  var offsetFromExterior: CoreFoundation.CGFloat { get }
+  var textAttributes: [Foundation.NSAttributedString.Key : Any] { get }
+  var fontSize: CoreFoundation.CGFloat { get }
+  var fontColor: UIKit.UIColor { get }
+  var font: UIKit.UIFont { get }
+  func drawAdditionalGraphics(in context: CoreGraphics.CGContext, circularSegmentHeight: CoreFoundation.CGFloat, radius: CoreFoundation.CGFloat, sliceDegree: CoreFoundation.CGFloat)
+}
+extension FlightSDK.FortuneWheelSliceProtocol {
+  public func drawAdditionalGraphics(in context: CoreGraphics.CGContext, circularSegmentHeight: CoreFoundation.CGFloat, radius: CoreFoundation.CGFloat, sliceDegree: CoreFoundation.CGFloat)
+  public var fontSize: CoreFoundation.CGFloat {
+    get
+  }
+  public var fontColor: UIKit.UIColor {
+    get
+  }
+  public var font: UIKit.UIFont {
+    get
+  }
+  public var textAttributes: [Foundation.NSAttributedString.Key : Any] {
+    get
+  }
+  public var offsetFromExterior: CoreFoundation.CGFloat {
+    get
+  }
+  public var stroke: FlightSDK.StrokeInfo? {
+    get
+  }
+  public var backgroundColor: UIKit.UIColor? {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AppleToastView : UIKit.UIView, FlightSDK.ToastView {
+  @_Concurrency.MainActor @preconcurrency public init(child: UIKit.UIView, minHeight: CoreFoundation.CGFloat = 58, minWidth: CoreFoundation.CGFloat = 150, darkBackgroundColor: UIKit.UIColor = UIColor(red: 0.13, green: 0.13, blue: 0.13, alpha: 1.00), lightBackgroundColor: UIKit.UIColor = UIColor(red: 0.99, green: 0.99, blue: 0.99, alpha: 1.00))
+  @_Concurrency.MainActor @preconcurrency public func createView(for toast: FlightSDK.Toast)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @objc deinit
+}
+public protocol ToastDelegate : AnyObject {
+  func willShowToast(_ toast: FlightSDK.Toast)
+  func didShowToast(_ toast: FlightSDK.Toast)
+  func willCloseToast(_ toast: FlightSDK.Toast)
+  func didCloseToast(_ toast: FlightSDK.Toast)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class IconAppleToastView : UIKit.UIStackView {
+  @_Concurrency.MainActor @preconcurrency public var defaultImageTint: UIKit.UIColor {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public init(image: UIKit.UIImage, imageTint: UIKit.UIColor? = .black, title: Foundation.NSAttributedString, subtitle: Foundation.NSAttributedString? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(image: UIKit.UIImage, imageTint: UIKit.UIColor? = .label, title: Swift.String, subtitle: Swift.String? = nil)
+  @objc deinit
+}
+public protocol KeyboardObserving : AnyObject {
+  func keyboardWillShow(withSize size: CoreFoundation.CGSize)
+  func keyboardWillHide()
+}
+extension FlightSDK.KeyboardObserving {
+  public func addKeyboardObservers(to notificationCenter: Foundation.NotificationCenter)
+  public func removeKeyboardObservers(from notificationCenter: Foundation.NotificationCenter)
+}
+public protocol ScrollViewKeyboardObserving : FlightSDK.KeyboardObserving {
+  var keyboardObservingScrollView: UIKit.UIScrollView { get }
+}
+@objc open class FortuneWheelLayer : QuartzCore.CALayer {
+  open var layerInsets: UIKit.UIEdgeInsets
+  public init(frame: CoreFoundation.CGRect, parent: FlightSDK.TTFortuneWheel, initialOffset: CoreFoundation.CGFloat = 0.0)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic open func draw(in ctx: CoreGraphics.CGContext)
+  open func drawCanvas(mainFrame: CoreFoundation.CGRect)
+  open func drawSlice(withIndex index: Swift.Int, in context: CoreGraphics.CGContext, forSlice slice: any FlightSDK.FortuneWheelSliceProtocol, rotation: CoreFoundation.CGFloat)
+  @objc deinit
+}
+public enum DateFormatType : Swift.CaseIterable {
+  public static var allCases: [FlightSDK.DateFormatType] {
+    get
+  }
+  public typealias AllCases = [FlightSDK.DateFormatType]
+  case isoYear
+  case isoYearMonth
+  case isoDateWithSlash
+  case isoDate
+  case isoDateTime
+  case isoDateTimeSec
+  case isoDateTimeMilliSec
+  case isoDateCustomTimeMilliSec
+  case dotNet
+  case rss
+  case altRSS
+  case httpHeader
+  case standard
+  case shortDate
+  case shortDateWithYearQuote
+  case shortDateWithdatequote
+  case shortDateFullYear
+  case isoDateTimeWithoutOffset
+  case timeIn12Hr
+  case hotelDateSearch
+  case custom(Swift.String)
+  public var stringFormat: Swift.String {
+    get
+  }
+}
+extension FlightSDK.DateFormatType : Swift.Equatable {
+  public static func == (lhs: FlightSDK.DateFormatType, rhs: FlightSDK.DateFormatType) -> Swift.Bool
+}
+public enum TimeZoneType {
+  case local, `default`, utc, bd, custom(Swift.Int)
+}
+public enum RelativeTimeStringType {
+  case nowPast, nowFuture, secondsPast, secondsFuture, oneMinutePast, oneMinuteFuture, minutesPast, minutesFuture, oneHourPast, oneHourFuture, hoursPast, hoursFuture, oneDayPast, oneDayFuture, daysPast, daysFuture, oneWeekPast, oneWeekFuture, weeksPast, weeksFuture, oneMonthPast, oneMonthFuture, monthsPast, monthsFuture, oneYearPast, oneYearFuture, yearsPast, yearsFuture
+  public static func == (a: FlightSDK.RelativeTimeStringType, b: FlightSDK.RelativeTimeStringType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DateComparisonType {
+  case isToday
+  case isTomorrow
+  case isYesterday
+  case isSameDay(as: Foundation.Date)
+  case isThisWeek
+  case isNextWeek
+  case isLastWeek
+  case isSameWeek(as: Foundation.Date)
+  case isThisMonth
+  case isNextMonth
+  case isLastMonth
+  case isSameMonth(as: Foundation.Date)
+  case isThisYear
+  case isNextYear
+  case isLastYear
+  case isSameYear(as: Foundation.Date)
+  case isInTheFuture
+  case isInThePast
+  case isEarlier(than: Foundation.Date)
+  case isLater(than: Foundation.Date)
+  case isWeekday
+  case isWeekend
+}
+public enum DateComponentType {
+  case second, minute, hour, day, weekday, nthWeekday, week, month, year
+  public static func == (a: FlightSDK.DateComponentType, b: FlightSDK.DateComponentType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DateForType {
+  case startOfDay, endOfDay, startOfWeek, endOfWeek, startOfMonth, endOfMonth, tomorrow, yesterday, nearestMinute(minute: Swift.Int), nearestHour(hour: Swift.Int)
+}
+public enum DateStyleType {
+  case short
+  case medium
+  case long
+  case full
+  case ordinalDay
+  case weekday
+  case shortWeekday
+  case veryShortWeekday
+  case month
+  case shortMonth
+  case veryShortMonth
+  public static func == (a: FlightSDK.DateStyleType, b: FlightSDK.DateStyleType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct STUser : Swift.Codable {
+  public let token: Swift.String
+  public let email: Swift.String
+  public let username: Swift.String
+  public let mobileNumber: Swift.String?
+  public let title: Swift.String?
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let designation: Swift.String?
+  public let address: Swift.String?
+  public let avatar: Swift.String?
+  public let gender: Swift.Int?
+  public let dob: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TravelInsuranceServiceDetailResponse : Swift.Codable {
+  public let code: Swift.String, name: Swift.String
+  public let logo: Swift.String
+  public let description: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension UIKit.UILabel {
+  @_Concurrency.MainActor @preconcurrency public func requiredMaxHeight(for text: Swift.String) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public func requiredHeight(for text: Swift.String) -> CoreFoundation.CGFloat
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency open class PinCodeTextField : UIKit.UIView {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var underlineWidth: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var underlineHSpacing: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var underlineVMargin: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var characterLimit: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var underlineHeight: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var placeholderText: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var fontSize: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var textColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var placeholderColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var underlineColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var updatedUnderlineColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var secureText: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var needToUpdateUnderlines: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var characterBackgroundColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var characterBackgroundCornerRadius: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var highlightInputUnderline: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public var keyboardType: UIKit.UIKeyboardType
+  @_Concurrency.MainActor @preconcurrency @objc public var keyboardAppearance: UIKit.UIKeyboardAppearance
+  @_Concurrency.MainActor @preconcurrency @objc public var autocorrectionType: UIKit.UITextAutocorrectionType
+  @_Concurrency.MainActor @preconcurrency public var font: UIKit.UIFont
+  @_Concurrency.MainActor @preconcurrency public var allowedCharacterSet: Foundation.CharacterSet
+  @_Concurrency.MainActor @preconcurrency @objc public var textContentType: UIKit.UITextContentType!
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var inputView: UIKit.UIView? {
+    @objc get
+    @objc set
+  }
+  @IBOutlet @_Concurrency.MainActor @preconcurrency @objc override dynamic open var inputAccessoryView: UIKit.UIView? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc public var isSecureTextEntry: Swift.Bool {
+    @objc get
+    @objc(setSecureTextEntry:) set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var canBecomeFirstResponder: Swift.Bool {
+    @objc get
+  }
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func becomeFirstResponder() -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func resignFirstResponder() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc deinit
+}
+extension FlightSDK.PinCodeTextField : UIKit.UIKeyInput {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public var hasText: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func insertText(_ charToInsert: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func deleteBackward()
+}
+public enum GSMessageType {
+  case success
+  case error
+  case warning
+  case info
+  public static func == (a: FlightSDK.GSMessageType, b: FlightSDK.GSMessageType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum GSMessagePosition {
+  case top
+  case bottom
+  public static func == (a: FlightSDK.GSMessagePosition, b: FlightSDK.GSMessagePosition) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum GSMessageAnimation {
+  case fade
+  case slide(FlightSDK.GSMessageAnimation.SlideType)
+  public enum SlideType {
+    case normal
+    case distance(Swift.Double)
+  }
+}
+public enum GSMessageTextAlignment {
+  case topLeft
+  case topCenter
+  case topRight
+  case left
+  case center
+  case right
+  case bottomLeft
+  case bottomCenter
+  case bottomRight
+  public static func == (a: FlightSDK.GSMessageTextAlignment, b: FlightSDK.GSMessageTextAlignment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum GSMessageOption {
+  case accessibilityIdentifier(Swift.String)
+  case animations([FlightSDK.GSMessageAnimation])
+  case animationDuration(Foundation.TimeInterval)
+  case autoHide(Swift.Bool)
+  case autoHideDelay(Swift.Double)
+  case cornerRadius(Swift.Double)
+  case height(Swift.Double)
+  case hideOnTap(Swift.Bool)
+  case handleTap(() -> Swift.Void)
+  case isInsideSafeAreaInsets(Swift.Bool)
+  case margin(UIKit.UIEdgeInsets)
+  case padding(UIKit.UIEdgeInsets)
+  case position(FlightSDK.GSMessagePosition)
+  case textAlignment(FlightSDK.GSMessageTextAlignment)
+  case textColor(UIKit.UIColor)
+  case textNumberOfLines(Swift.Int)
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public func showMessage(_ text: Swift.String, type: FlightSDK.GSMessageType, options: [FlightSDK.GSMessageOption]? = [.autoHide(true), .hideOnTap(true), .autoHideDelay(2)])
+  @_Concurrency.MainActor @preconcurrency public func showMessage(_ attributedText: Foundation.NSAttributedString, type: FlightSDK.GSMessageType, options: [FlightSDK.GSMessageOption]? = nil)
+  @_Concurrency.MainActor @preconcurrency public func hideMessage(animated: Swift.Bool = true)
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func showMessage(_ text: Swift.String, type: FlightSDK.GSMessageType, options: [FlightSDK.GSMessageOption]? = nil)
+  @_Concurrency.MainActor @preconcurrency public func showMessage(_ attributedText: Foundation.NSAttributedString, type: FlightSDK.GSMessageType, options: [FlightSDK.GSMessageOption]? = nil)
+  @_Concurrency.MainActor @preconcurrency public func hideMessage(animated: Swift.Bool = true)
+}
+@objc public class GSMessage : ObjectiveC.NSObject {
+  public static var font: UIKit.UIFont
+  public static var successBackgroundColor: UIKit.UIColor
+  public static var warningBackgroundColor: UIKit.UIColor
+  public static var errorBackgroundColor: UIKit.UIColor
+  public static var infoBackgroundColor: UIKit.UIColor
+  public class func showMessageAddedTo(text: Swift.String, type: FlightSDK.GSMessageType, options: [FlightSDK.GSMessageOption]?, inView: UIKit.UIView, inViewController: UIKit.UIViewController?)
+  public class func showMessageAddedTo(attributedText: Foundation.NSAttributedString, type: FlightSDK.GSMessageType, options: [FlightSDK.GSMessageOption]?, inView: UIKit.UIView, inViewController: UIKit.UIViewController?)
+  public func show()
+  public func hide(animated: Swift.Bool)
+  weak public var inView: UIKit.UIView! {
+    get
+  }
+  weak public var inViewController: UIKit.UIViewController? {
+    get
+  }
+  public var containerView: UIKit.UIView {
+    get
+  }
+  public var messageView: UIKit.UIView {
+    get
+  }
+  public var messageText: UIKit.UILabel {
+    get
+  }
+  public var accessibilityIdentifier: Swift.String? {
+    get
+  }
+  public var animations: [FlightSDK.GSMessageAnimation] {
+    get
+  }
+  public var animationDuration: Swift.Double {
+    get
+  }
+  public var autoHide: Swift.Bool {
+    get
+  }
+  public var autoHideDelay: Swift.Double {
+    get
+  }
+  public var cornerRadius: CoreFoundation.CGFloat {
+    get
+  }
+  public var height: CoreFoundation.CGFloat {
+    get
+  }
+  public var hideOnTap: Swift.Bool {
+    get
+  }
+  public var handleTap: (() -> Swift.Void)? {
+    get
+  }
+  public var isInsideSafeAreaInsets: Swift.Bool {
+    get
+  }
+  public var margin: UIKit.UIEdgeInsets {
+    get
+  }
+  public var padding: UIKit.UIEdgeInsets {
+    get
+  }
+  public var position: FlightSDK.GSMessagePosition {
+    get
+  }
+  public var textAlignment: FlightSDK.GSMessageTextAlignment {
+    get
+  }
+  public var textColor: UIKit.UIColor {
+    get
+  }
+  public var textNumberOfLines: Swift.Int {
+    get
+  }
+  public var messageWidth: CoreFoundation.CGFloat {
+    get
+  }
+  public var messageHeight: CoreFoundation.CGFloat {
+    get
+  }
+  public init(attributedText: Foundation.NSAttributedString, type: FlightSDK.GSMessageType, options: [FlightSDK.GSMessageOption]?, inView: UIKit.UIView, inViewController: UIKit.UIViewController?)
+  @objc deinit
+}
+extension FlightSDK.GSMessage {
+  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class SaveTravellerCVCell : UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor @preconcurrency public var didTapCheckbox: (Swift.Bool) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency public func configure(title: Foundation.NSAttributedString, checkboxChecked: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func selectCheckbox()
+  @objc deinit
+}
+extension Swift.Int {
+  public init(value: Swift.String) throws
+  public var value: Swift.String {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class RemoteImageTextAttachment : UIKit.NSTextAttachment {
+  weak public var label: UIKit.UILabel?
+  public var displaySize: CoreFoundation.CGSize
+  public var downloadQueue: Dispatch.DispatchQueue?
+  final public let imageUrl: Foundation.URL
+  final public let yOffset: CoreFoundation.CGFloat
+  public init(imageURL: Foundation.URL, displaySize: CoreFoundation.CGSize, downloadQueue: Dispatch.DispatchQueue? = nil, yOffset: CoreFoundation.CGFloat = 0)
+  @objc override dynamic public func attachmentBounds(for textContainer: UIKit.NSTextContainer?, proposedLineFragment lineFrag: CoreFoundation.CGRect, glyphPosition position: CoreFoundation.CGPoint, characterIndex charIndex: Swift.Int) -> CoreFoundation.CGRect
+  @objc override dynamic public func image(forBounds imageBounds: CoreFoundation.CGRect, textContainer: UIKit.NSTextContainer?, characterIndex charIndex: Swift.Int) -> UIKit.UIImage?
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum Target : Swift.String {
+  case dev
+  case live
+  case staging
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class AppEnvironment {
+  public static var target: FlightSDK.Target
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class FontBlaster {
+  public static var debugEnabled: Swift.Bool
+  public static var loadedFonts: [Swift.String]
+  final public class func blast(bundle: Foundation.Bundle = Bundle.main)
+  final public class func blast(bundle: Foundation.Bundle = Bundle.main, completion handler: (([Swift.String]) -> Swift.Void)?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class LocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  public var onLocationUpdate: ((Swift.String) -> Swift.Void)?
+  public var onLocationAccessDenied: (() -> Swift.Void)?
+  @objc override dynamic public init()
+  public func requestLocationAuthorization()
+  public func startUpdatingLocation()
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Helpers {
+  public class func generateHtml(content: Swift.String, style: Swift.String = "body {text-align: justify; margin: 6px 12px 6px 12px;}") -> Swift.String
+  public class func generateHtmlWithCustomFont(content: Swift.String, style: Swift.String = "body {text-align: justify; margin: 6px 12px 6px 12px;}") -> Swift.String
+  public class func generateHtml(content: Swift.String, header: Swift.String) -> Swift.String
+  public class func generateHtmlWithCustomFont(content: Swift.String, header: Swift.String) -> Swift.String
+  public class func closedRange(startingValue: Swift.Int, length: Swift.Int) -> Swift.ClosedRange<Swift.Int>
+  public static func convertToArrayOfDictionary(text: Swift.String) -> Any?
+  public static func decoder(jwtToken jwt: Swift.String) -> [Swift.String : Any]
+  public static func decodeJWTPart(_ value: Swift.String) -> [Swift.String : Any]?
+  public static func base64UrlDecode(_ value: Swift.String) -> Foundation.Data?
+  public static func loadJSON(jsonFileName name: Swift.String) -> Foundation.Data?
+  public static func convertJsonToString(json: SwiftyJSON.JSON) -> Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Log {
+  public class func error(_ object: Any, fileName: Swift.String = #file, line: Swift.Int = #line, column: Swift.Int = #column, functionName: Swift.String = #function)
+  public class func info(_ object: Any, fileName: Swift.String = #file, line: Swift.Int = #line, column: Swift.Int = #column, functionName: Swift.String = #function)
+  public class func debug(_ object: Any, fileName: Swift.String = #file, line: Swift.Int = #line, column: Swift.Int = #column, functionName: Swift.String = #function)
+  public class func warn(_ object: Any, fileName: Swift.String = #file, line: Swift.Int = #line, column: Swift.Int = #column, functionName: Swift.String = #function)
+  public class func severe(_ object: Any, fileName: Swift.String = #file, line: Swift.Int = #line, column: Swift.Int = #column, functionName: Swift.String = #function)
+  @objc deinit
+}
+extension FlightSDK.SDKEnvironment : Swift.Equatable {}
+extension FlightSDK.SDKEnvironment : Swift.Hashable {}
+extension FlightSDK.UserAccount.UserStatus : Swift.Equatable {}
+extension FlightSDK.UserAccount.UserStatus : Swift.Hashable {}
+extension FlightSDK.UserAccount.UserStatus : Swift.RawRepresentable {}
+extension FlightSDK.TapticEngine.Impact.ImpactStyle : Swift.Equatable {}
+extension FlightSDK.TapticEngine.Impact.ImpactStyle : Swift.Hashable {}
+extension FlightSDK.TapticEngine.Notification.NotificationType : Swift.Equatable {}
+extension FlightSDK.TapticEngine.Notification.NotificationType : Swift.Hashable {}
+extension FlightSDK.StarFillMode : Swift.Equatable {}
+extension FlightSDK.StarFillMode : Swift.Hashable {}
+extension FlightSDK.StarFillMode : Swift.RawRepresentable {}
+extension FlightSDK.Currency : Swift.Equatable {}
+extension FlightSDK.Currency : Swift.Hashable {}
+extension FlightSDK.Currency : Swift.RawRepresentable {}
+extension FlightSDK.TitleType : Swift.Equatable {}
+extension FlightSDK.TitleType : Swift.Hashable {}
+extension FlightSDK.TitleType : Swift.RawRepresentable {}
+extension FlightSDK.GenderType : Swift.Equatable {}
+extension FlightSDK.GenderType : Swift.Hashable {}
+extension FlightSDK.GenderType : Swift.RawRepresentable {}
+extension FlightSDK.ServiceType : Swift.Hashable {}
+extension FlightSDK.TravellerType : Swift.Equatable {}
+extension FlightSDK.TravellerType : Swift.Hashable {}
+extension FlightSDK.TravellerType : Swift.RawRepresentable {}
+@available(*, unavailable, renamed: "Connection")
+extension FlightSDK.Reachability.NetworkStatus : Swift.Equatable {}
+@available(*, unavailable, renamed: "Connection")
+extension FlightSDK.Reachability.NetworkStatus : Swift.Hashable {}
+extension FlightSDK.Reachability.Connection : Swift.Equatable {}
+extension FlightSDK.Reachability.Connection : Swift.Hashable {}
+extension FlightSDK.SDKConsumer : Swift.Equatable {}
+extension FlightSDK.SDKConsumer : Swift.Hashable {}
+extension FlightSDK.ContentType : Swift.Equatable {}
+extension FlightSDK.ContentType : Swift.Hashable {}
+extension FlightSDK.ContentType : Swift.RawRepresentable {}
+extension FlightSDK.APIResponseCode : Swift.Equatable {}
+extension FlightSDK.APIResponseCode : Swift.Hashable {}
+extension FlightSDK.APIResponseCode : Swift.RawRepresentable {}
+extension FlightSDK.CarnivalWheelSlice.Style : Swift.Equatable {}
+extension FlightSDK.CarnivalWheelSlice.Style : Swift.Hashable {}
+extension FlightSDK.TextFieldEffects.AnimationType : Swift.Equatable {}
+extension FlightSDK.TextFieldEffects.AnimationType : Swift.Hashable {}
+extension FlightSDK.TextFieldEffects.AnimationType : Swift.RawRepresentable {}
+extension FlightSDK.ZoomAnimatedTransitioningDelegate : Swift.Sendable {}
+extension FlightSDK.RelativeTimeStringType : Swift.Equatable {}
+extension FlightSDK.RelativeTimeStringType : Swift.Hashable {}
+extension FlightSDK.DateComponentType : Swift.Equatable {}
+extension FlightSDK.DateComponentType : Swift.Hashable {}
+extension FlightSDK.DateStyleType : Swift.Equatable {}
+extension FlightSDK.DateStyleType : Swift.Hashable {}
+extension FlightSDK.GSMessageType : Swift.Equatable {}
+extension FlightSDK.GSMessageType : Swift.Hashable {}
+extension FlightSDK.GSMessagePosition : Swift.Equatable {}
+extension FlightSDK.GSMessagePosition : Swift.Hashable {}
+extension FlightSDK.GSMessageTextAlignment : Swift.Equatable {}
+extension FlightSDK.GSMessageTextAlignment : Swift.Hashable {}
+extension FlightSDK.Target : Swift.Equatable {}
+extension FlightSDK.Target : Swift.Hashable {}
+extension FlightSDK.Target : Swift.RawRepresentable {}
