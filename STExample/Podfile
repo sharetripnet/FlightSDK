@@ -8,14 +8,8 @@ target 'STExample' do
     pod 'Alamofire'
     pod 'Kingfisher'
     pod 'SwiftyJSON'
-    pod 'CRRefresh'
-    pod 'ActiveLabel'
-    pod 'SkeletonView'
-    pod 'MBProgressHUD'
     pod 'FloatingPanel'
     pod 'JTAppleCalendar'
-    pod 'MHLoadingButton'
-    pod 'XLPagerTabStrip'
     pod 'SwiftKeychainWrapper'
     pod 'lottie-ios', '3.5.0'
     pod 'IQKeyboardManagerSwift'
@@ -37,7 +31,13 @@ target 'STExample' do
     pod 'FirebaseMessaging', '~> 11.3.0'
     pod 'FirebaseDynamicLinks', '~> 11.3.0'
     
-    # ShareTrips Forked SDKs
+    # Newly Added
+    pod 'CRRefresh'
+    pod 'ActiveLabel'
+    pod 'SkeletonView'
+    pod 'MBProgressHUD'
+    pod 'MHLoadingButton'
+    pod 'XLPagerTabStrip'
     pod 'PanModal', :git => 'https://github.com/sharetripnet/PanModal.git'
     pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
     
