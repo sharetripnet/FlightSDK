@@ -16,22 +16,20 @@
 ```ruby
 platform :ios, '13.0'
 
-use_frameworks!
-
 target 'STExample' do
   
-  # General Dependencies
   pod "JWT"
-  pod 'PKHUD'
-  pod 'Alamofire'
-  pod 'Kingfisher'
-  pod 'SwiftyJSON'
   pod 'FloatingPanel'
-  pod 'JTAppleCalendar'
   pod 'SwiftKeychainWrapper'
-  pod 'lottie-ios', '3.5.0'
   pod 'IQKeyboardManagerSwift'
-  pod 'Socket.IO-Client-Swift'
+  
+  pod 'PKHUD', '~> 5.0'
+  pod 'Alamofire', '5.5'
+  pod 'lottie-ios', '3.5.0'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'Kingfisher', '~> 7.6.2'
+  pod 'JTAppleCalendar', '~> 8.0'
+  pod 'Socket.IO-Client-Swift', '~> 15.2.0'
   
   # Facebook SDKs
   pod 'FBSDKCoreKit', '~> 16.1.0'
@@ -53,16 +51,18 @@ target 'STExample' do
   pod 'CRRefresh'
   pod 'ActiveLabel'
   pod 'SkeletonView'
-  pod 'MBProgressHUD'
+  pod 'MBProgressHUD', '1.2.0'
   pod 'MHLoadingButton'
   pod 'XLPagerTabStrip'
   pod 'PanModal', :git => 'https://github.com/sharetripnet/PanModal.git'
   pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
   
-  # ShareTrip SDK
-  pod 'FlightSDK', :git => 'https://github.com/sharetripnet/FlightSDK.git', :tag => '1.2.2'
+  # ST Pods
+  pod 'FlightSDK', :path => '../'
   
 end
+
+use_frameworks!
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
@@ -81,6 +81,7 @@ post_install do |installer|
         end
       end
     end
+    
   end
 end
 ```
