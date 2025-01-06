@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C259FBABCC23566A8DD530D9 /* Pods_STExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85939416264B4EA50E14262E /* Pods_STExample.framework */; };
+		0420A05B775E912377935EC1 /* Pods_STExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF1500ABED50EC904C95D94 /* Pods_STExample.framework */; };
 		CCC181E0298A4C050086426D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC181DF298A4C050086426D /* AppDelegate.swift */; };
 		CCC181EC298A4C070086426D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC181EA298A4C070086426D /* LaunchScreen.storyboard */; };
 		CCC181F4298A4F760086426D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC181F3298A4F760086426D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		85939416264B4EA50E14262E /* Pods_STExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACFCE7EA89334D12B22030EF /* Pods-STExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STExample.debug.xcconfig"; path = "Target Support Files/Pods-STExample/Pods-STExample.debug.xcconfig"; sourceTree = "<group>"; };
 		CC4C3A2429BDCECC00FE67A1 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4C3A2829BDCF8B00FE67A1 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC181DC298A4C050086426D /* STExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,7 +23,9 @@
 		CCC181ED298A4C070086426D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC181F3298A4F760086426D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CCE1C8E72A3B36D400C3DDD3 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
-		E63F9AB5A0078F2046E07C87 /* Pods-STExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STExample.release.xcconfig"; path = "Target Support Files/Pods-STExample/Pods-STExample.release.xcconfig"; sourceTree = "<group>"; };
+		DC963E9EF209392674A1FBF9 /* Pods-STExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STExample.debug.xcconfig"; path = "Target Support Files/Pods-STExample/Pods-STExample.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF1500ABED50EC904C95D94 /* Pods_STExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8841A0E1774FC1047D7CD7A /* Pods-STExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STExample.release.xcconfig"; path = "Target Support Files/Pods-STExample/Pods-STExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C259FBABCC23566A8DD530D9 /* Pods_STExample.framework in Frameworks */,
+				0420A05B775E912377935EC1 /* Pods_STExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +46,7 @@
 				CCE1C8E72A3B36D400C3DDD3 /* AdServices.framework */,
 				CC4C3A2829BDCF8B00FE67A1 /* Lottie.framework */,
 				CC4C3A2429BDCECC00FE67A1 /* Lottie.framework */,
-				85939416264B4EA50E14262E /* Pods_STExample.framework */,
+				ECF1500ABED50EC904C95D94 /* Pods_STExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -54,8 +54,8 @@
 		B5ABA841947DCAEB54156A3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ACFCE7EA89334D12B22030EF /* Pods-STExample.debug.xcconfig */,
-				E63F9AB5A0078F2046E07C87 /* Pods-STExample.release.xcconfig */,
+				DC963E9EF209392674A1FBF9 /* Pods-STExample.debug.xcconfig */,
+				F8841A0E1774FC1047D7CD7A /* Pods-STExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -97,11 +97,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCC181F0298A4C070086426D /* Build configuration list for PBXNativeTarget "STExample" */;
 			buildPhases = (
-				935FD06FA7008DD00698C14A /* [CP] Check Pods Manifest.lock */,
+				28746AC15DA5B85A69E00E03 /* [CP] Check Pods Manifest.lock */,
 				CCC181D8298A4C050086426D /* Sources */,
 				CCC181D9298A4C050086426D /* Frameworks */,
 				CCC181DA298A4C050086426D /* Resources */,
-				B5D4D57166E55F3AD58F1466 /* [CP] Embed Pods Frameworks */,
+				9265C0C698DB9C16D262D8A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,7 +158,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		935FD06FA7008DD00698C14A /* [CP] Check Pods Manifest.lock */ = {
+		28746AC15DA5B85A69E00E03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,7 +180,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B5D4D57166E55F3AD58F1466 /* [CP] Embed Pods Frameworks */ = {
+		9265C0C698DB9C16D262D8A6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +338,7 @@
 		};
 		CCC181F1298A4C070086426D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACFCE7EA89334D12B22030EF /* Pods-STExample.debug.xcconfig */;
+			baseConfigurationReference = DC963E9EF209392674A1FBF9 /* Pods-STExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -371,7 +371,7 @@
 		};
 		CCC181F2298A4C070086426D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E63F9AB5A0078F2046E07C87 /* Pods-STExample.release.xcconfig */;
+			baseConfigurationReference = F8841A0E1774FC1047D7CD7A /* Pods-STExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

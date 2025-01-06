@@ -3,19 +3,32 @@ platform :ios, '13.0'
 target 'STExample' do
     pod 'FlightSDK', :path => '../'
     
-    pod 'Alamofire', '5.5'
-    pod 'Kingfisher', '~> 7.6.2'
-    pod 'PKHUD', '~> 5.0'
-    pod 'IQKeyboardManagerSwift'
-    pod 'FloatingPanel'
-    pod 'lottie-ios', '3.5.0'
-    pod 'SwiftyJSON', '~> 4.0'
     pod "JWT"
-    pod 'JTAppleCalendar', '~> 8.0'
+    pod 'PKHUD'
+    pod 'Alamofire'
+    pod 'Kingfisher'
+    pod 'SwiftyJSON'
+    pod 'CRRefresh'
+    pod 'ActiveLabel'
+    pod 'SkeletonView'
+    pod 'MBProgressHUD'
+    pod 'FloatingPanel'
+    pod 'JTAppleCalendar'
+    pod 'MHLoadingButton'
+    pod 'XLPagerTabStrip'
+    pod 'SwiftKeychainWrapper'
+    pod 'lottie-ios', '3.5.0'
+    pod 'IQKeyboardManagerSwift'
+    pod 'Socket.IO-Client-Swift'
+    
+    # Facebook SDKs
     pod 'FBSDKCoreKit', '~> 16.1.0'
-    pod 'Socket.IO-Client-Swift', '~> 15.2.0'
     pod 'FBSDKLoginKit', '~> 16.1.0'
+    
+    # Google SDKs
     pod 'GoogleSignIn', '~> 8.0.0'
+    
+    # Firebase SDKs
     pod 'FirebaseCore', '11.3.0'
     pod 'FirebaseAnalytics', '~> 11.3.0'
     pod 'FirebaseCrashlytics', '~> 11.3.0'
@@ -23,15 +36,11 @@ target 'STExample' do
     pod 'FirebaseRemoteConfig', '~> 11.3.0'
     pod 'FirebaseMessaging', '~> 11.3.0'
     pod 'FirebaseDynamicLinks', '~> 11.3.0'
-    pod 'SwiftKeychainWrapper'
-    pod 'XLPagerTabStrip' # new
-    pod 'MBProgressHUD', '1.2.0' # new
-    pod 'PanModal', :git => 'https://github.com/sharetripnet/PanModal.git' # new
-    pod 'ActiveLabel' # new
-    pod 'SkeletonView' # new
-    pod 'MHLoadingButton' # new
-    pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8' # new
-    pod 'CRRefresh' # new
+    
+    # ShareTrips Forked SDKs
+    pod 'PanModal', :git => 'https://github.com/sharetripnet/PanModal.git'
+    pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
+    
 end
 
 use_frameworks!

@@ -15,7 +15,7 @@
 1. Add the following pod to your `Podfile`:
 
 ```ruby
-pod 'ShareTripSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.2.1'
+pod 'FlightSDK', :git => 'https://github.com/sharetripnet/ShareTripSDK.git', :tag => '1.2.1'
 ```
 
 2. If not already added, add `use_frameworks!` to your `Podfile`.
@@ -46,7 +46,7 @@ Save `Podfile` and run `pod install`
 
 ## Usage:
 
-1. Import `ShareTripSDK` in your ViewController file.
+1. Import `FlightSDK` in your ViewController file.
 
 2. Configure Firebase and IQKeyboard in your AppDelegate
 
@@ -58,11 +58,13 @@ func application( _ application: UIApplication, didFinishLaunchingWithOptions la
 
 ```
 
-3. Set access token to be able to book services from ShareTrip Limited and set the delegate.
+3. Configure the SDK at initialization.
 
 ```swift
 STSDK.shared.delegate = self
-STSDK.shared.accessToken = "staccesstoken"
+STSDK.shared.environment = .live
+STSDK.shared.consumer = .banglalink
+STSDK.shared.accessToken = "valid access token"
 ```
 
 To get the token validation callbacks, implement the methods as follows
