@@ -24,9 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
         
         STSDK.shared.delegate = self
         STSDK.shared.environment = .staging
+        STSDK.shared.accessToken = "provide a valid access token here"
         STSDK.shared.consumer = .banglalink
-        STSDK.shared.accessToken = "valid access token"
-        self.window?.rootViewController =  NavigationController(rootViewController: FlightSearchVC.instantiate())
+        self.window?.rootViewController = NavigationController(rootViewController: FlightSearchVC.instantiate())
         window?.makeKeyAndVisible()
         
         return true
