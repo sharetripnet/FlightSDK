@@ -60,10 +60,6 @@ public protocol HomeScreenDelegate : AnyObject {
     get
     set
   }
-  final public var consumer: FlightSDK.SDKConsumer {
-    get
-    set
-  }
   weak final public var homeScreenDelegate: (any FlightSDK.HomeScreenDelegate)?
   final public var accessToken: Swift.String {
     get

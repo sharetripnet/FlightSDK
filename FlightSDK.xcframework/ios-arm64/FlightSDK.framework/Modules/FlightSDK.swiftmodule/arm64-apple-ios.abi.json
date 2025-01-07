@@ -434,102 +434,6 @@
           },
           {
             "kind": "Var",
-            "name": "consumer",
-            "printedName": "consumer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SDKConsumer",
-                "printedName": "FlightSDK.SDKConsumer",
-                "usr": "s:9FlightSDK11SDKConsumerO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9FlightSDK5STSDKC8consumerAA11SDKConsumerOvp",
-            "mangledName": "$s9FlightSDK5STSDKC8consumerAA11SDKConsumerOvp",
-            "moduleName": "FlightSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKConsumer",
-                    "printedName": "FlightSDK.SDKConsumer",
-                    "usr": "s:9FlightSDK11SDKConsumerO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK5STSDKC8consumerAA11SDKConsumerOvg",
-                "mangledName": "$s9FlightSDK5STSDKC8consumerAA11SDKConsumerOvg",
-                "moduleName": "FlightSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKConsumer",
-                    "printedName": "FlightSDK.SDKConsumer",
-                    "usr": "s:9FlightSDK11SDKConsumerO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK5STSDKC8consumerAA11SDKConsumerOvs",
-                "mangledName": "$s9FlightSDK5STSDKC8consumerAA11SDKConsumerOvs",
-                "moduleName": "FlightSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK5STSDKC8consumerAA11SDKConsumerOvM",
-                "mangledName": "$s9FlightSDK5STSDKC8consumerAA11SDKConsumerOvM",
-                "moduleName": "FlightSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "homeScreenDelegate",
             "printedName": "homeScreenDelegate",
             "children": [
@@ -80710,7 +80614,7 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/FlightSDK\/FlightSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 962,
       "length": 2,
       "value": "\"\""
     },
@@ -81795,14 +81699,14 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STCoreKit\/APIClient\/CoreAPIClient.swift",
       "kind": "StringLiteral",
-      "offset": 6205,
+      "offset": 6281,
       "length": 8,
       "value": "\"Flight\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STCoreKit\/APIClient\/CoreAPIClient.swift",
       "kind": "StringLiteral",
-      "offset": 6231,
+      "offset": 6307,
       "length": 5,
       "value": "\"url\""
     },
@@ -83874,14 +83778,14 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/Models\/FlightListResponse.swift",
       "kind": "StringLiteral",
-      "offset": 21667,
+      "offset": 21840,
       "length": 6,
       "value": "\"unit\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/Models\/FlightListResponse.swift",
       "kind": "StringLiteral",
-      "offset": 21696,
+      "offset": 21869,
       "length": 8,
       "value": "\"weight\""
     },
@@ -92862,70 +92766,70 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4482,
+      "offset": 4559,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 13854,
+      "offset": 13934,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 13884,
+      "offset": 13964,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 13928,
+      "offset": 14008,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 25538,
+      "offset": 25618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 27772,
+      "offset": 27852,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "Array",
-      "offset": 27856,
+      "offset": 27936,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 28070,
+      "offset": 28150,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 28164,
+      "offset": 28244,
       "length": 5,
       "value": "\"ALL\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Flight\/FlightDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 28198,
+      "offset": 28278,
       "length": 5,
       "value": "false"
     },
@@ -98063,28 +97967,28 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightDetailsContainerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3493,
+      "offset": 3614,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightDetailsContainerVC.swift",
       "kind": "Array",
-      "offset": 3533,
+      "offset": 3654,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightDetailsContainerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3933,
+      "offset": 4054,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightDetailsContainerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3939,
+      "offset": 4060,
       "length": 1,
       "value": "0"
     },
@@ -98147,14 +98051,14 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Pricing\/FlightPriceBreakdownViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 745,
+      "offset": 735,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/View Models\/Pricing\/FlightPriceBreakdownViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 18047,
+      "offset": 18142,
       "length": 5,
       "value": "false"
     },
@@ -101752,21 +101656,21 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/AppManager\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2690,
+      "offset": 2796,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/AppManager\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2953,
+      "offset": 3059,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/AppManager\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5642,
+      "offset": 5748,
       "length": 5,
       "value": "false"
     }

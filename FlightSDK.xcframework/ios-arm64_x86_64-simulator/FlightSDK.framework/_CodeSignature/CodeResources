@@ -1310,11 +1310,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		J7TnA3flT40n5yhQQWbeRTW5csQ=
+		cfsZIlak58b/2/jqzIi1KhnW3kk=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eY7PHDznIj8j74zd7smswdQBmcw=
+		wvexmBiwa1gn/UkjDjsNgCfQDfo=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1322,19 +1322,19 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eY7PHDznIj8j74zd7smswdQBmcw=
+		wvexmBiwa1gn/UkjDjsNgCfQDfo=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6LkCaP5k4jH60zsor9/FlOFDFA0=
+		NMeJrllMHiIDjXeCnZNw8xvGX+I=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		J7TnA3flT40n5yhQQWbeRTW5csQ=
+		cfsZIlak58b/2/jqzIi1KhnW3kk=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LCWxsKcvtlO0jmGn8R10ozCAfzo=
+		oWYgFfJ3vv8See6X6E7b+tERQK4=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1342,11 +1342,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LCWxsKcvtlO0jmGn8R10ozCAfzo=
+		oWYgFfJ3vv8See6X6E7b+tERQK4=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WJwS7KYQ/fyfnPlX2HPOsDz5gpg=
+		f0jsvNH1ZxlOowxIZrbfPzWU+h8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4478,14 +4478,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A2xx4l9T4uzQQtvjT1tueICYsUuLoyAATHyHPI4YQN4=
+			1/LAHorUyd0VOGTam5O3uvZ1jWxABzKjAkPMYppcOjQ=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dLMqZ333kaLO+3Ll5qRimGsy+k4L2LCyVX+7xEFFuUE=
+			3GZ+H15SmqMCwbzBXH9RyzfNieP1inSwLqnh/Hj6IKY=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -4499,28 +4499,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dLMqZ333kaLO+3Ll5qRimGsy+k4L2LCyVX+7xEFFuUE=
+			3GZ+H15SmqMCwbzBXH9RyzfNieP1inSwLqnh/Hj6IKY=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VFsIRLDuJWlOMK6J9wOMUgvWcbVf9KkkSlUukujde/A=
+			LkpK4L02caC1sNj0FKMv9KHs34X9m21wTUU/uNSVfGU=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A2xx4l9T4uzQQtvjT1tueICYsUuLoyAATHyHPI4YQN4=
+			1/LAHorUyd0VOGTam5O3uvZ1jWxABzKjAkPMYppcOjQ=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			COv0mSr1NDJ24UD6HcjgIzfTUQnm8mXv3zvvgCR5hz8=
+			O0PzZaaJzxo0+FspcRNm3c/xEN8aUrm5N6yCQMcN7M8=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -4534,14 +4534,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			COv0mSr1NDJ24UD6HcjgIzfTUQnm8mXv3zvvgCR5hz8=
+			O0PzZaaJzxo0+FspcRNm3c/xEN8aUrm5N6yCQMcN7M8=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CvSkDH+MbwREYUasOcdfqaEtrCdisfbjOlhbFk5bz5o=
+			VLuxlWYdYnHLQvmIaD12C8D+9ZRQzpHMo9ypDKTmf0A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

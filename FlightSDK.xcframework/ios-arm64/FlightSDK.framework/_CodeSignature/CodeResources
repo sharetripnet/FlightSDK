@@ -122,7 +122,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		qteRqewy8hlHsCMfXpM/v9U6Elc=
+		h7VWvktM86C6nDxjdcocmG+jG3Q=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
@@ -1310,11 +1310,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qxf6mte60t8efwYDN5i2A6lgdwQ=
+		KUhrPGJAjnBJIYiWawqwFDjIFaI=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		420cHBTeVYr6jxzNvPJ7rsDYFGk=
+		7Dj0JCyzxGsbQ72o8n+rfNwmXMs=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -1322,11 +1322,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		420cHBTeVYr6jxzNvPJ7rsDYFGk=
+		7Dj0JCyzxGsbQ72o8n+rfNwmXMs=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Oheqb+1F8v1QQHTqZPJ/jqyClZs=
+		Cibf0HykzqgZb9Q8fIhpsGE2LAw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2386,7 +2386,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GEfMtg5RM92PwURvBWj0uqFMmxhLNQJG4OtwW0+0KFM=
+			WEzahrth+/pXZeZayFVP0zVbm7pAWO6ZTHCmSdSIEJE=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
@@ -4458,14 +4458,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CpfS6UvM309JG/jVvDKvc7r4XTacPAETJHpI80yLkUM=
+			d8U3EeQTxRC+9UcbeR8NydR2QmhQRMWuvMLCEk8S/V4=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			En6OhJ+04D6/FOCjhPgbY1g87wpI1Y9RT0m2r03G4KQ=
+			7eDiAt8L6cdj3nuI+11EGisUJFQymY+IHC0b0Q30S+g=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -4479,14 +4479,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			En6OhJ+04D6/FOCjhPgbY1g87wpI1Y9RT0m2r03G4KQ=
+			7eDiAt8L6cdj3nuI+11EGisUJFQymY+IHC0b0Q30S+g=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEgODd6InF2NoZvizCiEZQnPmo1bQ9D6kmuUFBeqKpc=
+			/sXOmmggK1qJzyA/hMSW+NyJeKpwbzNFV3PUex/p+fs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
