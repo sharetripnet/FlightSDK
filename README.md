@@ -129,7 +129,6 @@ Configure the SDK with the following code:
 ```swift
 STSDK.shared.delegate = self
 STSDK.shared.environment = .live
-STSDK.shared.consumer = .banglalink
 STSDK.shared.accessToken = "valid access token"
 ```
 
@@ -156,12 +155,4 @@ Create the following view controller to access the home page:
 
 ```swift
 FlightSearchVC.instantiate()
-```
-
-### Step 6: Switch to Staging Server (Optional)
-
-The SDK defaults to the live server, to change the environment update the following configuration:
-
-```swift
-STSDK.shared.environment = .staging
 ```
