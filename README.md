@@ -58,7 +58,7 @@ target 'STExample' do
   pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
   
   # ST Pods
-  pod 'FlightSDK', :path => '../'
+  pod 'FlightSDK', :git => 'https://github.com/sharetripnet/FlightSDK.git', :tag => '1.2.2'
   
 end
 
