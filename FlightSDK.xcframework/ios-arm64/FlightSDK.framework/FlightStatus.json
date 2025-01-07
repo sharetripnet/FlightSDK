@@ -1,0 +1,494 @@
+{
+    "request": {
+        "airline": {
+            "fsCode": "QR",
+            "requestedCode": "QR"
+        },
+        "flight": {
+            "requested": "956",
+            "interpreted": "956"
+        },
+        "utc": {
+            "requested": "false",
+            "interpreted": false
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/status/QR/956/dep/2020/10/1?utc=false",
+        "nonstopOnly": {
+            "interpreted": false
+        },
+        "date": {
+            "year": "2020",
+            "month": "10",
+            "day": "1",
+            "interpreted": "2020-10-01"
+        }
+    },
+    "appendix": {
+        "airlines": [
+            {
+                "fs": "QR",
+                "iata": "QR",
+                "icao": "QTR",
+                "name": "Qatar Airways",
+                "phoneNumber": "+1 877 777 2827",
+                "active": true
+            },
+            {
+                "fs": "IB",
+                "iata": "IB",
+                "icao": "IBE",
+                "name": "Iberia",
+                "phoneNumber": "1800 772 4642",
+                "active": true
+            },
+            {
+                "fs": "BA",
+                "iata": "BA",
+                "icao": "BAW",
+                "name": "British Airways",
+                "phoneNumber": "1-800-AIRWAYS",
+                "active": true
+            },
+            {
+                "fs": "MAU",
+                "iata": "L6",
+                "icao": "MAI",
+                "name": "Mauritania Airlines International",
+                "active": true
+            }
+        ],
+        "airports": [
+            {
+                "fs": "COO",
+                "iata": "COO",
+                "icao": "DBBB",
+                "faa": "",
+                "name": "Santuário Nacional de Nossa Senhora da Conceição Apare Airport, Brazil, Latin Amrerica.",
+                "city": "Cotonou",
+                "cityCode": "COO",
+                "countryCode": "BJ",
+                "countryName": "Benin",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Porto-Novo",
+                "weatherZone": "",
+                "localTime": "2020-10-05T13:42:16.218",
+                "utcOffsetHours": 1,
+                "latitude": 6.353869,
+                "longitude": 2.383816,
+                "elevationFeet": 19,
+                "classification": 4,
+                "active": true,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/COO?codeType=fs",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/COO?codeType=fs"
+            },
+            {
+                "fs": "PNR",
+                "iata": "PNR",
+                "icao": "FCPP",
+                "faa": "",
+                "name": "Pointe Noire Airport",
+                "city": "Pointe Noire",
+                "cityCode": "PNR",
+                "countryCode": "CG",
+                "countryName": "Congo",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Brazzaville",
+                "weatherZone": "",
+                "localTime": "2020-10-05T13:42:16.218",
+                "utcOffsetHours": 1,
+                "latitude": -4.815822,
+                "longitude": 11.884085,
+                "elevationFeet": 55,
+                "classification": 4,
+                "active": true,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PNR?codeType=fs",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PNR?codeType=fs"
+            },
+            {
+                "fs": "BKO",
+                "iata": "BKO",
+                "icao": "GABS",
+                "faa": "",
+                "name": "Bamako-Senou International Airport",
+                "city": "Bamako",
+                "cityCode": "BKO",
+                "countryCode": "ML",
+                "countryName": "Mali",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Bamako",
+                "weatherZone": "",
+                "localTime": "2020-10-05T12:42:16.218",
+                "utcOffsetHours": 0,
+                "latitude": 12.540926,
+                "longitude": -7.947951,
+                "elevationFeet": 1247,
+                "classification": 4,
+                "active": true,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BKO?codeType=fs",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BKO?codeType=fs"
+            },
+            {
+                "fs": "NKC",
+                "iata": "NKC",
+                "icao": "GQNN",
+                "faa": "",
+                "name": "Nouakchott International Airport",
+                "city": "Nouakchott",
+                "cityCode": "NKC",
+                "countryCode": "MR",
+                "countryName": "Mauritania",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Nouakchott",
+                "weatherZone": "",
+                "localTime": "2020-10-05T12:42:16.218",
+                "utcOffsetHours": 0,
+                "latitude": 18.305687,
+                "longitude": -15.967166,
+                "elevationFeet": 6,
+                "classification": 4,
+                "active": true,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NKC?codeType=fs",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NKC?codeType=fs"
+            },
+            {
+                "fs": "BZV",
+                "iata": "BZV",
+                "icao": "FCBB",
+                "faa": "",
+                "name": "Maya Maya Airport",
+                "city": "Brazzaville",
+                "cityCode": "BZV",
+                "countryCode": "CG",
+                "countryName": "Congo",
+                "regionName": "Africa",
+                "timeZoneRegionName": "Africa/Brazzaville",
+                "weatherZone": "",
+                "localTime": "2020-10-05T13:42:16.218",
+                "utcOffsetHours": 1,
+                "latitude": -4.258899,
+                "longitude": 15.251139,
+                "elevationFeet": 1048,
+                "classification": 4,
+                "active": true,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BZV?codeType=fs",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BZV?codeType=fs"
+            }
+
+        ],
+        "equipments": [
+            {
+                "iata": "359",
+                "name": "Airbus A350-900",
+                "turboProp": false,
+                "jet": true,
+                "widebody": true,
+                "regional": false
+            }
+        ]
+    },
+    "flightStatuses": [
+        {
+            "flightId": 1045672312,
+            "carrierFsCode": "MAU",
+            "flightNumber": "142",
+            "departureAirportFsCode": "NKC",
+            "arrivalAirportFsCode": "BKO",
+            "departureDate": {
+                "dateUtc": "2020-10-05T07:00:00.000Z",
+                "dateLocal": "2020-10-05T07:00:00.000"
+            },
+            "arrivalDate": {
+                "dateUtc": "2020-10-05T08:40:00.000Z",
+                "dateLocal": "2020-10-05T08:40:00.000"
+            },
+            "status": "U",
+            "schedule": {
+                "flightType": "J",
+                "serviceClasses": "JY",
+                "restrictions": "",
+                "uplines": [],
+                "downlines": [
+                    {
+                        "fsCode": "COO",
+                        "flightId": 1045672349
+                    },
+                    {
+                        "fsCode": "PNR",
+                        "flightId": 1045672355
+                    },
+                    {
+                        "fsCode": "BZV",
+                        "flightId": 1045672357
+                    }
+                ]
+            },
+            "operationalTimes": {
+                "publishedDeparture": {
+                    "dateUtc": "2020-10-05T07:00:00.000Z",
+                    "dateLocal": "2020-10-05T07:00:00.000"
+                },
+                "scheduledGateDeparture": {
+                    "dateUtc": "2020-10-05T07:00:00.000Z",
+                    "dateLocal": "2020-10-05T07:00:00.000"
+                },
+                "estimatedRunwayDeparture": {
+                    "dateUtc": "2020-10-05T07:06:00.000Z",
+                    "dateLocal": "2020-10-05T07:06:00.000"
+                },
+                "actualRunwayDeparture": {
+                    "dateUtc": "2020-10-05T07:06:00.000Z",
+                    "dateLocal": "2020-10-05T07:06:00.000"
+                },
+                "publishedArrival": {
+                    "dateUtc": "2020-10-05T08:40:00.000Z",
+                    "dateLocal": "2020-10-05T08:40:00.000"
+                },
+                "scheduledGateArrival": {
+                    "dateUtc": "2020-10-05T08:40:00.000Z",
+                    "dateLocal": "2020-10-05T08:40:00.000"
+                },
+                "estimatedRunwayArrival": {
+                    "dateUtc": "2020-10-05T08:35:00.000Z",
+                    "dateLocal": "2020-10-05T08:35:00.000"
+                },
+                "actualRunwayArrival": {
+                    "dateUtc": "2020-10-05T08:35:00.000Z",
+                    "dateLocal": "2020-10-05T08:35:00.000"
+                }
+            },
+            "codeshares": [],
+            "delays": {},
+            "flightDurations": {
+                "scheduledBlockMinutes": 100,
+                "airMinutes": 89
+            },
+            "airportResources": {},
+            "flightEquipment": {
+                "scheduledEquipmentIataCode": "73G",
+                "actualEquipmentIataCode": "73W",
+                "tailNumber": "5T-CLC"
+            }
+        },
+        {
+            "flightId": 1045672349,
+            "carrierFsCode": "MAU",
+            "flightNumber": "142",
+            "departureAirportFsCode": "BKO",
+            "arrivalAirportFsCode": "COO",
+            "departureDate": {
+                "dateUtc": "2020-10-05T09:20:00.000Z",
+                "dateLocal": "2020-10-05T09:20:00.000"
+            },
+            "arrivalDate": {
+                "dateUtc": "2020-10-05T11:20:00.000Z",
+                "dateLocal": "2020-10-05T12:20:00.000"
+            },
+            "status": "A",
+            "schedule": {
+                "flightType": "J",
+                "serviceClasses": "JY",
+                "restrictions": "",
+                "uplines": [
+                    {
+                        "fsCode": "NKC",
+                        "flightId": 1045672312
+                    }
+                ],
+                "downlines": [
+                    {
+                        "fsCode": "PNR",
+                        "flightId": 1045672355
+                    },
+                    {
+                        "fsCode": "BZV",
+                        "flightId": 1045672357
+                    }
+                ]
+            },
+            "operationalTimes": {
+                "publishedDeparture": {
+                    "dateUtc": "2020-10-05T09:20:00.000Z",
+                    "dateLocal": "2020-10-05T09:20:00.000"
+                },
+                "scheduledGateDeparture": {
+                    "dateUtc": "2020-10-05T09:20:00.000Z",
+                    "dateLocal": "2020-10-05T09:20:00.000"
+                },
+                "estimatedRunwayDeparture": {
+                    "dateUtc": "2020-10-05T09:32:00.000Z",
+                    "dateLocal": "2020-10-05T09:32:00.000"
+                },
+                "actualRunwayDeparture": {
+                    "dateUtc": "2020-10-05T09:32:00.000Z",
+                    "dateLocal": "2020-10-05T09:32:00.000"
+                },
+                "publishedArrival": {
+                    "dateUtc": "2020-10-05T11:20:00.000Z",
+                    "dateLocal": "2020-10-05T12:20:00.000"
+                },
+                "scheduledGateArrival": {
+                    "dateUtc": "2020-10-05T11:20:00.000Z",
+                    "dateLocal": "2020-10-05T12:20:00.000"
+                },
+                "estimatedRunwayArrival": {
+                    "dateUtc": "2020-10-05T11:23:00.000Z",
+                    "dateLocal": "2020-10-05T12:23:00.000"
+                },
+                "actualRunwayArrival": {
+                    "dateUtc": "2020-10-05T11:23:00.000Z",
+                    "dateLocal": "2020-10-05T12:23:00.000"
+                }
+            },
+            "codeshares": [],
+            "delays": {},
+            "flightDurations": {
+                "scheduledBlockMinutes": 120,
+                "airMinutes": 111
+            },
+            "airportResources": {},
+            "flightEquipment": {
+                "scheduledEquipmentIataCode": "73G",
+                "actualEquipmentIataCode": "73W",
+                "tailNumber": "5T-CLC"
+            }
+        },
+        {
+            "flightId": 1045672355,
+            "carrierFsCode": "MAU",
+            "flightNumber": "142",
+            "departureAirportFsCode": "COO",
+            "arrivalAirportFsCode": "PNR",
+            "departureDate": {
+                "dateUtc": "2020-10-05T12:00:00.000Z",
+                "dateLocal": "2020-10-05T13:00:00.000"
+            },
+            "arrivalDate": {
+                "dateUtc": "2020-10-05T14:30:00.000Z",
+                "dateLocal": "2020-10-05T15:30:00.000"
+            },
+            "status": "L",
+            "schedule": {
+                "flightType": "J",
+                "serviceClasses": "JY",
+                "restrictions": "",
+                "uplines": [
+                    {
+                        "fsCode": "NKC",
+                        "flightId": 1045672312
+                    },
+                    {
+                        "fsCode": "BKO",
+                        "flightId": 1045672349
+                    }
+                ],
+                "downlines": [
+                    {
+                        "fsCode": "BZV",
+                        "flightId": 1045672357
+                    }
+                ]
+            },
+            "operationalTimes": {
+                "publishedDeparture": {
+                    "dateUtc": "2020-10-05T12:00:00.000Z",
+                    "dateLocal": "2020-10-05T13:00:00.000"
+                },
+                "scheduledGateDeparture": {
+                    "dateUtc": "2020-10-05T12:00:00.000Z",
+                    "dateLocal": "2020-10-05T13:00:00.000"
+                },
+                "estimatedRunwayDeparture": {
+                    "dateUtc": "2020-10-05T12:16:00.000Z",
+                    "dateLocal": "2020-10-05T13:16:00.000"
+                },
+                "actualRunwayDeparture": {
+                    "dateUtc": "2020-10-05T12:16:00.000Z",
+                    "dateLocal": "2020-10-05T13:16:00.000"
+                },
+                "publishedArrival": {
+                    "dateUtc": "2020-10-05T14:30:00.000Z",
+                    "dateLocal": "2020-10-05T15:30:00.000"
+                },
+                "scheduledGateArrival": {
+                    "dateUtc": "2020-10-05T14:30:00.000Z",
+                    "dateLocal": "2020-10-05T15:30:00.000"
+                }
+            },
+            "codeshares": [],
+            "delays": {},
+            "flightDurations": {
+                "scheduledBlockMinutes": 150
+            },
+            "airportResources": {},
+            "flightEquipment": {
+                "scheduledEquipmentIataCode": "73G",
+                "actualEquipmentIataCode": "73W",
+                "tailNumber": "5T-CLC"
+            }
+        },
+        {
+            "flightId": 1045672357,
+            "carrierFsCode": "MAU",
+            "flightNumber": "142",
+            "departureAirportFsCode": "PNR",
+            "arrivalAirportFsCode": "BZV",
+            "departureDate": {
+                "dateUtc": "2020-10-05T15:10:00.000Z",
+                "dateLocal": "2020-10-05T16:10:00.000"
+            },
+            "arrivalDate": {
+                "dateUtc": "2020-10-05T16:00:00.000Z",
+                "dateLocal": "2020-10-05T17:00:00.000"
+            },
+            "status": "D",
+            "schedule": {
+                "flightType": "J",
+                "serviceClasses": "JY",
+                "restrictions": "O",
+                "uplines": [
+                    {
+                        "fsCode": "NKC",
+                        "flightId": 1045672312
+                    },
+                    {
+                        "fsCode": "BKO",
+                        "flightId": 1045672349
+                    },
+                    {
+                        "fsCode": "COO",
+                        "flightId": 1045672355
+                    }
+                ],
+                "downlines": []
+            },
+            "operationalTimes": {
+                "publishedDeparture": {
+                    "dateUtc": "2020-10-05T15:10:00.000Z",
+                    "dateLocal": "2020-10-05T16:10:00.000"
+                },
+                "scheduledGateDeparture": {
+                    "dateUtc": "2020-10-05T15:10:00.000Z",
+                    "dateLocal": "2020-10-05T16:10:00.000"
+                },
+                "publishedArrival": {
+                    "dateUtc": "2020-10-05T16:00:00.000Z",
+                    "dateLocal": "2020-10-05T17:00:00.000"
+                },
+                "scheduledGateArrival": {
+                    "dateUtc": "2020-10-05T16:00:00.000Z",
+                    "dateLocal": "2020-10-05T17:00:00.000"
+                }
+            },
+            "codeshares": [],
+            "delays": {},
+            "flightDurations": {
+                "scheduledBlockMinutes": 50
+            },
+            "airportResources": {},
+            "flightEquipment": {
+                "scheduledEquipmentIataCode": "73G"
+            }
+        }
+    ]
+}
+

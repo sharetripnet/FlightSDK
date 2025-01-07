@@ -1,0 +1,258 @@
+{
+    "pnrCode": "6RS6C7",
+    "bookingCode": "STFL17109274368622",
+    "providerCode": "5045c460db39f25b12c84764c7759652",
+    "sequenceCode": "sqfNd6MUeU",
+    "tripType": "Return",
+    "numOfTravelers": 1,
+    "traveller": {
+        "numOfAdult": 1,
+        "numOfChild": 0,
+        "numOfInfant": 0
+    },
+    "isModified": false,
+    "isReissueable": true,
+    "isVoidable": false,
+    "isRefundable": true,
+    "isSeatSelectable": false,
+    "pnrMessage": "Booked successfully",
+    "airlineResCode": "6RS6C7",
+    "gatewayAmount": 52868,
+    "gatewayCurrency": "BDT",
+    "paymentStatus": "Unpaid",
+    "bookingStatus": "Booked",
+    "lastCancellationTime": "2024-03-23 01:13:04",
+    "departStartDate": "2024-05-01T23:55:00+06:00",
+    "issuedAt": "2024-03-20 05:38:49",
+    "totalDuration": 250,
+    "attachment": false,
+    "attachmentMessage": "",
+    "codeShareMessage": "",
+    "refundableMsg": "",
+    "instantPurchase": false,
+    "deal": "",
+    "points":  620,
+    "currency": "BDT",
+    "gateWay": "hvn7rgxd7mgcwgwkw4s08g8kckwgs84",
+    "promotionalCoupon": [],
+    "defaultPromotionalCoupon": null,
+    "feedNotes": null,
+    "displayPrice": {
+        "currency": "BDT",
+        "perAdultBreakdown": {
+            "base": 62040,
+            "tax": 9105,
+            "total": 71145
+        },
+        "perChildBreakdown": {
+            "base": 0,
+            "tax": 0,
+            "total": 0
+        },
+        "perInfantBreakdown": {
+            "base": 0,
+            "tax": 0,
+            "total": 0
+        },
+        "totalFare": {
+            "base": 62040,
+            "tax": 9105,
+            "total": 71145,
+            "promotionalAmount": 66166
+        }
+    },
+    "travellers": [
+        {
+            "title": "MR",
+            "surName": "PINKMAN",
+            "givenName": "Jessse",
+            "travellerType": "Adult",
+            "primaryContact": "Yes",
+            "dateOfBirth": "01/01/1994",
+            "gender": "Male",
+            "nationality": "BD",
+            "mobileNumber": "8801671234567",
+            "email": "jkamal@sharetrip.net",
+            "frequentFlyerNumber": "",
+            "postCode": "",
+            "passportNumber": "AB1231231",
+            "passportExpireDate": "2033-01-01T00:00:00.000Z",
+            "passportCopy": "",
+            "visaCopy": "",
+            "mealPreference": "SFML",
+            "wheelChair": "WCHR",
+
+            "travelInsurance": {
+                "name": "Bimafy",
+                "price": 199
+            },
+            "baggageInsurance": {
+                "name": "Blue Ribbon Bags",
+                "price": 330
+            },
+            "tripAdd": {
+              "isBundle": true,
+              "price": 9463
+            },
+            "covid": {
+              "option": "Lab Collection at Banglamotor, Dhaka",
+              "price": 2600
+            },
+            "extraBaggages": [
+                {
+                    "weight": "1Piece (23 KG/Piece)",
+                    "price": 4400,
+                    "currency": "BDT"
+                },
+                null
+            ],
+            "basicBaggages": [
+                {
+                  "weight": 25,
+                  "unit": "KG"
+                },
+                {
+                  "weight": 25,
+                  "unit": "KG"
+                }
+            ],
+            "totalAddonsAmount": 1300
+        }
+    ],
+    "extraBaggageAmount": 0,
+    "covidAmount": 0,
+    "travelInsuranceAmount": 199,
+    "baggageInsuranceAmount": 330,
+    "tripAddAmount": 4136,
+    "emiFee": 120,
+    "convenienceFee": 2268,
+    "discountAmount": 21145,
+    "airFareRules": [
+        {
+            "origin": "Hazrat Shahjalal International Airport",
+            "originCode": "DAC",
+            "destination": "Singapore Changi Airport",
+            "destinationCode": "SIN",
+            "policy": {
+                "header": [],
+                "rules": [
+                    {
+                        "code": 16,
+                        "type": "PENALTIES/GENERAL",
+                        "text": "1. Reissue/Refund minimum penalty amount before departure 0 BDT\n2. Reissue/Refund maximum penalty amount before departure 5500 BDT\n3. Reissue/Refund maximum penalty amount for the ticket before departure 5500 BDT\n4. Revalidation minimum penalty amount before departure 5500 BDT\n5. Revalidation maximum penalty amount before departure 5500 BDT\n6. Revalidation maximum penalty amount for the ticket before departure 5500 BDT\n7. Reissue/Refund minimum penalty amount before departure no show 0 BDT\n8. Reissue/Refund maximum penalty amount before departure no show 11000 BDT\n9. Reissue/Refund maximum penalty amount for the ticket before departure no show 11000 BDT\n10. Revalidation minimum penalty amount before departure no show 11000 BDT\n11. Revalidation maximum penalty amount before departure no show 11000 BDT\n12. Revalidation maximum penalty amount for the ticket before departure no show 11000 BDT\n13. Reissue/Refund minimum penalty amount after departure 0 BDT\n14. Reissue/Refund maximum penalty amount with sale currency 0 BDT\n15. Reissue/Refund maximum penalty amount for the ticket after departure 0 BDT\n16. Revalidation minimum penalty amount after departure 0 BDT\n17. Revalidation maximum penalty amount after departure 0 BDT\n18. Revalidation maximum penalty amount for the ticket after departure 0 BDT\n19. Reissue/Refund minimum penalty amount after departure no show 0 BDT\n20. Reissue/Refund maximum penalty amount after departure no show 0 BDT\n21. Reissue/Refund maximum penalty amount for the ticket after departure no show 0 BDT\n22. Revalidation minimum penalty amount after departure no show 0 BDT\n23. Revalidation maximum penalty amount after departure no show 0 BDT\n24. Revalidation maximum penalty amount for the ticket after departure no show 0 BDT\n25. Part of rule is free form text from Cat16? Not allowed \n26. Reissue penalties can be waived for passenger and family death/illness before departure? Not allowed \n27. Revalidation before departure is allowed? Allowed with restrictions \n28. Reissue/Refund before departure allowed? Allowed with restrictions \n29. Reissue penalties can be waived for passenger and family death/illness for before departure no show? Not allowed \n30. Revalidation before departure when no show is allowed? Allowed with restrictions \n31. Reissue/Refund before departure when no show allowed? Allowed with restrictions \n32. Reissue penalties can be waived for passenger and family death/illness after departure? Not allowed \n33. Revalidation after departure is allowed? Not allowed \n34. Reissue/Refund after departure allowed? Not allowed \n35. Reissue penalties can be waived for passenger and family death/illness after departure no show? Not allowed \n36. Revalidation after departure when no show is allowed? Not allowed \n37. Reissue/Refund after departure when no show allowed? Not allowed \n38. Reissue/Refund minimum penalty amount after departure 0 BDT\n39. Reissue/Refund maximum penalty amount with sale currency 0 BDT\n40. Reissue/Refund maximum penalty amount for the ticket after departure 0 BDT\n41. Reissue/Refund minimum penalty amount after departure no show 0 BDT\n42. Reissue/Refund maximum penalty amount after departure no show 0 BDT\n43. Reissue/Refund maximum penalty amount for the ticket after departure no show 0 BDT\n44. Reissue/Refund minimum penalty amount before departure 16500 BDT\n45. Reissue/Refund maximum penalty amount before departure 16500 BDT\n46. Reissue/Refund maximum penalty amount for the ticket before departure 16500 BDT\n47. Reissue/Refund minimum penalty amount before departure no show 27500 BDT\n48. Reissue/Refund maximum penalty amount before departure no show 27500 BDT\n49. Reissue/Refund maximum penalty amount for the ticket before departure no show 27500 BDT\n50. Part of rule is free form text from Cat16? Not allowed \n51. Reissue/Refund before departure allowed? Allowed with restrictions \n52. Reissue/Refund before departure when no show allowed? Allowed with restrictions \n53. Reissue/Refund after departure allowed? Not allowed \n54. Reissue/Refund after departure when no show allowed? Not allowed \n"
+                    }
+                ]
+            }
+        }
+    ],
+    "legs": [
+        {
+            "searchCode": "sqWl2iXMPDnAwW",
+            "airlines": {
+                "code": "SQ",
+                "full": "Singapore Airlines Limited",
+                "short": "Singapore Airlines",
+                "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/airlines-logo/SQ.png"
+            },
+            "marketingAirline": "SQ",
+            "operatedBy": "SQ",
+            "aircraft": "787",
+            "aircraftCode": "BOEING 787",
+            "origin": {
+                "airport": "Hazrat Shahjalal International Airport",
+                "city": "Dhaka",
+                "code": "DAC"
+            },
+            "departureDateTime": "2024-05-01T23:55:00+06:00",
+            "destination": {
+                "airport": "Singapore Changi Airport",
+                "city": "Singapore",
+                "code": "SIN"
+            },
+            "arrivalDateTime": "2024-05-02T06:05:00+08:00",
+            "duration": 250,
+            "dayCount": "1",
+            "layoverDuration": 0,
+            "layoverIataList": [],
+            "stop": 0,
+            "stopSegment": [],
+            "isHiddenStopExist": false,
+            "segments": [
+                {
+                    "searchCode": "sqWl2iXMPDnAwW",
+                    "sequenceNumber": 1,
+                    "flightNumber": "447",
+                    "airlines": {
+                        "code": "SQ",
+                        "full": "Singapore Airlines Limited",
+                        "short": "Singapore Airlines",
+                        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/airlines-logo/SQ.png"
+                    },
+                    "marketingAirline": "SQ",
+                    "operatedBy": "SQ",
+                    "aircraft": {
+                        "code": "787",
+                        "model": "BOEING 787"
+                    },
+                    "origin": {
+                        "airport": "Hazrat Shahjalal International Airport",
+                        "city": "Dhaka",
+                        "code": "DAC"
+                    },
+                    "departureDateTime": "2024-05-01T23:55:00+06:00",
+                    "originTerminal": "2",
+                    "destination": {
+                        "airport": "Singapore Changi Airport",
+                        "city": "Singapore",
+                        "code": "SIN"
+                    },
+                    "arrivalDateTime": "2024-05-02T06:05:00+08:00",
+                    "destinationTerminal": "0",
+                    "duration": 250,
+                    "transitTime": 0,
+                    "hiddenStop": null,
+                    "hiddenStopAirport": "",
+                    "baggage": {
+                        "unit": "KG",
+                        "weight": 25,
+                        "details": "25Kg/person"
+                    },
+                    "cabin": "ECONOMY",
+                    "cabinCode": "M",
+                    "resBookDesigCode": "N",
+                    "extraParams": {
+                        "paxSegmentId": "SEG2"
+                    }
+                }
+            ],
+            "extraParams": {
+                "shoppingResponseId": "SP1F-13191878607467974022",
+                "offerId": "SP1F-13191878607467974022-1",
+                "offerItemId": "SP1F-13191878607467974022-1-1",
+                "ownerCode": "SQ",
+                "offerExpirationDateTime": "2024-03-24T06:19:50Z",
+                "ticketClass": "Economy Value",
+                "passengerInfo": [
+                    {
+                        "paxID": "PAX1",
+                        "pTC": "ADT"
+                    }
+                ],
+                "paxWiseInfo": {
+                    "ADT": {
+                        "type": "PAX1",
+                        "code": "ADT"
+                    },
+                    "CHD": {
+                        "type": "",
+                        "code": ""
+                    },
+                    "INF": {
+                        "type": "",
+                        "code": ""
+                    }
+                }
+            }
+        }
+    ]
+}

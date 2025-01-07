@@ -1,0 +1,365 @@
+{
+    "skipSelection": false,
+    "automationType": false,
+    "allSelectionMandatory": false,
+    "isFlyDatePassed": false,
+    "allSelectionMandatoryMsg": null,
+    "bookingCode": "STFL17144591129978",
+    "reissueCode": null,
+    "pendingModifications": [
+      {
+        "type": "REISSUE",
+        "searchId": "f397f5f0-06be-11ef-b73d-f3c51058088e",
+        "bookingCode": "STFL17144591129978",
+        "parentReissueCode": null,
+        "status": "REQUESTED",
+        "travellers": [
+          {
+            "name": "NAFIS ISLAM",
+            "title": "MR",
+            "surName": "ISLAM",
+            "givenName": "NAFIS",
+            "gender": "Male",
+            "code": "1c4f3d7e1c966d001c547e4cf47aca71",
+            "hash": "1c4f3d7e1c966d001c547e4cf47aca71",
+            "eTicket": "9976651871567",
+            "eticket": "9976651871567",
+            "emdTicket": null,
+            "travellerType": "Adult",
+            "passportNumber": "AG1234322",
+            "passportExpireDate": "2026-10-09T00:00:00.000Z",
+            "dateOfBirth": "31/01/2006",
+            "mobileNumber": "8801515262338",
+            "email": "nafis00001@gmail.com",
+            "nationality": "BD",
+            "nationalityDetails": {
+              "code": "BD",
+              "name": "Bangladesh"
+            },
+            "primaryContact": "Yes",
+            "address1": "",
+            "frequentFlyerNumber": "",
+            "passportCopy": null,
+            "visaCopy": null,
+            "luggageCode": "[]",
+            "ticketStatus": "ISSUED"
+          }
+        ]
+      }
+    ],
+    "itinerary": {
+      "sequenceCode": "sbbg28935f593c1e4db8b7ab309517321fd6",
+      "isFromCache": false,
+      "deal": null,
+      "gatewayCurrency": "ALL",
+      "instantPurchase": true,
+      "points": {
+        "earn": 0
+      },
+      "refundableMsg": "",
+      "totalDuration": 75,
+      "attachment": false,
+      "attachmentMessage": null,
+      "isDomestic": true,
+      "isRefundable": true,
+      "departStartDate": {
+        "date": "2024-05-10",
+        "time": "11:30:00",
+        "timezone": 6
+      },
+      "displayPrice": {
+        "discount": 0,
+        "perAdultBreakdown": {
+          "base": 6024,
+          "tax": 975,
+          "total": 6999
+        },
+        "perChildBreakdown": {
+          "base": 4518,
+          "tax": 825,
+          "total": 5343
+        },
+        "perInfantBreakdown": {
+          "base": 603,
+          "tax": 246,
+          "total": 849
+        },
+        "totalFare": {
+          "base": 15663,
+          "tax": 2871,
+          "total": 17751,
+          "promotionalAmount": 17751
+        },
+        "miniRules": null
+      },
+      "legs": [
+        {
+          "searchCode": "50w161lvm0l6p618",
+          "airlines": {
+            "code": "BG",
+            "short": "Biman Bangladesh Airlines",
+            "full": "Biman Bangladesh Airlines Limited",
+            "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/airlines-logo/BG.png"
+          },
+          "origin": {
+            "airport": "Hazrat Shahjalal International Airport",
+            "city": "Dhaka",
+            "code": "DAC"
+          },
+          "destination": {
+            "airport": "Cox's Bazar Airport",
+            "city": "Cox's Bazar",
+            "code": "CXB"
+          },
+          "marketingAirline": "BG",
+          "operatedBy": "BG",
+          "stop": 0,
+          "isHiddenStopExist": false,
+          "arrivalDateTime": {
+            "date": "2024-05-10",
+            "time": "12:45:00",
+            "timezone": 6
+          },
+          "departureDateTime": {
+            "date": "2024-05-10",
+            "time": "11:30:00",
+            "timezone": 6
+          },
+          "duration": 75,
+          "segments": [
+            {
+              "searchCode": "50w161lvm0l6p618",
+              "sequenceNumber": 1,
+              "flightNumber": "435",
+              "marketingAirline": "BG",
+              "operatedBy": "BG",
+              "aircraft": {
+                "code": "DH8",
+                "model": "DEHAVILLAND DASH 8"
+              },
+              "airlines": {
+                "code": "BG",
+                "short": "Biman Bangladesh Airlines",
+                "full": "Biman Bangladesh Airlines Limited",
+                "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/airlines-logo/BG.png"
+              },
+              "origin": {
+                "airport": "Hazrat Shahjalal International Airport",
+                "city": "Dhaka",
+                "code": "DAC"
+              },
+              "duration": 75,
+              "arrivalDateTime": {
+                "date": "2024-05-10",
+                "time": "12:45:00",
+                "timezone": 6
+              },
+              "hiddenStopAirport": null,
+              "originTerminal": "D",
+              "destinationTerminal": null,
+              "baggage": {
+                "unit": "KG",
+                "weight": 20,
+                "details": ""
+              },
+              "cabin": "Economy",
+              "cabinCode": "Y",
+              "departureDateTime": {
+                "date": "2024-05-10",
+                "time": "11:30:00",
+                "timezone": 6
+              },
+              "destination": {
+                "airport": "Cox's Bazar Airport",
+                "city": "Cox's Bazar",
+                "code": "CXB"
+              },
+              "hiddenStop": null,
+              "resBookDesigCode": null,
+              "transitTime": 0
+            }
+          ]
+        }
+      ]
+    },
+    "travellers": [
+      {
+        "id": "9976651871567",
+        "name": "NAFIS ISLAM",
+        "title": "MR",
+        "surName": "ISLAM",
+        "givenName": "NAFIS",
+        "gender": "Male",
+        "code": "1c4f3d7e1c966d001c547e4cf47aca71",
+        "hash": "1c4f3d7e1c966d001c547e4cf47aca71",
+        "paxAssociated": null,
+        "paxNumber": "1.1",
+        "eTicket": "9976651871567",
+        "travellerType": "Adult",
+        "passportNumber": "AG1234322",
+        "passportExpireDate": "2026-10-09T00:00:00.000Z",
+        "dateOfBirth": "31/01/2006",
+        "mobileNumber": "8801515262338",
+        "email": "nafis00001@gmail.com",
+        "nationality": "BD",
+        "nationalityDetails": {
+          "code": "BD",
+          "name": "Bangladesh"
+        },
+        "primaryContact": "Yes",
+        "address1": "",
+        "frequentFlyerNumber": "",
+        "passportCopy": null,
+        "visaCopy": null,
+        "luggageCode": "[]",
+        "travelInsurance": null,
+        "baggageInsurance": null,
+        "ticketStatus": "ISSUED",
+        "hasPendingModification": true,
+        "pendingModification": {
+          "type": "REISSUE",
+          "searchId": "f397f5f0-06be-11ef-b73d-f3c51058088e",
+          "bookingCode": "STFL17144591129978",
+          "parentReissueCode": null,
+          "status": "REQUESTED",
+          "travellers": [
+            {
+              "name": "NAFIS ISLAM",
+              "title": "MR",
+              "surName": "ISLAM",
+              "givenName": "NAFIS",
+              "gender": "Male",
+              "code": "1c4f3d7e1c966d001c547e4cf47aca71",
+              "hash": "1c4f3d7e1c966d001c547e4cf47aca71",
+              "eTicket": "9976651871567",
+              "eticket": "9976651871567",
+              "emdTicket": null,
+              "travellerType": "Adult",
+              "passportNumber": "AG1234322",
+              "passportExpireDate": "2026-10-09T00:00:00.000Z",
+              "dateOfBirth": "31/01/2006",
+              "mobileNumber": "8801515262338",
+              "email": "nafis00001@gmail.com",
+              "nationality": "BD",
+              "nationalityDetails": {
+                "code": "BD",
+                "name": "Bangladesh"
+              },
+              "primaryContact": "Yes",
+              "address1": "",
+              "frequentFlyerNumber": "",
+              "passportCopy": null,
+              "visaCopy": null,
+              "luggageCode": "[]",
+              "ticketStatus": "ISSUED"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9976651871568",
+        "name": "HAFIZKID RAHMAN",
+        "title": "MSTR",
+        "surName": "RAHMAN",
+        "givenName": "HAFIZKID",
+        "gender": "Male",
+        "code": "449da0d1727ea0da10d0869bdd995a9d",
+        "hash": "449da0d1727ea0da10d0869bdd995a9d",
+        "paxAssociated": null,
+        "paxNumber": "2.1",
+        "eTicket": "9976651871568",
+        "travellerType": "Child",
+        "passportNumber": "21345768",
+        "passportExpireDate": "2030-10-12T00:00:00.000Z",
+        "dateOfBirth": "08/10/2020",
+        "mobileNumber": null,
+        "email": null,
+        "nationality": "BD",
+        "nationalityDetails": {
+          "code": "BD",
+          "name": "Bangladesh"
+        },
+        "primaryContact": "No",
+        "address1": "",
+        "frequentFlyerNumber": "",
+        "passportCopy": null,
+        "visaCopy": null,
+        "luggageCode": "[]",
+        "travelInsurance": null,
+        "baggageInsurance": null,
+        "ticketStatus": "ISSUED",
+        "hasPendingModification": false,
+        "pendingModification": null
+      },
+      {
+        "id": "9976651871569",
+        "name": "WASHI CHILD AL MOSTAKIM",
+        "title": "MSTR",
+        "surName": "AL MOSTAKIM",
+        "givenName": "WASHI CHILD",
+        "gender": "Male",
+        "code": "ee2c41df3f2b59eb2fd3c3f0f34a9a2d",
+        "hash": "ee2c41df3f2b59eb2fd3c3f0f34a9a2d",
+        "paxAssociated": null,
+        "paxNumber": "3.1",
+        "eTicket": "9976651871569",
+        "travellerType": "Child",
+        "passportNumber": "12345687T",
+        "passportExpireDate": "2026-10-12T00:00:00.000Z",
+        "dateOfBirth": "10/10/2014",
+        "mobileNumber": "8801515262338",
+        "email": "washi@gmail.com",
+        "nationality": "BD",
+        "nationalityDetails": {
+          "code": "BD",
+          "name": "Bangladesh"
+        },
+        "primaryContact": "No",
+        "address1": "",
+        "frequentFlyerNumber": "",
+        "passportCopy": "https://tbbd-user-files.s3.ap-southeast-1.amazonaws.com/nafis00001_jywogvy7-16f2fd70-bb82-11ee-96e6-7d4d80797b6a.png",
+        "visaCopy": "https://tbbd-user-files.s3.ap-southeast-1.amazonaws.com/nafis00001_jywogvy7-3ca457d0-bb82-11ee-96e6-7d4d80797b6a.jpeg",
+        "luggageCode": "[]",
+        "travelInsurance": null,
+        "baggageInsurance": null,
+        "ticketStatus": "ISSUED",
+        "hasPendingModification": false,
+        "pendingModification": null
+      },
+      {
+        "id": "9976651871570",
+        "name": "RADVIN ABEDIN",
+        "title": "MSTR",
+        "surName": "ABEDIN",
+        "givenName": "RADVIN",
+        "gender": "Male",
+        "code": "ba738201268c2a30b70f5c2f78b84fad",
+        "hash": "ba738201268c2a30b70f5c2f78b84fad",
+        "paxAssociated": null,
+        "paxNumber": "4.1",
+        "eTicket": "9976651871570",
+        "travellerType": "Infant",
+        "passportNumber": "AG123321",
+        "passportExpireDate": "2025-09-06T00:00:00.000Z",
+        "dateOfBirth": "19/01/2023",
+        "mobileNumber": null,
+        "email": null,
+        "nationality": "BD",
+        "nationalityDetails": {
+          "code": "BD",
+          "name": "Bangladesh"
+        },
+        "primaryContact": "No",
+        "address1": "",
+        "frequentFlyerNumber": "",
+        "passportCopy": null,
+        "visaCopy": null,
+        "luggageCode": "[]",
+        "travelInsurance": null,
+        "baggageInsurance": null,
+        "ticketStatus": "ISSUED",
+        "hasPendingModification": false,
+        "pendingModification": null
+      }
+    ]
+  }
