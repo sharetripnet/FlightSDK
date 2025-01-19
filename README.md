@@ -31,13 +31,6 @@ target 'STExample' do
   pod 'JTAppleCalendar', '~> 8.0'
   pod 'Socket.IO-Client-Swift', '~> 15.2.0'
   
-  # Facebook SDKs
-  pod 'FBSDKCoreKit', '~> 16.1.0'
-  pod 'FBSDKLoginKit', '~> 16.1.0'
-  
-  # Google SDKs
-  pod 'GoogleSignIn', '~> 8.0.0'
-  
   # Firebase SDKs
   pod 'FirebaseCore', '11.3.0'
   pod 'FirebaseAnalytics', '~> 11.3.0'
@@ -58,7 +51,7 @@ target 'STExample' do
   pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
   
   # ST Pods
-  pod 'FlightSDK', :git => 'https://github.com/sharetripnet/FlightSDK.git', :tag => '1.2.2'
+  pod 'FlightSDK', :git => 'https://github.com/sharetripnet/FlightSDK.git', :tag => '1.2.3'
   
 end
 
