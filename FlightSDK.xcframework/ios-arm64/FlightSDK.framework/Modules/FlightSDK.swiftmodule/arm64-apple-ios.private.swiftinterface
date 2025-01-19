@@ -4,19 +4,16 @@
 import AVFoundation
 import ActiveLabel
 import Alamofire
-import AuthenticationServices
 import CRRefresh
 import Contacts
 import CoreGraphics
 import CoreLocation
 import CoreText
-import FBSDKLoginKit
 import FirebaseAnalytics
 import FirebaseRemoteConfig
 @_exported import FlightSDK
 import FloatingPanel
 import Foundation
-import GoogleSignIn
 import IQKeyboardManagerSwift
 import JTAppleCalendar
 import Kingfisher
@@ -1066,6 +1063,7 @@ public enum ContentType : Swift.String {
 }
 public enum APIResponseCode : Swift.String, Swift.Codable {
   case success
+  case userNotFound
   case emptyToken
   case invalidToken
   case expiredToken

@@ -1,26 +1,8 @@
 PODS:
   - ActiveLabel (1.1.0)
   - Alamofire (5.5.0)
-  - AppAuth (1.7.5):
-    - AppAuth/Core (= 1.7.5)
-    - AppAuth/ExternalUserAgent (= 1.7.5)
-  - AppAuth/Core (1.7.5)
-  - AppAuth/ExternalUserAgent (1.7.5):
-    - AppAuth/Core
-  - AppCheckCore (11.2.0):
-    - GoogleUtilities/Environment (~> 8.0)
-    - GoogleUtilities/UserDefaults (~> 8.0)
-    - PromisesObjC (~> 2.4)
   - Base64 (1.1.2)
   - CRRefresh (1.1.3)
-  - FBAEMKit (16.1.3):
-    - FBSDKCoreKit_Basics (= 16.1.3)
-  - FBSDKCoreKit (16.1.3):
-    - FBAEMKit (= 16.1.3)
-    - FBSDKCoreKit_Basics (= 16.1.3)
-  - FBSDKCoreKit_Basics (16.1.3)
-  - FBSDKLoginKit (16.1.3):
-    - FBSDKCoreKit (= 16.1.3)
   - FirebaseABTesting (11.4.0):
     - FirebaseCore (~> 11.0)
   - FirebaseAnalytics (11.3.0):
@@ -129,11 +111,6 @@ PODS:
   - GoogleDataTransport (10.1.0):
     - nanopb (~> 3.30910.0)
     - PromisesObjC (~> 2.4)
-  - GoogleSignIn (8.0.0):
-    - AppAuth (< 2.0, >= 1.7.3)
-    - AppCheckCore (~> 11.0)
-    - GTMAppAuth (< 5.0, >= 4.1.1)
-    - GTMSessionFetcher/Core (~> 3.3)
   - GoogleUtilities/AppDelegateSwizzler (8.0.2):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -161,9 +138,6 @@ PODS:
   - GoogleUtilities/UserDefaults (8.0.2):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - GTMAppAuth (4.1.1):
-    - AppAuth/Core (~> 1.7)
-    - GTMSessionFetcher/Core (< 4.0, >= 3.3)
   - GTMSessionFetcher/Core (3.5.0)
   - IQKeyboardCore (1.0.5)
   - IQKeyboardManagerSwift (8.0.0):
@@ -236,8 +210,6 @@ DEPENDENCIES:
   - ActiveLabel
   - Alamofire (= 5.5)
   - CRRefresh
-  - FBSDKCoreKit (~> 16.1.0)
-  - FBSDKLoginKit (~> 16.1.0)
   - FirebaseAnalytics (~> 11.3.0)
   - FirebaseAuth (~> 11.3.0)
   - FirebaseCore (= 11.3.0)
@@ -247,7 +219,6 @@ DEPENDENCIES:
   - FirebaseRemoteConfig (~> 11.3.0)
   - FlightSDK (from `../`)
   - FloatingPanel
-  - GoogleSignIn (~> 8.0.0)
   - IQKeyboardManagerSwift
   - JTAppleCalendar (~> 8.0)
   - JWT
@@ -268,14 +239,8 @@ SPEC REPOS:
   trunk:
     - ActiveLabel
     - Alamofire
-    - AppAuth
-    - AppCheckCore
     - Base64
     - CRRefresh
-    - FBAEMKit
-    - FBSDKCoreKit
-    - FBSDKCoreKit_Basics
-    - FBSDKLoginKit
     - FirebaseABTesting
     - FirebaseAnalytics
     - FirebaseAppCheckInterop
@@ -295,9 +260,7 @@ SPEC REPOS:
     - FloatingPanel
     - GoogleAppMeasurement
     - GoogleDataTransport
-    - GoogleSignIn
     - GoogleUtilities
-    - GTMAppAuth
     - GTMSessionFetcher
     - IQKeyboardCore
     - IQKeyboardManagerSwift
@@ -345,14 +308,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
-  AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
-  AppCheckCore: cc8fd0a3a230ddd401f326489c99990b013f0c4f
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
-  FBAEMKit: af2972f39bb0f3f7c45998f435b007833c32ffb2
-  FBSDKCoreKit: 19e2e18b3be578d7a51fed8fdd8c152bef0b9511
-  FBSDKCoreKit_Basics: dd9826ce3c9fd9f8cdf8dbbd0ef0a53e6c0c9e7e
-  FBSDKLoginKit: c395c63a1a6cf4a8a1e6103fd94b8c46329ee81c
   FirebaseABTesting: aef1719704fade00b200827e7973f352efc4caee
   FirebaseAnalytics: ce1593872635a5ebd715d0d3937fab195991ecc9
   FirebaseAppCheckInterop: 1b9643ae2f1ee214488caa2f8e32b7bc2f0f3735
@@ -373,9 +330,7 @@ SPEC CHECKSUMS:
   FloatingPanel: 11559d3700c39f1c2ee8dbb7a5415223b52fdce0
   GoogleAppMeasurement: c8bac5f6ad85d3a0bdf2b9aee7fd484d6615d486
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
-  GoogleSignIn: ce8c89bb9b37fb624b92e7514cc67335d1e277e4
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
-  GTMAppAuth: f69bd07d68cd3b766125f7e072c45d7340dea0de
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   IQKeyboardCore: 28c8bf3bcd8ba5aa1570b318cbc4da94b861711e
   IQKeyboardManagerSwift: 0c6fbbaa2e60739e48d7cf59f25661471a7a3a65
@@ -405,6 +360,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   XLPagerTabStrip: 27f3bfe23c53b4251c6481b06b1c289458a3fc1d
 
-PODFILE CHECKSUM: 9c1921af5e750bfb741088e1961599ebeea61f16
+PODFILE CHECKSUM: 9d4b88dad7d10ee0ed093e3832273f2884edc4a5
 
 COCOAPODS: 1.16.2
