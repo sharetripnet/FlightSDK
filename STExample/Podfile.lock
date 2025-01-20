@@ -217,7 +217,7 @@ DEPENDENCIES:
   - FirebaseDynamicLinks
   - FirebaseMessaging
   - FirebaseRemoteConfig
-  - FlightSDK (from `https://github.com/sharetripnet/FlightSDK.git`, tag `1.2.4`)
+  - FlightSDK (from `../`)
   - FloatingPanel
   - IQKeyboardManagerSwift
   - JTAppleCalendar
@@ -364,6 +364,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   XLPagerTabStrip: 27f3bfe23c53b4251c6481b06b1c289458a3fc1d
 
-PODFILE CHECKSUM: 83c9a0b6b48ba618d8910929572e5679c272e53c
+PODFILE CHECKSUM: 80c63fc856cf0853ee7d6d2f730ecbc2cb119ebe
 
 COCOAPODS: 1.16.2
