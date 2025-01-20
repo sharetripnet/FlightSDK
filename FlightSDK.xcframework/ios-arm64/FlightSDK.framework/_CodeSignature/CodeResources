@@ -122,7 +122,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		h7VWvktM86C6nDxjdcocmG+jG3Q=
+		MOLr0FOcG7zmGOzlYDPe2KRwJpw=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
@@ -634,7 +634,7 @@
 		</data>
 		<key>CardHolderNameCell.nib</key>
 		<data>
-		qWehBjw8ahW5UghslDrgmx5Db3A=
+		+S5koBwGoFdfSkRZqihwChvckG4=
 		</data>
 		<key>CardPrefixCVCell.nib</key>
 		<data>
@@ -1310,7 +1310,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		zqe2UWC+EzKi/YF8XwR0+fK30cM=
+		t55gDnu3TxFK79k0DWQrElzsfwg=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -1326,7 +1326,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yj5I8vwyafo3RqGIFg8QsiApgFI=
+		sLgREyEIoYiKGZqPmMXM3DHBHZE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1492,10 +1492,6 @@
 		<data>
 		5mOJQrP1PUX69JnEJqk348RZ0D0=
 		</data>
-		<key>ProfileEditTopView.nib</key>
-		<data>
-		DTYqkMfXWsNkks7MnORGBhhc9j8=
-		</data>
 		<key>ProfileImageCVCell.nib</key>
 		<data>
 		qSUyugG/xSEdv/6/XKHrNwZp3js=
@@ -1503,10 +1499,6 @@
 		<key>ProfileImageInputCell.nib</key>
 		<data>
 		fmULdZ7+qxLXq+2ANuQH2M1QRNE=
-		</data>
-		<key>ProfileLoginView.nib</key>
-		<data>
-		83m2wN5ALjcoycisLDZc9ZT0dTs=
 		</data>
 		<key>ProfileSettingsCell.nib</key>
 		<data>
@@ -2386,7 +2378,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WEzahrth+/pXZeZayFVP0zVbm7pAWO6ZTHCmSdSIEJE=
+			MGq+SQv/A6FDBB5qSlS9HA8s386L91HC/E71dFF0J80=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
@@ -3282,7 +3274,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uAQOr6dTiMlX+9ftTbjpV+WZGIil3qJzvlBiSZioLMw=
+			X6NuGycSfHv2ZFRdbwKIJeq3jkv2h++XxtDoZH9Dm/8=
 			</data>
 		</dict>
 		<key>CardPrefixCVCell.nib</key>
@@ -4458,7 +4450,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EoKbmCn64Ep2fJqwKWr+IBibEWFGrGFBcIdV8Kc2NtA=
+			rd+nxCcV81EHtTp4we1e4HStEWYyUbeZC/Efji2lLk8=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -4486,7 +4478,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sU+5EcekDSBejFpqWsiD6QYeNzjgK9NwNKFoHwpiEAA=
+			QlhpXUr8pURXzX2/9kI5d/n1/UNu4wtL1dVsU0M7FBo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -4776,13 +4768,6 @@
 			mgtiXBhqRxk8APGsUdPtWPpzwbUIVhXAnDdAHjsOkt4=
 			</data>
 		</dict>
-		<key>ProfileEditTopView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TnvKEfdnS9/Cba2glcgisOJ7J/rnBuu8WsU6Z6mmlOM=
-			</data>
-		</dict>
 		<key>ProfileImageCVCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -4795,13 +4780,6 @@
 			<key>hash2</key>
 			<data>
 			KKU88BAb8aMvsgDEd9da97awke8LjNyg9sEeeg8T9NA=
-			</data>
-		</dict>
-		<key>ProfileLoginView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DE81/V5FGEYnxUHFaA5AktX24r16oxqjHVwK9sU7ePE=
 			</data>
 		</dict>
 		<key>ProfileSettingsCell.nib</key>
