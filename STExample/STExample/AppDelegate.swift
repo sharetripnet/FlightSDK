@@ -9,6 +9,7 @@ import UIKit
 import FirebaseCore
 import FlightSDK
 import IQKeyboardManagerSwift
+import IQKeyboardToolbarManager
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
@@ -21,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
         
         FirebaseApp.configure()
         IQKeyboardManager.shared.isEnabled = true
+        IQKeyboardToolbarManager.shared.isEnabled = true
         
         STSDK.shared.delegate = self
         STSDK.shared.environment = .staging

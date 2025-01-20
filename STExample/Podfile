@@ -2,33 +2,35 @@ platform :ios, '13.0'
 
 target 'STExample' do
   
+  # With specific versions
+  pod 'lottie-ios', '3.5.0'
+  pod 'Kingfisher', '~> 7.6.2'
+  
+  # Always latest
   pod "JWT"
+  pod 'PKHUD'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
   pod 'FloatingPanel'
+  pod 'JTAppleCalendar'
   pod 'SwiftKeychainWrapper'
+  pod 'Socket.IO-Client-Swift'
   pod 'IQKeyboardManagerSwift'
   
-  pod 'PKHUD', '~> 5.0'
-  pod 'Alamofire', '5.5'
-  pod 'lottie-ios', '3.5.0'
-  pod 'SwiftyJSON', '~> 4.0'
-  pod 'Kingfisher', '~> 7.6.2'
-  pod 'JTAppleCalendar', '~> 8.0'
-  pod 'Socket.IO-Client-Swift', '~> 15.2.0'
-  
   # Firebase SDKs
-  pod 'FirebaseCore', '11.3.0'
-  pod 'FirebaseAnalytics', '~> 11.3.0'
-  pod 'FirebaseCrashlytics', '~> 11.3.0'
-  pod 'FirebaseAuth', '~> 11.3.0'
-  pod 'FirebaseRemoteConfig', '~> 11.3.0'
-  pod 'FirebaseMessaging', '~> 11.3.0'
-  pod 'FirebaseDynamicLinks', '~> 11.3.0'
+  pod 'FirebaseCore'
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseCrashlytics'
+  pod 'FirebaseAuth'
+  pod 'FirebaseRemoteConfig'
+  pod 'FirebaseMessaging'
+  pod 'FirebaseDynamicLinks'
   
   # Newly Added Pods
   pod 'CRRefresh'
   pod 'ActiveLabel'
   pod 'SkeletonView'
-  pod 'MBProgressHUD', '1.2.0'
+  pod 'MBProgressHUD'
   pod 'MHLoadingButton'
   pod 'XLPagerTabStrip'
   pod 'PanModal', :git => 'https://github.com/sharetripnet/PanModal.git'

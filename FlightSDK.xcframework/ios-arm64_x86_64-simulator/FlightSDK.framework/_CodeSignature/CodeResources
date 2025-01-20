@@ -122,7 +122,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ISMFZzRKoDeKZ6Kivhm/L8ypNMs=
+		OOdltXh5OXSqoL5S/lolEKOmN3c=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
@@ -634,7 +634,7 @@
 		</data>
 		<key>CardHolderNameCell.nib</key>
 		<data>
-		qWehBjw8ahW5UghslDrgmx5Db3A=
+		+S5koBwGoFdfSkRZqihwChvckG4=
 		</data>
 		<key>CardPrefixCVCell.nib</key>
 		<data>
@@ -1310,7 +1310,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2UoDjKv9NplAaYXYl/E2RBBtrjw=
+		7BAHTvuji/hoCjbiec2JesMHgag=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1326,11 +1326,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qVT0HWBbYzlxKIywROigqcNgryk=
+		y8ASK7cUVSDlTYQ1TVUdiLwoxYg=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2UoDjKv9NplAaYXYl/E2RBBtrjw=
+		7BAHTvuji/hoCjbiec2JesMHgag=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1346,7 +1346,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9wS432ZVft47Ckm7MmfOfSrsln8=
+		yKgFdv/aHMu/2tkvu5GynIlX62w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1512,10 +1512,6 @@
 		<data>
 		5mOJQrP1PUX69JnEJqk348RZ0D0=
 		</data>
-		<key>ProfileEditTopView.nib</key>
-		<data>
-		DTYqkMfXWsNkks7MnORGBhhc9j8=
-		</data>
 		<key>ProfileImageCVCell.nib</key>
 		<data>
 		qSUyugG/xSEdv/6/XKHrNwZp3js=
@@ -1523,10 +1519,6 @@
 		<key>ProfileImageInputCell.nib</key>
 		<data>
 		fmULdZ7+qxLXq+2ANuQH2M1QRNE=
-		</data>
-		<key>ProfileLoginView.nib</key>
-		<data>
-		83m2wN5ALjcoycisLDZc9ZT0dTs=
 		</data>
 		<key>ProfileSettingsCell.nib</key>
 		<data>
@@ -2406,7 +2398,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GIElvZaKieXWMDELQi70ecuvJUVIEh13NvBJ45Z+k/8=
+			GHr6rIyHfoVRUeN4p/y2Yv+qPJHC71E2ET1alMDmJdk=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
@@ -3302,7 +3294,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uAQOr6dTiMlX+9ftTbjpV+WZGIil3qJzvlBiSZioLMw=
+			X6NuGycSfHv2ZFRdbwKIJeq3jkv2h++XxtDoZH9Dm/8=
 			</data>
 		</dict>
 		<key>CardPrefixCVCell.nib</key>
@@ -4478,7 +4470,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zHU4KMTAG+u/X1D0AYYQBwmuZFtdjV4ZmW2irZC2kro=
+			i35QwgoRyXmZBv/OIijkwg2vRFCgKGVI+8dh/qudnLg=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -4506,14 +4498,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yvD9h1/JIj840/PwAYaSTqQR6fxd4A8Af3W3GTpNZdo=
+			HMm/BO49fiArC8Dg07buNQ/xKpB2sCUn3kHg3N2j0P0=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zHU4KMTAG+u/X1D0AYYQBwmuZFtdjV4ZmW2irZC2kro=
+			i35QwgoRyXmZBv/OIijkwg2vRFCgKGVI+8dh/qudnLg=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -4541,7 +4533,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g6YWXys7zR8l/KCNbTq0FZHq8Ve/bTR42b/9BefapLg=
+			OVIlQyUUuyZ131A3kXQ+aInJmS8nZ8YYEQlNYBQzmV4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -4831,13 +4823,6 @@
 			mgtiXBhqRxk8APGsUdPtWPpzwbUIVhXAnDdAHjsOkt4=
 			</data>
 		</dict>
-		<key>ProfileEditTopView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TnvKEfdnS9/Cba2glcgisOJ7J/rnBuu8WsU6Z6mmlOM=
-			</data>
-		</dict>
 		<key>ProfileImageCVCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -4850,13 +4835,6 @@
 			<key>hash2</key>
 			<data>
 			KKU88BAb8aMvsgDEd9da97awke8LjNyg9sEeeg8T9NA=
-			</data>
-		</dict>
-		<key>ProfileLoginView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DE81/V5FGEYnxUHFaA5AktX24r16oxqjHVwK9sU7ePE=
 			</data>
 		</dict>
 		<key>ProfileSettingsCell.nib</key>
