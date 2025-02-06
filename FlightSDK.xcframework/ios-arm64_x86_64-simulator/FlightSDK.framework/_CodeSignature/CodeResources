@@ -122,7 +122,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		OOdltXh5OXSqoL5S/lolEKOmN3c=
+		hrqYZ9J1nvXhY4B5JLiZFttM308=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
@@ -1310,11 +1310,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7BAHTvuji/hoCjbiec2JesMHgag=
+		txUZR4S68HmQLYzr4SXr36nyIZY=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YMyo87NyGPIE5OhkEKHb+v/bO3w=
+		b2w3baHU/mpxbBZhe+BXaGvFmi4=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1322,19 +1322,19 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YMyo87NyGPIE5OhkEKHb+v/bO3w=
+		b2w3baHU/mpxbBZhe+BXaGvFmi4=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y8ASK7cUVSDlTYQ1TVUdiLwoxYg=
+		dgiuVjcO8PTwPRoBCn32GHadQ9Y=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7BAHTvuji/hoCjbiec2JesMHgag=
+		txUZR4S68HmQLYzr4SXr36nyIZY=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		P9alZTsdfQqGeW4HMwMx/lk0vp4=
+		IM0c4e9wpmf1W/c4QDDnzcyV3Xo=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1342,11 +1342,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		P9alZTsdfQqGeW4HMwMx/lk0vp4=
+		IM0c4e9wpmf1W/c4QDDnzcyV3Xo=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yKgFdv/aHMu/2tkvu5GynIlX62w=
+		rPCh7ForxhZMDkH56iyd9jwgsjY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2398,7 +2398,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GHr6rIyHfoVRUeN4p/y2Yv+qPJHC71E2ET1alMDmJdk=
+			Oip7/2vTNOddmCK78ojMfi8W/aZ8hQDpw2KUoVExLh0=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
@@ -4470,14 +4470,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i35QwgoRyXmZBv/OIijkwg2vRFCgKGVI+8dh/qudnLg=
+			6Qusp+xXohL2veuOAfkImeeqZypQJvJHN675d5EOdHc=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SP8ZRYgOrSvajFyTCYc5zQtYfLAAN8qDBEsFFydNazc=
+			5cfq/LDivPe7xwgLsSj+Yzh7ayRIeDLQoclKaOtnGWs=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -4491,28 +4491,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SP8ZRYgOrSvajFyTCYc5zQtYfLAAN8qDBEsFFydNazc=
+			5cfq/LDivPe7xwgLsSj+Yzh7ayRIeDLQoclKaOtnGWs=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HMm/BO49fiArC8Dg07buNQ/xKpB2sCUn3kHg3N2j0P0=
+			sM+pQf/C9r7yJHPoHJz8pcdnIU3px02e9h4Z3NvLl74=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i35QwgoRyXmZBv/OIijkwg2vRFCgKGVI+8dh/qudnLg=
+			6Qusp+xXohL2veuOAfkImeeqZypQJvJHN675d5EOdHc=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3UOthyucHOc5IciqvR/fX/Qg62XU8G1sFC32IXQnF20=
+			gqu+/FjCzBG0+Znt99GCJbDXs9qIBBojofPOqQkDBQY=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -4526,14 +4526,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3UOthyucHOc5IciqvR/fX/Qg62XU8G1sFC32IXQnF20=
+			gqu+/FjCzBG0+Znt99GCJbDXs9qIBBojofPOqQkDBQY=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OVIlQyUUuyZ131A3kXQ+aInJmS8nZ8YYEQlNYBQzmV4=
+			i4xkXtKg/VAVYDQ8QO+HBT8fd2JNoo+F2dhgYChk/EQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

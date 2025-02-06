@@ -15,6 +15,7 @@ import FirebaseRemoteConfig
 import FloatingPanel
 import Foundation
 import IQKeyboardManagerSwift
+import IQKeyboardToolbarManager
 import JTAppleCalendar
 import Kingfisher
 import Lottie
@@ -234,10 +235,14 @@ public typealias CodingContainerTransformer = FlightSDK.DecodingContainerTransfo
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class FlightSearchVC : UIKit.UIViewController {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class FlightSearchVC : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }

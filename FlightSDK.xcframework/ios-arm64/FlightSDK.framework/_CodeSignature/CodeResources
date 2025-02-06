@@ -122,7 +122,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		MOLr0FOcG7zmGOzlYDPe2KRwJpw=
+		h7VWvktM86C6nDxjdcocmG+jG3Q=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
@@ -1310,11 +1310,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		t55gDnu3TxFK79k0DWQrElzsfwg=
+		mxYeTBsJ5ebU09yrR46toSw7p6I=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		5cpXHH6Y/wIPwZdYdyfiFsmOEoM=
+		khEi7Fwc8XxzOWNJSyuGoW9HUsw=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -1322,11 +1322,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5cpXHH6Y/wIPwZdYdyfiFsmOEoM=
+		khEi7Fwc8XxzOWNJSyuGoW9HUsw=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		sLgREyEIoYiKGZqPmMXM3DHBHZE=
+		eOHWHG+FaHQg7Sc6GvztOOYwEpk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2378,7 +2378,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MGq+SQv/A6FDBB5qSlS9HA8s386L91HC/E71dFF0J80=
+			WEzahrth+/pXZeZayFVP0zVbm7pAWO6ZTHCmSdSIEJE=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
@@ -4450,14 +4450,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rd+nxCcV81EHtTp4we1e4HStEWYyUbeZC/Efji2lLk8=
+			yalj1XWVXTJcPQ0Qetn8Ta+0QS1hwLDgkPFK5kzCc+Y=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYKJHvyyldo/BCNZMkySzl56q636CG1MceJd8bzR2cQ=
+			RUZ7xMV23yuwCxUaaFcQHylCTN0KUnebsy3c8s5qzjs=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -4471,14 +4471,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYKJHvyyldo/BCNZMkySzl56q636CG1MceJd8bzR2cQ=
+			RUZ7xMV23yuwCxUaaFcQHylCTN0KUnebsy3c8s5qzjs=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QlhpXUr8pURXzX2/9kI5d/n1/UNu4wtL1dVsU0M7FBo=
+			WSbm89LgWWng7nljWoFNnQwNDPlk8H6TxW+GrzQAPpc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

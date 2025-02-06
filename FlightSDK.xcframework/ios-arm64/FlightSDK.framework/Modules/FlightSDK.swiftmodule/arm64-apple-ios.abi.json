@@ -8813,6 +8813,13 @@
       },
       {
         "kind": "Import",
+        "name": "IQKeyboardToolbarManager",
+        "printedName": "IQKeyboardToolbarManager",
+        "declKind": "Import",
+        "moduleName": "FlightSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -8949,6 +8956,20 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "IQKeyboardManagerSwift",
+        "printedName": "IQKeyboardManagerSwift",
+        "declKind": "Import",
+        "moduleName": "FlightSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "IQKeyboardToolbarManager",
+        "printedName": "IQKeyboardToolbarManager",
+        "declKind": "Import",
+        "moduleName": "FlightSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "FlightSearchVC",
         "printedName": "FlightSearchVC",
@@ -9010,6 +9031,90 @@
               "Preconcurrency",
               "Custom",
               "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "preferredStatusBarStyle",
+            "printedName": "preferredStatusBarStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStatusBarStyle",
+                "printedName": "UIKit.UIStatusBarStyle",
+                "usr": "c:@E@UIStatusBarStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlightSDK@objc(cs)FlightSearchVC(py)preferredStatusBarStyle",
+            "mangledName": "$s9FlightSDK0A8SearchVCC23preferredStatusBarStyleSo08UIStatusgH0Vvp",
+            "moduleName": "FlightSDK",
+            "overriding": true,
+            "objc_name": "preferredStatusBarStyle",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStatusBarStyle",
+                    "printedName": "UIKit.UIStatusBarStyle",
+                    "usr": "c:@E@UIStatusBarStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlightSDK@objc(cs)FlightSearchVC(im)preferredStatusBarStyle",
+                "mangledName": "$s9FlightSDK0A8SearchVCC23preferredStatusBarStyleSo08UIStatusgH0Vvg",
+                "moduleName": "FlightSDK",
+                "overriding": true,
+                "objc_name": "preferredStatusBarStyle",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "gestureRecognizerShouldBegin",
+            "printedName": "gestureRecognizerShouldBegin(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FlightSDK@objc(cs)FlightSearchVC(im)gestureRecognizerShouldBegin:",
+            "mangledName": "$s9FlightSDK0A8SearchVCC28gestureRecognizerShouldBeginySbSo09UIGestureF0CF",
+            "moduleName": "FlightSDK",
+            "objc_name": "gestureRecognizerShouldBegin:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -65449,6 +65554,13 @@
       },
       {
         "kind": "Import",
+        "name": "IQKeyboardToolbarManager",
+        "printedName": "IQKeyboardToolbarManager",
+        "declKind": "Import",
+        "moduleName": "FlightSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -83129,16 +83241,58 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight Search\/Controllers\/FlightSearchVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 804,
+      "offset": 895,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight Search\/Controllers\/FlightSearchVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 8986,
+      "offset": 9228,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight Search\/Controllers\/FlightSearchVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12654,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight Search\/Controllers\/FlightSearchVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12765,
+      "length": 8,
+      "value": "0x42CE8B"
+    },
+    {
+      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight Search\/Controllers\/FlightSearchVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12824,
+      "length": 8,
+      "value": "0x1CAF68"
+    },
+    {
+      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight Search\/Controllers\/FlightSearchVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13058,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight Search\/Controllers\/FlightSearchVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13101,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight Search\/Controllers\/FlightSearchVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13138,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STCoreKit\/Shared\/Views\/NewPaymentGateways\/NewPaymentGatewaysView.swift",
@@ -90468,20 +90622,6 @@
       "offset": 284,
       "length": 6,
       "value": "\"None\""
-    },
-    {
-      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Review Payment\/Controllers\/EditContactInfoVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 534,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Review Payment\/Controllers\/EditContactInfoVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 745,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STCoreKit\/Libraries\/ImageSlideshow\/Classes\/Core\/PageIndicator.swift",
