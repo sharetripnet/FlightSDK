@@ -8,8 +8,6 @@
 import UIKit
 import FirebaseCore
 import FlightSDK
-import IQKeyboardManagerSwift
-import IQKeyboardToolbarManager
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
@@ -21,13 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         FirebaseApp.configure()
-        IQKeyboardManager.shared.isEnabled = true
-        IQKeyboardToolbarManager.shared.isEnabled = true
-        
+      
         STSDK.shared.delegate = self
         STSDK.shared.environment = .staging
         STSDK.shared.accessToken = "valid token"
-        self.window?.rootViewController = NavigationController(rootViewController: FlightSearchVC.instantiate())
+        self.window?.rootViewController = UINavigationController(rootViewController: FlightSearchVC.instantiate())
         window?.makeKeyAndVisible()
         
         return true

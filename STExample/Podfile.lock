@@ -86,7 +86,7 @@ PODS:
     - nanopb (~> 3.30910.0)
     - PromisesSwift (~> 2.1)
   - FirebaseSharedSwift (11.7.0)
-  - FlightSDK (1.2.4)
+  - FlightSDK (1.2.5)
   - FloatingPanel (2.8.6)
   - GoogleAppMeasurement (11.7.0):
     - GoogleAppMeasurement/AdIdSupport (= 11.7.0)
@@ -290,8 +290,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   FlightSDK:
-    :git: https://github.com/sharetripnet/FlightSDK.git
-    :tag: 1.2.4
+    :path: "../"
   PanModal:
     :git: https://github.com/sharetripnet/PanModal.git
   SwiftEntryKit:
@@ -299,9 +298,6 @@ EXTERNAL SOURCES:
     :tag: 2.0.8
 
 CHECKOUT OPTIONS:
-  FlightSDK:
-    :git: https://github.com/sharetripnet/FlightSDK.git
-    :tag: 1.2.4
   PanModal:
     :commit: c0ec6864ce8e0d06a6bfb99938a2f5be3896ec81
     :git: https://github.com/sharetripnet/PanModal.git
@@ -330,7 +326,7 @@ SPEC CHECKSUMS:
   FirebaseRemoteConfigInterop: ca12abf9da0003efd3a476b2dff4f7a04fd31b4f
   FirebaseSessions: 32ed7a9387ae71efe3a35a7f20f3a7292950957b
   FirebaseSharedSwift: a45efd84d60ebbfdcdbaebc66948af3630459e62
-  FlightSDK: aea9f857cc498422abbf4caaec6c68d13a9dc5ef
+  FlightSDK: c74ce5edf12f85bfed6768ab12229bb4027038b7
   FloatingPanel: 11559d3700c39f1c2ee8dbb7a5415223b52fdce0
   GoogleAppMeasurement: 0471a5b5bff51f3a91b1e76df22c952d04c63967
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
@@ -364,6 +360,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   XLPagerTabStrip: 27f3bfe23c53b4251c6481b06b1c289458a3fc1d
 
-PODFILE CHECKSUM: 80c63fc856cf0853ee7d6d2f730ecbc2cb119ebe
+PODFILE CHECKSUM: 5fd3a302d6e52de2672f003eca6c7c558413d12f
 
 COCOAPODS: 1.16.2
