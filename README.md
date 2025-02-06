@@ -53,7 +53,7 @@ target 'STExample' do
   pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
   
   # ST Pods
-  pod 'FlightSDK', :git => 'https://github.com/sharetripnet/FlightSDK.git', :tag => '1.2.4'
+  pod 'FlightSDK', :git => 'https://github.com/sharetripnet/FlightSDK.git', :tag => '1.2.5'
   
 end
 
@@ -105,14 +105,13 @@ In your ViewController file, add:
 import FlightSDK
 ```
 
-### Step 2: Configure Firebase and IQKeyboardManager
+### Step 2: Configure Firebase
 
 In your `AppDelegate`:
 
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     FirebaseApp.configure()
-    IQKeyboardManager.shared.isEnabled = true
     return true
 }
 ```
