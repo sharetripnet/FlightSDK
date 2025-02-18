@@ -21,8 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
         FirebaseApp.configure()
       
         STSDK.shared.delegate = self
-        STSDK.shared.environment = .staging
-        STSDK.shared.accessToken = "valid token"
+        STSDK.shared.setToken("valid token", for: .staging)
         self.window?.rootViewController = UINavigationController(rootViewController: FlightSearchVC.instantiate())
         window?.makeKeyAndVisible()
         
