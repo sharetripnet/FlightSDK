@@ -122,8 +122,7 @@ Configure the SDK with the following code:
 
 ```swift
 STSDK.shared.delegate = self
-STSDK.shared.environment = .live
-STSDK.shared.accessToken = "valid access token"
+STSDK.shared.setToken("valid access token", for: .live)
 ```
 
 ### Step 4: Implement Token Validation Callbacks
