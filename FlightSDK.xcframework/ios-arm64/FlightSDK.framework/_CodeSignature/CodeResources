@@ -122,7 +122,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		h7VWvktM86C6nDxjdcocmG+jG3Q=
+		ntckL87ugQmhyy4GUFM3eHhI3hg=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
@@ -438,11 +438,11 @@
 		</data>
 		<key>Base.lproj/Flight.storyboardc/IS8-aQ-vNj-view-llB-JI-HUC.nib/objects-14.0+.nib</key>
 		<data>
-		CXtPPNLaNGBxajODThbjV5EXcps=
+		xayQEmZRl3mNRhoXp7DuQTVM72o=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/IS8-aQ-vNj-view-llB-JI-HUC.nib/runtime.nib</key>
 		<data>
-		CXtPPNLaNGBxajODThbjV5EXcps=
+		xayQEmZRl3mNRhoXp7DuQTVM72o=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/Info.plist</key>
 		<data>
@@ -538,27 +538,27 @@
 		</data>
 		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib/objects-14.0+.nib</key>
 		<data>
-		/3cn9wjuU7/HxjyVm5I+8RpoxEg=
+		gTFZhXiLYDai5vh/zFwL7xN1DAo=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib/runtime.nib</key>
 		<data>
-		/3cn9wjuU7/HxjyVm5I+8RpoxEg=
+		gTFZhXiLYDai5vh/zFwL7xN1DAo=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib/objects-14.0+.nib</key>
 		<data>
-		RbHeBGeMvpUSiFdV7uD3JhcyQuY=
+		P61mhkrv7u/k5qoiK1SJ8URia3o=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib/runtime.nib</key>
 		<data>
-		RbHeBGeMvpUSiFdV7uD3JhcyQuY=
+		P61mhkrv7u/k5qoiK1SJ8URia3o=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib/objects-14.0+.nib</key>
 		<data>
-		jw2lhNwiIUAdH7YIwHc9xFoim9s=
+		dd/RaxGfI+5JawrP2sp/xU5wLkY=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib/runtime.nib</key>
 		<data>
-		C+HXgM1aGNSnG1cpyem6rfmSKEg=
+		jFzioUodv5llICPgXAqKgzryADE=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/h2m-ib-22Y-view-ocU-HW-jUI.nib/objects-14.0+.nib</key>
 		<data>
@@ -930,7 +930,7 @@
 		</data>
 		<key>FlightBooking.storyboardc/vg1-pJ-lTL-view-rLr-It-H0o.nib</key>
 		<data>
-		IjnSvmnSGAbPBk6Z49mzGpTjU/A=
+		TE1VGnUAUqxSALtsKP19eTiN0E0=
 		</data>
 		<key>FlightBooking.storyboardc/xBz-Cs-kfV-view-EkV-CZ-nzb.nib</key>
 		<data>
@@ -1226,7 +1226,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		r44Nx13+Mzb1llCRTFpPcIZBfks=
+		P6Rr3ppG9o74EsW3X3SwvLe/umg=
 		</data>
 		<key>InfoDetailCell.nib</key>
 		<data>
@@ -1310,23 +1310,23 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		mxYeTBsJ5ebU09yrR46toSw7p6I=
+		40UioLLTfcqN3MfF1s8tFRIqZAo=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		khEi7Fwc8XxzOWNJSyuGoW9HUsw=
+		LLRlW640CUQlsvgTUtTAlpuokaI=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		MITOQa6u7WM+HanEdyopOQdvD04=
+		+hy5LmiN5DV9/dJl2lU97IV7BY8=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		khEi7Fwc8XxzOWNJSyuGoW9HUsw=
+		LLRlW640CUQlsvgTUtTAlpuokaI=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		eOHWHG+FaHQg7Sc6GvztOOYwEpk=
+		eClD9F62KfVpnzMAgR4NZidiT6w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2378,7 +2378,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WEzahrth+/pXZeZayFVP0zVbm7pAWO6ZTHCmSdSIEJE=
+			XBlQyi7FrfTmIMasQxSsVRONWLuPe+1+ghPA+uG35bA=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
@@ -2931,14 +2931,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bwWTOhQW27tthUYzXCCM5GFV/VKfBIUhLfxMtcaPajU=
+			JLpLNEevQB6BFzA7yQjoeZ/0dqZyeNecLO94PPXCQFA=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/IS8-aQ-vNj-view-llB-JI-HUC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bwWTOhQW27tthUYzXCCM5GFV/VKfBIUhLfxMtcaPajU=
+			JLpLNEevQB6BFzA7yQjoeZ/0dqZyeNecLO94PPXCQFA=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/Info.plist</key>
@@ -3106,42 +3106,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LLn07ZclnvioGdTE95Ta82dvMgSomYpypSkDfRhCpjA=
+			xswDoGmzUrbrvbnQrfZpHWWGdqweO28eE8fCXFJ0pXo=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LLn07ZclnvioGdTE95Ta82dvMgSomYpypSkDfRhCpjA=
+			xswDoGmzUrbrvbnQrfZpHWWGdqweO28eE8fCXFJ0pXo=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yYmCzK+9tDEhliV2J2DrYvHU/m38IPWCAhK1kFoidIQ=
+			3yNjlgACdPiw9pB0IjQIjsTCwHH3SBdBPZHJpT5Z+y0=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yYmCzK+9tDEhliV2J2DrYvHU/m38IPWCAhK1kFoidIQ=
+			3yNjlgACdPiw9pB0IjQIjsTCwHH3SBdBPZHJpT5Z+y0=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vPan/iggJw0a4lpKHUaEvUY63C+2U2ISmxkRcR/peEU=
+			mNmEq8ncdf9hLT1I8uNlS6DwyBL9noYFuHetGOC0PsU=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zakn6EpxNQOpEXSctNVooBlQT8D3C3pyQfpUoA77fsg=
+			dqVFPoSZe3Xm/rZzMEUu8V/ABBSQPF3j0KtLDmcIZyk=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/h2m-ib-22Y-view-ocU-HW-jUI.nib/objects-14.0+.nib</key>
@@ -3792,7 +3792,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LxQzh2NtTQaKiDj9R2oIcIrg45XdHLOjjNPz0koe9R0=
+			CoZsCHwBh91uL8hGfDeXS0q4zENJSF9W4+6AVmQIjxA=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/xBz-Cs-kfV-view-EkV-CZ-nzb.nib</key>
@@ -4450,35 +4450,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yalj1XWVXTJcPQ0Qetn8Ta+0QS1hwLDgkPFK5kzCc+Y=
+			lC0QTdxbUKHZ1Vq2oK96J/A6mMV/07mBmJzGhtshBZ8=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RUZ7xMV23yuwCxUaaFcQHylCTN0KUnebsy3c8s5qzjs=
+			4tgqmuRMZsY0Mly4KkkJbMFovTHImj1nhO24a2Rj+N4=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qJ8WK6S7KAfLWcnnklrsU7PZQj9ztxEQVbA22aIcR8c=
+			oZoyl1nKPUZrH2gAqphUs6OEiR+ZG/lyalqbuOUqWh8=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RUZ7xMV23yuwCxUaaFcQHylCTN0KUnebsy3c8s5qzjs=
+			4tgqmuRMZsY0Mly4KkkJbMFovTHImj1nhO24a2Rj+N4=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WSbm89LgWWng7nljWoFNnQwNDPlk8H6TxW+GrzQAPpc=
+			4ImGyQ+wqqMAoiAs4Ai4AojwaebHggbwQn2wiAKp1yA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

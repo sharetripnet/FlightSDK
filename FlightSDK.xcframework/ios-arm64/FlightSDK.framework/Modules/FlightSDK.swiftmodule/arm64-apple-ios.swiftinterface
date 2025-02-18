@@ -54,15 +54,8 @@ public protocol HomeScreenDelegate : AnyObject {
 @_hasMissingDesignatedInitializers final public class STSDK {
   public static let shared: FlightSDK.STSDK
   weak final public var delegate: (any FlightSDK.STSDKDelegate)?
-  final public var environment: FlightSDK.Target {
-    get
-    set
-  }
   weak final public var homeScreenDelegate: (any FlightSDK.HomeScreenDelegate)?
-  final public var accessToken: Swift.String {
-    get
-    set
-  }
+  final public func setToken(_ accessToken: Swift.String, for environment: FlightSDK.Target)
   @objc deinit
 }
 public enum SDKEnvironment {
@@ -1746,10 +1739,6 @@ public enum Target : Swift.String {
   public var rawValue: Swift.String {
     get
   }
-}
-@_hasMissingDesignatedInitializers public class AppEnvironment {
-  public static var target: FlightSDK.Target
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class FontBlaster {
   public static var debugEnabled: Swift.Bool

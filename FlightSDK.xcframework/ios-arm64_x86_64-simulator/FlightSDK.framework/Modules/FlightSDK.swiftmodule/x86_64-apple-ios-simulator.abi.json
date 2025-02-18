@@ -338,102 +338,6 @@
           },
           {
             "kind": "Var",
-            "name": "environment",
-            "printedName": "environment",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Target",
-                "printedName": "FlightSDK.Target",
-                "usr": "s:9FlightSDK6TargetO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9FlightSDK5STSDKC11environmentAA6TargetOvp",
-            "mangledName": "$s9FlightSDK5STSDKC11environmentAA6TargetOvp",
-            "moduleName": "FlightSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Target",
-                    "printedName": "FlightSDK.Target",
-                    "usr": "s:9FlightSDK6TargetO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK5STSDKC11environmentAA6TargetOvg",
-                "mangledName": "$s9FlightSDK5STSDKC11environmentAA6TargetOvg",
-                "moduleName": "FlightSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Target",
-                    "printedName": "FlightSDK.Target",
-                    "usr": "s:9FlightSDK6TargetO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK5STSDKC11environmentAA6TargetOvs",
-                "mangledName": "$s9FlightSDK5STSDKC11environmentAA6TargetOvs",
-                "moduleName": "FlightSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK5STSDKC11environmentAA6TargetOvM",
-                "mangledName": "$s9FlightSDK5STSDKC11environmentAA6TargetOvM",
-                "moduleName": "FlightSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "homeScreenDelegate",
             "printedName": "homeScreenDelegate",
             "children": [
@@ -546,100 +450,38 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "accessToken",
-            "printedName": "accessToken",
+            "kind": "Function",
+            "name": "setToken",
+            "printedName": "setToken(_:for:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Target",
+                "printedName": "FlightSDK.Target",
+                "usr": "s:9FlightSDK6TargetO"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:9FlightSDK5STSDKC11accessTokenSSvp",
-            "mangledName": "$s9FlightSDK5STSDKC11accessTokenSSvp",
+            "declKind": "Func",
+            "usr": "s:9FlightSDK5STSDKC8setToken_3forySS_AA6TargetOtF",
+            "mangledName": "$s9FlightSDK5STSDKC8setToken_3forySS_AA6TargetOtF",
             "moduleName": "FlightSDK",
             "declAttributes": [
-              "HasInitialValue",
               "Final",
-              "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK5STSDKC11accessTokenSSvg",
-                "mangledName": "$s9FlightSDK5STSDKC11accessTokenSSvg",
-                "moduleName": "FlightSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK5STSDKC11accessTokenSSvs",
-                "mangledName": "$s9FlightSDK5STSDKC11accessTokenSSvs",
-                "moduleName": "FlightSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK5STSDKC11accessTokenSSvM",
-                "mangledName": "$s9FlightSDK5STSDKC11accessTokenSSvM",
-                "moduleName": "FlightSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -71715,137 +71557,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "AppEnvironment",
-        "printedName": "AppEnvironment",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "target",
-            "printedName": "target",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Target",
-                "printedName": "FlightSDK.Target",
-                "usr": "s:9FlightSDK6TargetO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9FlightSDK14AppEnvironmentC6targetAA6TargetOvpZ",
-            "mangledName": "$s9FlightSDK14AppEnvironmentC6targetAA6TargetOvpZ",
-            "moduleName": "FlightSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Target",
-                    "printedName": "FlightSDK.Target",
-                    "usr": "s:9FlightSDK6TargetO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK14AppEnvironmentC6targetAA6TargetOvgZ",
-                "mangledName": "$s9FlightSDK14AppEnvironmentC6targetAA6TargetOvgZ",
-                "moduleName": "FlightSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Target",
-                    "printedName": "FlightSDK.Target",
-                    "usr": "s:9FlightSDK6TargetO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK14AppEnvironmentC6targetAA6TargetOvsZ",
-                "mangledName": "$s9FlightSDK14AppEnvironmentC6targetAA6TargetOvsZ",
-                "moduleName": "FlightSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9FlightSDK14AppEnvironmentC6targetAA6TargetOvMZ",
-                "mangledName": "$s9FlightSDK14AppEnvironmentC6targetAA6TargetOvMZ",
-                "moduleName": "FlightSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:9FlightSDK14AppEnvironmentC",
-        "mangledName": "$s9FlightSDK14AppEnvironmentC",
-        "moduleName": "FlightSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -80740,13 +80451,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/FlightSDK\/FlightSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 962,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightBottomBreakdown\/Views\/TVCells\/BaggageInfoTableCell.swift",
       "kind": "StringLiteral",
       "offset": 541,
@@ -82506,7 +82210,7 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightBottomBreakdown\/ViewControllers\/FlightInfoContainerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2803,
+      "offset": 2887,
       "length": 5,
       "value": "false"
     },
@@ -82548,7 +82252,7 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/FlightSDK\/APIClient\/PromotionAPIClient.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 410,
       "length": 12,
       "value": "\"\/promotion\""
     },
@@ -83906,14 +83610,14 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/Models\/FlightListResponse.swift",
       "kind": "StringLiteral",
-      "offset": 21840,
+      "offset": 22599,
       "length": 6,
       "value": "\"unit\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/Models\/FlightListResponse.swift",
       "kind": "StringLiteral",
-      "offset": 21869,
+      "offset": 22628,
       "length": 8,
       "value": "\"weight\""
     },
@@ -87714,7 +87418,7 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Controllers\/Summary\/FlightPriceBreakdownVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6338,
+      "offset": 6860,
       "length": 4,
       "value": "true"
     },
@@ -91487,21 +91191,21 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Reissue\/Controllers\/ReissueFlightDetailsContainerVC.swift",
       "kind": "Array",
-      "offset": 5835,
+      "offset": 5940,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Reissue\/Controllers\/ReissueFlightDetailsContainerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6140,
+      "offset": 6245,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Reissue\/Controllers\/ReissueFlightDetailsContainerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6146,
+      "offset": 6251,
       "length": 1,
       "value": "0"
     },
@@ -98088,28 +97792,28 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightDetailsContainerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3614,
+      "offset": 3711,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightDetailsContainerVC.swift",
       "kind": "Array",
-      "offset": 3654,
+      "offset": 3751,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightDetailsContainerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4054,
+      "offset": 4151,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightDetailsContainerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4060,
+      "offset": 4157,
       "length": 1,
       "value": "0"
     },
@@ -98130,28 +97834,28 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/BaggagePolicyVC.swift",
       "kind": "Array",
-      "offset": 734,
+      "offset": 776,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/BaggagePolicyVC.swift",
       "kind": "FloatLiteral",
-      "offset": 6738,
+      "offset": 6862,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/BaggagePolicyVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7772,
+      "offset": 7896,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/BaggagePolicyVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7807,
+      "offset": 7931,
       "length": 4,
       "value": "true"
     },
@@ -98410,28 +98114,28 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightPolicyContainerVC.swift",
       "kind": "Array",
-      "offset": 694,
+      "offset": 734,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightPolicyContainerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 778,
+      "offset": 796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightPolicyContainerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2771,
+      "offset": 2795,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/FlightDetails\/ViewControllers\/FlightPolicyContainerVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2777,
+      "offset": 2801,
       "length": 1,
       "value": "0"
     },
@@ -100090,7 +99794,7 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/FlightSDK\/APIClient\/TokenValidatorAPIClient.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 505,
       "length": 24,
       "value": "\"\/auth\/token-validation\""
     },
@@ -100461,1295 +100165,1288 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1256,
-      "length": 5,
-      "value": "\"iOS\""
-    },
-    {
-      "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1309,
+      "offset": 1269,
       "length": 14,
       "value": "\"PRICE_CHANGE\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1370,
+      "offset": 1330,
       "length": 18,
       "value": "\"ITINERARY_CHANGE\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1397,
       "length": 21,
       "value": "\"RE-ITINERARY_CHANGE\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1508,
+      "offset": 1468,
       "length": 22,
       "value": "\"RE-VALIDATION_CHANGE\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1580,
+      "offset": 1540,
       "length": 12,
       "value": "\"1469335892\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1628,
+      "offset": 1588,
       "length": 18,
       "value": "\"4452d71687b6bc2c\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 1701,
+      "offset": 1661,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1737,
+      "offset": 1697,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1783,
+      "offset": 1743,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1832,
+      "offset": 1792,
       "length": 17,
       "value": "\"HasLaunchedOnce\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1890,
+      "offset": 1850,
       "length": 20,
       "value": "\"UpdateAppAlertDate\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1952,
+      "offset": 1912,
       "length": 21,
       "value": "\"TreasureBoxWaitTime\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2015,
+      "offset": 1975,
       "length": 21,
       "value": "\"TreasureBoxEarnTime\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2078,
+      "offset": 2038,
       "length": 12,
       "value": "\"dd-MM-yyyy\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2123,
+      "offset": 2083,
       "length": 9,
       "value": "\"hh:mm a\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
+      "offset": 2129,
       "length": 20,
       "value": "\"dd-MM-yyyy hh:mm a\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2232,
+      "offset": 2192,
       "length": 19,
       "value": "\"ask@sharetrip.net\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2286,
+      "offset": 2246,
       "length": 16,
       "value": "\"+8809617617617\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2344,
+      "offset": 2304,
       "length": 26,
       "value": "\"ShareTrip Lounge (Dhaka)\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2407,
+      "offset": 2367,
       "length": 33,
       "value": "\"ShareTrip - Travel App for All!\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 2481,
+      "offset": 2441,
       "length": 18,
       "value": "23.793648979478004"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 2532,
+      "offset": 2492,
       "length": 17,
       "value": "90.40179587301637"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2650,
+      "offset": 2610,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2655,
+      "offset": 2615,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 2710,
+      "offset": 2670,
       "length": 5,
       "value": "400.0"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2758,
+      "offset": 2718,
       "length": 42,
       "value": "\"itms-apps:\/\/itunes.apple.com\/app\/bars\/id\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2846,
+      "offset": 2806,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2885,
+      "offset": 2845,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2929,
+      "offset": 2889,
       "length": 24,
       "value": "\"http:\/\/bit.ly\/stappinc\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2992,
+      "offset": 2952,
       "length": 26,
       "value": "\"https:\/\/apple.co\/2Y0DdLx\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3058,
+      "offset": 3018,
       "length": 23,
       "value": "\"http:\/\/bit.ly\/2y60Wun\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3137,
+      "offset": 3097,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3208,
+      "offset": 3168,
       "length": 10,
       "value": "\"6b242e30\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3253,
+      "offset": 3213,
       "length": 34,
       "value": "\"51417b79b58762acfcd3cebc4cc082e1\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3324,
+      "offset": 3284,
       "length": 38,
       "value": "\"14009585-79af-47ed-ab9a-4b2d8133a3bd\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3408,
+      "offset": 3368,
       "length": 74,
       "value": "\"346164418203-favej5b952470iif88o4qkf4o2p2741c.apps.googleusercontent.com\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3529,
+      "offset": 3489,
       "length": 41,
       "value": "\"AIzaSyAA7ZvaR0YCq4zDVd0IRNA079q3EMY-f94\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "Array",
-      "offset": 3632,
+      "offset": 3592,
       "length": 29,
       "value": "[\"png\", \"jpeg\", \"gif\", \"jpg\"]"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5113,
+      "offset": 5073,
       "length": 55,
       "value": "\"*Instant discount for our partner banks' card holders\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5221,
+      "offset": 5181,
       "length": 54,
       "value": "\"https:\/\/assets.sharetrip.net\/passport-demo-image.jpg\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5315,
+      "offset": 5275,
       "length": 50,
       "value": "\"https:\/\/assets.sharetrip.net\/visa-demo-image.jpg\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5450,
+      "offset": 5410,
       "length": 30,
       "value": "\"shop_user_order_phone_number\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5524,
+      "offset": 5484,
       "length": 25,
       "value": "\"shop_delivery_addresses\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5585,
+      "offset": 5545,
       "length": 17,
       "value": "\"shop_order_note\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5678,
+      "offset": 5638,
       "length": 22,
       "value": "\"RemoteConfigDefaults\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5744,
+      "offset": 5704,
       "length": 26,
       "value": "\"ios_force_update_enabled\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5806,
+      "offset": 5766,
       "length": 17,
       "value": "\"ios_app_version\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 5824,
       "length": 23,
       "value": "\"app_update_alert_hour\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5920,
+      "offset": 5880,
       "length": 13,
       "value": "\"app_loyalty\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5983,
+      "offset": 5943,
       "length": 33,
       "value": "\"flight_discount_offer_bank_list\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6060,
+      "offset": 6020,
       "length": 25,
       "value": "\"flight_discount_options\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6128,
+      "offset": 6088,
       "length": 24,
       "value": "\"hotel_discount_options\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6200,
+      "offset": 6160,
       "length": 30,
       "value": "\"flight_search_threshold_time\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6279,
+      "offset": 6239,
       "length": 32,
       "value": "\"hotel_discount_offer_bank_list\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6359,
+      "offset": 6319,
       "length": 30,
       "value": "\"quiz_homepage_promotion_text\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6433,
+      "offset": 6393,
       "length": 25,
       "value": "\"quiz_term_and_condition\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6492,
+      "offset": 6452,
       "length": 14,
       "value": "\"cirium_appId\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6541,
+      "offset": 6501,
       "length": 15,
       "value": "\"cirium_appKey\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6608,
+      "offset": 6568,
       "length": 34,
       "value": "\"travel_advice_term_and_condition\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6689,
+      "offset": 6649,
       "length": 18,
       "value": "\"notification_url\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6741,
+      "offset": 6701,
       "length": 14,
       "value": "\"success_urls\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6792,
+      "offset": 6752,
       "length": 18,
       "value": "\"crisp_website_id\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6848,
+      "offset": 6808,
       "length": 19,
       "value": "\"should_show_stpay\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6937,
+      "offset": 6897,
       "length": 9,
       "value": "\"keyword\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6973,
+      "offset": 6933,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7007,
+      "offset": 6967,
       "length": 7,
       "value": "\"limit\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7043,
+      "offset": 7003,
       "length": 8,
       "value": "\"offset\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7082,
+      "offset": 7042,
       "length": 10,
       "value": "\"currency\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7126,
+      "offset": 7086,
       "length": 13,
       "value": "\"nationality\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7171,
+      "offset": 7131,
       "length": 11,
       "value": "\"cityCodes\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7213,
+      "offset": 7173,
       "length": 10,
       "value": "\"filterBy\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7252,
+      "offset": 7212,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7296,
+      "offset": 7256,
       "length": 6,
       "value": "\"city\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7341,
+      "offset": 7301,
       "length": 9,
       "value": "\"checkin\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7381,
+      "offset": 7341,
       "length": 10,
       "value": "\"checkout\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7419,
+      "offset": 7379,
       "length": 7,
       "value": "\"rooms\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7461,
+      "offset": 7421,
       "length": 14,
       "value": "\"propertyCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7508,
+      "offset": 7468,
       "length": 12,
       "value": "\"searchCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7557,
+      "offset": 7517,
       "length": 16,
       "value": "\"roomSearchCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7610,
+      "offset": 7570,
       "length": 16,
       "value": "\"propertyRoomId\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7662,
+      "offset": 7622,
       "length": 6,
       "value": "\"sort\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7700,
+      "offset": 7660,
       "length": 11,
       "value": "\"hotelName\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7742,
+      "offset": 7702,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7783,
+      "offset": 7743,
       "length": 10,
       "value": "\"distance\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7835,
+      "offset": 7795,
       "length": 12,
       "value": "\"priceRange\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7876,
+      "offset": 7836,
       "length": 8,
       "value": "\"rating\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7917,
+      "offset": 7877,
       "length": 12,
       "value": "\"starRating\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7964,
+      "offset": 7924,
       "length": 14,
       "value": "\"propertyType\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8006,
+      "offset": 7966,
       "length": 7,
       "value": "\"meals\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8045,
+      "offset": 8005,
       "length": 11,
       "value": "\"amenities\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8091,
+      "offset": 8051,
       "length": 14,
       "value": "\"neighborhood\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8143,
+      "offset": 8103,
       "length": 19,
       "value": "\"point_of_interest\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8201,
+      "offset": 8161,
       "length": 9,
       "value": "\"hotelId\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8240,
+      "offset": 8200,
       "length": 9,
       "value": "\"roomIds\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8286,
+      "offset": 8246,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8329,
+      "offset": 8289,
       "length": 15,
       "value": "\"facebookToken\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8377,
+      "offset": 8337,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8415,
+      "offset": 8375,
       "length": 10,
       "value": "\"password\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8459,
+      "offset": 8419,
       "length": 13,
       "value": "\"oldPassword\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8506,
+      "offset": 8466,
       "length": 13,
       "value": "\"newPassword\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8547,
+      "offset": 8507,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8589,
+      "offset": 8549,
       "length": 14,
       "value": "\"mobileNumber\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8629,
+      "offset": 8589,
       "length": 5,
       "value": "\"age\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8669,
+      "offset": 8629,
       "length": 14,
       "value": "\"referralCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8724,
+      "offset": 8684,
       "length": 11,
       "value": "\"titleName\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8767,
+      "offset": 8727,
       "length": 11,
       "value": "\"givenName\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8810,
+      "offset": 8770,
       "length": 11,
       "value": "\"firstName\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8852,
+      "offset": 8812,
       "length": 10,
       "value": "\"lastName\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8892,
+      "offset": 8852,
       "length": 9,
       "value": "\"surName\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8932,
+      "offset": 8892,
       "length": 10,
       "value": "\"address1\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8973,
+      "offset": 8933,
       "length": 10,
       "value": "\"postCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9012,
+      "offset": 8972,
       "length": 8,
       "value": "\"gender\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9054,
+      "offset": 9014,
       "length": 13,
       "value": "\"dateOfBirth\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9108,
+      "offset": 9068,
       "length": 20,
       "value": "\"passportExpireDate\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9165,
+      "offset": 9125,
       "length": 16,
       "value": "\"passportNumber\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9211,
+      "offset": 9171,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9264,
+      "offset": 9224,
       "length": 14,
       "value": "\"passportCopy\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9309,
+      "offset": 9269,
       "length": 10,
       "value": "\"visaCopy\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9361,
+      "offset": 9321,
       "length": 21,
       "value": "\"frequentFlyerNumber\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9419,
+      "offset": 9379,
       "length": 16,
       "value": "\"mealPreference\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9468,
+      "offset": 9428,
       "length": 12,
       "value": "\"wheelChair\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9521,
+      "offset": 9481,
       "length": 11,
       "value": "\"quickPick\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9574,
+      "offset": 9534,
       "length": 12,
       "value": "\"uploadFile\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9626,
+      "offset": 9586,
       "length": 10,
       "value": "\"cityCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9670,
+      "offset": 9630,
       "length": 13,
       "value": "\"wantToVisit\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9717,
+      "offset": 9677,
       "length": 13,
       "value": "\"bookingCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9757,
+      "offset": 9717,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9791,
+      "offset": 9751,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9834,
+      "offset": 9794,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9872,
+      "offset": 9832,
       "length": 11,
       "value": "\"voucherId\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9941,
+      "offset": 9901,
       "length": 10,
       "value": "\"tripType\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9979,
+      "offset": 9939,
       "length": 7,
       "value": "\"adult\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10014,
+      "offset": 9974,
       "length": 7,
       "value": "\"child\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10050,
+      "offset": 10010,
       "length": 8,
       "value": "\"infant\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10092,
+      "offset": 10052,
       "length": 7,
       "value": "\"class\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10128,
+      "offset": 10088,
       "length": 8,
       "value": "\"origin\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10169,
+      "offset": 10129,
       "length": 12,
       "value": "\"occupation\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10215,
+      "offset": 10175,
       "length": 13,
       "value": "\"destination\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10257,
+      "offset": 10217,
       "length": 8,
       "value": "\"depart\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10293,
+      "offset": 10253,
       "length": 7,
       "value": "\"query\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10342,
+      "offset": 10302,
       "length": 12,
       "value": "\"cabinClass\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10383,
+      "offset": 10343,
       "length": 12,
       "value": "\"numOfAdult\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10424,
+      "offset": 10384,
       "length": 12,
       "value": "\"numOfChild\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10466,
+      "offset": 10426,
       "length": 13,
       "value": "\"numOfInfant\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10506,
+      "offset": 10466,
       "length": 10,
       "value": "\"numOfKid\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10546,
+      "offset": 10506,
       "length": 11,
       "value": "\"origins[]\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10592,
+      "offset": 10552,
       "length": 16,
       "value": "\"destinations[]\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10645,
+      "offset": 10605,
       "length": 18,
       "value": "\"departureDates[]\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10701,
+      "offset": 10661,
       "length": 17,
       "value": "\"specialFareType\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10749,
+      "offset": 10709,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10797,
+      "offset": 10757,
       "length": 8,
       "value": "\"filter\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10832,
+      "offset": 10792,
       "length": 6,
       "value": "\"page\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10869,
+      "offset": 10829,
       "length": 10,
       "value": "\"searchId\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10914,
+      "offset": 10874,
       "length": 14,
       "value": "\"sequenceCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10962,
+      "offset": 10922,
       "length": 13,
       "value": "\"extraParams\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11010,
+      "offset": 10970,
       "length": 14,
       "value": "\"providerCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11053,
+      "offset": 11013,
       "length": 8,
       "value": "\"coupon\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11095,
+      "offset": 11055,
       "length": 13,
       "value": "\"serviceType\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11141,
+      "offset": 11101,
       "length": 12,
       "value": "\"deviceType\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11183,
+      "offset": 11143,
       "length": 9,
       "value": "\"service\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11226,
+      "offset": 11186,
       "length": 13,
       "value": "\"productCode\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11291,
+      "offset": 11251,
       "length": 7,
       "value": "\"appId\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11342,
+      "offset": 11302,
       "length": 8,
       "value": "\"appKey\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11393,
+      "offset": 11353,
       "length": 14,
       "value": "\"maxPositions\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11481,
+      "offset": 11441,
       "length": 7,
       "value": "\"Adult\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11516,
+      "offset": 11476,
       "length": 7,
       "value": "\"limit\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11552,
+      "offset": 11512,
       "length": 8,
       "value": "\"offset\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11657,
+      "offset": 11617,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11772,
+      "offset": 11732,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11775,
+      "offset": 11735,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11817,
+      "offset": 11777,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11820,
+      "offset": 11780,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 11874,
+      "offset": 11834,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12640,
+      "offset": 12600,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12705,
+      "offset": 12665,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12754,
+      "offset": 12714,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12793,
+      "offset": 12753,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12835,
+      "offset": 12795,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12884,
+      "offset": 12844,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12923,
+      "offset": 12883,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 12965,
+      "offset": 12925,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13700,
+      "offset": 13660,
       "length": 31,
       "value": "\"sharetrip.quiz.last_open_time\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14007,
+      "offset": 13967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 14044,
+      "offset": 14004,
       "length": 2,
       "value": "44"
     },
@@ -101777,21 +101474,21 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/AppManager\/AppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2796,
+      "offset": 2666,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/AppManager\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3059,
+      "offset": 2929,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/ShareTrip\/Helpers\/AppManager\/AppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5748,
+      "offset": 5618,
       "length": 5,
       "value": "false"
     }
