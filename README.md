@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">FlightSDK (Version 1.2.6)</h1>
+<h1 style="text-align: center;">FlightSDK (Version 1.2.7)</h1>
 
 ## Introduction
 FlightSDK by ShareTrip Limited provides developers with the tools to integrate ShareTrip services into their iOS applications.
@@ -64,7 +64,7 @@ target 'STExample' do
   pod 'SwiftEntryKit', git: 'https://github.com/sharetripnet/SwiftEntryKit.git', tag: '2.0.8'
   
   # ShareTrip SDK
-  pod 'FlightSDK', git: 'https://github.com/sharetripnet/FlightSDK.git', tag: '1.2.6'
+  pod 'FlightSDK', git: 'https://github.com/sharetripnet/FlightSDK.git', tag: '1.2.7'
 end
 
 post_install do |installer|

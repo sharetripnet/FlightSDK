@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.swiftlint.yml</key>
-		<data>
-		VC3cDV15HjwRUnLEKZmGhnxTsXw=
-		</data>
 		<key>AboutUs.html</key>
 		<data>
 		luFl96hbudMZ5RUju5yRpXzhxxU=
@@ -122,7 +118,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ntckL87ugQmhyy4GUFM3eHhI3hg=
+		ISMFZzRKoDeKZ6Kivhm/L8ypNMs=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
@@ -1310,7 +1306,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		40UioLLTfcqN3MfF1s8tFRIqZAo=
+		LCxg6m0XsgruU29sFwFNo66v+8Y=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -1326,7 +1322,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		eClD9F62KfVpnzMAgR4NZidiT6w=
+		14hqVH6O4Z+Bp1X2goIXhIBa19c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2171,13 +2167,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>.swiftlint.yml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WbjjT85mPvXPNLrTlcMt+JtrqnZ044AUrPWgiSm71ME=
-			</data>
-		</dict>
 		<key>AboutUs.html</key>
 		<dict>
 			<key>hash2</key>
@@ -2378,7 +2367,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XBlQyi7FrfTmIMasQxSsVRONWLuPe+1+ghPA+uG35bA=
+			GIElvZaKieXWMDELQi70ecuvJUVIEh13NvBJ45Z+k/8=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
@@ -4450,7 +4439,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lC0QTdxbUKHZ1Vq2oK96J/A6mMV/07mBmJzGhtshBZ8=
+			kQlPaKCVPd23DVNMcdRpVrWvJMq7VF1WyIWOoreYzmc=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -4478,7 +4467,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ImGyQ+wqqMAoiAs4Ai4AojwaebHggbwQn2wiAKp1yA=
+			HksPY7l5yCD0YdbpfgxRk34hYKr9C997jwwQ1msdl9E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

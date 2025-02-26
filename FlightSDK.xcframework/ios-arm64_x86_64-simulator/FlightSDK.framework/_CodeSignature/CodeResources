@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.swiftlint.yml</key>
-		<data>
-		VC3cDV15HjwRUnLEKZmGhnxTsXw=
-		</data>
 		<key>AboutUs.html</key>
 		<data>
 		luFl96hbudMZ5RUju5yRpXzhxxU=
@@ -122,7 +118,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ISMFZzRKoDeKZ6Kivhm/L8ypNMs=
+		h7VWvktM86C6nDxjdcocmG+jG3Q=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
@@ -1310,7 +1306,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		L6wkJbw4LKxBWG3O26SfJJSgsaE=
+		rhIN21YjvJKbnQA8+H4CazrUSXQ=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1326,11 +1322,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FmEk6FeLzQVUCuspF+FSjgQIliU=
+		hBHqwUU/KudYZXWSYe3zj2GK9JM=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		L6wkJbw4LKxBWG3O26SfJJSgsaE=
+		rhIN21YjvJKbnQA8+H4CazrUSXQ=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1346,7 +1342,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JHgO1PMV1sqefZ7the2t3YJEvRo=
+		1F+J4fZl7ur6eQnig+O7lvSV8D4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2191,13 +2187,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>.swiftlint.yml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WbjjT85mPvXPNLrTlcMt+JtrqnZ044AUrPWgiSm71ME=
-			</data>
-		</dict>
 		<key>AboutUs.html</key>
 		<dict>
 			<key>hash2</key>
@@ -2398,7 +2387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GIElvZaKieXWMDELQi70ecuvJUVIEh13NvBJ45Z+k/8=
+			WEzahrth+/pXZeZayFVP0zVbm7pAWO6ZTHCmSdSIEJE=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
@@ -4470,7 +4459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zwREmph/fywD5E5TtKATtA2AXxz8jpjq80MlmrAkhNk=
+			Y+aKGttvdCa2kM0dvJAR28mLm6G8ADv3yMYqwGVsqk8=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -4498,14 +4487,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KkTO+xIykXs4cIGY66O/sc2IbPOG6pXvw9ei1fJBzEk=
+			LaOfDfpBSH7N+ccL0Kw5i5RpRDAMBbOcVZr1OgPTS/4=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zwREmph/fywD5E5TtKATtA2AXxz8jpjq80MlmrAkhNk=
+			Y+aKGttvdCa2kM0dvJAR28mLm6G8ADv3yMYqwGVsqk8=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -4533,7 +4522,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BQnJ3RSeVN9Kl2WJaMdzrigIuROnuUvvKx5RLS8kx50=
+			hvgzyzEl2B1jb0yA2/XxBMt55My22sPIpcPD41PFitQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'FlightSDK'
-    s.version           = '1.2.6'
+    s.version           = '1.2.7'
     s.summary           = 'FlightSDK'
     s.homepage          = 'https://github.com/sharetripnet/FlightSDK.git'
     s.source            = { :git => 'https://github.com/sharetripnet/FlightSDK.git', :tag => s.version.to_s }

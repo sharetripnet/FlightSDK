@@ -83596,28 +83596,28 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/Models\/FlightListResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1219,
+      "offset": 1220,
       "length": 16,
       "value": "\"matchedFlights\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/Models\/FlightListResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
+      "offset": 1260,
       "length": 9,
       "value": "\"filters\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/Models\/FlightListResponse.swift",
       "kind": "StringLiteral",
-      "offset": 22599,
+      "offset": 22417,
       "length": 6,
       "value": "\"unit\""
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/Models\/FlightListResponse.swift",
       "kind": "StringLiteral",
-      "offset": 22628,
+      "offset": 22446,
       "length": 8,
       "value": "\"weight\""
     },
@@ -95195,14 +95195,14 @@
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/ViewModels\/FlightsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10587,
+      "offset": 10599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/st-ios\/Workspace\/STDev\/STB2C-iOS\/STFlightKit\/Flight\/Flight List\/ViewModels\/FlightsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10692,
+      "offset": 10704,
       "length": 5,
       "value": "false"
     },
