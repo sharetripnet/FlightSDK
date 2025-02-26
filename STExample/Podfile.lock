@@ -86,7 +86,7 @@ PODS:
     - nanopb (~> 3.30910.0)
     - PromisesSwift (~> 2.1)
   - FirebaseSharedSwift (11.7.0)
-  - FlightSDK (1.2.6)
+  - FlightSDK (1.2.7)
   - FloatingPanel (2.8.6)
   - GoogleAppMeasurement (11.7.0):
     - GoogleAppMeasurement/AdIdSupport (= 11.7.0)
@@ -326,7 +326,7 @@ SPEC CHECKSUMS:
   FirebaseRemoteConfigInterop: ca12abf9da0003efd3a476b2dff4f7a04fd31b4f
   FirebaseSessions: 32ed7a9387ae71efe3a35a7f20f3a7292950957b
   FirebaseSharedSwift: a45efd84d60ebbfdcdbaebc66948af3630459e62
-  FlightSDK: 346b3ad58d777cf987c55e64fe4cde41736bed71
+  FlightSDK: 9949f0c17308dc3bdc548f61e6c6442c6737526e
   FloatingPanel: 11559d3700c39f1c2ee8dbb7a5415223b52fdce0
   GoogleAppMeasurement: 0471a5b5bff51f3a91b1e76df22c952d04c63967
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
