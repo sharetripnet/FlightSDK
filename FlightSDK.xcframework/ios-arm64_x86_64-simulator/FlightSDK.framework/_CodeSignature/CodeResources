@@ -10,7 +10,7 @@
 		</data>
 		<key>AddonFeatureView.nib</key>
 		<data>
-		wpcTb2VevxX4JVkvGpQkhlXKuiA=
+		v6K2NFMQkE0Cj9XxsROPmrNZFVA=
 		</data>
 		<key>AddonOptionCell.nib</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>AddonView.nib</key>
 		<data>
-		cbhzWImMOF2/zb0XJRtwU9n65IE=
+		PnsPzUR/z2r9ByIW5k015Yzzn+o=
 		</data>
 		<key>Addons.storyboardc/65z-e7-c5X-view-dZ9-WD-XmW.nib</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>AddonsCollectionCell.nib</key>
 		<data>
-		rYhAE+bqZILbhA00VdNJ4kts1es=
+		zCemMttMxdH38WLWaEsuQ226Wx8=
 		</data>
 		<key>AddonsDetailHeaderView.nib</key>
 		<data>
-		MPRnv5mwuxY6awU0UcEF/2CbObM=
+		GJ42nWWzBI34p5G6OM4rpCdsDvU=
 		</data>
 		<key>AddonsHeaderView.nib</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		h7VWvktM86C6nDxjdcocmG+jG3Q=
+		AUx/zFIm/sxdtuXORKsm8KlHbq0=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
@@ -598,11 +598,11 @@
 		</data>
 		<key>Base.lproj/Flight.storyboardc/w6d-Uq-S9J-view-xty-Oi-80O.nib/objects-14.0+.nib</key>
 		<data>
-		xRE1iacT7zSJnxinVmHgaqxo8Vg=
+		uIxsyCG81BAiHKQhfJ7OXLiKlrU=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/w6d-Uq-S9J-view-xty-Oi-80O.nib/runtime.nib</key>
 		<data>
-		xRE1iacT7zSJnxinVmHgaqxo8Vg=
+		uIxsyCG81BAiHKQhfJ7OXLiKlrU=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/zxa-6f-3DU-view-HWV-8d-AFS.nib/objects-14.0+.nib</key>
 		<data>
@@ -970,7 +970,7 @@
 		</data>
 		<key>FlightFooterView.nib</key>
 		<data>
-		qHCjIi89Yv4XxqnfNUPg1aOd1+E=
+		SWqCUffdVYxeZiUHulTaYFTer8E=
 		</data>
 		<key>FlightHeaderView.nib</key>
 		<data>
@@ -978,7 +978,7 @@
 		</data>
 		<key>FlightHistoryAddonsTVCell.nib</key>
 		<data>
-		72+iFosEX2zKFBoCJ7sGxJODJP8=
+		jOyrICipFgvXNKYTiIuQ8z4tr9c=
 		</data>
 		<key>FlightHistoryBaggageTVCell.nib</key>
 		<data>
@@ -1210,7 +1210,7 @@
 		</data>
 		<key>HotelListCVCell.nib</key>
 		<data>
-		U7qFhKOeE2XuSocSwaPMNth0YCo=
+		JDIhGGuAOLFazbRfaK+7+Lk6lEE=
 		</data>
 		<key>ImageViewCell.nib</key>
 		<data>
@@ -1218,11 +1218,11 @@
 		</data>
 		<key>InfantAddonsCollectionCell.nib</key>
 		<data>
-		lxfsKUwWKxaGyTtif1qQNKvyZe8=
+		RNbtITBQKvhDhiBEvrZYdeNESo0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		W5NFyJAeWu6yU6P++pSdyMuJWf0=
+		z0cT5+s9m+UDmK/pdIH2rjzJ0tY=
 		</data>
 		<key>InfoDetailCell.nib</key>
 		<data>
@@ -1306,7 +1306,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rhIN21YjvJKbnQA8+H4CazrUSXQ=
+		Ajh9GQudb/P+pd+jK37/cTZV7tQ=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1322,11 +1322,11 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hBHqwUU/KudYZXWSYe3zj2GK9JM=
+		gY1QxeqF1sJey9OJTLVFsWuY3Nc=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rhIN21YjvJKbnQA8+H4CazrUSXQ=
+		Ajh9GQudb/P+pd+jK37/cTZV7tQ=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1342,7 +1342,7 @@
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1F+J4fZl7ur6eQnig+O7lvSV8D4=
+		QPVBegJ91g6MyXRAoSGkvkOX7nM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1792,6 +1792,14 @@
 		<data>
 		ZeKu6/V7qRt1HmeAFGrcbS8m44k=
 		</data>
+		<key>STAdCollectionViewCell.nib</key>
+		<data>
+		0n9lgdYj6e81HVKeglTHq/9lE5c=
+		</data>
+		<key>STAdTableViewCell.nib</key>
+		<data>
+		UL7z4NmRLMSfka1xJCuwvCepOeE=
+		</data>
 		<key>STCalendarDateInputView.nib</key>
 		<data>
 		RicSbRkfPlD3sjs17pesdmRrwVM=
@@ -1998,7 +2006,7 @@
 		</data>
 		<key>SingleOptionCell.nib</key>
 		<data>
-		kshDzZ1bIKN06as9j2U/UqxY7fE=
+		qgq0kyPMtuyd5VmM3t1uJw1mdmE=
 		</data>
 		<key>SlideActionView.nib</key>
 		<data>
@@ -2172,6 +2180,10 @@
 		<data>
 		ix56GLgW4RwvddB5cE5TfSh/wgU=
 		</data>
+		<key>flight_addons.json</key>
+		<data>
+		4JGFc5XO3UHJBsxCcNyKzDagpsc=
+		</data>
 		<key>loader.gif</key>
 		<data>
 		6o4zyWfPcDbUVut//818DlqDb5o=
@@ -2198,7 +2210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D72bZq7ZbuzwLg9cBYCMoAQIcVzNFvxseiQZpcz+WzI=
+			xWfXkL4NFOsZxBfeq8EtrSnfJwkq/YNcHuK+xSWxT48=
 			</data>
 		</dict>
 		<key>AddonOptionCell.nib</key>
@@ -2212,7 +2224,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nU0QtCdTf1dGaPOfy6dfW1LsoswmpTGh91qRiF99ug4=
+			So0nDq51uFFY/iV8Ngih7p1q8HW60Xg06vYfYGgQ1qc=
 			</data>
 		</dict>
 		<key>Addons.storyboardc/65z-e7-c5X-view-dZ9-WD-XmW.nib</key>
@@ -2296,14 +2308,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f1ocS0x3Or+ZG2qaA9wLknzOtVVpH2+/6+bGDLQLBA0=
+			HPPMBZ9/FUeu9Y0R1hlgFj8tU4vlRplm6+VROJAVdwI=
 			</data>
 		</dict>
 		<key>AddonsDetailHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VAcnlNqlcrsNnT+DUm/I1fSv5Gc02sneOqH6yRlnBoM=
+			b//7RHaVmEjtHwLKWAMXHv3mHid4bE/orrwXOl0Q7xk=
 			</data>
 		</dict>
 		<key>AddonsHeaderView.nib</key>
@@ -2387,7 +2399,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WEzahrth+/pXZeZayFVP0zVbm7pAWO6ZTHCmSdSIEJE=
+			NRedvMwrD2SHlBDH9vMcJs0PhrO1xUzeIiqDjwDUW58=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
@@ -3227,14 +3239,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m6rQ4uMPfYsevxkQPjrnBXCZ5yGaVe2B1XjWNb+usT0=
+			Wnz5lVwp1EaBlA/LxYBEDeOEfm358Pl/mqqd4JV9/3o=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/w6d-Uq-S9J-view-xty-Oi-80O.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m6rQ4uMPfYsevxkQPjrnBXCZ5yGaVe2B1XjWNb+usT0=
+			Wnz5lVwp1EaBlA/LxYBEDeOEfm358Pl/mqqd4JV9/3o=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/zxa-6f-3DU-view-HWV-8d-AFS.nib/objects-14.0+.nib</key>
@@ -3878,7 +3890,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			08EXqa22aw8YTHIZ5QwsC9ha5fZjfr1VxxQ0V/TBvuM=
+			2VA2JeliFy8JTrGEs+gaOkrFK1ao2TtvdTSt7/3emUE=
 			</data>
 		</dict>
 		<key>FlightHeaderView.nib</key>
@@ -3892,7 +3904,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5wrUaMbH/894RVCsvuiNTIKX6gI8FwwZH0sSsNQ+fJI=
+			KKf+XD4pS7nnXSHQFzdbVDu/BwUzIHpyGGP8/TPhZU8=
 			</data>
 		</dict>
 		<key>FlightHistoryBaggageTVCell.nib</key>
@@ -4298,7 +4310,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nbn9I0BEXm1+P7TquySve8DwsLsKLrQGdBnWB4PNOI4=
+			IQIVT7aIkNyNoNjlLFBxM5XwPH0pcOAZpu5RtrPqnfY=
 			</data>
 		</dict>
 		<key>ImageViewCell.nib</key>
@@ -4312,7 +4324,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qK8vvyxAK8Q4X4MakjLV0M0mDc5gGq6GDRLZP/vr9JQ=
+			tL6IFRzCPMFkpZD/Mc+serfn7GP5Par4NZw+vyiQIY0=
 			</data>
 		</dict>
 		<key>InfoDetailCell.nib</key>
@@ -4459,7 +4471,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y+aKGttvdCa2kM0dvJAR28mLm6G8ADv3yMYqwGVsqk8=
+			KJIjcME3HvLKjH6d6k6+3R4kcXTz3u6lDyd5aSDmzgM=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -4487,14 +4499,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LaOfDfpBSH7N+ccL0Kw5i5RpRDAMBbOcVZr1OgPTS/4=
+			pLfoGUlqgMWvKcC6qIrgdEnmdgChNgxm/bKi/82GlmI=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y+aKGttvdCa2kM0dvJAR28mLm6G8ADv3yMYqwGVsqk8=
+			KJIjcME3HvLKjH6d6k6+3R4kcXTz3u6lDyd5aSDmzgM=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -4522,7 +4534,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hvgzyzEl2B1jb0yA2/XxBMt55My22sPIpcPD41PFitQ=
+			IXD7LC+nSOwXuPpey46u6xnMfkoGw4838zEh/qwwmeU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -5309,6 +5321,20 @@
 			fzXDIpubiK+C1Jfy7dKu+bz/CMH8Am7JlpmGpBu+mxk=
 			</data>
 		</dict>
+		<key>STAdCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gQMpzIh1uf/szEwtyAXETEZTyH1LuMYQnarm1N/VYgw=
+			</data>
+		</dict>
+		<key>STAdTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ba4nrvmOVzHdwRMFldQ7a8XJGldMYeCCw11x2kiyhoE=
+			</data>
+		</dict>
 		<key>STCalendarDateInputView.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -5670,7 +5696,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NVKvsokbsIoHwrXM4eWb3e8jFesj2SdpuAtfF8g1zNs=
+			qWWGe1pCOQms8FqnG1NCpWq+B8cYokwQuazuOpmBfiQ=
 			</data>
 		</dict>
 		<key>SlideActionView.nib</key>
@@ -5972,6 +5998,13 @@
 			<key>hash2</key>
 			<data>
 			BBKwI5+RfzkJrf8qpOcb5vjV+rhtqEpAa9C3aoMhMc8=
+			</data>
+		</dict>
+		<key>flight_addons.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vm7v+XnAt3KY+ySLVjoliRxIbsfztjDblo6BPnPnz9E=
 			</data>
 		</dict>
 		<key>loader.gif</key>

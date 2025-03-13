@@ -1,0 +1,988 @@
+{
+  "code": "SUCCESS",
+  "message": "data fetched",
+  "response": {
+    "covid": [
+      {
+        "code": "6hrtdaj2rm8s8ccggocs84owkkgc848",
+        "name": "PCR Test from Stemz Health Care ",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/image.png",
+        "self": false,
+        "options": [
+          {
+            "code": "irgdyfw8ti8kocsoc4o40oskccscs0w",
+            "name": "Lab Collection at Badda, Dhaka",
+            "isAddress": false,
+            "price": 2600,
+            "promotionalPrice": 2100
+          }
+        ]
+      },
+      {
+        "code": "a4mkxm2ktbkss0c08g4cskc0cgwk84c",
+        "name": "PCR Test from Praava Health",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/oDuY-qC2_400x400.jpg",
+        "self": false,
+        "options": [
+          {
+            "code": "4jrrjpuqzvgg0og40cc0kkc0oswkcwk",
+            "name": "Home Collection Only in Dhaka City",
+            "isAddress": true,
+            "price": 2500,
+            "promotionalPrice": 2500
+          }
+        ]
+      },
+      {
+        "code": "mv9aqxf4y4g4swg84ocsw00kc8c0ssg",
+        "name": "Stemz Healthcare (BD)",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/logo.png",
+        "self": false,
+        "options": [
+          {
+            "code": "t75cwa0492osog8cwso0w84gowsko0c",
+            "name": "Lab Collection at Banglamotor, Dhaka",
+            "isAddress": false,
+            "price": 2600,
+            "promotionalPrice": 2200
+          },
+          {
+            "code": "1gxrkuxcvozog8o4804c0o0gg48s4ws",
+            "name": "test",
+            "isAddress": true,
+            "price": 5000,
+            "promotionalPrice": 4500
+          }
+        ]
+      },
+      {
+        "code": "9xmomxbpae8ks4sc84ggocgwockgoww",
+        "name": "No Covid Test",
+        "logo": "",
+        "self": true,
+        "options": []
+      }
+    ],
+    "travelInsurance": [
+      {
+        "code": "t5v00jtn7hcgw0w44o48w0kcg4wsscs",
+        "name": "Bimafy",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/Bimafy.png",
+        "routeType": 0,
+        "self": false,
+        "options": [
+          {
+            "code": "pidhw2zn334kcw00k88sogs8c8c4k40",
+            "name": "International Travel Bima Gold (For 30 Days)",
+            "productCode": "international_travel_gold",
+            "productType": 1,
+            "routeType": 2,
+            "unit": 1,
+            "price": 399,
+            "promotionalPrice": 399,
+            "default": false,
+            "features": [
+              {
+                "name": "Hospitalization & Accidents (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Emergency Transportation & Outdoor Visits (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death and Funeral Coverage (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death, Hospitalization & Accidents (Family Members)",
+                "value": "X"
+              },
+              {
+                "name": "Natural Disasters, Labor Strikes, Travel Bans",
+                "value": "X"
+              },
+              {
+                "name": "Home Damage, Legal Obligations, Transport Accidents",
+                "value": "X"
+              },
+              {
+                "name": "Connecting Flight Delay, Job Layoffs",
+                "value": "X"
+              }
+            ]
+          },
+          {
+            "code": "hbauinn88x4ow0c88c4owkc4w8o4o0k",
+            "name": "International Travel Bima Silver (For 15 Days)",
+            "productCode": "international_travel_silver",
+            "productType": 1,
+            "routeType": 2,
+            "unit": 1,
+            "price": 199,
+            "promotionalPrice": 199,
+            "default": false,
+            "features": [
+              {
+                "name": "Hospitalization & Accidents (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Emergency Transportation & Outdoor Visits (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death and Funeral Coverage (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death, Hospitalization & Accidents (Family Members)",
+                "value": "X"
+              },
+              {
+                "name": "Natural Disasters, Labor Strikes, Travel Bans",
+                "value": "X"
+              },
+              {
+                "name": "Home Damage, Legal Obligations, Transport Accidents",
+                "value": "X"
+              },
+              {
+                "name": "Connecting Flight Delay, Job Layoffs",
+                "value": "X"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "axwv126gtlc8kwws4g44sksg44w4o44",
+        "name": "No Insurance",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/Not_Taken.png",
+        "routeType": 0,
+        "self": true,
+        "options": [
+          {
+            "code": "3slpccp8mh0k8sckk4wow8g4sk8wgow",
+            "name": "I don't want Travel Insurance",
+            "productCode": "no_insurance",
+            "productType": 1,
+            "routeType": 2,
+            "unit": 1,
+            "price": 0,
+            "promotionalPrice": 0,
+            "default": false,
+            "features": [
+              {
+                "name": "Hospitalization Coverage (Illnesses)",
+                "value": ""
+              },
+              {
+                "name": "Outdoor Treatment",
+                "value": ""
+              },
+              {
+                "name": "Personal Accident Coverage",
+                "value": ""
+              },
+              {
+                "name": "Emergency Transportation",
+                "value": ""
+              },
+              {
+                "name": "Death and Funeral Coverage",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "refundGuard": [
+      {
+        "code": "t5v00jtn7hcgw0w44o48w0kcg4wsscs",
+        "name": "Bimafy",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/Bimafy.png",
+        "routeType": 0,
+        "self": false,
+        "options": [
+          {
+            "code": "nihvpddrc4gg004kw0kc8w8440w044c",
+            "name": "Refund Guard Basic (Up to BDT 17,000 Refund Coverage)",
+            "productCode": "confident_cancel",
+            "routeType": 2,
+            "price": 299,
+            "promotionalPrice": 299,
+            "default": 0,
+            "features": [
+              {
+                "name": "Coverage Up to BDT 17,000",
+                "value": "√"
+              },
+              {
+                "name": "Hospitalization & Accidents (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Emergency Transportation & Outdoor Visits (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death and Funeral Coverage (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death, Hospitalization & Accidents (Family Members)",
+                "value": "√"
+              },
+              {
+                "name": "Natural Disasters, Labor Strikes, Travel Bans",
+                "value": "√"
+              },
+              {
+                "name": "Home Damage, Legal Obligations, Transport Accidents",
+                "value": "√"
+              },
+              {
+                "name": "Connecting Flight Delay, Job Layoffs",
+                "value": "√"
+              }
+            ]
+          },
+          {
+            "code": "nj1cwrnytyoo4ooko844w8wkk8o8g4s",
+            "name": "Refund Guard Pro (Up To BDT 23,000 Refund Coverage)",
+            "productCode": "confident_cancel_pro",
+            "routeType": 2,
+            "price": 399,
+            "promotionalPrice": 399,
+            "default": 1,
+            "features": [
+              {
+                "name": "Coverage Up to BDT 23,000",
+                "value": "√"
+              },
+              {
+                "name": "Hospitalization & Accidents (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Emergency Transportation & Outdoor Visits (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death and Funeral Coverage (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death, Hospitalization & Accidents (Family Members)",
+                "value": "√"
+              },
+              {
+                "name": "Natural Disasters, Labor Strikes, Travel Bans",
+                "value": "√"
+              },
+              {
+                "name": "Home Damage, Legal Obligations, Transport Accidents",
+                "value": "√"
+              },
+              {
+                "name": "Connecting Flight Delay, Job Layoffs",
+                "value": "√"
+              }
+            ]
+          },
+          {
+            "code": "lo9wqlfkbw0oc40k0ksgowc08w4s0oc",
+            "name": "Refund Guard Max (Up To 29,000 BDT Refund Coverage)",
+            "productCode": "confident_cancel_max",
+            "routeType": 0,
+            "price": 499,
+            "promotionalPrice": 499,
+            "default": 0,
+            "features": [
+              {
+                "name": "Coverage Up to BDT 29,000",
+                "value": "√"
+              },
+              {
+                "name": "Hospitalization & Accidents (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Emergency Transportation & Outdoor Visits (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death and Funeral Coverage (Self)",
+                "value": "√"
+              },
+              {
+                "name": "Death, Hospitalization & Accidents (Family Members)",
+                "value": "√"
+              },
+              {
+                "name": "Natural Disasters, Labor Strikes, Travel Bans",
+                "value": "√"
+              },
+              {
+                "name": "Home Damage, Legal Obligations, Transport Accidents",
+                "value": "√"
+              },
+              {
+                "name": "Connecting Flight Delay, Job Layoffs",
+                "value": "√"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "axwv126gtlc8kwws4g44sksg44w4o44",
+        "name": "No Refund Guard",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/Not_Taken.png",
+        "routeType": 0,
+        "self": true,
+        "options": [
+          {
+            "code": "126a4977-8d88-4466-8f24-771efc43a897",
+            "name": "I will take No Refund Guard",
+            "productCode": "no_refund_guard_international",
+            "routeType": 2,
+            "price": 0,
+            "promotionalPrice": 0,
+            "default": 0,
+            "features": [
+              {
+                "name": "Refund for cancellations",
+                "value": ""
+              },
+              {
+                "name": "Financial risk protection",
+                "value": ""
+              },
+              {
+                "name": "Coverage for emergencies",
+                "value": ""
+              },
+              {
+                "name": "Fast claims settlement",
+                "value": ""
+              },
+              {
+                "name": "Travel cost safeguard",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "om72gedtkogso0o8s0okk0ccswckg0c",
+        "name": "Bimafy On ST",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/download.jpeg",
+        "routeType": 0,
+        "self": true,
+        "options": [
+          {
+            "code": "iixwn37lm0oww8cgkksw8oco8wk0k00",
+            "name": "Travel Package",
+            "productCode": "12VO1",
+            "routeType": 0,
+            "price": 1200,
+            "promotionalPrice": 1050,
+            "default": 0,
+            "features": null
+          }
+        ]
+      }
+    ],
+    "baggageInsurance": [
+      {
+        "code": "cmhyswvhoeo8cc0kko84g04o0wwk00o",
+        "name": "Blue Ribbon Bags",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/BlueRibbonBags.png",
+        "routeType": 0,
+        "self": false,
+        "options": [
+          {
+            "code": "cl196my3d4owssc0wkskok8g4gkgcg8",
+            "name": "I Want to Protect My Baggage",
+            "price": 95,
+            "promotionalPrice": 95,
+            "routeType": 0,
+            "default": false,
+            "features": [
+              {
+                "name": "Guaranteed Payment (Service Satisfaction Guarantee Limit of Liability (BDT 19,000))",
+                "value": "√"
+              },
+              {
+                "name": "Email Tracking",
+                "value": "√"
+              },
+              {
+                "name": "SMS Tracking",
+                "value": "√"
+              },
+              {
+                "name": "Need proof of content in Bag?",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "code": "sa52qgg986s8k04kso0s0g0gcwckgoo",
+            "name": "Protect My Baggage",
+            "price": 330,
+            "promotionalPrice": 330,
+            "routeType": 2,
+            "default": false,
+            "features": [
+              {
+                "name": "Guaranteed Payment (Service Satisfaction Guarantee Limit of Liability (BDT 66,000))",
+                "value": "√"
+              },
+              {
+                "name": "Email Tracking",
+                "value": "√"
+              },
+              {
+                "name": "SMS Tracking",
+                "value": "√"
+              },
+              {
+                "name": "Need proof of content in Bag?",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "code": "ql3ot6t3x32m27hecq9nbn6fdlziamvmr891",
+            "name": "Yo Yo Yo",
+            "price": 12000,
+            "promotionalPrice": 11880,
+            "routeType": 0,
+            "default": false,
+            "features": null
+          },
+          {
+            "code": "pb84hyivp2wfbots9z075ozsdnt9kprv77u4",
+            "name": "Zo Zo Zo",
+            "price": 1200,
+            "promotionalPrice": 1100,
+            "routeType": 0,
+            "default": false,
+            "features": null
+          },
+          {
+            "code": "5q43043qihccrzg0tuuj77nb16elpw9wvtf7",
+            "name": "Yo Yo Yo222",
+            "price": 1000,
+            "promotionalPrice": 900,
+            "routeType": 0,
+            "default": false,
+            "features": null
+          }
+        ]
+      },
+      {
+        "code": "6tqeb8usuy8skwg0os4kcg00004kcsc",
+        "name": "Baggage Protection",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/Not_Taken.png",
+        "routeType": 0,
+        "self": true,
+        "options": [
+          {
+            "code": "jq8opf60ptswo8c44wo4wwogs40okww",
+            "name": "I don't want to protect my baggage",
+            "price": 0,
+            "promotionalPrice": 0,
+            "routeType": 2,
+            "default": true,
+            "features": [
+              {
+                "name": "Guaranteed Payment",
+                "value": ""
+              },
+              {
+                "name": "Email Tracking",
+                "value": ""
+              },
+              {
+                "name": "SMS Tracking",
+                "value": ""
+              },
+              {
+                "name": "Need proof of content in Bag?",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "code": "aamv6cpzkow04k880c0oko0ogoww0sw",
+            "name": "No Baggage Protection",
+            "price": 0,
+            "promotionalPrice": 0,
+            "routeType": 0,
+            "default": false,
+            "features": [
+              {
+                "name": "Guaranteed Payment",
+                "value": ""
+              },
+              {
+                "name": "Email Tracking",
+                "value": ""
+              },
+              {
+                "name": "SMS Tracking",
+                "value": ""
+              },
+              {
+                "name": "Need proof of content in Bag?",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripAdd": [
+      [
+        {
+          "id": "23bc5203-e0c4-4e3c-955e-bb2e6b9441f4",
+          "currency": "USD",
+          "fee": {
+            "percent": 0,
+            "minimum": 0
+          },
+          "passengers": [
+            {
+              "age_category": "ADULT"
+            }
+          ],
+          "passengers_count": 1,
+          "language": "en",
+          "products": [
+            {
+              "category": "FLIGHT_NOTIFICATIONS",
+              "id": "0db9b828-0624-4ed6-9809-07a2417afe4e",
+              "name": "Flight Alerts",
+              "pricing_type": "PASSENGER",
+              "pricing": {
+                "net_price": "0.50",
+                "fee": "0.25",
+                "total": "2.75",
+                "price": "2.50"
+              },
+              "bundled_pricing": {
+                "net_price": "0.50",
+                "fee": "0.20",
+                "total": "2.20",
+                "price": "2.00"
+              },
+              "price": 2.75,
+              "bundled_price": "2.20",
+              "icon_url": "https://app.tripadd.com/assets/tripadd/products/flight_notifications.png",
+              "images": [
+                {
+                  "url": "https://assets.tripadd.com/product-images/8_flight_notifications.jpg"
+                }
+              ],
+              "description": "Stop worrying about flight delays! Receive instant email and SMS notifications about changes to your flight's departure schedule, airport terminal, or gates. Covered flights: UL190, UL308.<br /><br />The service is delivered by TripAdd. The tracking will activate 24 hours before the flight's scheduled departure time. The frequency of notifications will vary per flight. Message and data rates may apply. The service cannot be transferred to other flight numbers or dates.",
+              "short_description": "Stop worrying about flight changes!",
+              "quantity": 1,
+              "age_categories": [
+                "ADULT"
+              ],
+              "cancellation_policy": "FULL_REFUND",
+              "refundable_until": "2025-02-03T07:00:00.000Z",
+              "bundledPrice": 2.2,
+              "priceInBDT": 303,
+              "bundledPriceInBDT": 242
+            },
+            {
+              "category": "LUGGAGE_PROTECTION",
+              "id": "98f6311a-766c-4458-a73e-b2e28e0c24f1",
+              "name": "Lost Luggage Protection",
+              "pricing_type": "PASSENGER",
+              "pricing": {
+                "net_price": "2.50",
+                "fee": "0.50",
+                "total": "5.50",
+                "price": "5.00"
+              },
+              "bundled_pricing": {
+                "net_price": "2.50",
+                "fee": "0.45",
+                "total": "4.95",
+                "price": "4.50"
+              },
+              "price": 5.5,
+              "bundled_price": "4.95",
+              "icon_url": "https://app.tripadd.com/assets/tripadd/products/luggage_protection.png",
+              "images": [
+                {
+                  "url": "https://assets.tripadd.com/product-images/7_luggage_protection.jpg"
+                }
+              ],
+              "description": "Track and expedite the return of your lost luggage. Receive real-time push notifications regarding the status of your bags. Collect $1,000 per bag that is not returned within 96 hours (up to 2 bags per person.)",
+              "short_description": "Track and expedite the return of your lost luggage.",
+              "quantity": 1,
+              "age_categories": [
+                "ADULT",
+                "CHILD",
+                "INFANT"
+              ],
+              "cancellation_policy": "FULL_REFUND",
+              "refundable_until": "2025-02-04T07:00:00.000Z",
+              "bundledPrice": 4.95,
+              "priceInBDT": 605,
+              "bundledPriceInBDT": 545
+            },
+            {
+              "category": "WEATHER_NOTIFICATIONS",
+              "id": "ed554644-bfb3-4a16-a14e-9233717d48ad",
+              "name": "Weather Updates",
+              "pricing_type": "PASSENGER",
+              "pricing": {
+                "net_price": "0.50",
+                "fee": "0.25",
+                "total": "2.75",
+                "price": "2.50"
+              },
+              "bundled_pricing": {
+                "net_price": "0.50",
+                "fee": "0.20",
+                "total": "2.20",
+                "price": "2.00"
+              },
+              "price": 2.75,
+              "bundled_price": "2.20",
+              "icon_url": "https://app.tripadd.com/assets/tripadd/products/weather_notifications.png",
+              "images": [
+                {
+                  "url": "https://assets.tripadd.com/product-images/8_weather_updates.jpg"
+                }
+              ],
+              "description": "Get ready for your trip with the latest weather updates from your travel destination! Delivered to you by email and SMS by TripAdd.<br /><br />The frequency and schedule of the weather update notifications will vary per trip. Message and data rates may apply.",
+              "short_description": "The latest weather updates from your destination.",
+              "quantity": 1,
+              "age_categories": [
+                "ADULT"
+              ],
+              "cancellation_policy": "FULL_REFUND",
+              "refundable_until": "2025-01-30T07:00:00.000Z",
+              "bundledPrice": 2.2,
+              "priceInBDT": 303,
+              "bundledPriceInBDT": 242
+            }
+          ],
+          "expires_at": "2025-01-20T07:31:23.674Z",
+          "terms_url": "https://app.tripadd.com/terms/23bc5203-e0c4-4e3c-955e-bb2e6b9441f4",
+          "bundledOfferPercentage": "15%",
+          "usdToBdtConversionRate": 110
+        },
+        {
+          "id": "b0f4dd33-ba9e-41c4-980c-491fb85d83e7",
+          "currency": "USD",
+          "fee": {
+            "percent": 0,
+            "minimum": 0
+          },
+          "passengers": [
+            {
+              "age_category": "ADULT"
+            }
+          ],
+          "passengers_count": 1,
+          "language": "en",
+          "products": [
+            {
+              "category": "FLIGHT_NOTIFICATIONS",
+              "id": "ed2e64f4-a57b-49a5-a399-a08709c5cdbd",
+              "name": "Flight Alerts",
+              "pricing_type": "PASSENGER",
+              "pricing": {
+                "net_price": "0.50",
+                "fee": "0.25",
+                "total": "2.75",
+                "price": "2.50"
+              },
+              "bundled_pricing": {
+                "net_price": "0.50",
+                "fee": "0.20",
+                "total": "2.20",
+                "price": "2.00"
+              },
+              "price": 2.75,
+              "bundled_price": "2.20",
+              "icon_url": "https://app.tripadd.com/assets/tripadd/products/flight_notifications.png",
+              "images": [
+                {
+                  "url": "https://assets.tripadd.com/product-images/8_flight_notifications.jpg"
+                }
+              ],
+              "description": "Stop worrying about flight delays! Receive instant email and SMS notifications about changes to your flight's departure schedule, airport terminal, or gates. Covered flights: UL190, UL308.<br /><br />The service is delivered by TripAdd. The tracking will activate 24 hours before the flight's scheduled departure time. The frequency of notifications will vary per flight. Message and data rates may apply. The service cannot be transferred to other flight numbers or dates.",
+              "short_description": "Stop worrying about flight changes!",
+              "quantity": 1,
+              "age_categories": [
+                "ADULT"
+              ],
+              "cancellation_policy": "FULL_REFUND",
+              "refundable_until": "2025-02-03T07:00:00.000Z",
+              "bundledPrice": 2.2,
+              "priceInBDT": 303,
+              "bundledPriceInBDT": 242
+            },
+            {
+              "category": "LUGGAGE_PROTECTION",
+              "id": "f79ffbd0-fc92-4327-9cb9-a541b6191c68",
+              "name": "Lost Luggage Protection",
+              "pricing_type": "PASSENGER",
+              "pricing": {
+                "net_price": "2.50",
+                "fee": "0.50",
+                "total": "5.50",
+                "price": "5.00"
+              },
+              "bundled_pricing": {
+                "net_price": "2.50",
+                "fee": "0.45",
+                "total": "4.95",
+                "price": "4.50"
+              },
+              "price": 5.5,
+              "bundled_price": "4.95",
+              "icon_url": "https://app.tripadd.com/assets/tripadd/products/luggage_protection.png",
+              "images": [
+                {
+                  "url": "https://assets.tripadd.com/product-images/7_luggage_protection.jpg"
+                }
+              ],
+              "description": "Track and expedite the return of your lost luggage. Receive real-time push notifications regarding the status of your bags. Collect $1,000 per bag that is not returned within 96 hours (up to 2 bags per person.)",
+              "short_description": "Track and expedite the return of your lost luggage.",
+              "quantity": 1,
+              "age_categories": [
+                "ADULT",
+                "CHILD",
+                "INFANT"
+              ],
+              "cancellation_policy": "FULL_REFUND",
+              "refundable_until": "2025-02-04T07:00:00.000Z",
+              "bundledPrice": 4.95,
+              "priceInBDT": 605,
+              "bundledPriceInBDT": 545
+            },
+            {
+              "category": "WEATHER_NOTIFICATIONS",
+              "id": "123bf8d0-a040-4eb9-a747-ebc451f30e27",
+              "name": "Weather Updates",
+              "pricing_type": "PASSENGER",
+              "pricing": {
+                "net_price": "0.50",
+                "fee": "0.25",
+                "total": "2.75",
+                "price": "2.50"
+              },
+              "bundled_pricing": {
+                "net_price": "0.50",
+                "fee": "0.20",
+                "total": "2.20",
+                "price": "2.00"
+              },
+              "price": 2.75,
+              "bundled_price": "2.20",
+              "icon_url": "https://app.tripadd.com/assets/tripadd/products/weather_notifications.png",
+              "images": [
+                {
+                  "url": "https://assets.tripadd.com/product-images/8_weather_updates.jpg"
+                }
+              ],
+              "description": "Get ready for your trip with the latest weather updates from your travel destination! Delivered to you by email and SMS by TripAdd.<br /><br />The frequency and schedule of the weather update notifications will vary per trip. Message and data rates may apply.",
+              "short_description": "The latest weather updates from your destination.",
+              "quantity": 1,
+              "age_categories": [
+                "ADULT"
+              ],
+              "cancellation_policy": "FULL_REFUND",
+              "refundable_until": "2025-01-30T07:00:00.000Z",
+              "bundledPrice": 2.2,
+              "priceInBDT": 303,
+              "bundledPriceInBDT": 242
+            }
+          ],
+          "expires_at": "2025-01-20T07:31:24.034Z",
+          "terms_url": "https://app.tripadd.com/terms/b0f4dd33-ba9e-41c4-980c-491fb85d83e7",
+          "bundledOfferPercentage": "15%",
+          "usdToBdtConversionRate": 110
+        }
+      ]
+    ],
+    "tripOn": [],
+    "lounge": [
+      {
+        "code": "32a008a5-5ddf-4fbe-8cc9-10a778c75146",
+        "name": "EBL SkyLounge",
+        "description": "Skylounge is the premium airport lounge located at Hazrat Shahjalal International Airport.",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/Bimafy.png",
+        "minimumAge": 6,
+        "adultPromotionalPrice": 2000,
+        "childPromotionalPrice": 1000,
+        "isDefault": true,
+        "self": false,
+        "features": [
+          {
+            "name": "Complimentary Buffet Lunch",
+            "value": "√"
+          },
+          {
+            "name": "Shower Room",
+            "value": "√"
+          },
+          {
+            "name": "Prayer Room",
+            "value": "√"
+          },
+          {
+            "name": "Makeup Space",
+            "value": "√"
+          },
+          {
+            "name": "Baby Feeding Room",
+            "value": "√"
+          },
+          {
+            "name": "Quiet Room Facilities",
+            "value": "√"
+          },
+          {
+            "name": "Free Wi-Fi",
+            "value": "√"
+          },
+          {
+            "name": "Outdoor Treatment",
+            "value": ""
+          },
+          {
+            "name": "Medical Transportation",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "code": "b756f54a-347b-4339-8665-cec37f424fdb",
+        "name": "Balaka Executive Lounge",
+        "description": "The Balaka Executive Lounge is operated by personnel from the InterContinental Dhaka - the first 5-star hotel in Bangladesh.",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/Milvik.png",
+        "minimumAge": 6,
+        "adultPromotionalPrice": 1000,
+        "childPromotionalPrice": 500,
+        "isDefault": false,
+        "self": false,
+        "features": [
+          {
+            "name": "Round the Clock Operation",
+            "value": "√"
+          },
+          {
+            "name": "Shower Room",
+            "value": "√"
+          },
+          {
+            "name": "Charging Stations",
+            "value": "√"
+          },
+          {
+            "name": "Resting chairs",
+            "value": "√"
+          },
+          {
+            "name": "Complimentary Buffet Lunch",
+            "value": "√"
+          },
+          {
+            "name": "Beverage",
+            "value": "√"
+          },
+          {
+            "name": "Free Wi-Fi",
+            "value": "√"
+          },
+          {
+            "name": "Outdoor Treatment",
+            "value": ""
+          },
+          {
+            "name": "Medical Transportation",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "code": "bf4a47f3-f5e1-42a7-a6b5-6397290974f1",
+        "name": "I don't want to Access Lounge",
+        "description": "",
+        "logo": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/b2cIcon/Not_Taken.png",
+        "minimumAge": 0,
+        "adultPromotionalPrice": 0,
+        "childPromotionalPrice": 0,
+        "isDefault": false,
+        "self": true,
+        "features": [
+          {
+            "name": "Complimentary Buffet Lunch",
+            "value": ""
+          },
+          {
+            "name": "Shower Room",
+            "value": ""
+          },
+          {
+            "name": "Makeup Space",
+            "value": ""
+          },
+          {
+            "name": "Prayer Room",
+            "value": ""
+          },
+          {
+            "name": "Baby Feeding Room",
+            "value": ""
+          },
+          {
+            "name": "Quiet Room Facilities",
+            "value": ""
+          },
+          {
+            "name": "Charging Stations",
+            "value": ""
+          },
+          {
+            "name": "Resting chairs",
+            "value": ""
+          },
+          {
+            "name": "Beverage",
+            "value": ""
+          },
+          {
+            "name": "Outdoor Treatment",
+            "value": ""
+          },
+          {
+            "name": "Medical Transportation",
+            "value": ""
+          },
+          {
+            "name": "Free Wi-Fi",
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "extraLuggage": null
+  },
+  "traceId": ""
+}
