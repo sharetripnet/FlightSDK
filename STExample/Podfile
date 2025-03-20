@@ -30,7 +30,7 @@ target 'STExample' do
   pod 'CRRefresh'
   pod 'ActiveLabel'
   pod 'SkeletonView'
-  pod 'MBProgressHUD'
+  pod 'MBProgressHUD', :git => 'https://github.com/jdg/MBProgressHUD.git', :branch => 'master'
   pod 'MHLoadingButton'
   pod 'XLPagerTabStrip'
   
