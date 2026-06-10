@@ -1,43 +1,38 @@
-platform :ios, '13.0'
+platform :ios, '16.0'
 
 target 'STExample' do
   
-  # With specific versions
-  pod 'lottie-ios', '3.5.0'
-  pod 'Kingfisher', '~> 7.6.2'
-  
-  # Always latest
-  pod "JWT"
-  pod 'PKHUD'
-  pod 'Alamofire'
-  pod 'SwiftyJSON'
-  pod 'FloatingPanel'
-  pod 'JTAppleCalendar'
-  pod 'SwiftKeychainWrapper'
-  pod 'Socket.IO-Client-Swift'
-  pod 'IQKeyboardManagerSwift'
-  
-  # Firebase SDKs
-  pod 'FirebaseCore'
-  pod 'FirebaseAnalytics'
-  pod 'FirebaseCrashlytics'
-  pod 'FirebaseAuth'
-  pod 'FirebaseRemoteConfig'
-  pod 'FirebaseMessaging'
-  pod 'FirebaseDynamicLinks'
-  
-  # Newly Added Pods
-  pod 'CRRefresh'
-  pod 'ActiveLabel'
-  pod 'SkeletonView'
-  pod 'MBProgressHUD', :git => 'https://github.com/jdg/MBProgressHUD.git', :branch => 'master'
-  pod 'MHLoadingButton'
-  pod 'XLPagerTabStrip'
-  
-  # ST Forks
-  pod 'PanModal', :git => 'https://github.com/sharetripnet/PanModal.git'
   pod 'SwiftEntryKit', :git => 'https://github.com/sharetripnet/SwiftEntryKit.git', :tag => '2.0.8'
-  
+  pod 'Kingfisher', '~> 7.6.2'
+  pod 'lottie-ios', '4.6.0'
+  pod 'PKHUD'
+  pod 'MBProgressHUD', :git => 'https://github.com/jdg/MBProgressHUD.git', :branch => 'master'
+  pod 'Alamofire', '~> 5.11.2'
+  pod 'SwiftKeychainWrapper'
+  pod 'PanModal', :git => 'https://github.com/sharetripnet/PanModal.git'
+  pod 'SkeletonView', '~> 1.30.4'
+  pod 'libPhoneNumber-iOS-Swift', '~> 1.7.0'
+  pod 'FirebaseAnalytics', '~> 12.14.0'
+  pod 'FloatingPanel', '3.0.0'
+  pod 'FirebaseRemoteConfig', '~> 12.14.0'
+  pod 'AnyCodable-FlightSchool'
+  pod 'ActiveLabel', '~> 1.1.0'
+  pod 'FirebaseMessaging', '~> 12.14.0'
+  pod 'SwiftyJSON', '~> 5.0.2'
+  pod 'XLPagerTabStrip'
+  pod 'JTAppleCalendar'
+  pod 'SVGKit'
+  pod 'IQKeyboardManagerSwift', '8.0.0'
+  pod "JWT"
+  pod 'Socket.IO-Client-Swift'
+  pod 'FirebaseCore' , '~> 12.14.0'
+  pod 'FirebaseCrashlytics', '~> 12.14.0'
+  pod 'FirebaseAuth', '~> 12.14.0'
+  pod 'ActiveLabel', '~> 1.1.0'
+  pod 'CRRefresh'
+  pod 'ASCollectionView-SwiftUI', :git => 'https://github.com/sharetripnet/ASCollectionView.git', :branch => 'master'
+  pod 'MHLoadingButton'
+
   # ST SDKs
   pod 'FlightSDK', :path => '../'
   
@@ -49,7 +44,7 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     
     target.build_configurations.each do |config|
-      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.0'
       config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES' # do not remove
     end
     

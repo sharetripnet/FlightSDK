@@ -8,6 +8,7 @@
 import UIKit
 import FirebaseCore
 import FlightSDK
+import STCoreSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
@@ -19,10 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         FirebaseApp.configure()
-      
-        STSDK.shared.delegate = self
-        STSDK.shared.setToken("valid token", for: .staging)
-        self.window?.rootViewController = UINavigationController(rootViewController: FlightSearchVC.instantiate())
+        
+//        configureSDKs()
+        
+        self.window?.rootViewController = UINavigationController(rootViewController: HostingVC())
         window?.makeKeyAndVisible()
         
         return true
@@ -30,12 +31,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISceneDelegate {
 
 }
 
-extension AppDelegate: STSDKDelegate {
-    func didSuccessTokenValidation() {
-        print("Token is valid")
+extension AppDelegate: APIClientSessionDelegate {
+    func configureSDKs() {
+        STCoreConfigs.shared.configure(
+            environment: .dev,
+            colorScheme: .banglalink,
+            authorizationDelegate: self
+        )
     }
     
-    func didFailed(error: String) {
-        print("Token validation errror: \(error)")
+    func loginRequired() {
+        EKAlertDisplayer.shared.showLoginDialogue(serviceType: .flight) {[weak self] in
+            
+            print("required login")
+        }
     }
 }
