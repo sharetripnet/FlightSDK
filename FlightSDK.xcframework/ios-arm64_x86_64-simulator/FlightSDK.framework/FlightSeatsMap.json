@@ -1,0 +1,3509 @@
+{
+  "travellers" : [
+    {
+      "type" : "ADT"
+    }
+  ],
+  "aircraft" : "BOEING 787-9",
+  "seats" : [
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhch8",
+        "row" : "20",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nBulkhead seat\nLeg space seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhch9",
+        "row" : "20",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nBulkhead seat\nLeg space seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcha",
+        "row" : "20",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nBulkhead seat\nLeg space seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "st-5591mh1fle22",
+        "row" : "20",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "col" : "E",
+        "uid" : "st-5591mh1fle23",
+        "row" : "20",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "col" : "G",
+        "uid" : "st-5591mh1fle24",
+        "row" : "20",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhchb",
+        "row" : "20",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nBulkhead seat\nLeg space seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhchc",
+        "row" : "20",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nBulkhead seat\nLeg space seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhchd",
+        "row" : "20",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nBulkhead seat\nLeg space seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhche",
+        "row" : "21",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhchf",
+        "row" : "21",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhchg",
+        "row" : "21",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhchh",
+        "row" : "21",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nBulkhead seat\nLeg space seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhchi",
+        "row" : "21",
+        "availability" : "AVAILABLE",
+        "price" : 100,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nOverwing seat(s)\nCenter seat (not window, not aisle)\nSeat with bassinet facility\nSeat to be left vacant or offered last",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhchj",
+        "row" : "21",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nBulkhead seat\nLeg space seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhchk",
+        "row" : "21",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhchl",
+        "row" : "21",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhchm",
+        "row" : "21",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhchn",
+        "row" : "22",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcho",
+        "row" : "22",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhchp",
+        "row" : "22",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhchq",
+        "row" : "22",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhchr",
+        "row" : "22",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhchs",
+        "row" : "22",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcht",
+        "row" : "22",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhchu",
+        "row" : "22",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhchv",
+        "row" : "22",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhchw",
+        "row" : "23",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhchx",
+        "row" : "23",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhchy",
+        "row" : "23",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhchz",
+        "row" : "23",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhci0",
+        "row" : "23",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhci1",
+        "row" : "23",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhci2",
+        "row" : "23",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhci3",
+        "row" : "23",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhci4",
+        "row" : "23",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhci5",
+        "row" : "24",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhci6",
+        "row" : "24",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhci7",
+        "row" : "24",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhci8",
+        "row" : "24",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhci9",
+        "row" : "24",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcia",
+        "row" : "24",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcib",
+        "row" : "24",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcic",
+        "row" : "24",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcid",
+        "row" : "24",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcie",
+        "row" : "25",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcif",
+        "row" : "25",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcig",
+        "row" : "25",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcih",
+        "row" : "25",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcii",
+        "row" : "25",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcij",
+        "row" : "25",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcik",
+        "row" : "25",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcil",
+        "row" : "25",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcim",
+        "row" : "25",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcin",
+        "row" : "26",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcio",
+        "row" : "26",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcip",
+        "row" : "26",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhciq",
+        "row" : "26",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcir",
+        "row" : "26",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcis",
+        "row" : "26",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcit",
+        "row" : "26",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhciu",
+        "row" : "26",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhciv",
+        "row" : "26",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhciw",
+        "row" : "27",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcix",
+        "row" : "27",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhciy",
+        "row" : "27",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhciz",
+        "row" : "27",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcj0",
+        "row" : "27",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcj1",
+        "row" : "27",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcj2",
+        "row" : "27",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcj3",
+        "row" : "27",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcj4",
+        "row" : "27",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcj5",
+        "row" : "28",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcj6",
+        "row" : "28",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcj7",
+        "row" : "28",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcj8",
+        "row" : "28",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcj9",
+        "row" : "28",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcja",
+        "row" : "28",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcjb",
+        "row" : "28",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcjc",
+        "row" : "28",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcjd",
+        "row" : "28",
+        "availability" : "AVAILABLE",
+        "price" : 4496,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nFront of cabin class\/compartment",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcje",
+        "row" : "29",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcjf",
+        "row" : "29",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcjg",
+        "row" : "29",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcjh",
+        "row" : "29",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcji",
+        "row" : "29",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcjj",
+        "row" : "29",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcjk",
+        "row" : "29",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcjl",
+        "row" : "29",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcjm",
+        "row" : "29",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcjn",
+        "row" : "30",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcjo",
+        "row" : "30",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcjp",
+        "row" : "30",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcjq",
+        "row" : "30",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcjr",
+        "row" : "30",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcjs",
+        "row" : "30",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcjt",
+        "row" : "30",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcju",
+        "row" : "30",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcjv",
+        "row" : "30",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcjw",
+        "row" : "31",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcjx",
+        "row" : "31",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcjy",
+        "row" : "31",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcjz",
+        "row" : "31",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhck0",
+        "row" : "31",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhck1",
+        "row" : "31",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhck2",
+        "row" : "31",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhck3",
+        "row" : "31",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhck4",
+        "row" : "31",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhck5",
+        "row" : "32",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhck6",
+        "row" : "32",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhck7",
+        "row" : "32",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhck8",
+        "row" : "32",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhck9",
+        "row" : "32",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcka",
+        "row" : "32",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhckb",
+        "row" : "32",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhckc",
+        "row" : "32",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhckd",
+        "row" : "32",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcke",
+        "row" : "33",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhckf",
+        "row" : "33",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhckg",
+        "row" : "33",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhckh",
+        "row" : "33",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcki",
+        "row" : "33",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhckj",
+        "row" : "33",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhckk",
+        "row" : "33",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhckl",
+        "row" : "33",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhckm",
+        "row" : "33",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhckn",
+        "row" : "34",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcko",
+        "row" : "34",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhckp",
+        "row" : "34",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhckq",
+        "row" : "34",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhckr",
+        "row" : "34",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcks",
+        "row" : "34",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhckt",
+        "row" : "34",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcku",
+        "row" : "34",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nOverwing seat(s)\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhckv",
+        "row" : "34",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nOverwing seat(s)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhckw",
+        "row" : "40",
+        "availability" : "UNAVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhckx",
+        "row" : "40",
+        "availability" : "UNAVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcky",
+        "row" : "40",
+        "availability" : "UNAVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "st-5591mh1fle25",
+        "row" : "40",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "col" : "E",
+        "uid" : "st-5591mh1fle26",
+        "row" : "40",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "col" : "G",
+        "uid" : "st-5591mh1fle27",
+        "row" : "40",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhckz",
+        "row" : "40",
+        "availability" : "UNAVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcl0",
+        "row" : "40",
+        "availability" : "UNAVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcl1",
+        "row" : "40",
+        "availability" : "UNAVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcl2",
+        "row" : "41",
+        "availability" : "UNAVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcl3",
+        "row" : "41",
+        "availability" : "UNAVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcl4",
+        "row" : "41",
+        "availability" : "UNAVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcl5",
+        "row" : "41",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nBulkhead seat\nLeg space seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcl6",
+        "row" : "41",
+        "availability" : "AVAILABLE",
+        "price" : 100,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nCenter seat (not window, not aisle)\nSeat with bassinet facility\nSeat to be left vacant or offered last",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcl7",
+        "row" : "41",
+        "availability" : "AVAILABLE",
+        "price" : 7493,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nBulkhead seat\nLeg space seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcl8",
+        "row" : "41",
+        "availability" : "UNAVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcl9",
+        "row" : "41",
+        "availability" : "UNAVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcla",
+        "row" : "41",
+        "availability" : "UNAVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nExit and emergency exit",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhclb",
+        "row" : "42",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhclc",
+        "row" : "42",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+
+        "uid" : "12n81mh1fhcld",
+        "row" : "42",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcle",
+        "row" : "42",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhclf",
+        "row" : "42",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhclg",
+        "row" : "42",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhclh",
+        "row" : "42",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcli",
+        "row" : "42",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhclj",
+        "row" : "42",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhclk",
+        "row" : "43",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcll",
+        "row" : "43",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhclm",
+        "row" : "43",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcln",
+        "row" : "43",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhclo",
+        "row" : "43",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhclp",
+        "row" : "43",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhclq",
+        "row" : "43",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhclr",
+        "row" : "43",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcls",
+        "row" : "43",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhclt",
+        "row" : "44",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhclu",
+        "row" : "44",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhclv",
+        "row" : "44",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhclw",
+        "row" : "44",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhclx",
+        "row" : "44",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcly",
+        "row" : "44",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhclz",
+        "row" : "44",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcm0",
+        "row" : "44",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcm1",
+        "row" : "44",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcm2",
+        "row" : "45",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcm3",
+        "row" : "45",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcm4",
+        "row" : "45",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcm5",
+        "row" : "45",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcm6",
+        "row" : "45",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcm7",
+        "row" : "45",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcm8",
+        "row" : "45",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcm9",
+        "row" : "45",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcma",
+        "row" : "45",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcmb",
+        "row" : "46",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcmc",
+        "row" : "46",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcmd",
+        "row" : "46",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcme",
+        "row" : "46",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcmf",
+        "row" : "46",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcmg",
+        "row" : "46",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcmh",
+        "row" : "46",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcmi",
+        "row" : "46",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcmj",
+        "row" : "46",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcmk",
+        "row" : "47",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcml",
+        "row" : "47",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcmm",
+        "row" : "47",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcmn",
+        "row" : "47",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcmo",
+        "row" : "47",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcmp",
+        "row" : "47",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcmq",
+        "row" : "47",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcmr",
+        "row" : "47",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcms",
+        "row" : "47",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcmt",
+        "row" : "48",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcmu",
+        "row" : "48",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcmv",
+        "row" : "48",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcmw",
+        "row" : "48",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcmx",
+        "row" : "48",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcmy",
+        "row" : "48",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcmz",
+        "row" : "48",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcn0",
+        "row" : "48",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcn1",
+        "row" : "48",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcn2",
+        "row" : "49",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcn3",
+        "row" : "49",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcn4",
+        "row" : "49",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcn5",
+        "row" : "49",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcn6",
+        "row" : "49",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcn7",
+        "row" : "49",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcn8",
+        "row" : "49",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcn9",
+        "row" : "49",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcna",
+        "row" : "49",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcnb",
+        "row" : "50",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcnc",
+        "row" : "50",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcnd",
+        "row" : "50",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcne",
+        "row" : "50",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcnf",
+        "row" : "50",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcng",
+        "row" : "50",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcnh",
+        "row" : "50",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcni",
+        "row" : "50",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcnj",
+        "row" : "50",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcnk",
+        "row" : "51",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcnl",
+        "row" : "51",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcnm",
+        "row" : "51",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcnn",
+        "row" : "51",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcno",
+        "row" : "51",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcnp",
+        "row" : "51",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcnq",
+        "row" : "51",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhcnr",
+        "row" : "51",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhcns",
+        "row" : "51",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhcnt",
+        "row" : "52",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "12n81mh1fhcnu",
+        "row" : "52",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhcnv",
+        "row" : "52",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhcnw",
+        "row" : "52",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcnx",
+        "row" : "52",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcny",
+        "row" : "52",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhcnz",
+        "row" : "52",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "12n81mh1fhco0",
+        "row" : "52",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhco1",
+        "row" : "52",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "12n81mh1fhco2",
+        "row" : "53",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Seat designated for RBD \"F\"\nChargeable seat\nWindow seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "B",
+        "uid" : "st-5591mh1fle28",
+        "row" : "53",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "col" : "C",
+        "uid" : "12n81mh1fhco3",
+        "row" : "53",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nLeft side of aircraft\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhco4",
+        "row" : "53",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhco5",
+        "row" : "53",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhco6",
+        "row" : "53",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "H",
+        "uid" : "12n81mh1fhco7",
+        "row" : "53",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Aisle seat\nRight side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "J",
+        "uid" : "st-5591mh1fle29",
+        "row" : "53",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "col" : "K",
+        "uid" : "12n81mh1fhco8",
+        "row" : "53",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Right side of aircraft\nSeat designated for RBD \"F\"\nChargeable seat\nWindow seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      }
+    ],
+    [
+      {
+        "col" : "A",
+        "uid" : "st-5591mh1fle2a",
+        "row" : "54",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "col" : "B",
+        "uid" : "st-5591mh1fle2b",
+        "row" : "54",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "col" : "C",
+        "uid" : "st-5591mh1fle2c",
+        "row" : "54",
+        "availability" : "UNAVAILABLE",
+        "price" : 0,
+        "reservedFor" : null,
+        "isExists" : false,
+        "description" : "Not available",
+        "currency" : "BDT",
+        "travellerType" : "Not available"
+      },
+      {
+        "renderBlank" : true
+      },
+      {
+        "col" : "D",
+        "uid" : "12n81mh1fhco9",
+        "row" : "54",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "E",
+        "uid" : "12n81mh1fhcoa",
+        "row" : "54",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nSeat designated for RBD \"F\"\nChargeable seat\nCenter seat (not window, not aisle)\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "col" : "G",
+        "uid" : "12n81mh1fhcob",
+        "row" : "54",
+        "availability" : "AVAILABLE",
+        "price" : 2624,
+        "reservedFor" : null,
+        "isExists" : true,
+        "description" : "Center section seat(s)\nAisle seat\nSeat designated for RBD \"F\"\nChargeable seat\nPreferential seat",
+        "currency" : "BDT",
+        "travellerType" : "ANY"
+      },
+      {
+        "renderBlank" : true
+      }
+    ]
+  ],
+  "seatPattern" : {
+    "row" : [
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54"
+    ],
+    "column" : [
+      "A",
+      "B",
+      "C",
+      "BLANK",
+      "D",
+      "E",
+      "G",
+      "BLANK",
+      "H",
+      "J",
+      "K"
+    ]
+  },
+  "availableSeatCount" : 244,
+  "route" : "DAC-BAH",
+  "airline" : {
+    "name" : "Gulf Air",
+    "logo" : "https:\/\/tbbd-flight.s3.ap-southeast-1.amazonaws.com\/airlines-logo\/GF.png"
+  }
+}

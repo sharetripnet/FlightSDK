@@ -14,7 +14,7 @@
 		</data>
 		<key>AddonOptionCell.nib</key>
 		<data>
-		vtRggm5iLlwuCfzWUcWaNIZtyT4=
+		h6bFuS5kgoTGPLwjtmtvF2ZMTR8=
 		</data>
 		<key>AddonView.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Addons.storyboardc/65z-e7-c5X-view-dZ9-WD-XmW.nib</key>
 		<data>
-		zomqbKh5Ghx1qb4row472aSsBDI=
+		QJSYFdgkjr+bJLKnRINyZCrLRB4=
 		</data>
 		<key>Addons.storyboardc/AddonsDetailsVC.nib</key>
 		<data>
@@ -36,9 +36,13 @@
 		<data>
 		X7xHgvPUjimhrYm5lVUMMdtcCxI=
 		</data>
+		<key>Addons.storyboardc/ESIMAddonsVC.nib</key>
+		<data>
+		PwPAgUGPRVIThOKsqT3Xspzux1g=
+		</data>
 		<key>Addons.storyboardc/Info.plist</key>
 		<data>
-		8FlCgEirlz1O7A87C1zy9WwDXsQ=
+		JGbmOljuI/ENfL3GlIv+P7YWii4=
 		</data>
 		<key>Addons.storyboardc/TakeCovidTestVC.nib</key>
 		<data>
@@ -50,19 +54,23 @@
 		</data>
 		<key>Addons.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		zomqbKh5Ghx1qb4row472aSsBDI=
+		QJSYFdgkjr+bJLKnRINyZCrLRB4=
 		</data>
 		<key>Addons.storyboardc/hWf-zU-nRx-view-x7k-ih-nVM.nib</key>
 		<data>
-		zomqbKh5Ghx1qb4row472aSsBDI=
+		QJSYFdgkjr+bJLKnRINyZCrLRB4=
 		</data>
 		<key>Addons.storyboardc/l6U-CS-aQF-view-zeh-P1-9eS.nib</key>
 		<data>
-		zomqbKh5Ghx1qb4row472aSsBDI=
+		QJSYFdgkjr+bJLKnRINyZCrLRB4=
+		</data>
+		<key>Addons.storyboardc/xlp-6i-VJe-view-nU3-RN-AlP.nib</key>
+		<data>
+		QJSYFdgkjr+bJLKnRINyZCrLRB4=
 		</data>
 		<key>Addons.storyboardc/zpg-vj-7fL-view-VFN-oE-evc.nib</key>
 		<data>
-		54NyDcUQ3a+zEsOZAUMlmFE+ZlU=
+		T906lwqT4YAVrF3F4xTvAcy5TZU=
 		</data>
 		<key>AddonsCollectionCell.nib</key>
 		<data>
@@ -70,7 +78,7 @@
 		</data>
 		<key>AddonsDetailHeaderView.nib</key>
 		<data>
-		GJ42nWWzBI34p5G6OM4rpCdsDvU=
+		Ml5TOxzq43e7E8sfV6LKbsROLEI=
 		</data>
 		<key>AddonsHeaderView.nib</key>
 		<data>
@@ -82,31 +90,23 @@
 		</data>
 		<key>AirfareTableViewCell.nib</key>
 		<data>
-		sTaY6HtQxtOrVsYphnt+9EeGtqQ=
+		TTPd7ubWWO/qpmIq42Z1r6V58jM=
 		</data>
 		<key>AirportCell.nib</key>
 		<data>
-		wv/aMZTq4VignDqQLnCgiwj0hhM=
+		B4wkXynaZFSC5uzFoXgtoilrMtA=
 		</data>
 		<key>AirportInputCell.nib</key>
 		<data>
-		OiIIP6BA09BVclpN7UYEB1eFDCA=
+		jt5nrXIb2PW1UOs+bjnKS+coUqE=
 		</data>
 		<key>AirportSearchCell.nib</key>
 		<data>
-		uAsQI2c21wTDac08pouT588fur8=
+		QjO6aH011LlOM/tMREd7mzD/Hl8=
 		</data>
 		<key>AmountInfoCVFooterView.nib</key>
 		<data>
 		i+5aS9PRfWBTBauEDVysDmJQL3E=
-		</data>
-		<key>AmountTableViewCell.nib</key>
-		<data>
-		p1iUIpvXpNmbfV1W6LL8EaCwLbk=
-		</data>
-		<key>AmountView.nib</key>
-		<data>
-		V9fmrfK9iDHRwoBhYPkuvyo/X5o=
 		</data>
 		<key>AncillaryInfoView.nib</key>
 		<data>
@@ -118,19 +118,15 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		AUx/zFIm/sxdtuXORKsm8KlHbq0=
+		TUi4PRXxQl3WzAuen9IzKFitS6w=
 		</data>
 		<key>AutoQuotationPriceView.nib</key>
 		<data>
-		jMVmJwnGta5nkljk8fN4eMhdBIw=
-		</data>
-		<key>AvailableCouponSuggestionView.nib</key>
-		<data>
-		/f64cs5STvLeTiGFTbyIvwEeWGQ=
+		uxWlv5FfwNN4u9Dh9wnnn4ejH4M=
 		</data>
 		<key>BaggageCollectionCell.nib</key>
 		<data>
-		HJQlBKwNB6bB5AVciJeaiqEFnBw=
+		wYYihK2IsJj9i55UghGAYVMXrhI=
 		</data>
 		<key>BaggageDetailsItemView.nib</key>
 		<data>
@@ -150,11 +146,11 @@
 		</data>
 		<key>BaggageInfoTVCell.nib</key>
 		<data>
-		Pux+GTXL4blSYByUy+tElfV2/3M=
+		ePEwvBOoCxIErdRJPkfF4oUTrzQ=
 		</data>
 		<key>BaggageInfoTableCell.nib</key>
 		<data>
-		jyNFx0auTvds5xjtwgexyL8VNcE=
+		8gn/KLILoAbNeBeUJVacLsLJKGg=
 		</data>
 		<key>BaggageInstructionCollectionCell.nib</key>
 		<data>
@@ -170,15 +166,15 @@
 		</data>
 		<key>BaggageSelectionCell.nib</key>
 		<data>
-		5LVeceEwOjW2dMkGaimlczfcfSY=
+		3lU9VD7sCJdPHGZloCwtonKmENY=
 		</data>
 		<key>Baggages.storyboardc/1fX-D1-c4j-view-zZt-iT-e1R.nib</key>
 		<data>
-		LpHhbmgX1S0WUOtlMuLHxvS1jks=
+		qpQfx3HEtO/KDJvJOzU9X0bz1TE=
 		</data>
 		<key>Baggages.storyboardc/2dY-5v-FrG-view-zJE-5q-fVZ.nib</key>
 		<data>
-		LpHhbmgX1S0WUOtlMuLHxvS1jks=
+		qpQfx3HEtO/KDJvJOzU9X0bz1TE=
 		</data>
 		<key>Baggages.storyboardc/BaggageSelectionVC.nib</key>
 		<data>
@@ -198,455 +194,135 @@
 		</data>
 		<key>Baggages.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		b0OIiqaT0RcDSDGIbsW91B2R3Tw=
+		UU8n/WTpeOXtbwtCo/ByQoIBjEk=
 		</data>
-		<key>Base.lproj/Account.storyboardc/8vW-4R-DYZ-view-3Zs-kf-wcm.nib</key>
+		<key>Base.lproj/Flight.storyboardc/0Uw-F4-j3P-view-aGU-XP-Ozm.nib</key>
 		<data>
-		edjBY293QNekOCWF6VUGvk8Druc=
+		vvjD9hZXBq5QIPZLhAGBtE77bb4=
 		</data>
-		<key>Base.lproj/Account.storyboardc/ACG-0o-D32-view-Hzd-UJ-dom.nib</key>
-		<data>
-		h3aBTxZsEWwLK9IyD49Dk/PNx7o=
-		</data>
-		<key>Base.lproj/Account.storyboardc/AccountNavVC.nib</key>
-		<data>
-		nd4K2bazwHllZu7G8/RUzDM2SEM=
-		</data>
-		<key>Base.lproj/Account.storyboardc/AccountVC.nib</key>
-		<data>
-		kn+SIjV48V+ylikzGbq0DOhMD7s=
-		</data>
-		<key>Base.lproj/Account.storyboardc/AddFavouriteGuestVC.nib</key>
-		<data>
-		DJtG9hW/H2lSF6sVzJCrA3jNSvQ=
-		</data>
-		<key>Base.lproj/Account.storyboardc/ChangePasswordVC.nib</key>
-		<data>
-		/tWSMuWRCAHcvsIR1Xpg5YqF9eM=
-		</data>
-		<key>Base.lproj/Account.storyboardc/DeleteAccountVC.nib</key>
-		<data>
-		zWZErMYjSaAYvLdaNftukZ/tHJs=
-		</data>
-		<key>Base.lproj/Account.storyboardc/FavouriteGuestListVC.nib</key>
-		<data>
-		vMHN1Iikfdy3ysqlE/2Ww7C+v/c=
-		</data>
-		<key>Base.lproj/Account.storyboardc/Info.plist</key>
-		<data>
-		R8VATEeCPBFAyAtlK8isqLlKVVg=
-		</data>
-		<key>Base.lproj/Account.storyboardc/NameGuidelineVC.nib</key>
-		<data>
-		ZbqRSjJZwPCgneVQumDFyc61tYo=
-		</data>
-		<key>Base.lproj/Account.storyboardc/NewEditProfileVC.nib</key>
-		<data>
-		vo9JC7vQlNNljn7TwfRgJdWc0D4=
-		</data>
-		<key>Base.lproj/Account.storyboardc/ProfileSettingsVC.nib</key>
-		<data>
-		f/sXu8FYJdCRbRI6HQTANFE6HVY=
-		</data>
-		<key>Base.lproj/Account.storyboardc/QPO-I6-ltq-view-tlY-s4-5s3.nib</key>
-		<data>
-		v3yRF+fwzUN9hjKYmPgLDpVdxZ8=
-		</data>
-		<key>Base.lproj/Account.storyboardc/UIViewController-8vW-4R-DYZ.nib</key>
-		<data>
-		H4Ie51UMrmnZQsZ8nj47W4C44LY=
-		</data>
-		<key>Base.lproj/Account.storyboardc/Wzd-An-PFV-view-mtA-lq-xin.nib</key>
-		<data>
-		Hxn7F3D7GpxTO30R3bugClyehqw=
-		</data>
-		<key>Base.lproj/Account.storyboardc/eBo-FQ-aCV-view-mBY-Hx-PJS.nib</key>
-		<data>
-		qjvn4EI01SxMHlLcvC3DRQKc7Oc=
-		</data>
-		<key>Base.lproj/Account.storyboardc/mcI-Vp-HS7-view-ZZk-hD-HQs.nib</key>
-		<data>
-		2yS7/Um2vFqeLWCXh8DFlhMTE8M=
-		</data>
-		<key>Base.lproj/Account.storyboardc/olC-2L-HqH-view-jxv-vp-Ay7.nib</key>
-		<data>
-		5wNht7RbtMXh6YWtHauXKjFdXMQ=
-		</data>
-		<key>Base.lproj/Account.storyboardc/pwp-Ti-cfe-view-yz2-KH-Clp.nib</key>
-		<data>
-		ktJgLOwMkrKnfZ9wiRzuj+cqc9o=
-		</data>
-		<key>Base.lproj/Account.storyboardc/yvc-0G-x1y-view-fzh-I7-9Hn.nib</key>
-		<data>
-		jqy37t7PQ47f5onmPz+bzT4MNfY=
-		</data>
-		<key>Base.lproj/Booking.storyboardc/6AV-uZ-g2n-view-tlA-uN-SGk.nib</key>
-		<data>
-		kFjx6ulHPGwm+5Ru3E4QxFsH4W8=
-		</data>
-		<key>Base.lproj/Booking.storyboardc/BookingDashboardVC.nib</key>
-		<data>
-		ahMW3ULWcx9n+jI37px387xCqyY=
-		</data>
-		<key>Base.lproj/Booking.storyboardc/Info.plist</key>
-		<data>
-		fVqnXdV0h8ulb/kRlg9MyXKoaIs=
-		</data>
-		<key>Base.lproj/Booking.storyboardc/UINavigationController-lhu-r4-wpY.nib</key>
-		<data>
-		3nFFTPgFQPnY22RuDYUejN9L7Nc=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/0Uw-F4-j3P-view-aGU-XP-Ozm.nib/objects-14.0+.nib</key>
-		<data>
-		EnaQsvlxRJz1TgnDf/n9yKU78RQ=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/0Uw-F4-j3P-view-aGU-XP-Ozm.nib/runtime.nib</key>
-		<data>
-		EnaQsvlxRJz1TgnDf/n9yKU78RQ=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/AirportSearchVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/AirportSearchVC.nib</key>
 		<data>
 		leyCvD8i4/2Z53f/3mAam/tq0yQ=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/AirportSearchVC.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/EGc-hI-uFI-view-cWa-q6-cBa.nib</key>
 		<data>
-		leyCvD8i4/2Z53f/3mAam/tq0yQ=
+		9NBR9ghw+7vKsMDnDLM3z0Uist8=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/EGc-hI-uFI-view-cWa-q6-cBa.nib/objects-14.0+.nib</key>
-		<data>
-		BpnO45rulr2+OibEq6xEK2U5ibE=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/EGc-hI-uFI-view-cWa-q6-cBa.nib/runtime.nib</key>
-		<data>
-		BpnO45rulr2+OibEq6xEK2U5ibE=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/EMIViewController.nib/objects-14.0+.nib</key>
-		<data>
-		bGfqobdWHS5YxHiralXuhhMI5v8=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/EMIViewController.nib/runtime.nib</key>
-		<data>
-		bGfqobdWHS5YxHiralXuhhMI5v8=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FareRuleAndPolicyVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FareRuleAndPolicyVC.nib</key>
 		<data>
 		gb1416RIbWnU7UcJL6G00kNWc2M=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FareRuleAndPolicyVC.nib/runtime.nib</key>
-		<data>
-		gb1416RIbWnU7UcJL6G00kNWc2M=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightBookingHistoryChainVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightBookingHistoryChainVC.nib</key>
 		<data>
 		d1rwRJCDs2lyAq8mL7RzHLGf9Ak=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightBookingHistoryChainVC.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerRootVC.nib</key>
 		<data>
-		d1rwRJCDs2lyAq8mL7RzHLGf9Ak=
+		uPMmHk7Y8T8hgjLcX2P0I0//DeA=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerRootVC.nib/objects-14.0+.nib</key>
-		<data>
-		LGLZMjnnxEZUkQs8bdYJUT8f12Q=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerRootVC.nib/runtime.nib</key>
-		<data>
-		LGLZMjnnxEZUkQs8bdYJUT8f12Q=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerVC.nib</key>
 		<data>
 		927o3cNvST76gnygsFFfx9Su5QM=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerVC.nib/runtime.nib</key>
-		<data>
-		927o3cNvST76gnygsFFfx9Su5QM=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightDetailsVC.nib</key>
 		<data>
 		cEFVHesUrx9dVz9ipk5wV743pj0=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsVC.nib/runtime.nib</key>
-		<data>
-		cEFVHesUrx9dVz9ipk5wV743pj0=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightPassengerListVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightPassengerListVC.nib</key>
 		<data>
 		hqkNUJ8UQswkAIF+zI73ABSrXkg=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightPassengerListVC.nib/runtime.nib</key>
-		<data>
-		hqkNUJ8UQswkAIF+zI73ABSrXkg=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightPolicyContainerVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightPolicyContainerVC.nib</key>
 		<data>
 		BOmJqi/hnFN0/Nxmnj9XC2En270=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightPolicyContainerVC.nib/runtime.nib</key>
-		<data>
-		BOmJqi/hnFN0/Nxmnj9XC2En270=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightPolicyVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightPolicyVC.nib</key>
 		<data>
 		Iinj75WzhaBcBP1QCdPaVpfqwyM=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightPolicyVC.nib/runtime.nib</key>
-		<data>
-		Iinj75WzhaBcBP1QCdPaVpfqwyM=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightPriceBreakdownVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightPriceBreakdownVC.nib</key>
 		<data>
 		u49wc+HiMqlCkl4ICexMcRB1tDw=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightPriceBreakdownVC.nib/runtime.nib</key>
-		<data>
-		u49wc+HiMqlCkl4ICexMcRB1tDw=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightSearchDateSelectionVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightSearchDateSelectionVC.nib</key>
 		<data>
 		ThdP5l0Iu5G/HZNTwlZ7Fo7XVh0=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightSearchDateSelectionVC.nib/runtime.nib</key>
-		<data>
-		ThdP5l0Iu5G/HZNTwlZ7Fo7XVh0=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightSearchVC.nib/objects-14.0+.nib</key>
-		<data>
-		gMsKSmrLjrU31iTFNRkq3FGW9cw=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightSearchVC.nib/runtime.nib</key>
-		<data>
-		gMsKSmrLjrU31iTFNRkq3FGW9cw=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightSummaryVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightSummaryVC.nib</key>
 		<data>
 		Sb/q76JtzzxmVlVEe+gTAasOCQ4=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightSummaryVC.nib/runtime.nib</key>
-		<data>
-		Sb/q76JtzzxmVlVEe+gTAasOCQ4=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightTravellerAndClassSelectionVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightTravellerAndClassSelectionVC.nib</key>
 		<data>
 		Qefd8JewN3hlNRQyOXeuk6KeuDk=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/FlightTravellerAndClassSelectionVC.nib/runtime.nib</key>
-		<data>
-		Qefd8JewN3hlNRQyOXeuk6KeuDk=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/IS8-aQ-vNj-view-llB-JI-HUC.nib/objects-14.0+.nib</key>
-		<data>
-		xayQEmZRl3mNRhoXp7DuQTVM72o=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/IS8-aQ-vNj-view-llB-JI-HUC.nib/runtime.nib</key>
-		<data>
-		xayQEmZRl3mNRhoXp7DuQTVM72o=
 		</data>
 		<key>Base.lproj/Flight.storyboardc/Info.plist</key>
 		<data>
-		alVLUI4kCjhp56B1BBsre96nK/M=
+		7jxMi83BnakOYHseObDpACyr9vQ=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/Kpp-gX-d0m-view-Ria-cB-1au.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/Kpp-gX-d0m-view-Ria-cB-1au.nib</key>
 		<data>
-		JwD6U6cp1EEqH8csab/OEa2ouzc=
+		yNE0OPxwbxVg9g1NBFYjaFt2wLg=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/Kpp-gX-d0m-view-Ria-cB-1au.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/LDg-rD-ZV1-view-Mzs-iy-J6C.nib</key>
 		<data>
-		JwD6U6cp1EEqH8csab/OEa2ouzc=
+		wkefkSYfXh3Bh9UYVMNCATcjAxI=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/LDg-rD-ZV1-view-Mzs-iy-J6C.nib/objects-14.0+.nib</key>
-		<data>
-		wBJIj06x0iTCJ2x1Yt4lrFvN9c8=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/LDg-rD-ZV1-view-Mzs-iy-J6C.nib/runtime.nib</key>
-		<data>
-		wBJIj06x0iTCJ2x1Yt4lrFvN9c8=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/NavigationController.nib/objects-14.0+.nib</key>
-		<data>
-		T1skevbfpmgP/ifOrODEetdRaxM=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/NavigationController.nib/runtime.nib</key>
-		<data>
-		T1skevbfpmgP/ifOrODEetdRaxM=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/PassengerDetailsBottomSheetVC.nib/objects-14.0+.nib</key>
-		<data>
-		VKQUeOpvPBvEEQ3RXOaRETut708=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/PassengerDetailsBottomSheetVC.nib/runtime.nib</key>
-		<data>
-		VKQUeOpvPBvEEQ3RXOaRETut708=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/PassengerDetailsInputVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/PassengerDetailsInputVC.nib</key>
 		<data>
 		+rgbVqtPDonFFsGguHex8TQ+40c=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/PassengerDetailsInputVC.nib/runtime.nib</key>
-		<data>
-		+rgbVqtPDonFFsGguHex8TQ+40c=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/PassengerListVC.nib/objects-14.0+.nib</key>
-		<data>
-		CxfO766pQF4T5P/17/+/lMs+AJ8=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/PassengerListVC.nib/runtime.nib</key>
-		<data>
-		CxfO766pQF4T5P/17/+/lMs+AJ8=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/QuickPickBottomSheetVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/QuickPickBottomSheetVC.nib</key>
 		<data>
 		CyJ9w6reGrDsOfkONywtXhY9sjc=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/QuickPickBottomSheetVC.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/X8M-1l-EK3-view-STI-Jn-edZ.nib</key>
 		<data>
-		CyJ9w6reGrDsOfkONywtXhY9sjc=
+		xJ9vWqkYMV5sPtsnHwXxpSeww7o=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/X8M-1l-EK3-view-STI-Jn-edZ.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/YQG-pc-nLx-view-Nn3-wL-T4R.nib</key>
 		<data>
-		ZpcRNHea8pCo5JVa8zvAdsa2Q8c=
+		BtOymrmJY5qiP/eIoqWC8vn4dIU=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/X8M-1l-EK3-view-STI-Jn-edZ.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/YyV-y3-bgr-view-klZ-ep-t5S.nib</key>
 		<data>
-		ZpcRNHea8pCo5JVa8zvAdsa2Q8c=
+		Yaw7yrtbtob8G0CZ8MMcizZmJZ4=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/YQG-pc-nLx-view-Nn3-wL-T4R.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/ay2-ji-reU-view-BDP-53-i1o.nib</key>
 		<data>
-		TAWXZ8eRt+d/nJ0xALKTDtrZwDA=
+		eLsO/l1oXrWiaNf8AkuU9XfOV2E=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/YQG-pc-nLx-view-Nn3-wL-T4R.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib</key>
 		<data>
-		TAWXZ8eRt+d/nJ0xALKTDtrZwDA=
+		PSlP89BYLzKBE+ixIurYpD7UR4s=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/YyV-y3-bgr-view-klZ-ep-t5S.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib</key>
 		<data>
-		U5auEND0HxUn090ungQIJyaDb64=
+		daySjK0C9BwuVP+jxce6vD1Bstc=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/YyV-y3-bgr-view-klZ-ep-t5S.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib</key>
 		<data>
-		U5auEND0HxUn090ungQIJyaDb64=
+		sgT8+AzxHBxxpxZglX76HGTw/XI=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/ay2-ji-reU-view-BDP-53-i1o.nib/objects-14.0+.nib</key>
-		<data>
-		35j4b4GqM8RB13pXg3FG/aPNNwk=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/ay2-ji-reU-view-BDP-53-i1o.nib/runtime.nib</key>
-		<data>
-		35j4b4GqM8RB13pXg3FG/aPNNwk=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib/objects-14.0+.nib</key>
-		<data>
-		gTFZhXiLYDai5vh/zFwL7xN1DAo=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib/runtime.nib</key>
-		<data>
-		gTFZhXiLYDai5vh/zFwL7xN1DAo=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib/objects-14.0+.nib</key>
-		<data>
-		P61mhkrv7u/k5qoiK1SJ8URia3o=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib/runtime.nib</key>
-		<data>
-		P61mhkrv7u/k5qoiK1SJ8URia3o=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib/objects-14.0+.nib</key>
-		<data>
-		dd/RaxGfI+5JawrP2sp/xU5wLkY=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib/runtime.nib</key>
-		<data>
-		jFzioUodv5llICPgXAqKgzryADE=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/h2m-ib-22Y-view-ocU-HW-jUI.nib/objects-14.0+.nib</key>
-		<data>
-		yXm1/SVcDMIaB/f1I2oqWEZEcok=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/h2m-ib-22Y-view-ocU-HW-jUI.nib/runtime.nib</key>
-		<data>
-		yXm1/SVcDMIaB/f1I2oqWEZEcok=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/hxA-7W-bpt-view-4DR-Sx-g5i.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/hxA-7W-bpt-view-4DR-Sx-g5i.nib</key>
 		<data>
 		GAPZtH2MtDgV1Gy3nfTOFPIVcDg=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/hxA-7W-bpt-view-4DR-Sx-g5i.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/nEE-Rd-lab-view-M9U-AO-8S4.nib</key>
 		<data>
 		GAPZtH2MtDgV1Gy3nfTOFPIVcDg=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/nEE-Rd-lab-view-M9U-AO-8S4.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/rLW-Hu-OD4-view-Rsf-fr-XeG.nib</key>
 		<data>
-		GAPZtH2MtDgV1Gy3nfTOFPIVcDg=
+		KqUP+TIWWgxmer3dGqYbticvO6Y=
 		</data>
-		<key>Base.lproj/Flight.storyboardc/nEE-Rd-lab-view-M9U-AO-8S4.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/w6d-Uq-S9J-view-xty-Oi-80O.nib</key>
 		<data>
-		GAPZtH2MtDgV1Gy3nfTOFPIVcDg=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/ozy-GZ-mzZ-view-4VO-F2-rpe.nib/objects-14.0+.nib</key>
-		<data>
-		J0cknIOrqZGmiz6Zv5lh5xE2xSM=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/ozy-GZ-mzZ-view-4VO-F2-rpe.nib/runtime.nib</key>
-		<data>
-		J0cknIOrqZGmiz6Zv5lh5xE2xSM=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/rLW-Hu-OD4-view-Rsf-fr-XeG.nib/objects-14.0+.nib</key>
-		<data>
-		wxzgzsHBeTuypm9FtVWeUnKA0JY=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/rLW-Hu-OD4-view-Rsf-fr-XeG.nib/runtime.nib</key>
-		<data>
-		wxzgzsHBeTuypm9FtVWeUnKA0JY=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/w6d-Uq-S9J-view-xty-Oi-80O.nib/objects-14.0+.nib</key>
-		<data>
-		uIxsyCG81BAiHKQhfJ7OXLiKlrU=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/w6d-Uq-S9J-view-xty-Oi-80O.nib/runtime.nib</key>
-		<data>
-		uIxsyCG81BAiHKQhfJ7OXLiKlrU=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/zxa-6f-3DU-view-HWV-8d-AFS.nib/objects-14.0+.nib</key>
-		<data>
-		jFXXkyMbDC+aWvApAF+3wgBYK6Y=
-		</data>
-		<key>Base.lproj/Flight.storyboardc/zxa-6f-3DU-view-HWV-8d-AFS.nib/runtime.nib</key>
-		<data>
-		jFXXkyMbDC+aWvApAF+3wgBYK6Y=
-		</data>
-		<key>BookingPaymentView.nib</key>
-		<data>
-		NCslZaWKIKeT7wqvk0PdMqQeefY=
-		</data>
-		<key>BriefInfoCardCell.nib</key>
-		<data>
-		tZ/lcJNj7u/LA6+oqpU2PRozOY0=
+		1WH+4Wk+QjNInWVGYFyMZYDiNt4=
 		</data>
 		<key>ButtonBarHeaderTableCell.nib</key>
 		<data>
-		WW9dbhOIWtUTHYxNo+TRBbw7eO4=
-		</data>
-		<key>CalendarDateSelectionCell.nib</key>
-		<data>
-		kaUHcNoXSXnXLKYNMyf+nbSGyow=
-		</data>
-		<key>CardHolderNameCell.nib</key>
-		<data>
-		+S5koBwGoFdfSkRZqihwChvckG4=
-		</data>
-		<key>CardPrefixCVCell.nib</key>
-		<data>
-		ARhBx8zSWrJtyi4kGhZKiaTw2RY=
-		</data>
-		<key>CheckBoxInputView.nib</key>
-		<data>
-		j2WOatCcHOO+kFkIte1pYwElhEc=
-		</data>
-		<key>ChooseUploadView.nib</key>
-		<data>
-		QHkNamx630a6s0HyUKiE/yZ9ogQ=
-		</data>
-		<key>CityCell.nib</key>
-		<data>
-		YMM/hvSFeOHx8PQuQ8gOBC4dXe4=
+		TEbInMepbkDaKb5ij4/8FxjVViY=
 		</data>
 		<key>CollapsiblePassengerHeaderView.nib</key>
 		<data>
@@ -654,23 +330,15 @@
 		</data>
 		<key>CompletionProgressView.nib</key>
 		<data>
-		BHFzrCjMAZntldt7a8KLj2acwlY=
+		CtqkGnNZDS/V2tvfiurK9VWTVTk=
 		</data>
 		<key>ConditionCell.nib</key>
 		<data>
-		UVDhIsmqOUy9lI6WkwRRr3WNqvU=
+		zUjVnMznmV3K9zrfRg107pJX0oI=
 		</data>
 		<key>ContactInfoCollectionCell.nib</key>
 		<data>
 		OF2KyNEL2E8FTaoWmMxJu1FrxUg=
-		</data>
-		<key>Countries.json</key>
-		<data>
-		SBj1RmkCQZfFqgnT2i8Nk5C9C+c=
-		</data>
-		<key>CouponSuggestionView.nib</key>
-		<data>
-		veeI8i68BpVBTuJISeDdJpjMPKg=
 		</data>
 		<key>Covid19Test.json</key>
 		<data>
@@ -678,47 +346,35 @@
 		</data>
 		<key>CovidInfoCell.nib</key>
 		<data>
-		qpruDixBbzZW6GbUUjcJ6Evqz8I=
+		maW45NjI3KlSJXC3Iz7v2PPVAo0=
 		</data>
 		<key>CovidTestCell.nib</key>
 		<data>
-		Rw9dOxjvpYdLmIVunWXBbYf3cTA=
+		weMe5PM5T5ufK8rQweQhinyMDow=
 		</data>
 		<key>CovidTestChargeCell.nib</key>
 		<data>
-		nPj6V2aDKEeuUVYAmIMapPuzfdc=
+		tnP/ljRX9b9deYc6Nb35jwaq3XQ=
 		</data>
 		<key>CustomInputView.nib</key>
 		<data>
-		IsllHkU1OkDhBldfoDnrjaznDCc=
-		</data>
-		<key>DateSelectionCell.nib</key>
-		<data>
-		CN5pgC2XtyOyyT8tEIXprPXg0rs=
+		/WSkNvh6ak5gIHuwHOY1H0ZKXyo=
 		</data>
 		<key>DealCardCell.nib</key>
 		<data>
-		9v+ShusjcGnJjNaWp4VpbHiAIDM=
+		jlhlzjjCRC6fM3+ra9PwUfh8ktY=
 		</data>
 		<key>DealDetailCell.nib</key>
 		<data>
-		gER1u85shJTpo6MWy6+vdc8eAdc=
+		IzNsFPpTc3qODNShjCBbZUm7EPk=
 		</data>
 		<key>DestinationInformationCell.nib</key>
 		<data>
-		Pbg+aT1CPQdX7optDd5opZzTmOA=
+		NeHWdVjhKyrpH3yjoK4zPBJIORI=
 		</data>
-		<key>DiscountHeaderView.nib</key>
+		<key>DonationHeaderView.nib</key>
 		<data>
-		kbIXQ5Hi0KOgCXc/dihmB3kaIkg=
-		</data>
-		<key>DiscountOptionsCell.nib</key>
-		<data>
-		eNu0jiEyPI86SAJx9iau1X1obuo=
-		</data>
-		<key>DoubleInputCell.nib</key>
-		<data>
-		KCYzAfmCbufTHBWz7shZ3jOcZe0=
+		ccYEiJ76XRUR0hSwZlhUcYySn3U=
 		</data>
 		<key>DummyEligibilityTravellerResponse.json</key>
 		<data>
@@ -728,65 +384,17 @@
 		<data>
 		6Obg0BXySHPTKY/B8wWPTaNA+zI=
 		</data>
-		<key>EMIInfoCell.nib</key>
-		<data>
-		GP/lCMzZedZpJhRN7S+o0CU0PYc=
-		</data>
-		<key>EMIPriceCell.nib</key>
-		<data>
-		llsF5o7fzVeGJFpxz2rUSgfZzC4=
-		</data>
 		<key>EMIReviewCollectionCell.nib</key>
 		<data>
 		liSvobBTyPH3Lbwr5LgN1X86hoE=
-		</data>
-		<key>EMITVCell.nib</key>
-		<data>
-		ePzY4psr8RA5/MqSk55VUuC1Itk=
-		</data>
-		<key>EarnTripcoinView.nib</key>
-		<data>
-		9twJS1eSkXQob9t/W9EnpuzPdIs=
-		</data>
-		<key>EditableContactCell.nib</key>
-		<data>
-		eOISRvAa5cX1aZHKSawoqrYclA4=
-		</data>
-		<key>EmptyCollectionFooterView.nib</key>
-		<data>
-		kiV0lhQ19Sy+t2aKGDk+44UNaCU=
 		</data>
 		<key>EmptyDataView.nib</key>
 		<data>
 		8rqB8iK9ZXTYH0e5ZUJFE+rrYk8=
 		</data>
-		<key>EmptySpaceCell.nib</key>
-		<data>
-		tomZKNTlwsbfoOM57nKAS19HuAI=
-		</data>
-		<key>EmptySpacerCVCell.nib</key>
-		<data>
-		5olNqM5qvwxaaC31r3e525rU35U=
-		</data>
-		<key>EmptyStateView.nib</key>
-		<data>
-		CAe1ZGzQe1MbJVF6j74ebUbf4XI=
-		</data>
 		<key>EmptyView.nib</key>
 		<data>
 		GPi/h6HjJ3hc/IZFMFKbws89p+s=
-		</data>
-		<key>ExploreDestinationTVCell.nib</key>
-		<data>
-		wFv9PgaPb2xbYH73RG3MXgTDEUo=
-		</data>
-		<key>FailedView.nib</key>
-		<data>
-		tBR6GuH3Oq1omXzHm8ql0aauEms=
-		</data>
-		<key>FareCardSingleLineCell.nib</key>
-		<data>
-		cdAHxidymBj6zkWj1EalXV60TLw=
 		</data>
 		<key>FareDetails.html</key>
 		<data>
@@ -794,47 +402,31 @@
 		</data>
 		<key>FavouriteGuestCVCell.nib</key>
 		<data>
-		04BfwGfZizybYCSIZcNU5cJrPqk=
-		</data>
-		<key>FavouriteGuestItemCell.nib</key>
-		<data>
-		keZ+n3FXXDa5LofAkGUKDB768gw=
-		</data>
-		<key>FilterCell.nib</key>
-		<data>
-		UzdYCVLaaMjBVJDLMvK/sYbYGo4=
+		k1O67bsqQY7A5NRzWXoAjwKqRW4=
 		</data>
 		<key>FilterFlightDurationCell.nib</key>
 		<data>
-		tu753a9+uXPE/GW5arNU0zQtgiU=
+		HMZgxocAcJzLUWJrOOEaTNDoIA0=
 		</data>
 		<key>FilterFlightScheduleCell.nib</key>
 		<data>
-		g83xHqCPb+1b715EzQ+zOJzydZ4=
+		+APPfSJBmOYs8Z839Bm+SE3i/gc=
 		</data>
 		<key>FilterPriceRangeCell.nib</key>
 		<data>
-		kTD/6aiW9XSF21oyEJ8apD0aqTQ=
-		</data>
-		<key>FilterResetCell.nib</key>
-		<data>
-		78GSxKsPx1sDjQa5qieNlAoZ7pE=
-		</data>
-		<key>FirstNameInputCell.nib</key>
-		<data>
-		Ktu42RU9wNRuJW1N+NHb1vFHHcc=
+		nwXJfLXr/eXeBdeEE9FX25dTYgM=
 		</data>
 		<key>FlightBooking.storyboardc/6Ta-6v-yk3-view-Tzx-Ey-kIk.nib</key>
 		<data>
-		G0n8vValQg2de+yxU1oX9ZsQFGI=
+		VU8WWzEXAFA3tLW69JP2ByJ8mBo=
 		</data>
 		<key>FlightBooking.storyboardc/AxL-VY-m3I-view-T32-g0-dCw.nib</key>
 		<data>
-		+/cOZF0dC8xxqgNT9GChiqbGcrY=
+		smETtukDFJ/e0dBeAGEOhQ6cDo0=
 		</data>
 		<key>FlightBooking.storyboardc/FOy-RS-5te-view-OMY-WA-nJL.nib</key>
 		<data>
-		bpJ3ZhxmvWkOjvX5q3rQIRQx4zs=
+		oj0PoKzmHyiiOCF8DZasJToUqlk=
 		</data>
 		<key>FlightBooking.storyboardc/FlightHistoryAddonsVC.nib</key>
 		<data>
@@ -894,47 +486,47 @@
 		</data>
 		<key>FlightBooking.storyboardc/JbJ-Td-z7H-view-6WO-7w-f4z.nib</key>
 		<data>
-		1AIo8Qa2G/fPNsTGr7SWv5TF8IM=
+		s6YxadwPqCn8EO5EcQZAWGsbKMM=
 		</data>
 		<key>FlightBooking.storyboardc/Ket-Kd-roN-view-DQD-1B-vS8.nib</key>
 		<data>
-		qX8iNgy9qJB5JxCtKGXGAXJFl8k=
+		h6npnhb5eDCCLwVz2UFt/Mg0Z+M=
 		</data>
 		<key>FlightBooking.storyboardc/MjY-qA-3iB-view-ZKN-ys-D9R.nib</key>
 		<data>
-		nJQU31SN4aTxn53d73lfb58Rl64=
+		ML32NAfl5li1fecZo74wlqPFftM=
 		</data>
 		<key>FlightBooking.storyboardc/OTc-1c-Sqg-view-p58-AA-WQU.nib</key>
 		<data>
-		bhZ1Zq2tyCphfXx6niIoTZVWgJ8=
+		CRpA55DbhhMshPvyhAsbc7jTUZ8=
 		</data>
 		<key>FlightBooking.storyboardc/P12-9k-feo-view-tTo-ji-Ij8.nib</key>
 		<data>
-		R0bCqnF+b2tyhHNTFyumDMNCsSI=
+		oNhHr/yrVFAylILDtMFHnm0xpG4=
 		</data>
 		<key>FlightBooking.storyboardc/UjD-ds-C6o-view-gus-ZO-faz.nib</key>
 		<data>
-		QPvvqHfo1MkT+MJqDfNgYX2Vm30=
+		yyFL9heBwoFGO4PIz6G1JgmuvQc=
 		</data>
 		<key>FlightBooking.storyboardc/cSX-3N-OrY-view-Gv7-L9-dWu.nib</key>
 		<data>
-		qX8iNgy9qJB5JxCtKGXGAXJFl8k=
+		h6npnhb5eDCCLwVz2UFt/Mg0Z+M=
 		</data>
 		<key>FlightBooking.storyboardc/o5m-hK-ghW-view-lgj-NZ-09V.nib</key>
 		<data>
-		e7XQASehQOZOxvJeGJrrR5xXHFg=
+		RwQ804XieKoMOgMNqS2CEYRvbnk=
 		</data>
 		<key>FlightBooking.storyboardc/vg1-pJ-lTL-view-rLr-It-H0o.nib</key>
 		<data>
-		TE1VGnUAUqxSALtsKP19eTiN0E0=
+		853hiDcod/a9RvPq4rQY4QC5pUc=
 		</data>
 		<key>FlightBooking.storyboardc/xBz-Cs-kfV-view-EkV-CZ-nzb.nib</key>
 		<data>
-		D9pQKTaSniarciDF4nmEjwdqptU=
+		BTTNxEWHn5roS1qa0BIfgRIVRaA=
 		</data>
-		<key>FlightCalendarTopView.nib</key>
+		<key>FlightBookingStepsIndicatorView.nib</key>
 		<data>
-		Drtn+cuZXXwinIE2PwxLsFP8k14=
+		3Od0G6F59Q6VCLzTd26sEK4L6l0=
 		</data>
 		<key>FlightCollectionCell.nib</key>
 		<data>
@@ -942,15 +534,15 @@
 		</data>
 		<key>FlightDetailsCell.nib</key>
 		<data>
-		Ik8rtwRctfrwBaYYgIW04m0aASM=
+		Zh/VpNvAJZHLie7A0UJLKjUrzQw=
 		</data>
 		<key>FlightEditContactButtonCell.nib</key>
 		<data>
-		6sgMulW38gKBjM9ubBsva3WF0D0=
+		Ry6Bo+B3os5mt77KCvA0o12GN6o=
 		</data>
 		<key>FlightFilterAirlinesCell.nib</key>
 		<data>
-		+yj0bzC4TMUDeI6g2BN1j619YXg=
+		MfdqxXltMeQ4wyCF7JorU5LXaXI=
 		</data>
 		<key>FlightFilterBaggageCollectionCell.nib</key>
 		<data>
@@ -962,7 +554,7 @@
 		</data>
 		<key>FlightFilterGeneralCollectionCell.nib</key>
 		<data>
-		m8iOr04ibJuVEWu+xNqY7vH1/WY=
+		wbPyYoIWSDek3uJtsur45qBArRU=
 		</data>
 		<key>FlightFilterHeaderView.nib</key>
 		<data>
@@ -970,7 +562,7 @@
 		</data>
 		<key>FlightFooterView.nib</key>
 		<data>
-		SWqCUffdVYxeZiUHulTaYFTer8E=
+		ZITsGDrJy+YRmN7wrB5GmIsJWcM=
 		</data>
 		<key>FlightHeaderView.nib</key>
 		<data>
@@ -978,39 +570,23 @@
 		</data>
 		<key>FlightHistoryAddonsTVCell.nib</key>
 		<data>
-		jOyrICipFgvXNKYTiIuQ8z4tr9c=
+		DFHbRuGgve7Mv28VcPaR69Txce4=
 		</data>
 		<key>FlightHistoryBaggageTVCell.nib</key>
 		<data>
-		vQS2HkfD/etbwU56vKxJCO6QXVA=
+		3qsyBuPvhlfpLxYz/rFJ0Y3l8uo=
 		</data>
 		<key>FlightHistoryChainCVCell.nib</key>
 		<data>
-		BqfbZQKX1PUQCs6/0BkHjeFvCiE=
-		</data>
-		<key>FlightHistoryComboHeaderView.nib</key>
-		<data>
-		pWrlduc+h0qoAfJuBtJMWmYJK3w=
+		eT08y9L5HDs+ASxvkS3L6YvxvfU=
 		</data>
 		<key>FlightHistoryEORCVCell.nib</key>
 		<data>
 		cAlEX50GqPmpIk1wNg89B54N8ZA=
 		</data>
-		<key>FlightHistoryListCVCell.nib</key>
-		<data>
-		/9sPKYboFfmwa0ug4iGq6VHORIU=
-		</data>
-		<key>FlightHistoryLoaderView.nib</key>
-		<data>
-		6ZIh4JCWGtJVr1UbNczTGea1d1I=
-		</data>
 		<key>FlightHistoryPriceTVCell.nib</key>
 		<data>
-		+rZOSaFEOzfcr5hjWOknDFACc38=
-		</data>
-		<key>FlightHistorySummaryHeaderView.nib</key>
-		<data>
-		A5v0L79qi3fyvd+840E0DaBBkLo=
+		di9o9o6KdJTUBVxZTqG0l8UuO7M=
 		</data>
 		<key>FlightHistoryTravellerBaggageCell.nib</key>
 		<data>
@@ -1030,7 +606,7 @@
 		</data>
 		<key>FlightLegCardCell.nib</key>
 		<data>
-		BfFt4t+JLQFeUAg/UtbpneySRPA=
+		IMMoilBvOhorVxf6NKpn4Mr56+k=
 		</data>
 		<key>FlightLegView.nib</key>
 		<data>
@@ -1042,11 +618,11 @@
 		</data>
 		<key>FlightListFilterView.nib</key>
 		<data>
-		BHNo/chd+QEOzvp8T9EGAbUCRog=
+		lZFpgeLeZAe6baKDgSW4UG+1Grk=
 		</data>
 		<key>FlightListTVCell.nib</key>
 		<data>
-		oc34ZVY28smqTwurnZ7vuadKwBk=
+		OzqOnl9Laast57peccui40EFUxA=
 		</data>
 		<key>FlightNameCollectionViewCell.nib</key>
 		<data>
@@ -1056,9 +632,13 @@
 		<data>
 		IfY8/iYgy6Wz3G8Ua11lXlRc28I=
 		</data>
+		<key>FlightPriceBreakdownTVCell.nib</key>
+		<data>
+		ZF5MRjbs/UKNuJq47tAdYUCrWxk=
+		</data>
 		<key>FlightPriceRangeCollectionCell.nib</key>
 		<data>
-		2RilJExpJlikHSFC8H5RTaeFOMs=
+		5sBX/2zhwONC7Hu99Wc6BokGd+g=
 		</data>
 		<key>FlightResults.storyboardc/FlightsFilterVC.nib</key>
 		<data>
@@ -1074,11 +654,11 @@
 		</data>
 		<key>FlightResults.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		/GG9wUvuNsQDmk0pfaEVBPN6KFI=
+		Bj3oISlum7l9vINjxJ5rpNlmNhY=
 		</data>
 		<key>FlightResults.storyboardc/h1l-6F-XoC-view-JtR-yz-hwg.nib</key>
 		<data>
-		/GG9wUvuNsQDmk0pfaEVBPN6KFI=
+		LY9L3gimNxsZxx6R+ugOVzuQpd0=
 		</data>
 		<key>FlightScheduleCityCollectionCell.nib</key>
 		<data>
@@ -1088,21 +668,21 @@
 		<data>
 		IyOp18JnDjYWNhd9nvdIm1QJYQw=
 		</data>
-		<key>FlightSearchFooterView.nib/objects-14.0+.nib</key>
+		<key>FlightSearchFooterView.nib</key>
 		<data>
-		cie2862GWHqGtkyp1lFNo8lBbsU=
+		e6cHqvFexJsl/Z9xNgMrF+dIJsU=
 		</data>
-		<key>FlightSearchFooterView.nib/runtime.nib</key>
+		<key>FlightSeatsMap.json</key>
 		<data>
-		44ZaD6o0TnGVSfm6PEJMz0DlvLU=
+		SCBbusMIzP0Jsz4vsvkoJW0vqFE=
 		</data>
 		<key>FlightSegmentCardCell.nib</key>
 		<data>
-		+14y35y8GbQrEcGkPucQ0j19B4Y=
+		K21VHn42lvvkyyF/3wuJmCO1ie0=
 		</data>
 		<key>FlightSegmentCell.nib</key>
 		<data>
-		0hkgw+xoXx2CFoS+trm1D1o+Bqg=
+		qKP7nzGy62+eiJkG3/IzEcmWgnM=
 		</data>
 		<key>FlightShimmerCollectionCell.nib</key>
 		<data>
@@ -1118,7 +698,7 @@
 		</data>
 		<key>FlightSingleOptionCVCell.nib</key>
 		<data>
-		u7fLPybuvv03WrgBXIzsylaTvxk=
+		5WWqrHSudZ4H1W7fiKhPTzDucSI=
 		</data>
 		<key>FlightStatus.json</key>
 		<data>
@@ -1130,11 +710,11 @@
 		</data>
 		<key>FlightSummaryCVCell.nib</key>
 		<data>
-		v8VeRxmXAKe4Ck6/zoZdiMTh9pw=
+		VmMJnQNhI2HwxXZTfk0K/GoaExI=
 		</data>
 		<key>FlightSummaryDetailsSectionCVCell.nib</key>
 		<data>
-		VbhHO3bRv+OZoqIQlzWcHGbuet8=
+		bBTVfbJPqwJdm/uAMBV5lCSDj9M=
 		</data>
 		<key>FlightSummaryLoadingView.nib</key>
 		<data>
@@ -1150,7 +730,7 @@
 		</data>
 		<key>FlightTracker.storyboardc/5vu-3A-Amf-view-CWB-Ph-RKR.nib</key>
 		<data>
-		s+dAzikftVDNcOp3iljUwIg4uVc=
+		ZhB89uW4YaBy0cjfcOSK2dIbD4s=
 		</data>
 		<key>FlightTracker.storyboardc/FlightTrackDetailsVC.nib</key>
 		<data>
@@ -1168,25 +748,385 @@
 		<data>
 		QaZ+dwDyXof7kUted9iBnKZtSII=
 		</data>
-		<key>FlightTrackerCell.nib</key>
-		<data>
-		T517bAnyB/Ko/zkB7G6l5s/Pg4M=
-		</data>
 		<key>FlightTrackerMessageCell.nib</key>
 		<data>
-		Gfm/P53LMnAQ9nYhd7TZZS49IQg=
+		BhVNdFZjbNX3AeqQMNSAENaze64=
 		</data>
-		<key>GalleryCell.nib</key>
+		<key>Frameworks/STCoreSDK.framework/ApplyCouponCVCell.nib</key>
 		<data>
-		MX37cahwpzGs63bE+/zBasCRcbk=
+		5EGhnRq9k4vogzZM1/+WdMHTGRs=
 		</data>
-		<key>HRuleCell.nib</key>
+		<key>Frameworks/STCoreSDK.framework/Assets.car</key>
 		<data>
-		FmQlKwhfrBeNS76yPMGT+qvwvrI=
+		IvgC8fuLEB4Oxb0BFAp6yOTrgqg=
 		</data>
-		<key>HeaderCollectionCell.nib</key>
+		<key>Frameworks/STCoreSDK.framework/AvailableCouponSuggestionView.nib</key>
 		<data>
-		zXuSgnlAdJNraY1iGlw3yiztcv4=
+		8H2m3iCMss84e10/E6dNWYPy+fI=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/CardHolderNameCell.nib</key>
+		<data>
+		hMYfZf5hQogiaLake1qYq6BS5q0=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/CardPrefixCVCell.nib</key>
+		<data>
+		p2LvZSfz3FYwtgdTJLcMFESCzu0=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/ChooseCouponFooterView.nib</key>
+		<data>
+		pKW+uH9wZrWybV3yDsX8+Wh5khk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/ChooseEMICVCell.nib</key>
+		<data>
+		LaViij8pq5TlUhDrA5SLKDuKjFQ=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/ChooseUploadView.nib</key>
+		<data>
+		uBozZuIAT6LI31Ts0v6o9kdealk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Countries.json</key>
+		<data>
+		SBj1RmkCQZfFqgnT2i8Nk5C9C+c=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/CouponListHeaderView.nib</key>
+		<data>
+		KGtyMVqbwO1g4RnABssSfzaAumY=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/CurrentNationalityTableCell.nib</key>
+		<data>
+		hFAUB69e6cL6GqZq18P6HTwb3gk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/DancingScript-Bold.ttf</key>
+		<data>
+		QOVF2c2tRnqRnCo4wDK8T9tpwB8=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/DancingScript-Medium.ttf</key>
+		<data>
+		V11C2VtLViy9kTQeYat1Q4b/6t0=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/DancingScript-Regular.ttf</key>
+		<data>
+		d7e/gEl0YY0o17c8eepdNMgstwQ=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/DancingScript-SemiBold.ttf</key>
+		<data>
+		PS6RmMzUl+DMrym1PNLk6QY9x4o=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/DiscountCategoriesTypesHeaderView.nib</key>
+		<data>
+		tr5J4YgqFU2RgjKJ6I0si6v+M4E=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/EMIInfoCell.nib</key>
+		<data>
+		ONvgLSVbjb/R/JgntnTTVlwOisk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/EMIPriceCell.nib</key>
+		<data>
+		QqcZzWuq8SHcRmDTHoCpQu0No7M=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/EMITVCell.nib</key>
+		<data>
+		R7/eTR33XppurcT6rrCspI2xoMk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/EditableContactCell.nib</key>
+		<data>
+		PelyWaXoEoAESJca/v1tcAe30UE=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/EmptyCVHeaderView.nib</key>
+		<data>
+		/+jgx04+L5Mbpw9B5Kdyf03XkUA=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/EmptyCollectionFooterView.nib</key>
+		<data>
+		qy2EsqVQTwPdRSgmdri1hQDTW/4=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/EmptySpaceCell.nib</key>
+		<data>
+		YVQaCXcF7iFn7R+OS5RHOawabcQ=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/EmptySpacerCVCell.nib</key>
+		<data>
+		1ifW37lyYaj3Hvj3PO2tKfM2SYc=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/EmptyStateView.nib</key>
+		<data>
+		ZWBjKKQ/G6ppMU3KuRT9tfEVR7w=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/FilterCell.nib</key>
+		<data>
+		UDbA7KV6yjhOcm11mizsKXj5WhY=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/FilterResetCell.nib</key>
+		<data>
+		g9I0rUGrs/ErAy87McVcfZ/gyrA=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/FlightCalendarTopView.nib</key>
+		<data>
+		/E5My4gdkMIBmemPrD6HijDM+CY=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/FlightHistoryComboHeaderView.nib</key>
+		<data>
+		Sadhwoi5523NMncawepkp+z+HP0=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/FlightHistoryListCVCell.nib</key>
+		<data>
+		b5qLqgQbr7NKBTrPxiGvpx1VYb8=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/FlightHistoryLoaderView.nib</key>
+		<data>
+		SfTKgB9vwru8huapwmEA0CqVcg4=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/FlightHistorySummaryHeaderView.nib</key>
+		<data>
+		gEZc8+0YCPX+jKKv6Ks6VO4JoFI=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/FlightLegInformationCVCell.nib</key>
+		<data>
+		a1htiyftlg4n+hgLJIbvEQQQ+U0=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/GalleryCell.nib</key>
+		<data>
+		rOIQkUqYqXP3bAmmZk8kBH9sTpE=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/HotelRoomInformationCVCell.nib</key>
+		<data>
+		sku7qW2V2tnRZWsbiUc4kVl1vP8=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Info.plist</key>
+		<data>
+		YmVQVdJh4sLdbYsWxat2iQO8IWo=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/InfoDetailCell.nib</key>
+		<data>
+		GUm5+KDaU2RSu94FL6NvPElsvK0=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/InputCollectionViewCell.nib</key>
+		<data>
+		iR05y8cLnP66tc4vNaAt4TatahI=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/JTCalendarHeader.nib</key>
+		<data>
+		wybXKJEraHilHCstXr2FBaB6qVE=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/JTCalendarView.nib</key>
+		<data>
+		Oe0TJe/Ty6uywN34194xOjJP8nE=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/JTDateCell.nib</key>
+		<data>
+		0VsCaZGbVCotRZdjGuvFsj7GP8I=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/LoaderPopupView.nib</key>
+		<data>
+		1dIZl+3qh+pS1sHya6Hmqu6YN8U=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/NameCell.nib</key>
+		<data>
+		WPsEDqX25/E4kH2B1fPVFLIi6gQ=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/NationalityTableCell.nib</key>
+		<data>
+		o0O3ysbXVvWyIi+zZA4zRnBlFAU=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/NationalityTableHeaderView.nib</key>
+		<data>
+		6G15/SbZNri/JdHOz+dmGqK/AxI=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/NewEmptyStateView.nib</key>
+		<data>
+		kGtLBk3zx2Mj3tSGwzzVwPM7BnU=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/NewPaymentGatewayCell.nib</key>
+		<data>
+		/DpnYv+u53HikUfXyT8OsrSGwi0=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/OtherPaymentMethodsHeaderView.nib</key>
+		<data>
+		ryQA2CiZgBYHH6cEqY0DxHuVhCw=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/PassportVisaCell.nib</key>
+		<data>
+		O2YiWCaZRuWi4yXQTM/GydOJEz4=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/PaymentConfirmationURL.json</key>
+		<data>
+		zrFNH2pRdF6TfOeAM4WitYB/S80=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/PriceRangeCell.nib</key>
+		<data>
+		nI75mqIAdy6cmWaIgJ1p8y+de/M=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/PromotionalCouponCVCell.nib</key>
+		<data>
+		7qC8Rj6tuzGkCjCvBx6Y6GBiWOE=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/RedeemTCCVCell.nib</key>
+		<data>
+		B4hHkQaybd+Z2JIV7z4FwBegwUA=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/STAdCollectionViewCell.nib</key>
+		<data>
+		90LGcsWyDNcMh+jxJuR7J0Rprd0=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/STAdTableViewCell.nib</key>
+		<data>
+		Dh9wRuZO94YRoOwgawboHzI43tg=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/STCoreSDK</key>
+		<data>
+		Awo+yzIZyIr5135DnZW7rto7K78=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/ST_Murecho-Bold.ttf</key>
+		<data>
+		pxUn+jR5uYtBPJ5QN+YPhZn7SSg=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/ST_Murecho-Medium.ttf</key>
+		<data>
+		vmLX1pKd62MZvJfSa4udXncuevw=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/ST_Murecho-Regular.ttf</key>
+		<data>
+		0R+0pOPbSn7NIHYrXrHS+iv2JZE=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/ST_Murecho-Semibold.ttf</key>
+		<data>
+		fGnZbzFtzIbik97mgubrv2+oQ8I=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SelectedGatewayBadgeView.nib</key>
+		<data>
+		gCI/yH0BLopAvSEf55BexCT9qX4=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/ServiceDetailsHeaderView.nib</key>
+		<data>
+		pn9UnK+dJNb++fMZCsGZ3LJ3EIw=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/3Tw-Sy-aRO-view-wrA-Q5-O0A.nib</key>
+		<data>
+		ioS35CbbJ5iuzOaYuEeRnCgVRBk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/BookingPriceBreakdownVC.nib</key>
+		<data>
+		k7cILsC561Ej1NEKR9VwyUvkIVM=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/ChangeGatewayPopupVC.nib</key>
+		<data>
+		hY3ZA5OeJTaznp4qXz212WNdXEY=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/CitySearchVC.nib</key>
+		<data>
+		M4aijI5w1kLh4AxTtavp23WWoA8=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/EMIViewController.nib</key>
+		<data>
+		qkUQ+XdhA+/4eaLQneOGJ5xRtwY=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/Info.plist</key>
+		<data>
+		lDnXGpou6rbkFw5LDSusziQ6wdo=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/Jut-iB-dXN-view-IsT-J6-ot0.nib</key>
+		<data>
+		OxmlQyF7lSycgUWR7D8OADut0V8=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/NationalityPickerVC.nib</key>
+		<data>
+		9PqZth2DtesZ5C/bwKJNKQLuZaY=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/NsA-sQ-ygn-view-cTu-DG-fLF.nib</key>
+		<data>
+		OV+YX1JNucMtFUYiL3l84KqkYok=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/O1i-fu-0HO-view-cwI-9h-Kgb.nib</key>
+		<data>
+		7rxk469C2nvpe5jIQGNKst8arF0=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/PassengerDetailsBottomSheetVC.nib</key>
+		<data>
+		QWnNkPXkwR+lEMZOKwKlJjGHc88=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/kri-hC-2u1-view-URd-NX-1Ni.nib</key>
+		<data>
+		Y7kSi6X46GitGBrqnHZ/kGgu2ac=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/lfx-ZJ-uq0-view-3s2-1u-5IL.nib</key>
+		<data>
+		/r2v47HFHsy2XxSfdfPrumZkGpc=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SingleButtonCardCell.nib</key>
+		<data>
+		92uqwQfK3Wwp1RTFSfxTtGex6Js=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SingleCellShareView.nib</key>
+		<data>
+		2JL16ohDGxmHUP1eUdPy/8Zji2o=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SingleCellTripCoinView.nib</key>
+		<data>
+		vq+4k1/Yjmdd9N7P+pOmZa7dh4A=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SingleInputTakenCell.nib</key>
+		<data>
+		1CYyTfXmOwQhFcmjZKIy7m3rmkk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SingleInputTitleCell.nib</key>
+		<data>
+		Cw3CnDRliYLnw57rn3Zi2ibMi6Y=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SingleLabelInfoTVCell.nib</key>
+		<data>
+		BzECs9aKWrtDp0Byqhulhsc3hrQ=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SingleLineInfoCardCell.nib</key>
+		<data>
+		aLHePboz8BRgIYlWUGFy+d+igYk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SupportedPaymentMethodsHeaderView.nib</key>
+		<data>
+		rQya9k0S0UH9m7aeEGLc2Jolnrk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/SwitchCell.nib</key>
+		<data>
+		h3Mmea2jSUl0SewwINHACvTNYMI=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/TermsConditionCollectionCell.nib</key>
+		<data>
+		xaCYZRWev19DlAqwgn5HKVsgwE4=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/UploadCVCell.nib</key>
+		<data>
+		leEWiISwnPgar0+Y1sRGVBVmJIk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/VerifyMobileOperatorCVCell.nib</key>
+		<data>
+		sSauGWrxgHWXt9pZwtgAbO5qees=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/View</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/_CodeSignature/CodeResources</key>
+		<data>
+		X7ZEwnY0P11O12QAy7BY2n/b3lE=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/confirmBooking.json</key>
+		<data>
+		Xt5RVmF0GxZEsXZex0+2BryFqZE=
+		</data>
+		<key>Frameworks/STCoreSDK.framework/loader.json</key>
+		<data>
+		twrrwO7E4ExBK05IpkpaomoDh0c=
+		</data>
+		<key>Frameworks/STScanner.framework/Info.plist</key>
+		<data>
+		5NOTlQ0UnhK7n5CNbOvU63xUYDQ=
+		</data>
+		<key>Frameworks/STScanner.framework/STScanner</key>
+		<data>
+		//m33QHaFXg6jMosjdl3VUruRnU=
+		</data>
+		<key>Frameworks/STScanner.framework/_CodeSignature/CodeResources</key>
+		<data>
+		NUdxCmSUh2941kQSE2vjx0/H5/Q=
 		</data>
 		<key>HeaderCollectionView.nib</key>
 		<data>
@@ -1196,93 +1136,29 @@
 		<data>
 		zG1SDcsoHnympLi6E3JghOIqZ00=
 		</data>
-		<key>Headers/FlightSDK.h</key>
-		<data>
-		MmmakMu4ofBKQdHmFYXn5voo2qo=
-		</data>
-		<key>HolidayDateInputCell.nib</key>
-		<data>
-		LSVcHk3XKduY7GSfmZ6+JHn/+NI=
-		</data>
-		<key>HomePromotionsTableViewCell.nib</key>
-		<data>
-		TChHDKxEg5NLBB4R7a0YBXOnDok=
-		</data>
-		<key>HotelListCVCell.nib</key>
-		<data>
-		JDIhGGuAOLFazbRfaK+7+Lk6lEE=
-		</data>
 		<key>ImageViewCell.nib</key>
 		<data>
-		K7Fp7HbW9akEeS7lwDlEE3bR62U=
-		</data>
-		<key>InfantAddonsCollectionCell.nib</key>
-		<data>
-		RNbtITBQKvhDhiBEvrZYdeNESo0=
+		LhPa+JDNJIVpixe+KzAGp+OM/Rg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z0cT5+s9m+UDmK/pdIH2rjzJ0tY=
-		</data>
-		<key>InfoDetailCell.nib</key>
-		<data>
-		O5OBm80FoNpDo3vn2AYtbtgqWhY=
-		</data>
-		<key>InfoSelectionCell.nib</key>
-		<data>
-		7bDQ/uB7BvAC/MhUyS5P1/jkBLA=
-		</data>
-		<key>InfoTextFieldCell.nib</key>
-		<data>
-		zQvxMr8yMphclkyalhh7vmaNbhk=
-		</data>
-		<key>InfoUploadCell.nib</key>
-		<data>
-		gwojEWfINxz9wzWWaqydw67ewR4=
+		QXKHLYWeIeV2CHXIB1cugcySPPk=
 		</data>
 		<key>InitialLoaderView.nib</key>
 		<data>
 		Z8S1vWBwv7dCGv3iyZveYyNMF7o=
 		</data>
-		<key>InputCollectionViewCell.nib</key>
-		<data>
-		oLe4EpdcjsTeM2ncN5yp59QkLxY=
-		</data>
 		<key>InputWarningCVCell.nib</key>
 		<data>
 		ONXJYLfpSZFNgYjUDmRX7MFUNBg=
 		</data>
-		<key>JTCalendarHeader.nib</key>
-		<data>
-		HB6BzJSzAtIwsouCsOYv8SGiTJw=
-		</data>
-		<key>JTCalendarView.nib</key>
-		<data>
-		msMTDsdhAiYurHDUG38JnUp8UrU=
-		</data>
-		<key>JTDateCell.nib</key>
-		<data>
-		wDwe8fjm0DIZ+JD8oOTAtXcsqsw=
-		</data>
-		<key>LastNameInputCell.nib</key>
-		<data>
-		x+QBRGzK+mUBAHr493QqLOl2QsA=
-		</data>
 		<key>LearnMoreCVCell.nib</key>
 		<data>
-		vcOhQHo145A4HGs+BrpAgcOrgyE=
+		UlRldhU/vhQaOGzdxPlxqzqeqL0=
 		</data>
 		<key>LearnMoreCell.nib</key>
 		<data>
-		a7gbpaWdDFPohkuK1C8SoDWpe1Y=
-		</data>
-		<key>LoaderPopupView.nib</key>
-		<data>
-		CCdeh+DpS1LyvWHynnTa/Cw38og=
-		</data>
-		<key>LoadingVC.nib</key>
-		<data>
-		xdGpNxvInJnCc7iSurVvUdsTWAg=
+		tVeis1lPgKCWHmj9GBkfUtPz3Ic=
 		</data>
 		<key>LottieResources/TreasureBoxAnimation.json</key>
 		<data>
@@ -1296,141 +1172,69 @@
 		<data>
 		+qEhFtqM8Pz4SDeIRcpBc1gnVps=
 		</data>
-		<key>LottieResources/confirmBooking.json</key>
-		<data>
-		Xt5RVmF0GxZEsXZex0+2BryFqZE=
-		</data>
-		<key>LottieResources/loader.json</key>
-		<data>
-		twrrwO7E4ExBK05IpkpaomoDh0c=
-		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ajh9GQudb/P+pd+jK37/cTZV7tQ=
+		207W9eycBjh/ygn4pe/HheM2GuI=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rKzWhl4aQOzaf1mmwkK6DbV1p+k=
+		iWetuvbrgrKZnCMdVpHlh/bNCR8=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ppgI1y+oSoObUkWiToDj4lIvusY=
+		l1ORSByz9yJK5M7p1HuTa3fTR4w=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rKzWhl4aQOzaf1mmwkK6DbV1p+k=
+		iWetuvbrgrKZnCMdVpHlh/bNCR8=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gY1QxeqF1sJey9OJTLVFsWuY3Nc=
+		ueQIUvqFqK4228iSEpsG6RXTrQU=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ajh9GQudb/P+pd+jK37/cTZV7tQ=
+		207W9eycBjh/ygn4pe/HheM2GuI=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GgbIhIXsxx/WIeLPUdIWmOjsHfo=
+		GJLzcM5KJZKU67+sbt3Q9T77Y1Q=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5JvvF+M9XKnWYqXtAXnH15vDYqA=
+		9St3RhiQAIqvOwUI9mLMYjr/4N0=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GgbIhIXsxx/WIeLPUdIWmOjsHfo=
+		GJLzcM5KJZKU67+sbt3Q9T77Y1Q=
 		</data>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QPVBegJ91g6MyXRAoSGkvkOX7nM=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		NqvUHLjnVN6zdecOvGfVSggBTxE=
-		</data>
-		<key>NameCell.nib</key>
-		<data>
-		ZXv7lYDt0l+USmZNpBdxdqhJM9o=
+		eKWsSpKosdb1+VDShbOACki5K+Y=
 		</data>
 		<key>NameInputGuideCell.nib</key>
 		<data>
-		QYOsM9k9btXYX4kjN5MfX1vFMxc=
-		</data>
-		<key>NewCouponSuggestionView.nib</key>
-		<data>
-		Hm4RvOsEnUHHr3ZMafz4PAVvA/Q=
-		</data>
-		<key>NewDiscountOptionsCell.nib</key>
-		<data>
-		48kzK1RZA9OnPD0z5XMjAaOQvWQ=
-		</data>
-		<key>NewEmptyStateView.nib</key>
-		<data>
-		DFW0aAMJOu83vN3YDXRXJoq9qBI=
+		htcrc6zTR9NKzytSCNxeepUgu+s=
 		</data>
 		<key>NewFlightBookingCell.nib</key>
 		<data>
-		IkK262N0CpV9y2xTQEMjVlxZP6g=
-		</data>
-		<key>NewFlightLegView.nib</key>
-		<data>
-		BaA4mHcPhoujdye6/oALJBf/55o=
-		</data>
-		<key>NewPaymentGatewaysView.nib</key>
-		<data>
-		G9ntxGQnh1pJI3q9Yd8JlSdabkw=
-		</data>
-		<key>NewRedeemTripcoinView.nib</key>
-		<data>
-		EUPPnyPq53IepZIGtKw8mdFwIuI=
-		</data>
-		<key>NewUseCouponView.nib</key>
-		<data>
-		OeaUUdOeOV97tq9htzGpVypdcEs=
+		md3DKj7qXnP9Uk439xP3ayHS5EA=
 		</data>
 		<key>NextPrevLegDetailsCell.nib</key>
 		<data>
-		KZaoMDT6Zw23dM9YwkOQrvLP7E0=
-		</data>
-		<key>NoFavouriteGuestCell.nib</key>
-		<data>
-		P/xqkWnyCmqXkBLNrcNNPFB6NIE=
+		2pNPYrH7/q8v1nxtTKpitTu/wfc=
 		</data>
 		<key>OffersAndHistoryCell.nib</key>
 		<data>
-		Wd/KJUl0ajWf883GKYjuS2iil/c=
-		</data>
-		<key>OptionCell.nib</key>
-		<data>
-		BMABNilg8N7XTT7cHkfjrh8VhWA=
+		DTlnxBO0iA/5QR+rN4A6mQFgM6U=
 		</data>
 		<key>OptionSelectTBCell.nib</key>
 		<data>
-		LsEnpm/Zygb7nRG2prE3Us6IqYA=
-		</data>
-		<key>PassportVisaCell.nib</key>
-		<data>
-		UI9J59hzzsdHHfd+C9sBtjhgU/U=
-		</data>
-		<key>PaymentConfirmationURL.json</key>
-		<data>
-		zrFNH2pRdF6TfOeAM4WitYB/S80=
-		</data>
-		<key>PaymentConfirmationVC.nib</key>
-		<data>
-		c8ax21zynytmBpNyXuI3EtRyILM=
-		</data>
-		<key>PaymentGatewayCVCell.nib</key>
-		<data>
-		cm5jMZPUe8AOHtpxbjQ1/rKCRlU=
+		N/zHXYac08uKahubwrW5raYRYzw=
 		</data>
 		<key>PaymentGatewayInfoCVFooterView.nib</key>
 		<data>
 		/Yx6BEaIJHk+EsiUiadEUX4sxLg=
-		</data>
-		<key>PaymentGatewaysView.nib</key>
-		<data>
-		5bgog1eZ911dEYgUuzXW7rZxDgc=
 		</data>
 		<key>PendingModificationCVCell.nib</key>
 		<data>
@@ -1439,30 +1243,6 @@
 		<key>PendingModificationHeader.nib</key>
 		<data>
 		bc1sVvpvKHo5tlk/7nIUaqATavo=
-		</data>
-		<key>PersonInfoCell.nib</key>
-		<data>
-		aGaasT/QGhzY7Du59g0E+Fer2OY=
-		</data>
-		<key>PhoneNumberVerificationView.nib/objects-14.0+.nib</key>
-		<data>
-		ixtUuu4meZPACDdbHOIoMZRLqgg=
-		</data>
-		<key>PhoneNumberVerificationView.nib/runtime.nib</key>
-		<data>
-		CevlUPhDEvZOJ0UPsXLD4kq4zjo=
-		</data>
-		<key>PopularCitiesCell.nib</key>
-		<data>
-		RLb4wwroUMw99CcoYxF7XDF85nY=
-		</data>
-		<key>PostCardCell.nib</key>
-		<data>
-		x1rkJCOME0gHJAQkyw5j1XqMEWU=
-		</data>
-		<key>PoweredByView.nib</key>
-		<data>
-		LTKC0ul2wIAtuRrqANUNBZeohWY=
 		</data>
 		<key>PriceBreakDownCollectionCell.nib</key>
 		<data>
@@ -1474,7 +1254,7 @@
 		</data>
 		<key>PriceBreakdown.storyboardc/FlightInfoBottomRootVC.nib</key>
 		<data>
-		Yc+ZyusdKpUJO7xkU9OiUwCVOKg=
+		EmSwr17B9hFFaAWTHi/vFVL8uR8=
 		</data>
 		<key>PriceBreakdown.storyboardc/FlightInfoContainerVC.nib</key>
 		<data>
@@ -1488,45 +1268,13 @@
 		<data>
 		Wj0UaDzj03dZVhpdCmn4sp5a+wk=
 		</data>
-		<key>PriceBreakdownFareCell.nib</key>
-		<data>
-		q7EDv+R3Ru+JMKIo6rbqn2+lDSA=
-		</data>
-		<key>PriceChangeView.nib</key>
-		<data>
-		nSkpQKF8k0HmpmJuSoo/Th5ebaI=
-		</data>
 		<key>PriceDetailsHeaderView.nib</key>
 		<data>
 		4GrmtqWMjKbLsspKLu3aiNnekWs=
 		</data>
-		<key>PriceRangeCell.nib</key>
-		<data>
-		FPOj5bqA9pd7f94WCIShG2OE8sI=
-		</data>
-		<key>PriceViewCell.nib</key>
-		<data>
-		5mOJQrP1PUX69JnEJqk348RZ0D0=
-		</data>
-		<key>ProfileImageCVCell.nib</key>
-		<data>
-		qSUyugG/xSEdv/6/XKHrNwZp3js=
-		</data>
-		<key>ProfileImageInputCell.nib</key>
-		<data>
-		fmULdZ7+qxLXq+2ANuQH2M1QRNE=
-		</data>
-		<key>ProfileSettingsCell.nib</key>
-		<data>
-		gq0mIcTyLvwDhcbx/Sq19yfkWu4=
-		</data>
-		<key>PromotionCollectionViewCell.nib</key>
-		<data>
-		HSXdIc/bU8BTP5ayZrnsDWksIxQ=
-		</data>
 		<key>PromotionalBannerCell.nib</key>
 		<data>
-		e17recJEDfr8nugsWvmArWTWy34=
+		kJUj2wHUE4vHocTNiblgUKaW/bc=
 		</data>
 		<key>PromotionalImageCVCell.nib</key>
 		<data>
@@ -1538,11 +1286,7 @@
 		</data>
 		<key>RadioImageTitleCell.nib</key>
 		<data>
-		KcYB2ne0ssc6oorf4Gc8TyBccY0=
-		</data>
-		<key>RedeemTripcoinView.nib</key>
-		<data>
-		2sxIVG2JMNkEaaPWCv9i1ZZJPNQ=
+		Tq/ocQ+SZS+ui481mjQiHXB6b9Q=
 		</data>
 		<key>RefundFlightSelectionCell.nib</key>
 		<data>
@@ -1554,7 +1298,7 @@
 		</data>
 		<key>RefundPolicyInfoTableCell.nib</key>
 		<data>
-		t8m+1QEz0W0MwG0xSCc3qiU3fPA=
+		2sNNkjdf8BcrqpxUUfwZQZkaEZ0=
 		</data>
 		<key>RefundTravellerSelectionCell.nib</key>
 		<data>
@@ -1562,15 +1306,15 @@
 		</data>
 		<key>Reissue.storyboardc/19q-W6-LWp-view-sJY-2I-gAk.nib</key>
 		<data>
-		edTr/oPRAIpBAmSmkZfdBG424dM=
+		ww9pg2QGjXLJ+ZqcaXaAz0LhSZ4=
 		</data>
 		<key>Reissue.storyboardc/8G5-Eh-2e6-view-HNC-ac-a7C.nib</key>
 		<data>
-		7QDFaryJiOJilfck77+ngFpkEtA=
+		jbOcCXaI96xMnnycvevcRtadS00=
 		</data>
 		<key>Reissue.storyboardc/8md-ps-DN5-view-TPL-0q-A9w.nib</key>
 		<data>
-		bfgcZ0nWhwR+d0GWKlILol99fB0=
+		2c1jVNvwrpynMtJMv9fHVeMc80w=
 		</data>
 		<key>Reissue.storyboardc/FlightReissueViewQuotationVC.nib</key>
 		<data>
@@ -1582,15 +1326,15 @@
 		</data>
 		<key>Reissue.storyboardc/JtX-SK-zP6-view-x3V-IH-N3W.nib</key>
 		<data>
-		8Ta+UnZrlhX6+h3kfJpNa7os4pY=
+		vuqzEUAgmvzh+vTEjJUTY1wAPPo=
 		</data>
 		<key>Reissue.storyboardc/KRA-Ln-gO0-view-dOg-AH-EIC.nib</key>
 		<data>
-		04Zth7zfLT5HuGmi2VVuSGd0ztc=
+		ENLF/qJlooW9n7Pv92Ot/ty807c=
 		</data>
 		<key>Reissue.storyboardc/LoG-Qh-3Rz-view-EMD-SC-5lH.nib</key>
 		<data>
-		xqnRNBkI4AUtfcqxRES/TbxZspE=
+		UrON4baWhKweIY5pmxeXVR5e1AM=
 		</data>
 		<key>Reissue.storyboardc/QotaionDetailVC.nib</key>
 		<data>
@@ -1618,7 +1362,7 @@
 		</data>
 		<key>Reissue.storyboardc/ReissueFlightDetailsContainerRootVC.nib</key>
 		<data>
-		oaMDl8HuMGgOAFUUnfFFPF1XfEk=
+		Iqyktp6bTqZbO0+qB0ibbFLaUxY=
 		</data>
 		<key>Reissue.storyboardc/ReissueFlightDetailsContainerVC.nib</key>
 		<data>
@@ -1662,15 +1406,15 @@
 		</data>
 		<key>Reissue.storyboardc/SEE-Pl-oq3-view-J46-07-CNx.nib</key>
 		<data>
-		qpAIHHCG+9DYEz/UWtp5vXVdpd4=
+		kNOEQZp/2EJFeBvJW3aM28YTB7M=
 		</data>
 		<key>Reissue.storyboardc/VU9-Bg-NKy-view-BPI-hH-pOH.nib</key>
 		<data>
-		TrQKDksVYnK9qOeBUk9ad6VXXyc=
+		0Ibsk7jAhu3H6asmN+DkqUsFxjo=
 		</data>
 		<key>Reissue.storyboardc/X81-JG-e2R-view-O3C-74-n8s.nib</key>
 		<data>
-		2x1xyifTRupRGVy5GQMBeHnOEA8=
+		U6VWq5bLNwR7Vjpf406s8gJuSEk=
 		</data>
 		<key>Reissue.storyboardc/Xym-P1-PHD-view-REw-dG-5dv.nib</key>
 		<data>
@@ -1678,31 +1422,31 @@
 		</data>
 		<key>Reissue.storyboardc/ZT9-BD-cUc-view-5Ow-gb-YOT.nib</key>
 		<data>
-		2CSq4x0jswVmusBesHs/vKQOpR8=
+		x4gZKxw8zFMdzZKG23IPj5UbDZE=
 		</data>
 		<key>Reissue.storyboardc/a8l-rC-91S-view-gTH-78-9j1.nib</key>
 		<data>
-		6KoijXiEeZ2wq2zVxwIT+2M/G30=
+		aEmT+GAyjgb4j2RdGmyr4WNz0ww=
 		</data>
 		<key>Reissue.storyboardc/ahv-Up-NAn-view-mdv-cm-UU6.nib</key>
 		<data>
-		YlosJy2td09c9ax8JJ8gjWyHS4I=
+		AYhHx5+uDyQH8SS6EgGi0gvH82s=
 		</data>
 		<key>Reissue.storyboardc/eak-Q7-MTL-view-5xV-XD-JOt.nib</key>
 		<data>
-		0TYhXOmRs4beLm/1PR8y3DlYc94=
+		zAeDDZWYxdFFH4fQaoiO0UXL0G4=
 		</data>
 		<key>Reissue.storyboardc/lNr-Uy-hPI-view-QVa-Z7-Mya.nib</key>
 		<data>
-		54NyDcUQ3a+zEsOZAUMlmFE+ZlU=
+		T906lwqT4YAVrF3F4xTvAcy5TZU=
 		</data>
 		<key>Reissue.storyboardc/qqi-Cs-o2j-view-pTC-po-Qci.nib</key>
 		<data>
-		Hu/p8U/rBcs5TYmPin6MagCQil0=
+		QEk66icYWTrzV59EM43tqa4vWI8=
 		</data>
 		<key>Reissue.storyboardc/s7t-Rj-Sc8-view-Y3a-di-1Db.nib</key>
 		<data>
-		SyFxj2ZZFnlI+xxmHyNyCti2jJY=
+		OSJRD4CHleJrCcPtlQEPHoA8Tcs=
 		</data>
 		<key>Reissue.storyboardc/uDd-rU-1ht-view-vfb-zT-23e.nib</key>
 		<data>
@@ -1714,11 +1458,11 @@
 		</data>
 		<key>ReissueHistoryChainDetailTVCell.nib</key>
 		<data>
-		kciYRUeXmGAYB+SUJP/RdaDHcP0=
+		1ng+5PvkPbrOiJp99fVLgBpXXug=
 		</data>
 		<key>ReissueHistoryDetailTVCell.nib</key>
 		<data>
-		6TyFPOwNYTNzbUv6V+QhxqxjUsw=
+		MnXnG5Ex0omqDOOtNJqkj1r3ldo=
 		</data>
 		<key>ReissueInstructionCollectionCell.nib</key>
 		<data>
@@ -1726,23 +1470,11 @@
 		</data>
 		<key>ReissueModifySearchButtonCell.nib</key>
 		<data>
-		IneN8ca+5FC3+jjqcKPcpPTeJig=
+		tUmknBMCtfXVKmH32utsCILpV6c=
 		</data>
-		<key>ReissueTopCounterView.nib</key>
-		<data>
-		lxHY+zXEQ0/B8/IiuLOTz0A1CA0=
-		</data>
-		<key>ResultNotFoundCell.nib/objects-14.0+.nib</key>
+		<key>ResultNotFoundCell.nib</key>
 		<data>
 		WKp3lfIYjX/x/0WwwNyJJKgsGrI=
-		</data>
-		<key>ResultNotFoundCell.nib/runtime.nib</key>
-		<data>
-		mu11aZVAYJSkfBCHp/nAvNQpUBE=
-		</data>
-		<key>RetryInfoCardCell.nib</key>
-		<data>
-		UIyy2kdgq6QL7YBrdKOJx0/EqFU=
 		</data>
 		<key>ReviewPayment.storyboardc/EditContactInfoVC.nib</key>
 		<data>
@@ -1750,7 +1482,7 @@
 		</data>
 		<key>ReviewPayment.storyboardc/Hit-dA-Qch-view-yJ9-By-Ymn.nib</key>
 		<data>
-		LpHhbmgX1S0WUOtlMuLHxvS1jks=
+		qpQfx3HEtO/KDJvJOzU9X0bz1TE=
 		</data>
 		<key>ReviewPayment.storyboardc/Info.plist</key>
 		<data>
@@ -1766,15 +1498,11 @@
 		</data>
 		<key>ReviewPayment.storyboardc/mkR-7Y-tYf-view-lIs-5E-dWC.nib</key>
 		<data>
-		rysh/8avj/IEc1J+fyuIsU6lZlw=
+		J5/liRLERPveFyrCu8gBPTtS5Ng=
 		</data>
 		<key>ReviewPayment.storyboardc/pMQ-5y-aq6-view-ew2-md-sIo.nib</key>
 		<data>
-		sB2cs3pkVyMCYnz4W2bjyO6ptXE=
-		</data>
-		<key>RightArrowTitleCell.nib</key>
-		<data>
-		SKdUSGI91TYzmtKqDl2jt4LhhCQ=
+		4vVHTIMEhbZ7lix3R6JMk6sD2yo=
 		</data>
 		<key>RouteOptionCell.nib</key>
 		<data>
@@ -1792,89 +1520,25 @@
 		<data>
 		ZeKu6/V7qRt1HmeAFGrcbS8m44k=
 		</data>
-		<key>STAdCollectionViewCell.nib</key>
-		<data>
-		0n9lgdYj6e81HVKeglTHq/9lE5c=
-		</data>
-		<key>STAdTableViewCell.nib</key>
-		<data>
-		UL7z4NmRLMSfka1xJCuwvCepOeE=
-		</data>
-		<key>STCalendarDateInputView.nib</key>
-		<data>
-		RicSbRkfPlD3sjs17pesdmRrwVM=
-		</data>
-		<key>STDateTimeSelectionView.nib</key>
-		<data>
-		CytnJq3L+WMZAQANhXAGrfcr+Uo=
-		</data>
-		<key>STSingleButtonCell.nib</key>
-		<data>
-		4qV6aHUvbcnJG+Tz/gmzBXqRUgo=
-		</data>
-		<key>STSingleLineTextInputView.nib</key>
-		<data>
-		k9t/OaaaxKN+2ca8yvhn9U/gX4Y=
-		</data>
-		<key>STTextSelectilonView.nib</key>
-		<data>
-		yHxg56YerdCGzu+fhm1Kb7HtV8I=
-		</data>
-		<key>STTowColGivenNameInputView.nib</key>
-		<data>
-		G3fyvvj48mUb8xJJ1AiPyb4iV5E=
-		</data>
-		<key>ST_Murecho-Bold.ttf</key>
-		<data>
-		pxUn+jR5uYtBPJ5QN+YPhZn7SSg=
-		</data>
-		<key>ST_Murecho-Medium.ttf</key>
-		<data>
-		vmLX1pKd62MZvJfSa4udXncuevw=
-		</data>
-		<key>ST_Murecho-Regular.ttf</key>
-		<data>
-		0R+0pOPbSn7NIHYrXrHS+iv2JZE=
-		</data>
-		<key>ST_Murecho-Semibold.ttf</key>
-		<data>
-		fGnZbzFtzIbik97mgubrv2+oQ8I=
-		</data>
 		<key>SameBaggageSelectionCell.nib</key>
 		<data>
-		KXkxMdttc1VDXNpCE12jG8kaIkY=
+		mfHoUfH4gcq19nAqgNMEzLMYEUw=
 		</data>
-		<key>SavedCardTVCell.nib</key>
+		<key>ScannerLoadingView.nib</key>
 		<data>
-		HmN3NOkOPsdUjX0JcUXkn62T6H8=
-		</data>
-		<key>SearchButtonCell.nib</key>
-		<data>
-		W6PtTXVm6UAyDuETKFySgFoyPnE=
-		</data>
-		<key>SearchInputCell.nib</key>
-		<data>
-		UQWHeKySv9HR5BbFOgrH4EnRNKA=
-		</data>
-		<key>SearchTableViewCell.nib</key>
-		<data>
-		89iS+BhOUjVaX1uqhPrxuP10QXw=
-		</data>
-		<key>SearchView.nib</key>
-		<data>
-		5mZyvPDPy/epETMgPr3ObThjxJw=
+		JnJlqjJezsRIgoYcv7D5nL23HTM=
 		</data>
 		<key>SeatAndBagageInfoCardCell.nib</key>
 		<data>
-		dwulhz/9P+krx7SrGD2BwWOwisQ=
+		NuRLohymBLBQNcNTgW5qOg3s/kc=
 		</data>
 		<key>SegmentInfoHistoryTableCell.nib</key>
 		<data>
-		l6ikTGy3dHkbKAXgBwoZMla98Bk=
+		ngmfRZqnLlAqCy2HRRFZPSVhmgQ=
 		</data>
 		<key>SegmentInfoTableCell.nib</key>
 		<data>
-		c4HbOP/WhzP5Hrz7N5H+3778zOM=
+		ACdvQFJU+yDbT9Oa2tDRJZcbKlM=
 		</data>
 		<key>SegmentedView.nib</key>
 		<data>
@@ -1882,135 +1546,11 @@
 		</data>
 		<key>SelectSameFooterView.nib</key>
 		<data>
-		iScfL2yOQ43+Q847cJZaamFw1zw=
-		</data>
-		<key>SenderInfoView.nib</key>
-		<data>
-		cKUEO0t6cHaXvec+0rNmVsqagUw=
-		</data>
-		<key>ShareViewCell.nib</key>
-		<data>
-		8NEq7h7n7UJt5I4IWJ+fxrz9BbQ=
-		</data>
-		<key>Shared.storyboardc/3Tw-Sy-aRO-view-wrA-Q5-O0A.nib/objects-14.0+.nib</key>
-		<data>
-		gUOkELvzSqKpPdNBm6ydMnZSNX0=
-		</data>
-		<key>Shared.storyboardc/3Tw-Sy-aRO-view-wrA-Q5-O0A.nib/runtime.nib</key>
-		<data>
-		gUOkELvzSqKpPdNBm6ydMnZSNX0=
-		</data>
-		<key>Shared.storyboardc/ARi-nS-jxV-view-kWW-fP-Uzu.nib/objects-14.0+.nib</key>
-		<data>
-		3QigdW9UmFTSaHJSz+0lcRPymU4=
-		</data>
-		<key>Shared.storyboardc/ARi-nS-jxV-view-kWW-fP-Uzu.nib/runtime.nib</key>
-		<data>
-		3QigdW9UmFTSaHJSz+0lcRPymU4=
-		</data>
-		<key>Shared.storyboardc/BookingPriceBreakdownVC.nib/objects-14.0+.nib</key>
-		<data>
-		2RUq1n72KPNulOqaJpYM9IamcVE=
-		</data>
-		<key>Shared.storyboardc/BookingPriceBreakdownVC.nib/runtime.nib</key>
-		<data>
-		2RUq1n72KPNulOqaJpYM9IamcVE=
-		</data>
-		<key>Shared.storyboardc/CitySearchVC.nib/objects-14.0+.nib</key>
-		<data>
-		1F22k5qX9JNs6r6yMCdSTtgD8LM=
-		</data>
-		<key>Shared.storyboardc/CitySearchVC.nib/runtime.nib</key>
-		<data>
-		1F22k5qX9JNs6r6yMCdSTtgD8LM=
-		</data>
-		<key>Shared.storyboardc/GatewayChangePopupViewController.nib/objects-14.0+.nib</key>
-		<data>
-		ZACZYKtr19r12BfMdH7WPZ1LYks=
-		</data>
-		<key>Shared.storyboardc/GatewayChangePopupViewController.nib/runtime.nib</key>
-		<data>
-		ZACZYKtr19r12BfMdH7WPZ1LYks=
-		</data>
-		<key>Shared.storyboardc/Info.plist</key>
-		<data>
-		4juOF9dJiKmtM7UheHVbJ3Zpi3U=
-		</data>
-		<key>Shared.storyboardc/Jut-iB-dXN-view-IsT-J6-ot0.nib/objects-14.0+.nib</key>
-		<data>
-		ts3vGBZQCfRsP2bd5cOm5gZ5iz4=
-		</data>
-		<key>Shared.storyboardc/Jut-iB-dXN-view-IsT-J6-ot0.nib/runtime.nib</key>
-		<data>
-		ts3vGBZQCfRsP2bd5cOm5gZ5iz4=
-		</data>
-		<key>Shared.storyboardc/NewPaymentConfirmationVC.nib/objects-14.0+.nib</key>
-		<data>
-		pIjbaNJVcg+DbughK/ZIRts8MEU=
-		</data>
-		<key>Shared.storyboardc/NewPaymentConfirmationVC.nib/runtime.nib</key>
-		<data>
-		pIjbaNJVcg+DbughK/ZIRts8MEU=
-		</data>
-		<key>Shared.storyboardc/kri-hC-2u1-view-URd-NX-1Ni.nib/objects-14.0+.nib</key>
-		<data>
-		N5eFiZ4ML+yV0EpvUsCO/kgu97I=
-		</data>
-		<key>Shared.storyboardc/kri-hC-2u1-view-URd-NX-1Ni.nib/runtime.nib</key>
-		<data>
-		7cLV5vTfkhw/NuCWWZy5Rx2iL/g=
-		</data>
-		<key>ShortTransactionInfoTableViewCell.nib</key>
-		<data>
-		jZy9Ahxe6A3z/mw/gc6sMaMKAyo=
-		</data>
-		<key>ShortTransactionView.nib</key>
-		<data>
-		Qmt0R5Q6k9mQ7o1L1uvD9RqO8fg=
-		</data>
-		<key>SingleButtonCardCell.nib</key>
-		<data>
-		7BKQiWQNMYVutqbqICLyxHQvovY=
-		</data>
-		<key>SingleCellShareView.nib</key>
-		<data>
-		Y6W1nOlbysvv1v6ZXrppf6G0aMM=
-		</data>
-		<key>SingleCellTripCoinView.nib</key>
-		<data>
-		iJVlSgJtXJl3Zwx+h36cuZ1RxTk=
-		</data>
-		<key>SingleInputCell.nib</key>
-		<data>
-		qVXXxWj2rIZpIdLmAhDOCROxB9c=
-		</data>
-		<key>SingleInputTakenCell.nib</key>
-		<data>
-		DLl5ZsE7QV76lqSQgZsndEPSrmY=
-		</data>
-		<key>SingleInputTitleCell.nib</key>
-		<data>
-		tShNpdHXaVvQWijg+qMentx8OnI=
-		</data>
-		<key>SingleLabelInfoTVCell.nib</key>
-		<data>
-		n10dZlCXFbviiN0Rpqo6UzLZD2o=
-		</data>
-		<key>SingleLineInfoCardCell.nib</key>
-		<data>
-		s32wvpiwqVuuQYxFuqK663bshIM=
-		</data>
-		<key>SingleOptionCVCell.nib</key>
-		<data>
-		KST+ftz+dSdyNwlqXMp0Xo1q0MA=
+		hP8gBZpaz5ip9BNpuhx4we/2m4g=
 		</data>
 		<key>SingleOptionCell.nib</key>
 		<data>
-		qgq0kyPMtuyd5VmM3t1uJw1mdmE=
-		</data>
-		<key>SlideActionView.nib</key>
-		<data>
-		39+xN4PA5iIf0zcNbclLhKx28Ns=
+		DckSGwRXiZr9gjYby9TDVv6ke3A=
 		</data>
 		<key>SliderView.nib</key>
 		<data>
@@ -2024,37 +1564,9 @@
 		<data>
 		s65uW/G7byN3IxfWFeVWO2wLkrw=
 		</data>
-		<key>SuccessView.nib</key>
-		<data>
-		YKo/aZym0tR8auAWF8WSTBC0uOU=
-		</data>
-		<key>SwitchCell.nib</key>
-		<data>
-		EhjX7pgmhmhGeX23Pe7HXs44dL8=
-		</data>
 		<key>TagCollectionViewCell.nib</key>
 		<data>
 		VLzPkww54795DhhNGrA7e8tZqcY=
-		</data>
-		<key>TermsConditionCollectionCell.nib</key>
-		<data>
-		Y++lSYT3Czm1OQhQMn4+wFJU4I0=
-		</data>
-		<key>TitleCell.nib</key>
-		<data>
-		vZQ4OLR7JleY/kvOwiv8HHA73lo=
-		</data>
-		<key>TitleCheckBoxTVCell.nib</key>
-		<data>
-		1jZcCUWNWEFtPI/YTKNplK1l4ZQ=
-		</data>
-		<key>TitleEmbeddedTextFieldTableViewCell.nib</key>
-		<data>
-		x9HUFYqvEvwEwAyyBGVXQaIRRj4=
-		</data>
-		<key>TitleEmbeddedTextViewTableViewCell.nib</key>
-		<data>
-		dgiLMf+YTpQQSK+Fck8y5nndpdU=
 		</data>
 		<key>TitleSubTitleCollectionHeaderView.nib</key>
 		<data>
@@ -2070,47 +1582,19 @@
 		</data>
 		<key>TitleTableViewCell.nib</key>
 		<data>
-		loYceSy70JLzWDB11JqmQKpzA/A=
-		</data>
-		<key>TitleTextFieldView.nib</key>
-		<data>
-		HasKM3c4g/gYNXFjFFZ+g30GjNA=
+		DTJJpugRnFJOxF7fL83phnHS7lM=
 		</data>
 		<key>TopCounterView.nib</key>
 		<data>
 		P13FdPBLLB4ivgJeupEGDbVBJqU=
 		</data>
-		<key>TopupCouponView.nib/objects-14.0+.nib</key>
+		<key>TravelerCell.nib</key>
 		<data>
-		bCbQ73dq4Emo6rpLuia9Bn6Fzkw=
-		</data>
-		<key>TopupCouponView.nib/runtime.nib</key>
-		<data>
-		GS5kIjQ/ipwm8dEZCk86DQHxryo=
-		</data>
-		<key>TowColGivenNameInputCell.nib</key>
-		<data>
-		qnPhzJNxvMI4vBoHNfb2C7bzuRA=
-		</data>
-		<key>TransportTypeCell.nib</key>
-		<data>
-		xCqZPQh8dNUqBs6WuVhxXXHW4+w=
-		</data>
-		<key>TravelerCell.nib/objects-14.0+.nib</key>
-		<data>
-		5Qk7y+O5qOuZ56Iidhdb5NsegSw=
-		</data>
-		<key>TravelerCell.nib/runtime.nib</key>
-		<data>
-		8MLT0q26ioG2TIhbZufIh3xKAPQ=
+		aXerYpyumVhNfgb3I8rofWWBmzY=
 		</data>
 		<key>TravellerCheckBoxTitleTVCell.nib</key>
 		<data>
-		VlJ9P8rlwqi5YbdlEi9W0NNcSQU=
-		</data>
-		<key>TravellerDetailsHeaderView.nib</key>
-		<data>
-		nbZNtn+5sf7RIvP4nTN4/4tjqFA=
+		wDxy37ZAnd486T/1t/fK79cZTXA=
 		</data>
 		<key>TravellerHeaderView.nib</key>
 		<data>
@@ -2120,25 +1604,9 @@
 		<data>
 		P7WL/BHT+1SDpFOLiXBe+orsW3Q=
 		</data>
-		<key>TripCoinCardCell.nib</key>
-		<data>
-		C66FHp+uOIoSmfu4Bxo9qCfWRLg=
-		</data>
-		<key>TripCoinViewCell.nib</key>
-		<data>
-		FZD95N5vfrflf3om5fVeACI0C14=
-		</data>
 		<key>TripTypeHeaderView.nib</key>
 		<data>
-		oboZHBQvSf72KJBXEaw9iLk6mYI=
-		</data>
-		<key>UploadCVCell.nib</key>
-		<data>
-		TG4etmcLwopotpkQGCO0lyty9k0=
-		</data>
-		<key>UseCouponView.nib</key>
-		<data>
-		tWOb5Uu0ToWOabggKZfvZZwC9mY=
+		XMxM0IMimuKLd3KbHEsy77yladw=
 		</data>
 		<key>VRRFlightDestinationCell.nib</key>
 		<data>
@@ -2146,7 +1614,7 @@
 		</data>
 		<key>VRRFlightSelectionFooter.nib</key>
 		<data>
-		DIR8l1kYvLbc1v+2sFgt/Kt8I6k=
+		DP6D0idG+A+xrH+azzcLMIDW7xE=
 		</data>
 		<key>VRRPendingRequestCell.nib</key>
 		<data>
@@ -2154,7 +1622,7 @@
 		</data>
 		<key>VRRTermsConditionsCell.nib</key>
 		<data>
-		sOy6HLalMHMvd0DPkgveQIAIwCI=
+		+HlE0aYD5LwN3eC4ZRHyWyk4WB4=
 		</data>
 		<key>VRRTravellerSelectionCell.nib</key>
 		<data>
@@ -2166,11 +1634,11 @@
 		</data>
 		<key>WarnMessageTVCell.nib</key>
 		<data>
-		0hEyNDhNP9sevEDL+MGqaTgloKw=
+		dx3B35fCvh/RL2q0fouUr/DYm24=
 		</data>
 		<key>WarningMessageCell.nib</key>
 		<data>
-		QH8/mWXKlJM4/ib1Zblj3yu8cBA=
+		1VdE7yfYKNAiR2aZrDd/qAxvjXI=
 		</data>
 		<key>default_style.css</key>
 		<data>
@@ -2180,9 +1648,17 @@
 		<data>
 		ix56GLgW4RwvddB5cE5TfSh/wgU=
 		</data>
+		<key>fetching_brand_fare.json</key>
+		<data>
+		1C3Ie35mquDZ2ph344Iunh0knZ4=
+		</data>
 		<key>flight_addons.json</key>
 		<data>
 		4JGFc5XO3UHJBsxCcNyKzDagpsc=
+		</data>
+		<key>flightinfo_flying_plane.json</key>
+		<data>
+		EVv7k2ys7LU2B6liXOzBFj5PY1g=
 		</data>
 		<key>loader.gif</key>
 		<data>
@@ -2191,6 +1667,10 @@
 		<key>privacy.html</key>
 		<data>
 		LI3NMM6cda2OrQ2Byl6JCziXGeE=
+		</data>
+		<key>scanner_lottie_animation.json</key>
+		<data>
+		QiNLuvLo8uQTkEL7k7K6/r6Tm4M=
 		</data>
 		<key>success.gif</key>
 		<data>
@@ -2217,7 +1697,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j2msAIVuVF/9tzB2zTgFf9tt4PNQpoF+yEGWNnOSs3g=
+			4cH2DYuvE94d2IpnOupFr4QNb86sZg9KYDxSDvUlV2k=
 			</data>
 		</dict>
 		<key>AddonView.nib</key>
@@ -2231,7 +1711,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRkruwjXhT2z1To3WYSpk5T3miTDWh+aT8gpPtnow+A=
+			J29xXXzhSOUO7jW7Ltwx8AyWEaWz9eEEdlzqX73/rqo=
 			</data>
 		</dict>
 		<key>Addons.storyboardc/AddonsDetailsVC.nib</key>
@@ -2255,11 +1735,18 @@
 			Jo1bMWxoWdQM1W1tlCgekQERT0a1/H8YxY+pX9Q+TZs=
 			</data>
 		</dict>
+		<key>Addons.storyboardc/ESIMAddonsVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SnDdWM22UwGej1+8Hn1a6SE8qmIf7qSP3L2iABFi5aI=
+			</data>
+		</dict>
 		<key>Addons.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jWhwJfSkWMf4EA5zagzmJOl++WzG6XHGTsFqH/k3dSA=
+			SNjEz5S5TT4LENCVjrWRiIhXM0ZDT0nJKlxOcdkYqWQ=
 			</data>
 		</dict>
 		<key>Addons.storyboardc/TakeCovidTestVC.nib</key>
@@ -2280,28 +1767,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRkruwjXhT2z1To3WYSpk5T3miTDWh+aT8gpPtnow+A=
+			J29xXXzhSOUO7jW7Ltwx8AyWEaWz9eEEdlzqX73/rqo=
 			</data>
 		</dict>
 		<key>Addons.storyboardc/hWf-zU-nRx-view-x7k-ih-nVM.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRkruwjXhT2z1To3WYSpk5T3miTDWh+aT8gpPtnow+A=
+			J29xXXzhSOUO7jW7Ltwx8AyWEaWz9eEEdlzqX73/rqo=
 			</data>
 		</dict>
 		<key>Addons.storyboardc/l6U-CS-aQF-view-zeh-P1-9eS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRkruwjXhT2z1To3WYSpk5T3miTDWh+aT8gpPtnow+A=
+			J29xXXzhSOUO7jW7Ltwx8AyWEaWz9eEEdlzqX73/rqo=
+			</data>
+		</dict>
+		<key>Addons.storyboardc/xlp-6i-VJe-view-nU3-RN-AlP.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J29xXXzhSOUO7jW7Ltwx8AyWEaWz9eEEdlzqX73/rqo=
 			</data>
 		</dict>
 		<key>Addons.storyboardc/zpg-vj-7fL-view-VFN-oE-evc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sO73Jcsp/PfsuH4PQ8E+q+F4wSFXViNzgQxAD+BR0lI=
+			O5qdv9e+balpuI9XvWALujqu9wkm1JljucFUwX/TnqQ=
 			</data>
 		</dict>
 		<key>AddonsCollectionCell.nib</key>
@@ -2315,7 +1809,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b//7RHaVmEjtHwLKWAMXHv3mHid4bE/orrwXOl0Q7xk=
+			6ZCpYEeoXXVmZJvOS9PXnrHyQkjwgWa/LZvHYtLwj2g=
 			</data>
 		</dict>
 		<key>AddonsHeaderView.nib</key>
@@ -2336,28 +1830,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XlneyRB6pru0NV155Rp7Xe9K3pg8y1jkXV8xEdtsWlo=
+			lWJ3LfDof3oAnrxWyUFKZWP2v/pNDaXBzbpWrmfZyzI=
 			</data>
 		</dict>
 		<key>AirportCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2uUvPYbmpR7QNJSxVHk0xNardWGGwH4+hHEPYTWHQRA=
+			6pxi8CxLRDq0j5ukRUyWtKZ71JoVP0V9Zf3mNMi0pmk=
 			</data>
 		</dict>
 		<key>AirportInputCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9O9lynhOaFzhbpmcGqQABLoLW40uknXpAYDFD7c4Cdc=
+			UF4y+Tjfq85IRHVpj8BO2NC+sqqmfIndPrjGaowrSDk=
 			</data>
 		</dict>
 		<key>AirportSearchCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fVtd+x//4ea1ksqV5xo1QnbhiS0hNR1/inDEkjTEFf4=
+			abdaaAWuI7Y7MPQxlAANgE81X9vBJaxI/06XTAuIutk=
 			</data>
 		</dict>
 		<key>AmountInfoCVFooterView.nib</key>
@@ -2365,20 +1859,6 @@
 			<key>hash2</key>
 			<data>
 			ekyfIOOiiMZaIrCEtsh+GEs62KB0gWWTpn2TV3uP+KU=
-			</data>
-		</dict>
-		<key>AmountTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mIsO2nwj3TSomn66wjgGjGJzvMBasdcTorNaLZVwt14=
-			</data>
-		</dict>
-		<key>AmountView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			breekNDva2blvSc/h7hYmMw8ezNKfdCT+dbq+2kADoM=
 			</data>
 		</dict>
 		<key>AncillaryInfoView.nib</key>
@@ -2399,28 +1879,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NRedvMwrD2SHlBDH9vMcJs0PhrO1xUzeIiqDjwDUW58=
+			hBOhZXibOc9P42HEAPiLq5Nf3/E458qKZIlWWmW4CzM=
 			</data>
 		</dict>
 		<key>AutoQuotationPriceView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DCp8SpUyDGR4cCcEZvmWy+Pj/9Vg1V/Qkgjc/+ni85U=
-			</data>
-		</dict>
-		<key>AvailableCouponSuggestionView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pSm9eetlRLBSaJFq1KcXE/YPnm+UWI7AkuT4TGRZN40=
+			UjS6lpR1y+u9/HG7DoqJzCqDYveNrIxQz7EhZ3eUar8=
 			</data>
 		</dict>
 		<key>BaggageCollectionCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l/CpuOj7c2sV5r7AiLcAUMoLiiXvm8hc/TlNvcQgTMI=
+			me0ffqPPHtPvBlxPIDY6nwGw3bzCbmWmxiHyKwj6ppg=
 			</data>
 		</dict>
 		<key>BaggageDetailsItemView.nib</key>
@@ -2455,14 +1928,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ytS+pS2tWDqQf8fWlB7gI32qzkkhZJyAl2Pv4BlARdw=
+			LLBhpcRKtXnG0YIoyP0qGL6wnUdqrRzocSqfYeyaHcc=
 			</data>
 		</dict>
 		<key>BaggageInfoTableCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V9XtZc/qSX3fbWIlEbCxem6jCVnKc8Sz5waj7wtc+L4=
+			ljVL5/WtZPWiZ5pkQMAfwfE9wZlzcI+2ni7sS9rAuuI=
 			</data>
 		</dict>
 		<key>BaggageInstructionCollectionCell.nib</key>
@@ -2490,21 +1963,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vujcM/6fNpfIicjHwbFMocng/8QIQQCjmNOyO090onY=
+			PTTPeR/s277IEIw1o/jF+Vqav5BJxe94wX7TVd6vpN8=
 			</data>
 		</dict>
 		<key>Baggages.storyboardc/1fX-D1-c4j-view-zZt-iT-e1R.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mjcBLo8TItzv5sFItXw2mKeIadjPD+tXQuf288hkAGU=
+			lMlfAEyblwS+iLzik/12SlPFuYSphAwk6Cx1uzsSTQE=
 			</data>
 		</dict>
 		<key>Baggages.storyboardc/2dY-5v-FrG-view-zJE-5q-fVZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mjcBLo8TItzv5sFItXw2mKeIadjPD+tXQuf288hkAGU=
+			lMlfAEyblwS+iLzik/12SlPFuYSphAwk6Cx1uzsSTQE=
 			</data>
 		</dict>
 		<key>Baggages.storyboardc/BaggageSelectionVC.nib</key>
@@ -2539,791 +2012,231 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nqPNip63pWd5P7nnXS4st7rmt+KLZKyGF7JPoaSILgw=
+			8mT8vkBhnK907hSk76WmlIK9Y4jGvEmGDtGm6z2gt4A=
 			</data>
 		</dict>
-		<key>Base.lproj/Account.storyboardc/8vW-4R-DYZ-view-3Zs-kf-wcm.nib</key>
+		<key>Base.lproj/Flight.storyboardc/0Uw-F4-j3P-view-aGU-XP-Ozm.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G4LyksgP4C0UEyVjHgBdaae5A5Hcawx8ltJ8xJY1hwc=
+			++VXS9Up5yAfiYOW80EyZpH5hdvHgYiho3AaofVa09M=
 			</data>
 		</dict>
-		<key>Base.lproj/Account.storyboardc/ACG-0o-D32-view-Hzd-UJ-dom.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ECqdgZUQXKqfTHvbyKcVnV5qeUoJ1jqE1E48AffWaSI=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/AccountNavVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8xgyEsDG6Rf0kBEPYVRMnXerDncAHDrCehe/efH5AFA=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/AccountVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FkHRnc3Z9KvdmyL/FM1zSv1pO+VSiisu48R6nI86ioo=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/AddFavouriteGuestVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Hg+lgPH+dj70AkNUC7CcEYhtZFuL4G7VhsGFeMfPsT4=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/ChangePasswordVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cSTblZweMeaOkcj9FLLIhDSsuuXe6w9aDelZ2FY1GGk=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/DeleteAccountVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GAzOXvIMDCYiThIO44H+DU/NNux3PoDp4qTJxqaxWnI=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/FavouriteGuestListVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vNIJwWybiTXsXdxuug7K3tRBVL2Bb6ahYrO7g6oyQQk=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DfbwmsUMMwtU0JEAvZuEv7GCnLJb4uDTpMrcUiXnw3U=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/NameGuidelineVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DBg/3+LYbAZFvhP5OGJ2btmPCUVS1uVRjCeSunOghjw=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/NewEditProfileVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			56lKsDdEB8NbhO6juNo0yZDlOIJJhzJeeXpKR20IGzY=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/ProfileSettingsVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JVDIkBMejl6MDIqg23x2TnJz00NfXo1edUzF7JW+89c=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/QPO-I6-ltq-view-tlY-s4-5s3.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VktvbM/E2csIAXvebQiIJQK+kJRaikN3MoILSxYPe7k=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/UIViewController-8vW-4R-DYZ.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bLedvuhJbzF7Uv3ED1Jtv7xkwoV0L9QASUuD0GTcBlE=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/Wzd-An-PFV-view-mtA-lq-xin.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TLSAgRBd5G1iuwk4loCkmB17kr+VVDpHcwdWb3CU2F0=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/eBo-FQ-aCV-view-mBY-Hx-PJS.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AHAIXlr9LFlDxp3IKGKdN4xbuSNmsd9mevZV3Wk/q1c=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/mcI-Vp-HS7-view-ZZk-hD-HQs.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2nlg7IAGCLf01v8eh9kjR3WKbcAyyIqpt+bkX9lzSSY=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/olC-2L-HqH-view-jxv-vp-Ay7.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+X76mlIqFfiXtxFz8x5AwySej4N36xQIZnJGTqYfVV8=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/pwp-Ti-cfe-view-yz2-KH-Clp.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wyCOPYbyAl1WA8Z1xpzIWrHIASh//SqKNwsz5slDtiU=
-			</data>
-		</dict>
-		<key>Base.lproj/Account.storyboardc/yvc-0G-x1y-view-fzh-I7-9Hn.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/RgUcMzwdNPog2F1Lghjko2OzQNHlUR7u8VQ8HSwEJE=
-			</data>
-		</dict>
-		<key>Base.lproj/Booking.storyboardc/6AV-uZ-g2n-view-tlA-uN-SGk.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Vtyi9LeZbBCCGmjzAj9DCSJ6N190yXCjHeZYHwyRP08=
-			</data>
-		</dict>
-		<key>Base.lproj/Booking.storyboardc/BookingDashboardVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			i2FIvrLZyG0BukQdfuKKe4eAn9ME8JiyK/zGZRij9SE=
-			</data>
-		</dict>
-		<key>Base.lproj/Booking.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pHZHTfHOPpa6a0Y0yEd51W6Z81xDEofg7Y9flYHe88U=
-			</data>
-		</dict>
-		<key>Base.lproj/Booking.storyboardc/UINavigationController-lhu-r4-wpY.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			f9m23aP6sA/MXYRsWwpH3it3PDrS+0YZwJcjfBmHus8=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/0Uw-F4-j3P-view-aGU-XP-Ozm.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kKx5CfF3pM2w3Z4OPEy7svky6fu8euqBISwfabBuNQI=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/0Uw-F4-j3P-view-aGU-XP-Ozm.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kKx5CfF3pM2w3Z4OPEy7svky6fu8euqBISwfabBuNQI=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/AirportSearchVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/AirportSearchVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			rhpHgf7AvmzErdBTTEO4rQuSkqXRHEdHecTlLSOYdLk=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/AirportSearchVC.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/EGc-hI-uFI-view-cWa-q6-cBa.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rhpHgf7AvmzErdBTTEO4rQuSkqXRHEdHecTlLSOYdLk=
+			rA1Fx27WheDiPIEj9FXvtJUHtfL0s/EMgmPbW4byVxY=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/EGc-hI-uFI-view-cWa-q6-cBa.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rscKTtTctEZ5PELbLBVA1BqCK4dBh0jel9p8RQh8jB4=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/EGc-hI-uFI-view-cWa-q6-cBa.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rscKTtTctEZ5PELbLBVA1BqCK4dBh0jel9p8RQh8jB4=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/EMIViewController.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qssuq3sq0uI/sdDL/I0IU/Kwm4Z0W6DvPzUhoEX4Pyc=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/EMIViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qssuq3sq0uI/sdDL/I0IU/Kwm4Z0W6DvPzUhoEX4Pyc=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FareRuleAndPolicyVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FareRuleAndPolicyVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			R62boFEX/LhKz5wtweeqt8ZNl9e679DpQbRsrIJ2/qM=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FareRuleAndPolicyVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R62boFEX/LhKz5wtweeqt8ZNl9e679DpQbRsrIJ2/qM=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightBookingHistoryChainVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightBookingHistoryChainVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			tCsMkzwhTrRF/GpOXFavKXPcQvxaLJJU1fRkKP9QMUw=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightBookingHistoryChainVC.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerRootVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tCsMkzwhTrRF/GpOXFavKXPcQvxaLJJU1fRkKP9QMUw=
+			IaaClNunwqFCYC7/iHb9M7qCiv8fzNsv7ccaVAhFnNU=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerRootVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DgTEy5Msh3MM8p0tSbcakSQJ8VFbd7gy4GqseSnXiZI=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerRootVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DgTEy5Msh3MM8p0tSbcakSQJ8VFbd7gy4GqseSnXiZI=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			J+i/mrTaX9obCUc0bcv6RCFz6j5oL60WiYXmBnutWqM=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsContainerVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			J+i/mrTaX9obCUc0bcv6RCFz6j5oL60WiYXmBnutWqM=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightDetailsVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			vmcV8quR1F2FgSkDbErHDpss7uWP7jWsL7WR9MIK8Sc=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightDetailsVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vmcV8quR1F2FgSkDbErHDpss7uWP7jWsL7WR9MIK8Sc=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightPassengerListVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightPassengerListVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			5sMSpJntmxYFrcgxHXU7PLW9Nx5RrfVJJJI9CSbPPfg=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightPassengerListVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5sMSpJntmxYFrcgxHXU7PLW9Nx5RrfVJJJI9CSbPPfg=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightPolicyContainerVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightPolicyContainerVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			xCgRoiLH4TapXBetuzF5SMjXr/ojn5blPu/tqGd7czk=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightPolicyContainerVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xCgRoiLH4TapXBetuzF5SMjXr/ojn5blPu/tqGd7czk=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightPolicyVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightPolicyVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			T2Hmxna91YbfU2E4drWdXS/ydyu770XctCyGDGJYzmE=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightPolicyVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T2Hmxna91YbfU2E4drWdXS/ydyu770XctCyGDGJYzmE=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightPriceBreakdownVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightPriceBreakdownVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ErV+qSVCfm2PyCelaYdo/3bIqI7RNVWlmZ9d8GLxkfw=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightPriceBreakdownVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ErV+qSVCfm2PyCelaYdo/3bIqI7RNVWlmZ9d8GLxkfw=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightSearchDateSelectionVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightSearchDateSelectionVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			tWWulxTkdLUPyrzAfNvsjq9MWyVRfHPTxekkR24eOG8=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightSearchDateSelectionVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tWWulxTkdLUPyrzAfNvsjq9MWyVRfHPTxekkR24eOG8=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightSearchVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R5vvkAJ7DlNCVZFNirnZEoyiT/gWU2p/K+aljHDmvAM=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightSearchVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R5vvkAJ7DlNCVZFNirnZEoyiT/gWU2p/K+aljHDmvAM=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightSummaryVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightSummaryVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			hx3fzCDFSerdk8RaswWYSjMrFsAgK6Kwx9b++62aoSo=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightSummaryVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hx3fzCDFSerdk8RaswWYSjMrFsAgK6Kwx9b++62aoSo=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightTravellerAndClassSelectionVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/FlightTravellerAndClassSelectionVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			epXfvWzQh0NtB03UfyvUPYTVrMcmiCdJMZiNvj6lgq4=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/FlightTravellerAndClassSelectionVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			epXfvWzQh0NtB03UfyvUPYTVrMcmiCdJMZiNvj6lgq4=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/IS8-aQ-vNj-view-llB-JI-HUC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JLpLNEevQB6BFzA7yQjoeZ/0dqZyeNecLO94PPXCQFA=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/IS8-aQ-vNj-view-llB-JI-HUC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JLpLNEevQB6BFzA7yQjoeZ/0dqZyeNecLO94PPXCQFA=
 			</data>
 		</dict>
 		<key>Base.lproj/Flight.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RCfwhhGNuqCgPvvBx31VyLtF9iVffwe1Z0RzWWHp2tU=
+			X62NVWjWU0ylN2Epjv8yfp3JNmaK4tQx/xh5xj6nUbU=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/Kpp-gX-d0m-view-Ria-cB-1au.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/Kpp-gX-d0m-view-Ria-cB-1au.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uOMJRh8dpTvlzCVMxvnAzGhIyChXx5ULUcsLZn3L8u0=
+			6ktSNT5ZQ2lS+uw/klMVqEzgrJTBFJ9R/T1q2zJ4DyU=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/Kpp-gX-d0m-view-Ria-cB-1au.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/LDg-rD-ZV1-view-Mzs-iy-J6C.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uOMJRh8dpTvlzCVMxvnAzGhIyChXx5ULUcsLZn3L8u0=
+			PYE3wLBqmkl2RpLN5QjzAfjhMrRpvePHAD5YLCmSUfU=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/LDg-rD-ZV1-view-Mzs-iy-J6C.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5HykaoWOD4i1AifDs747c4D9h6aE6SCXI86tF0MR+hM=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/LDg-rD-ZV1-view-Mzs-iy-J6C.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5HykaoWOD4i1AifDs747c4D9h6aE6SCXI86tF0MR+hM=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/NavigationController.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MOt5OjTo7orpuGlWFSi9P4aMYpOd3/vk3EhoBGGCP4o=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/NavigationController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MOt5OjTo7orpuGlWFSi9P4aMYpOd3/vk3EhoBGGCP4o=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/PassengerDetailsBottomSheetVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/b6U6HvM1CfXc3VFnmpnPirwxTm6GBruj916qiEaoVE=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/PassengerDetailsBottomSheetVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/b6U6HvM1CfXc3VFnmpnPirwxTm6GBruj916qiEaoVE=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/PassengerDetailsInputVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/PassengerDetailsInputVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			aefxeRZ1ofP40yzOxf8vDpyL2WUW8keiHq9J5R3TNwU=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/PassengerDetailsInputVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aefxeRZ1ofP40yzOxf8vDpyL2WUW8keiHq9J5R3TNwU=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/PassengerListVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9glVQuJnaVTyCvc6AOEmyBF75lmIIYvxNCtScVvZoNQ=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/PassengerListVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9glVQuJnaVTyCvc6AOEmyBF75lmIIYvxNCtScVvZoNQ=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/QuickPickBottomSheetVC.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/QuickPickBottomSheetVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			KxOOJRkQqyDokMJ68FsiSkiGIHv/2DNY3aS9HxPs/qg=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/QuickPickBottomSheetVC.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/X8M-1l-EK3-view-STI-Jn-edZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KxOOJRkQqyDokMJ68FsiSkiGIHv/2DNY3aS9HxPs/qg=
+			nhG4rZ5xOR+L21zsBsf8pXHn8I9/vbDSNW84ZquvJ8E=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/X8M-1l-EK3-view-STI-Jn-edZ.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/YQG-pc-nLx-view-Nn3-wL-T4R.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOff3KOBbEK6eBDPScsjNJeJDwCELbx+xvNZM7JlNQc=
+			rCFCR3RNLd3lKRu4sqiXfjUJzBoVTU63SnnXelt7JLI=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/X8M-1l-EK3-view-STI-Jn-edZ.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/YyV-y3-bgr-view-klZ-ep-t5S.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOff3KOBbEK6eBDPScsjNJeJDwCELbx+xvNZM7JlNQc=
+			UnP0fcE9Q16VcnwhSPnawCZROR7FzzP1LZCJzKFC80s=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/YQG-pc-nLx-view-Nn3-wL-T4R.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/ay2-ji-reU-view-BDP-53-i1o.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Qt0gUSqs+UTV6B37KRYJYVhH+sovRyAAwVoyLfuff8=
+			F5ZNapt7tCBfY+zt07d3YRLwpKsuZn7PYHF5PRu2IGY=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/YQG-pc-nLx-view-Nn3-wL-T4R.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Qt0gUSqs+UTV6B37KRYJYVhH+sovRyAAwVoyLfuff8=
+			nxdTScqJd1W9rEX4FOMRIP7Ss20+YB8ud1B4ztnD4sY=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/YyV-y3-bgr-view-klZ-ep-t5S.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zY2cXzIZHvcrcTEkSineZ7BIk05iV9wfzyeeGfjocPw=
+			qqXZz5bPqoZzixDWAE0rMl8lkb16BQRO9TEfRqrVhDg=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/YyV-y3-bgr-view-klZ-ep-t5S.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zY2cXzIZHvcrcTEkSineZ7BIk05iV9wfzyeeGfjocPw=
+			tdRqAVShdOjTxQY8CkBkJHgHY1Mrmg/9c9e58+WtA7g=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/ay2-ji-reU-view-BDP-53-i1o.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ul9ufywwpxlQbpzM/YJgUD2ap5LMtGGYKWlQUdH0zj0=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/ay2-ji-reU-view-BDP-53-i1o.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ul9ufywwpxlQbpzM/YJgUD2ap5LMtGGYKWlQUdH0zj0=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xswDoGmzUrbrvbnQrfZpHWWGdqweO28eE8fCXFJ0pXo=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/cef-Ft-Bvq-view-z9A-Wh-MbY.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xswDoGmzUrbrvbnQrfZpHWWGdqweO28eE8fCXFJ0pXo=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3yNjlgACdPiw9pB0IjQIjsTCwHH3SBdBPZHJpT5Z+y0=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/gd4-BW-Lx6-view-MYq-cH-4ff.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3yNjlgACdPiw9pB0IjQIjsTCwHH3SBdBPZHJpT5Z+y0=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mNmEq8ncdf9hLT1I8uNlS6DwyBL9noYFuHetGOC0PsU=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/gog-vn-oT6-view-62x-Op-22r.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dqVFPoSZe3Xm/rZzMEUu8V/ABBSQPF3j0KtLDmcIZyk=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/h2m-ib-22Y-view-ocU-HW-jUI.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QMs1jVtjadUSFesAZAmkUQSs7NRvgRjPwSt+vsx0SDg=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/h2m-ib-22Y-view-ocU-HW-jUI.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QMs1jVtjadUSFesAZAmkUQSs7NRvgRjPwSt+vsx0SDg=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/hxA-7W-bpt-view-4DR-Sx-g5i.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/hxA-7W-bpt-view-4DR-Sx-g5i.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			zyBX2uL0jPDQKnVp0dgOIBTmKdFXmLwa4x/79RBH65U=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/hxA-7W-bpt-view-4DR-Sx-g5i.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/nEE-Rd-lab-view-M9U-AO-8S4.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			zyBX2uL0jPDQKnVp0dgOIBTmKdFXmLwa4x/79RBH65U=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/nEE-Rd-lab-view-M9U-AO-8S4.nib/objects-14.0+.nib</key>
+		<key>Base.lproj/Flight.storyboardc/rLW-Hu-OD4-view-Rsf-fr-XeG.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zyBX2uL0jPDQKnVp0dgOIBTmKdFXmLwa4x/79RBH65U=
+			MMz3eZrXqcyPLDD+zgzEQcpt7J27KFpRANShF7kN0rI=
 			</data>
 		</dict>
-		<key>Base.lproj/Flight.storyboardc/nEE-Rd-lab-view-M9U-AO-8S4.nib/runtime.nib</key>
+		<key>Base.lproj/Flight.storyboardc/w6d-Uq-S9J-view-xty-Oi-80O.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zyBX2uL0jPDQKnVp0dgOIBTmKdFXmLwa4x/79RBH65U=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/ozy-GZ-mzZ-view-4VO-F2-rpe.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZfGL1V7nKKgcecDRgPgduafP7cgsPM5bzKs9wwCyKJQ=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/ozy-GZ-mzZ-view-4VO-F2-rpe.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZfGL1V7nKKgcecDRgPgduafP7cgsPM5bzKs9wwCyKJQ=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/rLW-Hu-OD4-view-Rsf-fr-XeG.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xHZx/HzubWO2xXl9PKdLc1q1y0tzq7LTMo4ZurzqeLY=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/rLW-Hu-OD4-view-Rsf-fr-XeG.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xHZx/HzubWO2xXl9PKdLc1q1y0tzq7LTMo4ZurzqeLY=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/w6d-Uq-S9J-view-xty-Oi-80O.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wnz5lVwp1EaBlA/LxYBEDeOEfm358Pl/mqqd4JV9/3o=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/w6d-Uq-S9J-view-xty-Oi-80O.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wnz5lVwp1EaBlA/LxYBEDeOEfm358Pl/mqqd4JV9/3o=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/zxa-6f-3DU-view-HWV-8d-AFS.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V6Vcjs0vgz/gFM8KVp8z8zgtAQTEOn1OdTYWfFAz6xM=
-			</data>
-		</dict>
-		<key>Base.lproj/Flight.storyboardc/zxa-6f-3DU-view-HWV-8d-AFS.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V6Vcjs0vgz/gFM8KVp8z8zgtAQTEOn1OdTYWfFAz6xM=
-			</data>
-		</dict>
-		<key>BookingPaymentView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Fi52vCGJGSrnMPXx5TJexN7lY/QwZUuVBtxDEApTnG4=
-			</data>
-		</dict>
-		<key>BriefInfoCardCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D831QKhnSjv50B+mae6vAEoKXOhFpX5DMa9MwN8oSR0=
+			zitjFfxS7daX4FBsN4wtoU4VL/WC5NMucwKb5d9Nfng=
 			</data>
 		</dict>
 		<key>ButtonBarHeaderTableCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			alLvDCn6RySt9VO9vcdFsTLem76FnokTPPbq8LB+3WA=
-			</data>
-		</dict>
-		<key>CalendarDateSelectionCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ub42StPJkGUS3IPpv2ZeZwdpDP26hmrSXkhJpoKJAcc=
-			</data>
-		</dict>
-		<key>CardHolderNameCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			X6NuGycSfHv2ZFRdbwKIJeq3jkv2h++XxtDoZH9Dm/8=
-			</data>
-		</dict>
-		<key>CardPrefixCVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q6T/JrzFPo0R30duPdTN6ua1o0mlNjWeh4gSdFQYr1I=
-			</data>
-		</dict>
-		<key>CheckBoxInputView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q/5HtV1k7Y6rGOw/L1ODB4I1leHowCz+Vkvi/feGi2I=
-			</data>
-		</dict>
-		<key>ChooseUploadView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OomRiBceB3zMpPPS2nX6FgHhwC/BI3F/f+s4ryvbC4s=
-			</data>
-		</dict>
-		<key>CityCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ThTYfqtAfP87hkLNtm3Gu0q1iqmeCCG6B/oLDphUyp0=
+			5cc++Kv5SQrzrksXlTacICo8/cKYjk+ebisfFJDxwl8=
 			</data>
 		</dict>
 		<key>CollapsiblePassengerHeaderView.nib</key>
@@ -3337,14 +2250,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zj8KXmtDrJQwftREhoEDMdrQZuRpFHonCQ+Rrxf0V/A=
+			Prj6L2qzGyIzVFWwh+GPYZwiOBcrbQSfxey0oFssdSg=
 			</data>
 		</dict>
 		<key>ConditionCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0xtIxJarYCevykdD7wspqNDy6vwO2CL8IwAL6Ey0gC8=
+			SMl9M9wffUeMC0KPx4Q1z74BFiBozOKg/8UD3WtkIdE=
 			</data>
 		</dict>
 		<key>ContactInfoCollectionCell.nib</key>
@@ -3352,20 +2265,6 @@
 			<key>hash2</key>
 			<data>
 			GhICEVJoj6QQWJlZxB0i2D800tInsjcJC/xi8djvNas=
-			</data>
-		</dict>
-		<key>Countries.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fZ+DA+gv1v9rQyhx54DPmg8h79aRYzm6WqAsOOapKjQ=
-			</data>
-		</dict>
-		<key>CouponSuggestionView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			u5LAbRJoHSDyNOETZbQc7Lh1OAAP4Jvs5VYnRMra1f8=
 			</data>
 		</dict>
 		<key>Covid19Test.json</key>
@@ -3379,77 +2278,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZV/E/UAwd4a49B5Ywz2djoI0ib2SKpwKcr5Km/VJHAo=
+			r66rmKj7c55hXsszBrcl3WT7kvuDe4wcT8TXHKUR/nA=
 			</data>
 		</dict>
 		<key>CovidTestCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0oYN8LmOTW9HaMvl8nvfkDHBJ8zdI/D7t42dlTLx2Xg=
+			G0uZ19+3thvmnjfNmYrdtkMhGryWIIY1WTMEq090D9w=
 			</data>
 		</dict>
 		<key>CovidTestChargeCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p42kn3Mciyv96iQt8/bmwrxEY/iw0uv0N5rEEyCfako=
+			FfqaFqSaK1QSaphpkC6L1beLiMt3UhOmOEwcQ3HdyRw=
 			</data>
 		</dict>
 		<key>CustomInputView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZI/7LCxd4a/Gzj6SiBy0qjajHPcuqTVErmDIHgXQedM=
-			</data>
-		</dict>
-		<key>DateSelectionCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dBWj/JuMpsIgg5aYgwbZNTV+PXBm7G7TJ7cwnmtnf2Y=
+			v0HeTdqCMRte2YX2l5WQXTV0NcbWQ5uY7UiirgsXXbk=
 			</data>
 		</dict>
 		<key>DealCardCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6y70x2ZqGnKn+p3eI/yOKPc9d0B0XQUCUypdABXHPZM=
+			cAP+siPJKnqCNAMtqb4mrJtAVZpAf3mdv4zxOS/sNTI=
 			</data>
 		</dict>
 		<key>DealDetailCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v4faD2slfGdZYByCqcAtlrpCGkntwHj6W5BzAFvuEw8=
+			Sj0k+blSM7IBmwtRahId9gVcBN+2hvMTVMtLbuwB7Lo=
 			</data>
 		</dict>
 		<key>DestinationInformationCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JkXdMS30pupS5v2zL49sioWLsmuNLF3POOcOZcKZ7T4=
+			e8w+t86ZxCyoE/503CNhMQiplu2AuWF0GREkV9l83x0=
 			</data>
 		</dict>
-		<key>DiscountHeaderView.nib</key>
+		<key>DonationHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MYHnWyhywe6VamLfjZ6Dndu5cjZHR525j5yUHP4nfCU=
-			</data>
-		</dict>
-		<key>DiscountOptionsCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MfcTbErSbDUIqgfBXWUYc9+om6bwAl4QeIxub8Dtpqk=
-			</data>
-		</dict>
-		<key>DoubleInputCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yPlRlBLJlsJwMKhLoGmdcZeM82RSKJyZAN6rhTpopAA=
+			UMAeoEUIXWtYFfQGVPsjL1xJdsFjCJ1LVe5yKN56fto=
 			</data>
 		</dict>
 		<key>DummyEligibilityTravellerResponse.json</key>
@@ -3466,53 +2344,11 @@
 			ydIBDNrsnCbJa6y78otgYTRUBRxz5nhO0/OToUYbk+4=
 			</data>
 		</dict>
-		<key>EMIInfoCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FKRenFqnfP+pnAteCUffSmxV5e8MBaUk/wjc20F2dKc=
-			</data>
-		</dict>
-		<key>EMIPriceCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			I63c9eKkNsaML5tpZfi/M6zTwEQqo+eAdjvSId/JVNo=
-			</data>
-		</dict>
 		<key>EMIReviewCollectionCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			cbj3PRYB7RokkP3zzFTFgyq2d5ZFn+MCwgEucfxnx2o=
-			</data>
-		</dict>
-		<key>EMITVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Tc7AX9jD+rvkyjDf06Ft5n+KC2sDr9MzFinobRD4+pM=
-			</data>
-		</dict>
-		<key>EarnTripcoinView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			w+DXcwWXBRdemvu/bTDJVt14c5tTv1CVIdtVaLrHQZs=
-			</data>
-		</dict>
-		<key>EditableContactCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Tq6IthJ+XCkWFAnpYQTr7c3S20C1W87wyK9em1sylTQ=
-			</data>
-		</dict>
-		<key>EmptyCollectionFooterView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UKj+ddoQJV6QhcMVM6V5JfAK/s8OKDovkILJtF+1tQ0=
 			</data>
 		</dict>
 		<key>EmptyDataView.nib</key>
@@ -3522,53 +2358,11 @@
 			MCraFak019Dy+ajQQ8pPj1nrFaHYqIL1NkjoXP6ZKNA=
 			</data>
 		</dict>
-		<key>EmptySpaceCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uNGA1AmPhmgr8Bnijny5hokVrXJMill7erHIvnU0GE8=
-			</data>
-		</dict>
-		<key>EmptySpacerCVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W1qEE3v184LbPnfIoUgutGKY8oLhomPJERn4Xvh9v6s=
-			</data>
-		</dict>
-		<key>EmptyStateView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NtJQmAErzfbsRvJ4S+2Svsg8/QBtoTDAva7+3qW9pwY=
-			</data>
-		</dict>
 		<key>EmptyView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			HcukJpwXYCDaKNv70RZkjSa1vEnUFACPumM4PGr4lZE=
-			</data>
-		</dict>
-		<key>ExploreDestinationTVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IumhU9pYXqsbgbLhYu5U6uN2fGdbsFwv1osjeXGbvRY=
-			</data>
-		</dict>
-		<key>FailedView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EAgqlq/gO+C0vlzAAzQZXj2e66aFN6WXnNlJK0+peMg=
-			</data>
-		</dict>
-		<key>FareCardSingleLineCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ql93LR/puvAXhjpCsXPY2aVodSOTyY8IQR9Flxtx47o=
 			</data>
 		</dict>
 		<key>FareDetails.html</key>
@@ -3582,77 +2376,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HTsgZxy4Q6NG4sGD+7tHKDq3jfWxgooxGpl8DEYXoXI=
-			</data>
-		</dict>
-		<key>FavouriteGuestItemCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gQMx8teTxa79XIwRkMQa2VPd9FdxaibNuvDy5eiAdnI=
-			</data>
-		</dict>
-		<key>FilterCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			imfoQU8wMFHbAAzA7p4rdiB1R0/mZbVE8iKCSYC4VFU=
+			AgRttMMx8L22thf2T7c6GiEt5AVEoaSgtM58preAXg0=
 			</data>
 		</dict>
 		<key>FilterFlightDurationCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cMy9CvkX8KtH8WjKUUltHWSn8KEPUwDS0Aqbc9GwabQ=
+			+++1bevQXpWEgyc2l37i80ZuVb8OLJ991KOIdxtfPI4=
 			</data>
 		</dict>
 		<key>FilterFlightScheduleCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YV65/nVicVX8cNZ4OwUpni+2J5t99D6G4PFDbssax7s=
+			ASkHg897sKhvZkwvxn7FdWRHApjt+IBaN3ccyZS6srg=
 			</data>
 		</dict>
 		<key>FilterPriceRangeCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7T6af7BAbN0QPTMq3N//SsqSQ6K9YSpNxZfOVrpteac=
-			</data>
-		</dict>
-		<key>FilterResetCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NW6fSKfWb20f2GUH0SATiT5kmkilPKndzze1GIr1LK8=
-			</data>
-		</dict>
-		<key>FirstNameInputCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AxyrXLJAQctXIwX1uWCRemEAtTC2ZtSgwwhRWKb068U=
+			OLNp2A/z3Xw0FyzV6yx2//PQm/5Hqy+S3kllpG1IRrU=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/6Ta-6v-yk3-view-Tzx-Ey-kIk.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qbAwLIJCCjqmQlAMrA7EyArSMuSGXH2L5Ik28qywKrs=
+			vMU1RM/tQThv7Arj9GECtqhYuLUP/D6Vjd1UNZ5wtRg=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/AxL-VY-m3I-view-T32-g0-dCw.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J8aLitk/rEgDIZ1cZcRsD4N3R3XwcRwcdVZBFgFcyvg=
+			+enVq0i2yZk4nehly6eA5lnRS3oh6Bmtj+hY94vs0B4=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/FOy-RS-5te-view-OMY-WA-nJL.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5t0eQgCC/JJBYWM/keGk0tlwQJZLpMGLdaem+lL2/Ho=
+			anqGjIm/E26+CRkN7ywwsj1wk09vZKgcRry5ntLnDZI=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/FlightHistoryAddonsVC.nib</key>
@@ -3757,77 +2523,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YnZZKed5HcEPZCp9G8aZSJkYjnJDBKUM5KI7Pwq6ICM=
+			6J2UQdqFW4roelBXHDNuSWxfT+uN73oeJnIBwfy8ji8=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/Ket-Kd-roN-view-DQD-1B-vS8.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y1IK1HKd46kOvbg2HFBHuPHfg4krhE+cTEyNLbzS0RE=
+			SL2yLw8mPIUvKl/j0OANvcgkIORulPh5MeQbl+L2n88=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/MjY-qA-3iB-view-ZKN-ys-D9R.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0UnBwejZZ9EeLv+bN8tj30LjxBw0q5qOmqNIZmch66I=
+			xIIodYXmSK+O6tuftWMEpqdTXn4VlCrhmILTwKs8uuo=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/OTc-1c-Sqg-view-p58-AA-WQU.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5r3N5nn31hOrjtGgooOzsFjjw+6P3gUqEQFd6YWqFk=
+			rBzO20VKagygDU0idRAvnPyA+kH+EQHgsCU3HIgwtUY=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/P12-9k-feo-view-tTo-ji-Ij8.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mil8Cjm4FRV0ZuheRuYr3YjZaK80hQikzcTdy0CEW3I=
+			aIF4KwnXsuZNFuw7r4GJBmkNMb/OspxkgXmonoChAZE=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/UjD-ds-C6o-view-gus-ZO-faz.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XFTbxGMmnCDOb7JmtPtmfTyy6skagpfkhfbbHUtNxSA=
+			tpxgTDeF2dBk+AYbI67xEGVWBLT8DXgWF4Dqygs0c64=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/cSX-3N-OrY-view-Gv7-L9-dWu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y1IK1HKd46kOvbg2HFBHuPHfg4krhE+cTEyNLbzS0RE=
+			SL2yLw8mPIUvKl/j0OANvcgkIORulPh5MeQbl+L2n88=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/o5m-hK-ghW-view-lgj-NZ-09V.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UiVCutrFjV/3fpJ61jzOa4MiWSazFHKRf1EcyS0XHqM=
+			TFBTfCEGf4CX7MP3E5W6f/MwCfS28bKtuPOzWjtYq10=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/vg1-pJ-lTL-view-rLr-It-H0o.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CoZsCHwBh91uL8hGfDeXS0q4zENJSF9W4+6AVmQIjxA=
+			UU9Ob6nlAP9VcfLwhlMxPVFPi3JOe3Ah8D9P5uSQZjA=
 			</data>
 		</dict>
 		<key>FlightBooking.storyboardc/xBz-Cs-kfV-view-EkV-CZ-nzb.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EvSvmsvxsHq+pU2BQqDf7MvgnBm+CqKTdZmjDqzbsiM=
+			zITPHjdOapdQrOaBD6F714ag+6YixCBeVi+xcRa0Q70=
 			</data>
 		</dict>
-		<key>FlightCalendarTopView.nib</key>
+		<key>FlightBookingStepsIndicatorView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6fKAxPPY2VNxZZWcUTAfISJa68iP9uOi785AmuWKIDg=
+			NGLdQAJ+oDuL3p8mKN5O3gID1z0aPNUJtlpnOtygRBc=
 			</data>
 		</dict>
 		<key>FlightCollectionCell.nib</key>
@@ -3841,21 +2607,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hPdHYtyfOvcszA4e+k7oLo0ezL3syXI5sS8WeKozhSM=
+			iLRLotJk5XxlOWJCvfWG8CgdcRJSAQf/mzqM/o29TsY=
 			</data>
 		</dict>
 		<key>FlightEditContactButtonCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PtvDBUq/CUY+BFPk1InYyjYLSAnjaEWUNybcP7DpD5o=
+			iKcsfAeLw66UQfO91AgAF70K0b6EAell4epQ2+C8nTQ=
 			</data>
 		</dict>
 		<key>FlightFilterAirlinesCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bKsfM0hVbxF6CpO2zeX+T53TaBapBbDe+jgavYge1Qc=
+			hI5ToQ9l9+aqFs2b5dp7Fu8ySODvIjjk7XhojkJAMVQ=
 			</data>
 		</dict>
 		<key>FlightFilterBaggageCollectionCell.nib</key>
@@ -3876,7 +2642,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eO0RM2LeY5yGIOY8GsWsyY1G0ChNVf3cP/D5ID1+IjU=
+			17uRHAkegC46md7kVqJNdGt0UNPpsshCGP1XTAAistI=
 			</data>
 		</dict>
 		<key>FlightFilterHeaderView.nib</key>
@@ -3890,7 +2656,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2VA2JeliFy8JTrGEs+gaOkrFK1ao2TtvdTSt7/3emUE=
+			fCF63s+z0nTtlAGSRQOHTGE0HqXHUDPpNvcYJNrpT8c=
 			</data>
 		</dict>
 		<key>FlightHeaderView.nib</key>
@@ -3904,28 +2670,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKf+XD4pS7nnXSHQFzdbVDu/BwUzIHpyGGP8/TPhZU8=
+			lFlf6vSVd45tAyOpnzUiPJ9ja+n8LspjRvyyGWPozIA=
 			</data>
 		</dict>
 		<key>FlightHistoryBaggageTVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			waGFXh2gDZIU++kHC5I9UUXr7m9kyVDpZYr+VOGFXgQ=
+			6Nf+W0JGDdOarpC32rZR1eSuAoJOdjBCp2nH2V9Eey4=
 			</data>
 		</dict>
 		<key>FlightHistoryChainCVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oyqxB3a5UPHWaWUkeh6XnzjJLzD+z1nXpS954EuF6zI=
-			</data>
-		</dict>
-		<key>FlightHistoryComboHeaderView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5A9iRUPiYawv6LFV3GJiB4NFg5/DxNodOG9/bHzk4Gg=
+			4B2rEjR4CaSixjhUSPv68l/4bzF7hVb0W9bOGsTs6v0=
 			</data>
 		</dict>
 		<key>FlightHistoryEORCVCell.nib</key>
@@ -3935,32 +2694,11 @@
 			Ak4tiLXhafmk1g473yWpjBbMQwJyBWkRLmPspAWKLxY=
 			</data>
 		</dict>
-		<key>FlightHistoryListCVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1H/I1a/+tK20LfT4Ti25XMAoWv3QkImXaJVETVznC6o=
-			</data>
-		</dict>
-		<key>FlightHistoryLoaderView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OGz+63FDlBb+9DgqMbkhUmRCDhUNt+4P9xhNJJjjdxc=
-			</data>
-		</dict>
 		<key>FlightHistoryPriceTVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cj9aTRuykzRmRdiwUAQtTOpuThMi6GLImAl+fxh9SLk=
-			</data>
-		</dict>
-		<key>FlightHistorySummaryHeaderView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TpG+JTUQmiOpmYVNP2Lg28AA9JM0iJasibcu1ADOgm0=
+			ZruI0O7m+NSgkKzDGf4ad3XK8xfHNkvFDP7dEPTYxzA=
 			</data>
 		</dict>
 		<key>FlightHistoryTravellerBaggageCell.nib</key>
@@ -3995,7 +2733,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WYxucUvRHjAvYT8gvPp7bqzAjt5VAi/Ppuet3SgdPpE=
+			yKkrtNNaD/dQFqR9yFLb2uQaoH/dfFFXDIWs+smzkc0=
 			</data>
 		</dict>
 		<key>FlightLegView.nib</key>
@@ -4016,14 +2754,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ng9vOrwklLjm2LPzc5/hKGT1nYIXtAh+sE7Mtqy9bYQ=
+			0HXtfN7UyUYUCoaRHhG4F6wtKHOPjh069NlebqVU37Y=
 			</data>
 		</dict>
 		<key>FlightListTVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Mku+4EISkuZxPA5w0YgK9mlBuJP90DY1EPb5/WM0NY=
+			d0XwBfi0+XqA5qpPrttMkbxTUfiHnkSdmVVxuSeTeJ0=
 			</data>
 		</dict>
 		<key>FlightNameCollectionViewCell.nib</key>
@@ -4040,11 +2778,18 @@
 			P1S7PwafVuoswPFWehzxPGuNR3snb41lhoBn4eE5eMU=
 			</data>
 		</dict>
+		<key>FlightPriceBreakdownTVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oLLSfR/2W/5i6SdEypvxOrTDUuKk56PUoNBw3ocRn7E=
+			</data>
+		</dict>
 		<key>FlightPriceRangeCollectionCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			crajDg/SRdaEI0c4ZOa3Es9jUe4UtvJ2kdJOl/LB8sk=
+			r6tJe44PfeT8IgpqzcuYiLd8T6FfRMnuoHDZgQZy86s=
 			</data>
 		</dict>
 		<key>FlightResults.storyboardc/FlightsFilterVC.nib</key>
@@ -4072,14 +2817,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHW7mCKVI9Dv4evMsdj1V1A4MhZOtNc/JdMK6KVXbDs=
+			92JFprbpGHM9E//dkUdqWrlfO87jLzwG5uftkFijyTo=
 			</data>
 		</dict>
 		<key>FlightResults.storyboardc/h1l-6F-XoC-view-JtR-yz-hwg.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHW7mCKVI9Dv4evMsdj1V1A4MhZOtNc/JdMK6KVXbDs=
+			lJwFUZvVmmxPbVUl2syK49/xXZBd9Z9Ks3/NoiBYCzs=
 			</data>
 		</dict>
 		<key>FlightScheduleCityCollectionCell.nib</key>
@@ -4096,32 +2841,32 @@
 			wtOmKgmBj3MXyRXVxPtM1p411Xd+N/io+zpyILJInqM=
 			</data>
 		</dict>
-		<key>FlightSearchFooterView.nib/objects-14.0+.nib</key>
+		<key>FlightSearchFooterView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HnU3NcQY8M3cLBtOnY+iCTUzNC5va4YGfAs3Wg6FouQ=
+			tBXuoegfZPcVQaOgQXucmySb0sGtBLa0Uro+7M1U/EI=
 			</data>
 		</dict>
-		<key>FlightSearchFooterView.nib/runtime.nib</key>
+		<key>FlightSeatsMap.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jd6rwWsDF8jyMYlrjN9l11aLYk2gmEmAJxMXDgxXHck=
+			BoWrddguyYzmxP+2OA9rWiVz7jBvaQrfnFLfAkCT6Tk=
 			</data>
 		</dict>
 		<key>FlightSegmentCardCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f8B7KjHXG0Wmhq3rZemVZN8VgjwrACWUmD11gD6DTiI=
+			4PyOMnBxS2TiqFO5z8IAecX+2KB0M+eR15heBgET/mE=
 			</data>
 		</dict>
 		<key>FlightSegmentCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d3k8UaM8JepMWFMjCEdGIZzn9s0hArb7po56Dn+0SUA=
+			LtMYRrjJu7cPiVoMTzJVzDp/amgC8b61iR0iwd52emI=
 			</data>
 		</dict>
 		<key>FlightShimmerCollectionCell.nib</key>
@@ -4149,7 +2894,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A4lxBnFvxMcaDwKUFCdFV6wulWzhIQGOJsHHKASJ3hI=
+			BdLdU0hif81mgFYXbo9jHXINGGNPj98g59p0wFZf8Jo=
 			</data>
 		</dict>
 		<key>FlightStatus.json</key>
@@ -4170,14 +2915,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W+O0xrEZerv3fFXvkM+TuSsP3x8XWj9csW2uc5BZT6Y=
+			7TU+Dr/DLTJFVxmEglgcSy9KVuiXWDIAXZ53tmsz9q8=
 			</data>
 		</dict>
 		<key>FlightSummaryDetailsSectionCVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAwhasvoNIPk+nCyPozim1THHJ2H9PPc1KkalQVYvW4=
+			3+ISQoQpJepVxzctach/44lC0bSz/jPDbRovktJeIdA=
 			</data>
 		</dict>
 		<key>FlightSummaryLoadingView.nib</key>
@@ -4205,7 +2950,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JV+W1GdmzrJ3Z99n31H2My9uMC1BfpoU6zzzOTRTN3I=
+			ywnVNHyvU4lIIink0ZJoCNm+lIbeVd0JW6CEX7FX08o=
 			</data>
 		</dict>
 		<key>FlightTracker.storyboardc/FlightTrackDetailsVC.nib</key>
@@ -4236,39 +2981,669 @@
 			yyEEIU3MBs8ZWQd3CNAAL3BUJhi/di1ivSp3ol0mnkc=
 			</data>
 		</dict>
-		<key>FlightTrackerCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KEx+b3J1BqX3KhvpACvEOuhT8Qayr5V8GyJzl3FJ07g=
-			</data>
-		</dict>
 		<key>FlightTrackerMessageCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N6OMU25ZgQvrpaCFLJ7UK6q8oUARfNZiLMk2nEzRsvs=
+			3gxQrHVXWbUjtA7RC2l+HcI6yoyrD478cyM/eYY+3BI=
 			</data>
 		</dict>
-		<key>GalleryCell.nib</key>
+		<key>Frameworks/STCoreSDK.framework/ApplyCouponCVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEckklE/ZufLozVopVKAC5Lv7iu5627r0Wu57KyRsFc=
+			Yb8/19MoZRndb/VIA26fiqwnMnOkHEorlwmri7CpVUo=
 			</data>
 		</dict>
-		<key>HRuleCell.nib</key>
+		<key>Frameworks/STCoreSDK.framework/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FTTsqGYwsS8s9JgbHurUV7zIQBbc2bu6vx/30M0ziIg=
+			A8dgOJLKsALeBhkrrM36KgHCzN8Ptjz3437b140bvhI=
 			</data>
 		</dict>
-		<key>HeaderCollectionCell.nib</key>
+		<key>Frameworks/STCoreSDK.framework/AvailableCouponSuggestionView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DOISCXhJXfLgeYC77nkwyyKKF2XDFEQfznKaq8/yVi8=
+			bleAdULihCpM51r2rYt39GA5xnEmtoupE8L23njTO9g=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/CardHolderNameCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6PLh2rtHESnntR2Nn9SUybUCh428wa2F7E+erBUzOEg=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/CardPrefixCVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kWKMHLfERHBGAXImTWe+aRsncMGCTPm7rT3vPduOo00=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/ChooseCouponFooterView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			edfxbAoYpKhA7vKeo5S5tDHJi4ERp+yQZKY/g1FfxeE=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/ChooseEMICVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oPRZnJHFTG8OL2XYiaQk3xgat5X/TbwPSZV9TO/CMMU=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/ChooseUploadView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tzsm/AedQ2tNOOBMN68Kj1fRA+uSp1BuHs8vNboxYhQ=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Countries.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fZ+DA+gv1v9rQyhx54DPmg8h79aRYzm6WqAsOOapKjQ=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/CouponListHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F/j2eKGpbQ77DYP3YAd6MeaaGJXePcaAlJ2iLuWVWz0=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/CurrentNationalityTableCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UUZihFzEqo0RQ2jbondlQi1ijLeVIUBejJYawvQoj2I=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/DancingScript-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0N3wxo+yFbPiKbYvpKWpvVt0aDw51aq66RA+HxLDnfE=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/DancingScript-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IKtTOGFu7s1rw9hBmY9QkpzH38cAsxl0LzpTlCyl6YM=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/DancingScript-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w6bEMZXbf/CH4EzH9VbJQ9/P8yACryxc373ZXhh23EQ=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/DancingScript-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gvnLAZ1s8WplKMne82jQ98CgfBQnfEIXsXMAglPsi0I=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/DiscountCategoriesTypesHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FREYSgvClOn0VNatOuke/tijKhIPnbrpjfp8fTSSJp4=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/EMIInfoCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sbtqGhgMPyI8eaFrlhKRWd8DxlXm3EnLHgdMheiQHb4=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/EMIPriceCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3NrQSHYcjybanCh03rafNBLbiVwA8fol+jOlJWa3WLQ=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/EMITVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lpbtXs+4tAItXPg9DJROd8yFluC4B4H/xApZRJZLLKk=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/EditableContactCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a3YEopV9gvQYkJQjlhY5du0/2JhA29G+oR+92Qdbcfo=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/EmptyCVHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lb/2tj+c8oKrqOcVdXCzFcQJYxXagjsGf8l+mSvdFRI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/EmptyCollectionFooterView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f96ttkwQwMbaJcilFaMeCzHHtNUlHff1lbLtatwdoAA=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/EmptySpaceCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cO09n+i6ylQq7MdLb+brc8wLf2IWfj+mTVeCaJCLNcI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/EmptySpacerCVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z8jcjOkiOP1sNqIeCao9eQEBWhhDIYLm7vaXRB07Bnc=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/EmptyStateView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aoJTzX2v2NqjAZ/6Wna9UBJSbVWz4F0gDOxYCUd/CTI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/FilterCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FE1X7gESpq/bUvPus9aGYynJ3giUwGL4WArUC3NnQw8=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/FilterResetCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GVAM9MqvWn4OZnDBlRAhwfLgSvkPuZLAJHCVtCDE5xw=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/FlightCalendarTopView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xy0QOojk85JO9NvcD6sdsx286vn9f/wE5XUeBMkcVxI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/FlightHistoryComboHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A+llyeatf2R9vcQCPzzCiV+R/rBweneU+ltHICVm9Wc=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/FlightHistoryListCVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UVzK0W3ebcX4UZVEvP+1Mer4qwhoHcrNuU3FPFGW3o0=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/FlightHistoryLoaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DbKxS5VT7qxedVYVpIN7QpBzGj7y4ItePxDlcw2rlmE=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/FlightHistorySummaryHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X0XaF+rNShsNEGQzSipEo4pgX5JqFs3u8MXjXz50fZY=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/FlightLegInformationCVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O0Cd301ETaxETi+GVQEgaM95CVFhdn0V/VGbp10b5PA=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/GalleryCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			elmklLhBCZpmxFlyNI4li6s1k7J+h/7WTrSRLDLRPr0=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/HotelRoomInformationCVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MT+56b/iKoFQCaBzLEb/D1R4IhfKlqVAzbz8nevPU0o=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rTsxWq5jaJ97JQDCssyCHSP5koGglgG5tbrp63fQwe8=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/InfoDetailCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4uGlzLFiPpAzAhrMRvn/wFrYqw+6vwHiWjRRCc2fKwc=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/InputCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GtGpjTWrpJsCUE7iYN+XsRXZnvjgpJOU7xwOv/+U/os=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/JTCalendarHeader.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BQL/Cyv0KrtEnOQKSaZTahAYUv7ugPj8YFYUQdSfq70=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/JTCalendarView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uau0s4mk4V1UNlj5FdEkJVWhPBR8jP4vxTt8qzk7HEI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/JTDateCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iFgjT67KpK1ZgjS/74DaZ9k1X7KRYEoArxmngmrVL7c=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/LoaderPopupView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RH9ifJX/wMNdCEyt8p53j/w9zH7oHnpO2Y4nKmoqBgM=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/NameCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			c5dy/vZpVmc3Nzp+scGyYUgrbaYY3nvos8tDpZXNKtY=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/NationalityTableCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z5Ntp3QdyisP4TS4QWvRAm3OVRJYO4T0orjujyVb1a4=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/NationalityTableHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jRcdbvhu3vk90JdQGrufuBFJuGc459fSVC8drAWuc+A=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/NewEmptyStateView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PY4u9M2VH4Myedfn9qDXjGKpBiwqc774BaSF7aUk0ws=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/NewPaymentGatewayCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dVy08c5AmVin2bYSASnQq1StvDDVaA4EmfPBDrcZ6OY=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/OtherPaymentMethodsHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dgX9MvGsta8Ne+v/C2NOQZ4fLymb8f1LbVqxNGEdPOM=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/PassportVisaCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FGt/c6wLVFW8XhxN1wg7bw9FxoTZ8A3DBjGYQePIkg0=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/PaymentConfirmationURL.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GQjxTzodMhDsVYw4Gi5NaImhRRG30fuIjbZaKJxhPKI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/PriceRangeCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lJBxlDckMMhVbXlh2bq5K7gikICD3MiNCBexovU9twk=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/PromotionalCouponCVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BuV+bQ1jUAUz81Id3mRim58qcXD5Mng2lwNwXbG+5cI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/RedeemTCCVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F0GD1hq/9yAFxk6pQZurQ/mKsNslNU4iev2wLmlJjvE=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/STAdCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lssnd3WDvZcl8iDYbIRoaZNsiHyfumiq4vy9ophKYl0=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/STAdTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Sz8wUVJnb8dGhrdYix96TftkpytQHMHquVZkYNigVP8=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/STCoreSDK</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eFFCe5w66Cj/lTU6sIVPkZ0z9VpCoz3U/AuT+2bMWhI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/ST_Murecho-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cL/6Ko7RPs8Z2MsJVP2JWgqZsD570vBdW/r8alPYC5g=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/ST_Murecho-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jMavGl+qk8cQ8+etT9uxRfWeXY0e3Rtt0WcR0ltREz8=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/ST_Murecho-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uTYk36l8ROS46nyIpwm9eEtIJMZJE2Fon9IpF+ej+Yg=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/ST_Murecho-Semibold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+SegdQdlNwcOn9Ix30x6oC/MbBPTS65jsOCLvTRF9rs=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SelectedGatewayBadgeView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lVbYqdgs11P4oopKSckaz0rykRdr892X78kzsk52gjk=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/ServiceDetailsHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dZAy4QM7r+V+rRfFo5BIjIM2kC9mJ9Le4V0GSzeX9Pg=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/3Tw-Sy-aRO-view-wrA-Q5-O0A.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/8ZODYcO7sa6pv3WBi0t3saaL6lRg3O/njr4eSfXHbM=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/BookingPriceBreakdownVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yfQeiIR2Y81wyFSL55j46PemAChSXj3w5M/Qu1Ui8jI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/ChangeGatewayPopupVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IiybRNmRNIWFHd7Dan+wwcC4OcY0sC7VzV5OswhP2K8=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/CitySearchVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rzLpKg5kZmL+F0PDYirSizMN4x5+s//sNi2Vflw6Hfw=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/EMIViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DzuCeWputxGpjkJBzEFx0xsvMcML7v2gNLWs7Vgvpl4=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2CB5QoSeUU+O3MU92cp7F0lI9Bj3gVa7UZow1fzGD7w=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/Jut-iB-dXN-view-IsT-J6-ot0.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qx9RJcNevgD3qBzzAAlLQYEa8fM8+V3YH/J99Vmu490=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/NationalityPickerVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vzZHESu7/HxNMCL3WNA0BIla2nQqQQwTofXp6MrGU7M=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/NsA-sQ-ygn-view-cTu-DG-fLF.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xw+0D0CZ1SbO4kCaPL26Q1bCaX1qyqaZx4wp//M/VYc=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/O1i-fu-0HO-view-cwI-9h-Kgb.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/IOPtNrfH7ZFszhJRrSbdge2UE40Ue8JGC4nMmi1kZg=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/PassengerDetailsBottomSheetVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I3QWkR8OhLtMLvneCdMa20wfAsydJeiC7QYU6A3TowQ=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/kri-hC-2u1-view-URd-NX-1Ni.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bDQADT7nrHcjzYGu5oG02L0Of+P5cn4jRlwdqWiPg88=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/Shared.storyboardc/lfx-ZJ-uq0-view-3s2-1u-5IL.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rwbqC/TkO+CCSH0fmIPHH0nb1jq6sMusX5KBMQj7d2E=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SingleButtonCardCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GIQ6BFwaK5I0EfX9WTiLpZfTjLmYThq/+buWV0vMEgs=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SingleCellShareView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q4tWkmJJaYB6D9GfaHKP4Lbfc56uer/MDw5MwUnymlg=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SingleCellTripCoinView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qt8lG7d+0ppiQmSZTjNTLwi37sdaOiE7cPO+ecg09og=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SingleInputTakenCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ftClmsLV7WVmDKcdiQ2bOXbiGEEHPJnsQBSE7Isgw8A=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SingleInputTitleCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gnYatxdt53DCgHJWdmdL5piLQpgz6Rg/Llqdnppgnz8=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SingleLabelInfoTVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FMcVzIbhMa76eMUx2Od1Wn/BGwZd0S+LMEAH/bnacIU=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SingleLineInfoCardCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0pNqke+26NuUyFCawiZA1VtIdpVU+BwpXkbvGDGWJ10=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SupportedPaymentMethodsHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0lMkwO2qIswKDabLakSWtAi82zyKVHRjqXaRuJyRTgE=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/SwitchCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O27QKkGd8EXy+1crP56OQGk1VgpzoQJzAQOIy+zH5l0=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/TermsConditionCollectionCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KYOBZAnif7awRlOZUdsVwcg6MJh0XbrJ4eFXqc3Kf1I=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/UploadCVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O3YTDHCC6OMWCw7kpn7CMtmnWgjqKupLnZ+QEo+pVRM=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/VerifyMobileOperatorCVCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vq89Ergb7o3ZeJGbisv2w0WNiAvhOzsB9WvsqmfsAIM=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/View</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MpnSnmIhk3sIO3bz9hv1sqSXXuUOobt7EXMU/zIfGyg=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/confirmBooking.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fpCRJskLFg4R8c68BggYkgTnY9qR3YHb6cGTer1rUHI=
+			</data>
+		</dict>
+		<key>Frameworks/STCoreSDK.framework/loader.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+nNos537vbWNQsxl0pmsLigr4KS+jGBtcfF+VzQQDyM=
+			</data>
+		</dict>
+		<key>Frameworks/STScanner.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FY/PXouotTqyDwJKCPaJZZX0GnWR1oOT8cEkcQGm4OQ=
+			</data>
+		</dict>
+		<key>Frameworks/STScanner.framework/STScanner</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tE4s1t4Pz1y1MQYjbkvJaQVr/mxENgS2CJwRe2iuUy0=
+			</data>
+		</dict>
+		<key>Frameworks/STScanner.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8f//RayohymRq5Rpn0R8+gkOaai9UM0YAEBTEr+teTY=
 			</data>
 		</dict>
 		<key>HeaderCollectionView.nib</key>
@@ -4285,74 +3660,11 @@
 			dwj3sUQlwfF3evVIrwQutvEKYi+pwdyvQ2vDDkcKHYk=
 			</data>
 		</dict>
-		<key>Headers/FlightSDK.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GjttAIT7V8zjjGa7M1qn4atbxususBjxR74pNecJrcQ=
-			</data>
-		</dict>
-		<key>HolidayDateInputCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dQawVXWFkrnok43qQePRpUx5tpWBRRS3UUsLuxX24pk=
-			</data>
-		</dict>
-		<key>HomePromotionsTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V4+cLOY/iZEdopbinUxcYJQdLvGbnTd+adHFay0vvNE=
-			</data>
-		</dict>
-		<key>HotelListCVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IQIVT7aIkNyNoNjlLFBxM5XwPH0pcOAZpu5RtrPqnfY=
-			</data>
-		</dict>
 		<key>ImageViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bVeq/yQsO0H80gC+7EczYO78fmWQ879jM6S0L9D+NX0=
-			</data>
-		</dict>
-		<key>InfantAddonsCollectionCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tL6IFRzCPMFkpZD/Mc+serfn7GP5Par4NZw+vyiQIY0=
-			</data>
-		</dict>
-		<key>InfoDetailCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ABRH83kxkOkFh5Fet6KSLkxDXBOx7us3w3liih7HyEY=
-			</data>
-		</dict>
-		<key>InfoSelectionCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VGja/hh5BUd6198ygapXccXVv6j/qU7aZGZe3FABFQU=
-			</data>
-		</dict>
-		<key>InfoTextFieldCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OcOYcQ/Pa54b9XeZk7E9+loAzTL7i6rt5Pw950tMHMU=
-			</data>
-		</dict>
-		<key>InfoUploadCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			n9Kgz/Oha0hRP2MuGOcF3rfL/Xd9mLQohwLweTSbUAE=
+			hW8elx8F1jxrrQnZRKLBbAoqPXZx8JIrVIoR0qB6rm4=
 			</data>
 		</dict>
 		<key>InitialLoaderView.nib</key>
@@ -4362,13 +3674,6 @@
 			off1kWqwrdVK5IHRsck8pdoSyZ6ZjJbtVYCGjGVSly8=
 			</data>
 		</dict>
-		<key>InputCollectionViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bT7GkDXW+ZpOV2aYN+dQ1FkCqwAn+ePcS3quE/wEKUg=
-			</data>
-		</dict>
 		<key>InputWarningCVCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -4376,60 +3681,18 @@
 			7/nlyH2aKtWetXZt1hp6ynKzNn0FaDFQQQI2EeRCLzo=
 			</data>
 		</dict>
-		<key>JTCalendarHeader.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3yvfcUEGCvi/MdcYbAksgZz4XqHTldSjOjrhpdLKYQ4=
-			</data>
-		</dict>
-		<key>JTCalendarView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			y0TK4bmjkHISEu2qNkkgxUSwumu1rO86MwLS3fThXD4=
-			</data>
-		</dict>
-		<key>JTDateCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+sYQ+3zcnKzKeINO/iL3+o1ZUBP4+zGNXclhtGinYEU=
-			</data>
-		</dict>
-		<key>LastNameInputCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qJok6sXLbm7/xEO/tpTfauhv2U0l2OhvlIGr3UOhos0=
-			</data>
-		</dict>
 		<key>LearnMoreCVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NwCAHj0QKJYJBW8aqV3a89koqdIj71bMq4lUepNLtmw=
+			TlbOJnDnCqOQ/SFmXvjk+tLk87dPpz+IXmqN4hcT3ks=
 			</data>
 		</dict>
 		<key>LearnMoreCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7/gmGyV5XskWGCYzgFjbv0bJwb0r1G2fn+Iz4wcC7Yc=
-			</data>
-		</dict>
-		<key>LoaderPopupView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OshRPQmM1mSSHZKebm/obd2SLTMgaltT7oWSsWUVrOk=
-			</data>
-		</dict>
-		<key>LoadingVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T5OLZu/ivmUb9oPO/A3ZAlF7xIZBcgol50gJUKy0jNA=
+			gzArR/0MWihXMJIL7OeIJnewKBdx/X0g4EzWLpkOODE=
 			</data>
 		</dict>
 		<key>LottieResources/TreasureBoxAnimation.json</key>
@@ -4453,228 +3716,109 @@
 			1rp76g9h8JGg6BWYY91JWhrX8p6faN+J+mOpgaaw0kI=
 			</data>
 		</dict>
-		<key>LottieResources/confirmBooking.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fpCRJskLFg4R8c68BggYkgTnY9qR3YHb6cGTer1rUHI=
-			</data>
-		</dict>
-		<key>LottieResources/loader.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+nNos537vbWNQsxl0pmsLigr4KS+jGBtcfF+VzQQDyM=
-			</data>
-		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJIjcME3HvLKjH6d6k6+3R4kcXTz3u6lDyd5aSDmzgM=
+			gKWYEJqaVdlLpsWgIAeA2xai06FNGAgcN7vHTlF7n4w=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jUGiGQ7NAMXS0Qo10k1l6rGevmnkXDKUl8JzPkeQRfM=
+			DvRwqqpn+Sfcb8Jk3f5TJZAYPJ9KnvTEiHrxuEPruWs=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JiJr2Nv0MfQ4qx/+AyZdxLA5+HZJah69inTBV2ftg78=
+			6AGppQT5oaNuruK82B13Q4aTfsy/iGE9IUiNuW2Auk0=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jUGiGQ7NAMXS0Qo10k1l6rGevmnkXDKUl8JzPkeQRfM=
+			DvRwqqpn+Sfcb8Jk3f5TJZAYPJ9KnvTEiHrxuEPruWs=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pLfoGUlqgMWvKcC6qIrgdEnmdgChNgxm/bKi/82GlmI=
+			Jv9jck4U2R6F/sElN5gYtXVqf71jGpZx6bjpKxtzhqQ=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJIjcME3HvLKjH6d6k6+3R4kcXTz3u6lDyd5aSDmzgM=
+			gKWYEJqaVdlLpsWgIAeA2xai06FNGAgcN7vHTlF7n4w=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8svZ5rFeH1UoUFqNIFiIbX7kctAi25FqC5PlsDqeJJY=
+			MbOMaZneflqzb/eqgGHoXzTXCwg31iVfH2ez8t9FyV0=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QbcxTm2iDt+tmEs4Y8SdCNS9SKW0BDo7LHxsahLGr1I=
+			VGiARBpcEvEE9mj/Tk34pF3RSVwE9m5CYD9QcCqfgng=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8svZ5rFeH1UoUFqNIFiIbX7kctAi25FqC5PlsDqeJJY=
+			MbOMaZneflqzb/eqgGHoXzTXCwg31iVfH2ez8t9FyV0=
 			</data>
 		</dict>
 		<key>Modules/FlightSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXD7LC+nSOwXuPpey46u6xnMfkoGw4838zEh/qwwmeU=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uKKQHdPu/JGIdfsgkw1ZDrtkJsFcmqEvy2R1RcVbnBM=
-			</data>
-		</dict>
-		<key>NameCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LWA2vNSM72xA6+NY8zq4kwGy8HsgS5VlNELyNX/ikko=
+			pmPm6XkHYvPPCUxbE7orCl3uV3EqutiDICgg85HTMGk=
 			</data>
 		</dict>
 		<key>NameInputGuideCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5K8PclqCc3HgZblBwGVDzjeIzJv+RDf2c7h5GDHanjo=
-			</data>
-		</dict>
-		<key>NewCouponSuggestionView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WhjC0bGWKo7EIXjWVBtoKqr3B2rJBU3BSh2JqsXwJdo=
-			</data>
-		</dict>
-		<key>NewDiscountOptionsCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rIxXpmoQgFAF459l7pWTMglvOvaZngZsrUehxeUuWlk=
-			</data>
-		</dict>
-		<key>NewEmptyStateView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2/Xe5kWUXyRxSM9b+cSANPp97DVkKcEkP9hqM/jucSc=
+			PtqPUtVKPrClD9x2zzASNuaD4FaR3odNtPOOLnx4Xy4=
 			</data>
 		</dict>
 		<key>NewFlightBookingCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gg0zH358PDvNDbbFB2+QNHLgKv7xcgBWIQVgzBs1GHo=
-			</data>
-		</dict>
-		<key>NewFlightLegView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OYOmwZ3pqgC82IDvQkFW78/ANJzFEnPa05IJLxP17aQ=
-			</data>
-		</dict>
-		<key>NewPaymentGatewaysView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SWUBSw+oyfAEb0JMtc0Bob09QBlmutLA1TAmOaU27JU=
-			</data>
-		</dict>
-		<key>NewRedeemTripcoinView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/tqyPbYcNK+eMjBt9vi2nS9IlWwKjYi72dU5b7z93vQ=
-			</data>
-		</dict>
-		<key>NewUseCouponView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3JLn+jy5ilXFbnTTzfgLqLN2uY6riy2U+uDCWi+99TQ=
+			hZtuS6Tbj5o7yBJf28VuGow5s31TRBa3Qe5P9SuFekY=
 			</data>
 		</dict>
 		<key>NextPrevLegDetailsCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mkoMsivW8MTeRhdyqwZSdoQBliWt1JicoFPRalQcDYU=
-			</data>
-		</dict>
-		<key>NoFavouriteGuestCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4N+/ydmlXRKWhvHMr3guywiCL+VhEnz9u2q6C6uKau4=
+			AfUUzGdwysfIcgl2QZsUYwciwDdVoZlyuNjXqKg1Wu8=
 			</data>
 		</dict>
 		<key>OffersAndHistoryCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Awb32GLeNKNa/4DUjTIHk3rojYm65wLq52Bt6ybLYCo=
-			</data>
-		</dict>
-		<key>OptionCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			o50y5s7QQAvFIm17snlVpMxvW6JkdSmtLj7i/X5a5II=
+			I89A0VllGrWo60OaotpG55QryXS0fHJfn8h8GqUDIsM=
 			</data>
 		</dict>
 		<key>OptionSelectTBCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QL7RpsZofMBeVoLgl4kqb7ESxMiiDS+oHnhLOlsn06E=
-			</data>
-		</dict>
-		<key>PassportVisaCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			THVnGrWFL6t9S3Uk2Yc2KwWFFsZZGfOHNiSP5e5HrtA=
-			</data>
-		</dict>
-		<key>PaymentConfirmationURL.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GQjxTzodMhDsVYw4Gi5NaImhRRG30fuIjbZaKJxhPKI=
-			</data>
-		</dict>
-		<key>PaymentConfirmationVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r6GVHzbSdvOZwmb9zqsVy7zorVEYDrVXyJGH8SCWkcw=
-			</data>
-		</dict>
-		<key>PaymentGatewayCVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U5AQxUyGnIZEjTwKRz6RHaalDTwab1NUh9IlNXTWREY=
+			HH5oqxk0y+Fo6PybyOlFH+9+p3UEeymcr6fMp4YyboM=
 			</data>
 		</dict>
 		<key>PaymentGatewayInfoCVFooterView.nib</key>
@@ -4682,13 +3826,6 @@
 			<key>hash2</key>
 			<data>
 			qpy9BztDz5ZOvQ5wd89fW123OLy1TKBFFKQbignR3d0=
-			</data>
-		</dict>
-		<key>PaymentGatewaysView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			y4oMGs3jLMa6bazjPsIAbi6Hv3DlsfOGO8r37Vjtcb8=
 			</data>
 		</dict>
 		<key>PendingModificationCVCell.nib</key>
@@ -4703,48 +3840,6 @@
 			<key>hash2</key>
 			<data>
 			VqjxthLvIhe14XIYnN572ESdF145SH+bZytxgCMjqeQ=
-			</data>
-		</dict>
-		<key>PersonInfoCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+4wtY/6vFuYhJoHXwqRTugKxrVRKjLcs/ErB9WWH1q4=
-			</data>
-		</dict>
-		<key>PhoneNumberVerificationView.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			65uI55fYViA19ACaBLjYUTbYFuUULRQtx3NMavXJKhg=
-			</data>
-		</dict>
-		<key>PhoneNumberVerificationView.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HaCT5vc/K1ir6/trulPbotmUy1+a5yyrkNyB7lft/N0=
-			</data>
-		</dict>
-		<key>PopularCitiesCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VZotj5942pD8Zl6+gtvDrXzPp8FlF8ug6b2Qf1z+ipk=
-			</data>
-		</dict>
-		<key>PostCardCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eUcpA/VcQggwomJfJp8z1LU2OHW1ctGJlxtFqzYBcbA=
-			</data>
-		</dict>
-		<key>PoweredByView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rd4MvCBZaH3AHmx0gX/JKlxr33CZ7OumMWf3jcHylnk=
 			</data>
 		</dict>
 		<key>PriceBreakDownCollectionCell.nib</key>
@@ -4765,7 +3860,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXiMlNKGZOPii42yC5iROzJjEBhR/PsABJDEIiLZjnA=
+			Uk8xq4TdEfPKEJ/5lonVva++iSxNialZS9YUIIRqyRY=
 			</data>
 		</dict>
 		<key>PriceBreakdown.storyboardc/FlightInfoContainerVC.nib</key>
@@ -4789,20 +3884,6 @@
 			tSXw76lWTHm2fkNd30umTFaOPLeYBK8a46mvHCmIIe4=
 			</data>
 		</dict>
-		<key>PriceBreakdownFareCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AXQFDJ0jVfCHUP2HcmKwR0jBY/ez/sreGj4OK8JuxKs=
-			</data>
-		</dict>
-		<key>PriceChangeView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7gY7gJDsyDzZDVmShL8iR1jLDOpjzmyzCsDjY6XUypA=
-			</data>
-		</dict>
 		<key>PriceDetailsHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -4810,53 +3891,11 @@
 			e30upfPFBUjMHBjOT654+F8XTGDgO+o12r0i13FMK8U=
 			</data>
 		</dict>
-		<key>PriceRangeCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hyAfcaHMVqx+kaM/fgymnlimcw+va3b6tFkN4EcPQm4=
-			</data>
-		</dict>
-		<key>PriceViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mgtiXBhqRxk8APGsUdPtWPpzwbUIVhXAnDdAHjsOkt4=
-			</data>
-		</dict>
-		<key>ProfileImageCVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6B2/Zw7DcjIRlvaRwrAp+PCt+0rfXZQ1l/h8Wxm6B7M=
-			</data>
-		</dict>
-		<key>ProfileImageInputCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KKU88BAb8aMvsgDEd9da97awke8LjNyg9sEeeg8T9NA=
-			</data>
-		</dict>
-		<key>ProfileSettingsCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JDm3dtkapLIWzJxjlGSFZbplydQfdmSzjX72EfpbqOg=
-			</data>
-		</dict>
-		<key>PromotionCollectionViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			e3atvGwPUOx4OXHYb0joXYV5EPvCp2+Oz+DgrP1TPk8=
-			</data>
-		</dict>
 		<key>PromotionalBannerCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i+5wHG3l4JAPBl9ehPVxRHkzDzsDJHY80sLbnWgoyHI=
+			w8fKtBrPIoFzr1QJlrzunCttrtBrJRr6amBj009fn0g=
 			</data>
 		</dict>
 		<key>PromotionalImageCVCell.nib</key>
@@ -4877,14 +3916,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ln3dVifbThKq/JZrJ3M3+69XqUzgffm3qY34kWOqNsI=
-			</data>
-		</dict>
-		<key>RedeemTripcoinView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XciWLJd2ccYBQKndx1A48tjQ7UPCESbCWs6N/i9gev8=
+			k0I/DXmpzU6LwjWtNz7FWB25cbRRLh0PSIu90rnuc0o=
 			</data>
 		</dict>
 		<key>RefundFlightSelectionCell.nib</key>
@@ -4905,7 +3937,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1GlRTwx0mHSdMKjWTN+ekw1skOJzImGqpN9WjB04Hcw=
+			OGMwvoRA3m98dKYPCy6k1MNHstHbOtwBYywcBxKVRoY=
 			</data>
 		</dict>
 		<key>RefundTravellerSelectionCell.nib</key>
@@ -4919,21 +3951,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1XUPl5ODKuzQd12mDBLwnoMwKd7iM5TYGLf+vwJc6m4=
+			Ro8EClaF/Q32juw8yxwT1EgJUgdJYZ4asZKevKvCYhI=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/8G5-Eh-2e6-view-HNC-ac-a7C.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4OsmgzA4emcMd6JwR6hXRGvBW9zA+KUabrgFlpiiFxw=
+			Q94pVP72aM6tLDWuNoFw5OBdBQlMOQWUOt8TQh8LHNQ=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/8md-ps-DN5-view-TPL-0q-A9w.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c97Yr5WRLmngpYl2PWVKp90CgrDyU0n/ambaPqKPUos=
+			OxFOnn3f5Oz22roV9N522+sMfG5nvvF+ukFz+8H82uY=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/FlightReissueViewQuotationVC.nib</key>
@@ -4954,21 +3986,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/n3mKpZ7wqWQ0rTmvTX1HNYzwMAeosaQPdSaO51o9r4=
+			vh40IP9Hr/BxaNWNjWup6Mw3/Wdf3phCH7RqtCxqJ8Y=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/KRA-Ln-gO0-view-dOg-AH-EIC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rm7Cze5DC7XnnCTGWBhiYoKoDfowhDscKq/kMZQwRog=
+			OXrqygUtXZ1BG6WfPIe4Qt+FXUdiMKpmlUxqm1CIPcw=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/LoG-Qh-3Rz-view-EMD-SC-5lH.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8CGGgYHD+qGIjQUYytrv8U6Ctj8vIReiA2CyfZsNgPU=
+			3sZO07g9qMJvyWTibfqZj1m3yZ8mdUCqu5vCabvd7dI=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/QotaionDetailVC.nib</key>
@@ -5017,7 +4049,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dtS4uj894bimVgY+qfE0d0O7/pIBT+uRQev6SeFL3Q4=
+			I2DCKmkNqiV8ad90rTrgh4B3rLAr8bGwe1iSmxU09Mk=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/ReissueFlightDetailsContainerVC.nib</key>
@@ -5094,21 +4126,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+aucsZiELel59hZHoLEdH3DHT3hJ0l3tgPYUdkVxPgU=
+			3353hdz+R8GkXFBMR3NwPgcAWs21q0PnNZ0iFCzLI7Y=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/VU9-Bg-NKy-view-BPI-hH-pOH.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Q0upcAqL7hYZrFbj0qDhMnNT2OEd54bNLUXZkddwmQ=
+			EzCc2qZgQkseOA1vXRu9AtaBO6IJF2wEkwICFBFB2J8=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/X81-JG-e2R-view-O3C-74-n8s.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TuFKWKA5fkwZeVsUsosIiUmaxgtswEUlSE2ET/TCAhc=
+			pf2c/5YiXlm9MDYi6vfETwRTA88156eZoFF1FoqvbE0=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/Xym-P1-PHD-view-REw-dG-5dv.nib</key>
@@ -5122,49 +4154,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6hCSyjXp/YYdqhkNIM2Qw9O0zKC1+Ddmzk//H5aiA8I=
+			t/chb2amnX7seu4LkEbLZt+5ulN7kOr4Al20WdM8O/k=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/a8l-rC-91S-view-gTH-78-9j1.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g2zyyb9uplZPBDemeh2vY1cYK2XoRsmrqgZlrK23PiE=
+			7vPhruA/30TJ86xYxhwlxWcTV0ozKhnK8eSMhQGAcic=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/ahv-Up-NAn-view-mdv-cm-UU6.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XbQk3LF4WVlzs1OBUdiCoWfIsijGBHqjT5rD96fNStU=
+			qGHrKECU8MGaLfMtEdxQbTjbecN4yU4/pF953fYgcRo=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/eak-Q7-MTL-view-5xV-XD-JOt.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xcY5jjYVAFE3+kakdCnQw5HQ4cmRyd3/OizGp0f/MCk=
+			rCBK7Nzy1AmnG+x6r6RnaRb9ZRLxQaKqnNOzBlcDkL4=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/lNr-Uy-hPI-view-QVa-Z7-Mya.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sO73Jcsp/PfsuH4PQ8E+q+F4wSFXViNzgQxAD+BR0lI=
+			O5qdv9e+balpuI9XvWALujqu9wkm1JljucFUwX/TnqQ=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/qqi-Cs-o2j-view-pTC-po-Qci.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fAIsvVsMwgaalfeOd2xvjePUXM7hQ0sBpBhfbo7Wt9k=
+			GH/Nr1x0/0a9yTgmBXqNvdltYCvMnBqInHL50Ov7yT0=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/s7t-Rj-Sc8-view-Y3a-di-1Db.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZfkZIYMmNcCO+ydoK9O8o2d4rwKfz6QTs910q/295Zo=
+			HljfBUAynLZOFezXowNzFYhE0WBfy193H9pVQBrskcI=
 			</data>
 		</dict>
 		<key>Reissue.storyboardc/uDd-rU-1ht-view-vfb-zT-23e.nib</key>
@@ -5185,14 +4217,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dvCEFJOkAKF3GgwwNhN/e5ETBl3LGRFmkHp7PL0XNwo=
+			Jy5mpPLR6imSzyegmLs6rKp8S/j7O82bOwIhFwCjTa4=
 			</data>
 		</dict>
 		<key>ReissueHistoryDetailTVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WTW5r9EKEy/2Sa1ybGq8NeMfxcVdMx9WKslllfPX6jA=
+			98b6Pn6ASDAwxBL4B02j1x40D1l3k+rY4TaG9FWFH9g=
 			</data>
 		</dict>
 		<key>ReissueInstructionCollectionCell.nib</key>
@@ -5206,35 +4238,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u14Cx9fF+GeT8m/YJ8ZV5j1KKwUl4g7LbYaknio7C+0=
+			AevRFLGuKxKpipPzBucXB+aludNZHIYMy8FOsSq0fTM=
 			</data>
 		</dict>
-		<key>ReissueTopCounterView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QdorChA1zqWXGskjUlEP/tl3Qc7Vugovw3zxeehDL/k=
-			</data>
-		</dict>
-		<key>ResultNotFoundCell.nib/objects-14.0+.nib</key>
+		<key>ResultNotFoundCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			57lsFw2VH8oejSzywLB3c6cEci3WECfVhvJG8EkbbZk=
-			</data>
-		</dict>
-		<key>ResultNotFoundCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4Sy0XmZIK1qjT0N/2BmqCWAWR/nA1q7Ev7vZcjfRt8g=
-			</data>
-		</dict>
-		<key>RetryInfoCardCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			erYW4Y3s51MsZV/Xkemoown7AAkZ3/x4JA7ouPvOnhY=
 			</data>
 		</dict>
 		<key>ReviewPayment.storyboardc/EditContactInfoVC.nib</key>
@@ -5248,7 +4259,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mjcBLo8TItzv5sFItXw2mKeIadjPD+tXQuf288hkAGU=
+			lMlfAEyblwS+iLzik/12SlPFuYSphAwk6Cx1uzsSTQE=
 			</data>
 		</dict>
 		<key>ReviewPayment.storyboardc/Info.plist</key>
@@ -5276,21 +4287,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnhFYfUXKSn9sbC4RQhx4rEsqID17NWd8kUpmOyDm+I=
+			cmAH5NIWBiN1JJAj9CYH5bh5J1Q6gmTkAClmUnUInUE=
 			</data>
 		</dict>
 		<key>ReviewPayment.storyboardc/pMQ-5y-aq6-view-ew2-md-sIo.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9E4fqkzVGFnDcV2KXWyPtyW04q/VPQmx1vnbys79LQI=
-			</data>
-		</dict>
-		<key>RightArrowTitleCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iDRE/v6EqohVMChhHgMF1LisSHS/FalqxwSPdAkfshg=
+			1UDRU5m2Odzm6Q21smFsc0RGGDw+rPG8CbBeoBMxPf8=
 			</data>
 		</dict>
 		<key>RouteOptionCell.nib</key>
@@ -5321,151 +4325,39 @@
 			fzXDIpubiK+C1Jfy7dKu+bz/CMH8Am7JlpmGpBu+mxk=
 			</data>
 		</dict>
-		<key>STAdCollectionViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gQMpzIh1uf/szEwtyAXETEZTyH1LuMYQnarm1N/VYgw=
-			</data>
-		</dict>
-		<key>STAdTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ba4nrvmOVzHdwRMFldQ7a8XJGldMYeCCw11x2kiyhoE=
-			</data>
-		</dict>
-		<key>STCalendarDateInputView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			B/isUCwR3PBV1qslDtHEM2lfXXroEoMZazKfXo2RmzA=
-			</data>
-		</dict>
-		<key>STDateTimeSelectionView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ErDDbngXgpnzehZCfFjrjCzDl6lW+p2QSvliysONUIw=
-			</data>
-		</dict>
-		<key>STSingleButtonCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ajJEZMi3OJM1YUyICj8NrP9c/meohQHzgcr9fDWWBBE=
-			</data>
-		</dict>
-		<key>STSingleLineTextInputView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qrpXgr0kiUnYEMIx6Rym447mtZNhKA6C2GYy+GRmRf4=
-			</data>
-		</dict>
-		<key>STTextSelectilonView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			asZakCN1H9BgeMM3nGD1bhbvRCRbsinkilhTW0Jsy1A=
-			</data>
-		</dict>
-		<key>STTowColGivenNameInputView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eI+XFrNI4ra8NVEjsdGU4MjZ6ZQY2I9OAO3c1oJ2Yys=
-			</data>
-		</dict>
-		<key>ST_Murecho-Bold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cL/6Ko7RPs8Z2MsJVP2JWgqZsD570vBdW/r8alPYC5g=
-			</data>
-		</dict>
-		<key>ST_Murecho-Medium.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jMavGl+qk8cQ8+etT9uxRfWeXY0e3Rtt0WcR0ltREz8=
-			</data>
-		</dict>
-		<key>ST_Murecho-Regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uTYk36l8ROS46nyIpwm9eEtIJMZJE2Fon9IpF+ej+Yg=
-			</data>
-		</dict>
-		<key>ST_Murecho-Semibold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+SegdQdlNwcOn9Ix30x6oC/MbBPTS65jsOCLvTRF9rs=
-			</data>
-		</dict>
 		<key>SameBaggageSelectionCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9w39xoAFP8aR+Xl3OPoa0cS4k4vsZC6L0gu4Mw4GQRU=
+			aZh4RIVh7S3YDwSSutiiMjvorBOQ76qbuEfqIBdgy+4=
 			</data>
 		</dict>
-		<key>SavedCardTVCell.nib</key>
+		<key>ScannerLoadingView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			slXFMex5zY+z79pmzszLEzhoCiQlX6iSvA0dibPDZJM=
-			</data>
-		</dict>
-		<key>SearchButtonCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			13peMx5aWSPrfXmJxwzgBooYfRRhc2uAHFOsCpR/J+U=
-			</data>
-		</dict>
-		<key>SearchInputCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ms65EUQxVReELjAv3GD3M2b9gCVK+LmkfM0ivaflbu8=
-			</data>
-		</dict>
-		<key>SearchTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BmKJv8Ep5L8aqlBbshTxfPbZt+8qkDTkNnwEDllyqJY=
-			</data>
-		</dict>
-		<key>SearchView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DzHXoV1oeIvm9tRisaVvjBvFqaR+xHOSi+dxZdevWpE=
+			zaYP700XGdznEOodCmF9jVUnT9fo5aXt9KM7+BxYyPk=
 			</data>
 		</dict>
 		<key>SeatAndBagageInfoCardCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			psk8v0L62w8HWPjyij5mteo1hC7zAVLUxbvgmrJPnoo=
+			7Mpr4t9JGQ1ch0WgpIuUrbOLdfY20xZSlGKaukHpzgs=
 			</data>
 		</dict>
 		<key>SegmentInfoHistoryTableCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			itrDG3HwMZXlBVUCvnR51hZWaWW/dakH1QIfH5clyak=
+			mzBW5bCwnJqtR6/no3wMapefIc3gO4irezeOJdpck4Y=
 			</data>
 		</dict>
 		<key>SegmentInfoTableCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TT+34vLyxG1BJUvBnxVRyqdhvTvyhpNg5mG2UUyyRg8=
+			3Zdomu2ap9Ikrlr3MHBKkSBxKx/Pgaco8a3qKKs36u8=
 			</data>
 		</dict>
 		<key>SegmentedView.nib</key>
@@ -5479,231 +4371,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bUl147EBGw0b8IygjADNHUI1iwcto822TryF+HjjIps=
-			</data>
-		</dict>
-		<key>SenderInfoView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sMs+X5TJZCnxjcA1vvkI8eAyXqp7U81m/nqdEfWgRXA=
-			</data>
-		</dict>
-		<key>ShareViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			k8otE4SlwO54OYgep6kQkpmx8K6C0sJyRuU4l/s5mVE=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/3Tw-Sy-aRO-view-wrA-Q5-O0A.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OUsOqliDXY5LWhCz9XyeZRQZDmMgbBhg359+Ss1IXtw=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/3Tw-Sy-aRO-view-wrA-Q5-O0A.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OUsOqliDXY5LWhCz9XyeZRQZDmMgbBhg359+Ss1IXtw=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/ARi-nS-jxV-view-kWW-fP-Uzu.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8xtxRrgLoRQLTBTp3bawKWbeMnBDfWyGCfPFL+RUCrM=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/ARi-nS-jxV-view-kWW-fP-Uzu.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8xtxRrgLoRQLTBTp3bawKWbeMnBDfWyGCfPFL+RUCrM=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/BookingPriceBreakdownVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0CzkkxbR76eiTi0kdDs7RqVZ5szk4Khiq0YdYH5RhL0=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/BookingPriceBreakdownVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0CzkkxbR76eiTi0kdDs7RqVZ5szk4Khiq0YdYH5RhL0=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/CitySearchVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OKd3FMlAGyULiC+8zlUBoUcjvkY2qdguhq43xTk6+Io=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/CitySearchVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OKd3FMlAGyULiC+8zlUBoUcjvkY2qdguhq43xTk6+Io=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/GatewayChangePopupViewController.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			i7peSl4TKAWzbf09eDXuAkkAMwTqrR52i5+MEleLLd0=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/GatewayChangePopupViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			i7peSl4TKAWzbf09eDXuAkkAMwTqrR52i5+MEleLLd0=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SWTuvgZHnzd8B40PidbLA0P6cUiKLYmONqrRar42UnU=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/Jut-iB-dXN-view-IsT-J6-ot0.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SS3kHB6eRNN6/XGsYmYlQctE8u/scf93Ctom8EGh08Q=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/Jut-iB-dXN-view-IsT-J6-ot0.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SS3kHB6eRNN6/XGsYmYlQctE8u/scf93Ctom8EGh08Q=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/NewPaymentConfirmationVC.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2ndOvxMXxSjuJqUJmpGyPV73KWKeRA7Bx7DGYNqr8u0=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/NewPaymentConfirmationVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2ndOvxMXxSjuJqUJmpGyPV73KWKeRA7Bx7DGYNqr8u0=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/kri-hC-2u1-view-URd-NX-1Ni.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QGolP/oyJK0nZPEuf4M286DGLHD9lh17+w/3AYZRcUA=
-			</data>
-		</dict>
-		<key>Shared.storyboardc/kri-hC-2u1-view-URd-NX-1Ni.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HAxDlO+iqRKyFPU0F3hUkwlNxxdLIewUPUWWH2SZyZU=
-			</data>
-		</dict>
-		<key>ShortTransactionInfoTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5wOXQwxG6M8n5M02UeRuRfX1vN8DJ75B6j6h5L/xjVg=
-			</data>
-		</dict>
-		<key>ShortTransactionView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WRk9WpP/2LnMlhpgsnbxIqgmPq91t5yJ88eq+ym6Gps=
-			</data>
-		</dict>
-		<key>SingleButtonCardCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Vu1P3HxfAQ+DABZZFXdZHMBS3ZBi1AExyRNQIvsXE7o=
-			</data>
-		</dict>
-		<key>SingleCellShareView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eStnWbRUctJ29a2QDv3xuvcUJ6NhQA3W+IW0ANp9U2c=
-			</data>
-		</dict>
-		<key>SingleCellTripCoinView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			luSYXhHdcwCCPJblQCNgDEC7S44fNg7xJUPvzkJstm8=
-			</data>
-		</dict>
-		<key>SingleInputCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IGCdq1yDIm68fs0ANC7752xpEsg5eEfDSYkV5j4Ya9I=
-			</data>
-		</dict>
-		<key>SingleInputTakenCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			O8TWC3I5Vhd5H23/Sll9V60nvFiFYBqPwtphJS/eM5s=
-			</data>
-		</dict>
-		<key>SingleInputTitleCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nqiJ1OmpTUaNjYdzDM+1MugK7pBXaI4kK3uHZr3cu1c=
-			</data>
-		</dict>
-		<key>SingleLabelInfoTVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7KR2GN+h7qU/jEtPSZvYAPMHuOmtO5GeS1sFJmSRGdk=
-			</data>
-		</dict>
-		<key>SingleLineInfoCardCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dLmKOgWGZDLrKUjvBHjEmVVfb4DnwxZrlBrUNnczRmU=
-			</data>
-		</dict>
-		<key>SingleOptionCVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			whvItLEFH/z/kDU3kMksjEm924ZRxq2fjLO0uYuAsSg=
+			XZND08NuJKW9PewPURt72yqKYpFZj59xex9JylrWJRs=
 			</data>
 		</dict>
 		<key>SingleOptionCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qWWGe1pCOQms8FqnG1NCpWq+B8cYokwQuazuOpmBfiQ=
-			</data>
-		</dict>
-		<key>SlideActionView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3aJ+OnUeDeO39HWsxeB+k26teYWwT28QyH/NR4NjRxk=
+			HDJu1XaOwEx4EWbRzY0GerZIsq/wDT8fx5XD6XfhvMY=
 			</data>
 		</dict>
 		<key>SliderView.nib</key>
@@ -5727,60 +4402,11 @@
 			mctLqtZAxiR88YA3LvmX8WzemHClFzwxAcruxb0GsW4=
 			</data>
 		</dict>
-		<key>SuccessView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y9sgoFSXAgbHWggv/pnqKiQjwh1xbIPySaNvHXboaQQ=
-			</data>
-		</dict>
-		<key>SwitchCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EdKr2gYyq3yWAKt4WUKSdwAqbHfC1fQ69XvlAfp8bEM=
-			</data>
-		</dict>
 		<key>TagCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			qhZ3CrcF2HYOlLZ5vkpStKlS7b9a87sJ5iGgDUNCBwE=
-			</data>
-		</dict>
-		<key>TermsConditionCollectionCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			i4Azc7ShjhzsIJUJsPu4kyfD7UE2FPC9Vteh7mZ2VQo=
-			</data>
-		</dict>
-		<key>TitleCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			F/1nexJNXSBi7rPglsA+B37BhzBb7RwcD939O3O1MHY=
-			</data>
-		</dict>
-		<key>TitleCheckBoxTVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aihO4lbRxYRm2R3C/Je/8TRNUUg7c+5rF48jtH94Kzg=
-			</data>
-		</dict>
-		<key>TitleEmbeddedTextFieldTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A1AFMuNV3d0E3po+mmknJ8ckpwpya6Ppbl9BIpCnUls=
-			</data>
-		</dict>
-		<key>TitleEmbeddedTextViewTableViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BQrMe2pa5+EvXwW90KoyKxM6OstHE+kz/T/vWJlsh6A=
 			</data>
 		</dict>
 		<key>TitleSubTitleCollectionHeaderView.nib</key>
@@ -5808,14 +4434,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QzLcm/8bF11uOsAqoQhQ5aFtq2rmZZXSBCy+4N7DwKs=
-			</data>
-		</dict>
-		<key>TitleTextFieldView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hUcJRj18vO66ucWd7GdGS0sAnHfBZOmZd53LchQYcyE=
+			56+Tyl0zKh0oi/jh6d2q/qkMvyjm48OslFncUYd/SIE=
 			</data>
 		</dict>
 		<key>TopCounterView.nib</key>
@@ -5825,60 +4444,18 @@
 			oM25+iWXy8aZ5SojycRn7hJ8FENGwpNzs+838Gf/NQE=
 			</data>
 		</dict>
-		<key>TopupCouponView.nib/objects-14.0+.nib</key>
+		<key>TravelerCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gJCTm1L49jtrWQK8UosRdJHdqCHGt9TOBDGUrRCOHyY=
-			</data>
-		</dict>
-		<key>TopupCouponView.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7bcExlHgM4ZGV1pG9t4Q7yGYclVBADRSTNhV5LuB2eI=
-			</data>
-		</dict>
-		<key>TowColGivenNameInputCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			s9YAwi65gJyFW9X51/O/TJkB1nRW/dfUpkaNFnNT7bg=
-			</data>
-		</dict>
-		<key>TransportTypeCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MgvpdgdxAxJewCXL4s6Pui1ebZVs8SB0T+tgR3TC9lY=
-			</data>
-		</dict>
-		<key>TravelerCell.nib/objects-14.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			K0mPCVujxqos/K4VIQe2f1RDbkeI3KKJWMVDH9MLyMY=
-			</data>
-		</dict>
-		<key>TravelerCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			78BTGRPhqNm9FCIiP+SPIgOzxSAymJ3lcYFcSN75vuw=
+			mXVGgVJn7wcGUq2TZfsnaMsxeB+HDnZbLa375XIiFPY=
 			</data>
 		</dict>
 		<key>TravellerCheckBoxTitleTVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9WFlP6gG0rDPUkUQqm4ambWhHQF5jbi5dLPVQD8M/WQ=
-			</data>
-		</dict>
-		<key>TravellerDetailsHeaderView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h83ijDYWQ8+IaWDVoLYa3zkV2ilp/+vl+8epERvWjpU=
+			g8zuqGjfisN8LI3KfK+dSXl0rFYNF3Vu6xXrr2wEiLQ=
 			</data>
 		</dict>
 		<key>TravellerHeaderView.nib</key>
@@ -5895,39 +4472,11 @@
 			GLAs1XpSw9NJQFK1uqmnNrUQp8mZu8Zq+5e35zsm5j0=
 			</data>
 		</dict>
-		<key>TripCoinCardCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+rCwh2EU7BmnZdWpp+M2l+EhNxKBtLw1YOxcgJU+GxE=
-			</data>
-		</dict>
-		<key>TripCoinViewCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H8cOvg08ng/0/71hUxVNjtyxMspDKwn+4tbNv3YxqFc=
-			</data>
-		</dict>
 		<key>TripTypeHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zb5vVDeTmrQacbB8XJdHUZqSstUbak7UaMKkbStCYMI=
-			</data>
-		</dict>
-		<key>UploadCVCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KDsU9VrWO+l913yAt95E7jpi5HkW9usNoWG9KO1/GDM=
-			</data>
-		</dict>
-		<key>UseCouponView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1exOlOZu4E6t9XBklTVziO3Tf35IQ1kQz/+PJVmeVZg=
+			1cZpqLJ8/dkEqFo9TYLqSQ/0vC/Z71Pv820LSaUL9w0=
 			</data>
 		</dict>
 		<key>VRRFlightDestinationCell.nib</key>
@@ -5941,7 +4490,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8SIAUiFXlxZ/5GJTN8iRoCk/P1EUj6DrtOjZiITtDU=
+			xiLZwnOLhpV0UqWBbnzOuKX85u1nr0PbATFIJtcvCvM=
 			</data>
 		</dict>
 		<key>VRRPendingRequestCell.nib</key>
@@ -5955,7 +4504,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Ysr6p0EvhaMU4r5vZC5vIRjsvkzA6TLcvyA4eWtFeI=
+			FuNXwNV3tmwmOvQzyckAKIZ2jiEAPsQSIuwusiuVdPg=
 			</data>
 		</dict>
 		<key>VRRTravellerSelectionCell.nib</key>
@@ -5976,14 +4525,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QKHW7dx0hxs+8UCDaY/vXIZIRzlaDRWQskcTC0I4p/Q=
+			v+3QEWrgLuVT/hm+VYjdG8N3a/B2z1vyrE8TGkiOPZQ=
 			</data>
 		</dict>
 		<key>WarningMessageCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DervJw1UCg3aOIOqv6N/dJAV6luEfCaXSkHES/EFUpk=
+			rsuJBbKQxDpvAcCJzkh6r/snmZ5oIHWUfcgVarVQBpA=
 			</data>
 		</dict>
 		<key>default_style.css</key>
@@ -6000,11 +4549,25 @@
 			BBKwI5+RfzkJrf8qpOcb5vjV+rhtqEpAa9C3aoMhMc8=
 			</data>
 		</dict>
+		<key>fetching_brand_fare.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BTOqF/gM2sook4HQwsZTdJNh4ofMQiDaHEVWtqIwyQQ=
+			</data>
+		</dict>
 		<key>flight_addons.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Vm7v+XnAt3KY+ySLVjoliRxIbsfztjDblo6BPnPnz9E=
+			</data>
+		</dict>
+		<key>flightinfo_flying_plane.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TYVJVtHc1IeFDie6SRYq4PUN5rAKNzemJcPClD5O5/Q=
 			</data>
 		</dict>
 		<key>loader.gif</key>
@@ -6019,6 +4582,13 @@
 			<key>hash2</key>
 			<data>
 			vxDdD4/fRUAGwmRuAMRt1RotlfjuWm3fbyvetSgHGSg=
+			</data>
+		</dict>
+		<key>scanner_lottie_animation.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9oWGfUg3GWD7TAROKCRrmbBYoZlFaSh1/43wg69N+gY=
 			</data>
 		</dict>
 		<key>success.gif</key>
